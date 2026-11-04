@@ -1,3 +1,8 @@
+# 미연결 다음 몬스터 에셋 준비
+
+monster34/ASSET-PREPARATION01.json 및chapter1/art/skeleton_outlaw/v01/ATTRIBUTION.ko.md. 보존CC0 KevDev원페이지·ZIP/GLB핀확인후conversion02정확사본·source/report복사. 제품33closure밖/34표시기·새import/GPU실행아직없음. head.72는oldpreview런타임수정이지GLB내포아님. 기존convertedmodel6skin57bind/8mesh/9clip정확검수부터. UI도구복구를위한앱재시작가능여부사용자비동기질문제출(답대기),그동안파일기반품질작업계속. 모든게임검사는종료했고저장·인계완료.
+
+---
 # 최신 · 후보33 전체GPU 종료 / 같은검사 재실행 금지
 
 full33/STATUS.ko.md 먼저읽는다. session45133/PID5240 terminal exit0-stderr0/RESULT완료. 정상화염21749tick(6분2초)/3185kills/Lv11/장비23/원16release10필드같음.25PNG중5직접검수/보스쓰러짐→보상카드확인. actualFX33b/ground31UID3등급/724표시소유권표본불일치0. 기존EXEs·사용자23복원후/29rev2·root33핀보존. 제품33·도감v37갱신/로컬서버PID8528재사용(확인후)/UI도구커널경로오류라새수동입력·브라우저미검수. 다음원목표동작개선자료: C:/Project/game-research/art-sources/oga-skeleton-outlaw-20261101-01의source/converted02/preview03 읽기확인,3PNG직접검수/CC0 KevDev/다른몸실루엣/9authoredclips. 아직제품복사·연결·새검사안함.6skin57bind/8mesh주의. 목표active/최종수동·실청취·focused성능·최종질감미완료. 추가툴·Github보류.

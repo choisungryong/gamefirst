@@ -1,0 +1,67 @@
+{
+	"bones": 67,
+	"clips": {
+		"attack_cross": {
+			"author_file": "Attack02.fbx",
+			"length": 4.96666669845581,
+			"tracks": 66
+		},
+		"attack_fan": {
+			"author_file": "Attack01.fbx",
+			"length": 4.96666669845581,
+			"tracks": 65
+		},
+		"attack_slam": {
+			"author_file": "Attack00.fbx",
+			"length": 4.96666669845581,
+			"tracks": 65
+		},
+		"death": {
+			"author_file": "Dead01.fbx",
+			"length": 4.96666669845581,
+			"tracks": 66
+		},
+		"hit": {
+			"author_file": "Damage00.fbx",
+			"length": 4.96666669845581,
+			"tracks": 65
+		},
+		"idle": {
+			"author_file": "Idle00.fbx",
+			"length": 4.96666669845581,
+			"tracks": 64
+		},
+		"idle_alert": {
+			"author_file": "Idle01.fbx",
+			"length": 4.96666669845581,
+			"tracks": 65
+		},
+		"run": {
+			"author_file": "Run00.fbx",
+			"length": 4.96666669845581,
+			"tracks": 66
+		},
+		"walk": {
+			"author_file": "Walk00.fbx",
+			"length": 4.96666669845581,
+			"tracks": 65
+		}
+	},
+	"meshes": [
+		"SkeletonFeet",
+		"Boots",
+		"SheathAndBelt",
+		"Shoulder00",
+		"Axe00",
+		"SkeletonBody",
+		"Shoulder01",
+		"BoneJaw"
+	],
+	"removed": [
+		"SkeletonHair",
+		"MetalJaw"
+	],
+	"scope": "Public CC0 art research. Native ufbx ASCII import, author clips merged, diffuse path repaired. No runtime adoption or art approval.",
+	"source_bone_height": 0.0269687123363838,
+	"uniform_scale": 78.0631693362128
+}

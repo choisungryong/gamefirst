@@ -1,0 +1,114 @@
+{
+  "title": "Skeleton Outlaw",
+  "author": "KevDev",
+  "license": "CC0",
+  "source": "https://opengameart.org/node/89457",
+  "archive": {
+    "url": "https://opengameart.org/sites/default/files/SkeletonOutlaw_0.zip",
+    "bytes": 4875182,
+    "sha256": "dfd455f7613e4e80636dc35af9244a61747d91d4872b11815a3cc07243efd297"
+  },
+  "entries": [
+    {
+      "name": "SkeletonOutlaw/",
+      "bytes": 0
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/",
+      "bytes": 0
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Attack00.fbx",
+      "bytes": 846310
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Attack01.fbx",
+      "bytes": 803914
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Attack02.fbx",
+      "bytes": 851075
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Damage00.fbx",
+      "bytes": 828447
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Damage01.fbx",
+      "bytes": 774584
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Dead00.fbx",
+      "bytes": 842881
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Dead01.fbx",
+      "bytes": 760285
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Idle00.fbx",
+      "bytes": 783996
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Idle01.fbx",
+      "bytes": 811937
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Idle02.fbx",
+      "bytes": 822600
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Jump00 [NoRootMotion].fbx",
+      "bytes": 831673
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Jump00.fbx",
+      "bytes": 831070
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Run00.fbx",
+      "bytes": 906859
+    },
+    {
+      "name": "SkeletonOutlaw/Animations/SkeletonOutlaw@Walk00.fbx",
+      "bytes": 872275
+    },
+    {
+      "name": "SkeletonOutlaw/Source Model/",
+      "bytes": 0
+    },
+    {
+      "name": "SkeletonOutlaw/Source Model/SkeletonOutlaw.fbx",
+      "bytes": 1959877
+    },
+    {
+      "name": "SkeletonOutlaw/Textures/",
+      "bytes": 0
+    },
+    {
+      "name": "SkeletonOutlaw/Textures/Axe00.png",
+      "bytes": 443937
+    },
+    {
+      "name": "SkeletonOutlaw/Textures/SkeletonOutlaw00.png",
+      "bytes": 2746121
+    },
+    {
+      "name": "Thank You.txt",
+      "bytes": 345
+    }
+  ],
+  "previews": [
+    {
+      "name": "preview-00.png",
+      "url": "https://opengameart.org/sites/default/files/styles/medium/public/Screenshot00042.png",
+      "sha256": "f47c7bc9e627b8cc337ae4b56ddd66a3102c5b28790e1cb49772666d8b636381"
+    },
+    {
+      "name": "preview-01.png",
+      "url": "https://opengameart.org/sites/default/files/styles/medium/public/Screenshot00.png",
+      "sha256": "7bf68222aa95c84276908dd2d805c7bf38c0fdb9a9d100737296a9e043277e3d"
+    }
+  ],
+  "scope": "Public original art research, not runtime adoption. Archive paths validated; extracted only art/text; no embedded scripts executed."
+}
