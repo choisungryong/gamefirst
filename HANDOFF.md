@@ -1,3 +1,8 @@
+# 도감 로컬서버 재개
+
+book-v36/server01 launch PID8528,127.0.0.1:8781/root C:/Project/d2r-combat-baseline. flame33.html HTTP200확인(정적접근확인이지브라우저화면검수아님). 서버살아있는지직접확인후재사용/중복서버금지. 최신페이지 /plans/chapter1-quality04-20261101-01/full30/book-v36/dist/flame33.html.
+
+---
 # 최신 · 화염33 비교·비용 종료 / 드롭33b 초안 미검수
 
 flame33/REVIEW.ko.md 먼저읽는다. 제품32와rootfreeze·EXE·이전후보·사용자23복원후/29rev2핀그대로. compare01/session97713/cost01/session53496 모두terminal exit0-stderr0. FX33은세로불꽃높이.52/잔연기낮춰원거리적상체가림감소;121sync core같음/불꽃수유지/6PNG직접검수. 후반화염p9510.548→10.846ms/draw394동일/전투state같음. 아직제품채택·33EXE없음. chapter_elements_quality33b.gd 드롭등급색·높이/희귀작은halo 초안작성했으나검사미시작. 다음은33b fixture/정상실제드롭/수명·가독성·비용확인후화염+드롭함께채택판단. 고유바닥색은지원시안일뿐자연unique드롭발생주장금지. 도감v36에연구기록. UI도구커널경로오류/최종수동·실청취·같은제품전체/focused성능미완료. 목표active/추가툴·Github보류.
