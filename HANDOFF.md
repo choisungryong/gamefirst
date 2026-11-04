@@ -1,3 +1,8 @@
+# 최신 · 후보31 전체 GPU 종료 / 중복실행 금지
+
+full31/STATUS.ko.md 먼저읽는다. 세션36455 exit0/원시gpu-execution exit0-stderr0/RESULT완료.23862tick(397.7초)/3451kills/Lv12/장비34/원16완주10필드같음/파쇄840. 실제7PNG직접검수. GPU완료이므로같은검사재시작금지. 도감v33/상태갱신,브라우저·Windows도구커널경로오류라새수동검수못함. 제품31/원목표active. Github·추가툴개발보류.
+
+---
 # 후보31 패키지 종료 / 전체 GPU 진행 중
 
 full31/build/build.json 생성 완료, EXE SHA c06aeab03b0bcf92b1ab9f032a2e7ff74e95590bb8e1b1059f93bba7b077d1d9 / runtime131-stage133-PCK239. package세션9709 exit0. PRESERVATION01 root/stage/이전EXEs/사용자23복원후·29모두pass. 실제GPU full31/runtime/gpu-cold01 실행중: 세션36455, GPUlaunch PID24996. 다음진입시launch/execution/raw/process확인하고중복실행금지. headless65초observer-smoke통과후GPU진행. full30/book-v33/dist 신생성45HTML/2042refs/missing0, 실제browser는CUA커널경로초기화오류로미검수. 기존v32보존.
