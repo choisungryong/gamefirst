@@ -1,3 +1,13 @@
+# 최신 · 해골34b GPU비교·회귀·비용 종료 / 제품33 유지
+
+monster34/REVIEW.ko.md 최신부분과cost01/COMPARISON.json 읽는다. session24248 terminal양쪽quiet/모든이번Godot종료. source32b→34b p9510.101→10.548ms/p9911.217→12.352/draw384→546/전체core같음/1080새after화면직접검수. mapped03(41423) 새34b300framequiet·전체core같음,regression01 headless16checksquiet. 실패mapped01indent/GPU미시작·mapped02 native material-null571는원시보존/성공승격금지.34b meshbase선행분리로boot+mapped03+costquiet이나내부원인확정금지. 제품33·원freeze·기존EXEs/사용자23복원후·29rev2유지. 현재34게임EXE없음. 다음은해골walker4방향·사망화면/필요시실제패키지후채택.도감v38 연구페이지와비교영상/1080화면추가/실제브라우저미검수(커널경로오류). UI복구질문답대기/그동안품질작업계속.목표active/최종수동·실청취·focused성능/품질미완료.추가툴·Github보류.
+
+---
+# 최신 · 일반근접34b 미연결검수 / cost01 진행중
+
+monster34/REVIEW.ko.md 최신부분먼저읽는다. 제품33/rootfreeze/EXE/기존후보·저장핀그대로. Actor34 새65bone 해골walker144교체/나머지Mophs역할유지. mapped01관찰기indent실패(GPU미시작),mapped02 첫34material-nullRD stderr571로실패/원시보존.34b는oldMesh.mesh=null선행분리. boot01quiet+mapped03/session41423 새34b만검수quiet/300frame전체core같음/10checks/기존32b baseline재사용. 새normal60/attack20·48·70등5PNG직접검수. regression01headless16checks quiet(피격하체/정지빙결/paid/사망hold/pool224/전체core). cost01/session24248 현재GPU진행/launch현재PID확인필수. 절대중복실행금지. 다음은비용→새walker4방향·사망화면→실제제품채택판단. 34EXE없음. UI도구복구질문답대기/파일기반작업계속. 목표active/추가툴·Github보류.
+
+---
 # 최신 · 해골34 동작분석·메시병합 종료 / 제품33 유지
 
 monster34/REVIEW.ko.md와motion02/EQUIVALENCE.json 먼저읽는다. 제품33·freeze/EXE/이전후보/사용자23복원후·29rev2핀그대로. v01원GLB보존→v02 canonicalbind병합1mesh/2surface/1skin(기존8mesh/6skin),6594tris/UV/weights/9authoredclips/images유지(몸재질metal.03). motion01/02 headless import/check/sample모두terminal quietpass/2700sample전체bone회전·6marker좌표exact같음. GPU새실행없음/34제품미연결. 보행.933초/slam1.133초(손속도peak.417)/fan1.0/cross1.2/hit.767 주기후보,사망1.68초리셋전hold필요. 다음은Actor34 walker만새몸연결하되기존32 Mophs뼈캐시를새65bone에적용하면안됨. 가림함수ORG-spine/head·pool224·빙결/피격/냉기사체·paid방향/시점검수필수. UI도구복구비동기질문답대기/그동안독립품질작업진행. 목표active/최종수동·실청취·focused성능미완료/추가툴·Github보류.
