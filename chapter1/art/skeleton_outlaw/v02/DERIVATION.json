@@ -1,0 +1,79 @@
+{
+  "source_sha256": "64439769210dcb46c39878dff66aba9d86d675b1a5eb632f84b9f07477399e3b",
+  "derived_sha256": "d18afc044b043eef4933d38603d05973fd7fa2eb76e210728734b2a1736e1ab4",
+  "meshes_before": 8,
+  "meshes_after": 1,
+  "skins_before": 6,
+  "skins_after": 1,
+  "surfaces": 2,
+  "triangles": 6594,
+  "max_vertex_bind_error": 2.8797096096599972e-09,
+  "sources": [
+    {
+      "name": "SkeletonFeet",
+      "vertices": 230,
+      "triangles": 326,
+      "skin": 0,
+      "bind_matrix_error": 1.1102230246251565e-16,
+      "vertex_bind_error": 0.0
+    },
+    {
+      "name": "Boots",
+      "vertices": 444,
+      "triangles": 580,
+      "skin": 1,
+      "bind_matrix_error": 2.5277744689078396e-09,
+      "vertex_bind_error": 2.8797096096599972e-09
+    },
+    {
+      "name": "SheathAndBelt",
+      "vertices": 613,
+      "triangles": 654,
+      "skin": 1,
+      "bind_matrix_error": 2.5277744689078396e-09,
+      "vertex_bind_error": 9.921991041272893e-10
+    },
+    {
+      "name": "Shoulder00",
+      "vertices": 246,
+      "triangles": 274,
+      "skin": 2,
+      "bind_matrix_error": 9.017547530909553e-08,
+      "vertex_bind_error": 2.6843321064215497e-09
+    },
+    {
+      "name": "Axe00",
+      "vertices": 363,
+      "triangles": 456,
+      "skin": 3,
+      "bind_matrix_error": 9.042713666751467e-08,
+      "vertex_bind_error": 2.198639617644136e-09
+    },
+    {
+      "name": "SkeletonBody",
+      "vertices": 3019,
+      "triangles": 3882,
+      "skin": 0,
+      "bind_matrix_error": 1.1102230246251565e-16,
+      "vertex_bind_error": 8.673617379884035e-19
+    },
+    {
+      "name": "Shoulder01",
+      "vertices": 203,
+      "triangles": 224,
+      "skin": 4,
+      "bind_matrix_error": 9.164791303639674e-08,
+      "vertex_bind_error": 5.499449853840765e-10
+    },
+    {
+      "name": "BoneJaw",
+      "vertices": 257,
+      "triangles": 198,
+      "skin": 5,
+      "bind_matrix_error": 1.0234815761567262e-07,
+      "vertex_bind_error": 5.484639582233573e-10
+    }
+  ],
+  "clips_unchanged": 9,
+  "scope": "Canonical bind-space mesh consolidation, original joint weights/UVs/triangles/clips/textures retained. Materials consolidated by exact texture image; body metallic.03/axe.1/roughness.79. Algebraic skin equivalence only, not Godot import/GPU/adoption/quality approval."
+}

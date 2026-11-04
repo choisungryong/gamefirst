@@ -1,3 +1,8 @@
+# 최신 · 해골34 동작분석·메시병합 종료 / 제품33 유지
+
+monster34/REVIEW.ko.md와motion02/EQUIVALENCE.json 먼저읽는다. 제품33·freeze/EXE/이전후보/사용자23복원후·29rev2핀그대로. v01원GLB보존→v02 canonicalbind병합1mesh/2surface/1skin(기존8mesh/6skin),6594tris/UV/weights/9authoredclips/images유지(몸재질metal.03). motion01/02 headless import/check/sample모두terminal quietpass/2700sample전체bone회전·6marker좌표exact같음. GPU새실행없음/34제품미연결. 보행.933초/slam1.133초(손속도peak.417)/fan1.0/cross1.2/hit.767 주기후보,사망1.68초리셋전hold필요. 다음은Actor34 walker만새몸연결하되기존32 Mophs뼈캐시를새65bone에적용하면안됨. 가림함수ORG-spine/head·pool224·빙결/피격/냉기사체·paid방향/시점검수필수. UI도구복구비동기질문답대기/그동안독립품질작업진행. 목표active/최종수동·실청취·focused성능미완료/추가툴·Github보류.
+
+---
 # 미연결 다음 몬스터 에셋 준비
 
 monster34/ASSET-PREPARATION01.json 및chapter1/art/skeleton_outlaw/v01/ATTRIBUTION.ko.md. 보존CC0 KevDev원페이지·ZIP/GLB핀확인후conversion02정확사본·source/report복사. 제품33closure밖/34표시기·새import/GPU실행아직없음. head.72는oldpreview런타임수정이지GLB내포아님. 기존convertedmodel6skin57bind/8mesh/9clip정확검수부터. UI도구복구를위한앱재시작가능여부사용자비동기질문제출(답대기),그동안파일기반품질작업계속. 모든게임검사는종료했고저장·인계완료.
