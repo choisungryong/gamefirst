@@ -1,3 +1,8 @@
+# 최신 · 후보33 전체GPU 종료 / 같은검사 재실행 금지
+
+full33/STATUS.ko.md 먼저읽는다. session45133/PID5240 terminal exit0-stderr0/RESULT완료. 정상화염21749tick(6분2초)/3185kills/Lv11/장비23/원16release10필드같음.25PNG중5직접검수/보스쓰러짐→보상카드확인. actualFX33b/ground31UID3등급/724표시소유권표본불일치0. 기존EXEs·사용자23복원후/29rev2·root33핀보존. 제품33·도감v37갱신/로컬서버PID8528재사용(확인후)/UI도구커널경로오류라새수동입력·브라우저미검수. 다음원목표동작개선자료: C:/Project/game-research/art-sources/oga-skeleton-outlaw-20261101-01의source/converted02/preview03 읽기확인,3PNG직접검수/CC0 KevDev/다른몸실루엣/9authoredclips. 아직제품복사·연결·새검사안함.6skin57bind/8mesh주의. 목표active/최종수동·실청취·focused성능·최종질감미완료. 추가툴·Github보류.
+
+---
 # 최신 · 후보33 패키지 종료 / 실제 전체화염 GPU 진행
 
 loot33/REVIEW.ko.md 먼저읽는다. product33 Core16/World31d/Actor32b/HUD27/Input21/FX33b. EXE SHA f22c74d623a2dc1c62a870a9fabcc74f2d38c0bb5d881e8e1218cf52d8f5679d/runtime135-stage137-PCK246. package83207완료. 정상3등급11165tick·4등급fixture compare80502 quietpass/4PNG전부검수/원core같음;cost92691 새33b단독p9510.488ms/독립core같음. 기존후보/사용자23복원후·29rev2사본·핀보존. 실제전체화염 full33/runtime/gpu-fire01/session45133/PID5240 live. 다음진입시launch/execution/raw/현재process확인하고절대중복실행금지. 종료후21749tick 원16화염10필드같음·드롭등급표시수명·보스보상화면확인예정. 도감v37 최신후보표지를간결하게정리/이전v36보존/브라우저미검수. 목표active/수동·실청취·최종focused성능미완료/추가툴·Github보류.
