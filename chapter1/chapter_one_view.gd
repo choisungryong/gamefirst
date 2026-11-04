@@ -1,6 +1,6 @@
 extends "res://chapter1/chapter_view.gd"
 const ChapterRun=preload("res://chapter1/core/chapter_run_quality16.gd")
-const ChapterWorld=preload("res://chapter1/view/chapter_world_quality22.gd")
+const ChapterWorld=preload("res://chapter1/view/chapter_world_quality31d.gd")
 const ChapterHUD=preload("res://chapter1/view/chapter_hud_quality27.gd")
 const ChapterEffects=preload("res://chapter1/view/chapter_elements_quality26.gd")
 const ChapterPilot=preload("res://chapter1/core/chapter_pilot.gd")

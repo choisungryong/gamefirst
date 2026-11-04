@@ -1,3 +1,17 @@
+# 후보31 패키지 종료 / 전체 GPU 진행 중
+
+full31/build/build.json 생성 완료, EXE SHA c06aeab03b0bcf92b1ab9f032a2e7ff74e95590bb8e1b1059f93bba7b077d1d9 / runtime131-stage133-PCK239. package세션9709 exit0. PRESERVATION01 root/stage/이전EXEs/사용자23복원후·29모두pass. 실제GPU full31/runtime/gpu-cold01 실행중: 세션36455, GPUlaunch PID24996. 다음진입시launch/execution/raw/process확인하고중복실행금지. headless65초observer-smoke통과후GPU진행. full30/book-v33/dist 신생성45HTML/2042refs/missing0, 실제browser는CUA커널경로초기화오류로미검수. 기존v32보존.
+
+---
+# 최신 재개 · 2026-11-05 · 원목표 우선 / GitHub 보류
+
+사용자는 GitHub 연결을 나중으로 미루고 원목표를 진행하라고 명시했다. 새 비공개 저장소 선호는 기록하되 지금 원격생성·업로드·추가질문하지 않는다. 로컬 main 첫커밋3b31419 있음. 추가 파이프라인 도구 개발도 보류한다.
+
+space31/REVIEW.ko.md와cost01/COMPARISON.json 먼저 확인. 기존 cost01 종료/모든4phase exit0-stderr0/실제GPU 프로세스 없음 확인. 새 검사 중복실행 안함. compare01 입체기둥 장식 퇴보로 미채택;shadow02 넓은그림자;shadow03 좁은그림자 전후6PNG 전부 직접검수.31c는원기둥장식/위치 유지 shadow-only33개2batch. p957.322→7.372ms/독립전체core같음. 정식최종성능 아님.
+
+full31 패키징 시작: root world22→31d(31c setup후기본on),Actor30c 등나머지동일. 백업 chapter1-before31-20261105-01에원30assembly/project/preset/freeze와23·29저장사본. full31/ADOPTION.json 이전EXE/사용자핀. FINAL-SOURCE-FREEZE.json 생성. 실행세션9709의종료/원시build결과먼저확인. 실패시원문보존/같은stage덮어쓰기금지. 후보30기술성공을31실제검수로대체금지. 목표active/품질·수동전체·실청취·최종동일패키지성능미완료.
+
+---
 # 최신 사용자 지시 · 도구 개발 보류 / 원목표·Git 버전 관리
 
 사용자는 추가 툴 개발은 나중으로 미루고 원래 제1장 목표를 우선하라고 명시했다. 스프라이트 파이프라인·역할 연결은 현재자료를보존하되 추가개발중단. 제품30은그대로. 현재미연결 chapter_world_quality31.gd 기둥입체화시안작성중이며 아직검사stage/GPU실행안함. 별도stage에서기존pillars/solidcolumn toggle 전후를검수할것. 이전모든GPU종료확인,중복실행금지.
