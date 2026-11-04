@@ -1,3 +1,13 @@
+# 최신 · 역할 동작32b 비교 종료 / 현재 제품31 유지
+
+motion32/REVIEW.ko.md와mapped02/COMPARISON.json 읽는다. 세션71701/27268 모두terminal exit0-stderr0/각8checks.32첫안미채택,32b준비1.55배·회복실제길이보완/32b300frame core가보존30c300행과같음. 제품31/sourcefreeze/EXE/기존후보/사용자23복원후·29핀불변.32EXE없음. 다음은32b 모든방향·정지/빙결/풀상태·실전비용·연속시각검수후채택판단. 같은mapped/GPU중복실행금지. 도감v34에미연결연구기록,브라우저미검수(도구커널경로오류지속). 원목표active/Github·추가툴보류.
+
+---
+# 최신 · 역할 동작32b 미연결 검수 진행
+
+motion32/REVIEW.ko.md 참조. 제품31/rootfreeze/EXE그대로. mapped01/session71701 완료quiet/8checks/300PNG각core같음.32는회복효과약해미채택.32b는강도/회복길이보완. mapped02/session27268 기존baseline GPU중복없이새32b만실행중.다음진입시launch/execution/raw/process확인하고같은실행재시작금지. 아직제품채택·패키지32없음. Github·추가툴보류유지/원목표active.
+
+---
 # 최신 · 후보31 전체 GPU 종료 / 중복실행 금지
 
 full31/STATUS.ko.md 먼저읽는다. 세션36455 exit0/원시gpu-execution exit0-stderr0/RESULT완료.23862tick(397.7초)/3451kills/Lv12/장비34/원16완주10필드같음/파쇄840. 실제7PNG직접검수. GPU완료이므로같은검사재시작금지. 도감v33/상태갱신,브라우저·Windows도구커널경로오류라새수동검수못함. 제품31/원목표active. Github·추가툴개발보류.
