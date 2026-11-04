@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261105-32\\AshenCloister-Chapter1.exe",
+  "sha256": "8bf1dd10436b84b04b7108e23940d9d271f245e23997834e8b727981cdb4b10e",
+  "bytes": 130082400,
+  "source_count": 132,
+  "stage_count": 134,
+  "pck_count": 241,
+  "scope": "Candidate32: Core16/World31d/Actor32b/HUD27/Input21/FX26. Distinct ordinary/elite upper-body anticipation and recovery while retaining paid attack timing, lower-body, frozen/modal pose, hit28, role proportions and224pool. Source tests support adoption, not manual/hearing/final focused performance or final-art approval."
+}

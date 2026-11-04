@@ -9,3 +9,7 @@ mapped01 세션71701 종료,import/check/30c/32 GPU exit0-stderr0.각120정상st
 ## mapped02 종료
 
 세션27268 import/check/32b GPU/encode종료,exit0-stderr0/8checks pass.32b300PNG와기존30c300행의모든frame/tick/coreSHA같음.32b공격20·48 두장직접검수:준비차이증가,walker회복팔벌림차이보임. 정예의준비외곽은달라졌으나실전효과/모든방향/실시간비용/정지·빙결상태검수전최종채택금지. 32b연속영상전체직접재생아님. 원32도보존. root31/이전EXEs/23복원후·29핀재확인pass. 모든이번Godotterminal.
+
+## 방향·비용·제품32 채택
+
+full32/STATUS.ko.md 참조. directions01 headless/GPU 16검사·4PNG직접검수;cost01 후반p957.357→7.831ms/draw333동일/전체core같음. 제품32생성후실제정예6077→6377tick/4PNG/quiet·원core같음.32b는기술적호환성과준비·회복읽힘을근거로채택했으나화염타격가림·최종품질/수동/실청취/최종성능남음. 이전32약한안/실패·증거미삭제.

@@ -1,3 +1,8 @@
+# 최신 · 후보32 패키지·실제 정예 검수 종료
+
+full32/STATUS.ko.md 먼저읽는다. 제품32 EXE SHA8bf1dd10436b84b04b7108e23940d9d271f245e23997834e8b727981cdb4b10e. Core16/World31d/Actor32b/HUD27/Input21/FX26/runtime132-stage134-PCK241. package23184/directions93698/cost80559/actualelite59752 모두terminal exit0-stderr0. 실제정상획득첫정예6077→6377tick/독립전체core같음/4PNG직접검수. directions4역할×4방향16검사pass/4PNG전부검수. 비용p957.357→7.831ms. 원31전체승리는31범위그대로/32전체아님. 기존EXEs·사용자23복원후/29rev2·source/stage32핀보존. 다음은화염명중plume의몸가림감소·장비/보스보상의시각강조및같은제품최종전체/수동/청취/focused성능. 브라우저·WindowsUI커널경로오류유지/추가툴·Github보류/목표active. 같은완료검사중복실행금지.
+
+---
 # 최신 · 역할 동작32b 비교 종료 / 현재 제품31 유지
 
 motion32/REVIEW.ko.md와mapped02/COMPARISON.json 읽는다. 세션71701/27268 모두terminal exit0-stderr0/각8checks.32첫안미채택,32b준비1.55배·회복실제길이보완/32b300frame core가보존30c300행과같음. 제품31/sourcefreeze/EXE/기존후보/사용자23복원후·29핀불변.32EXE없음. 다음은32b 모든방향·정지/빙결/풀상태·실전비용·연속시각검수후채택판단. 같은mapped/GPU중복실행금지. 도감v34에미연결연구기록,브라우저미검수(도구커널경로오류지속). 원목표active/Github·추가툴보류.
