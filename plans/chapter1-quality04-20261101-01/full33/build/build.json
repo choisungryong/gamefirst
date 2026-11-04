@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261105-33\\AshenCloister-Chapter1.exe",
+  "sha256": "f22c74d623a2dc1c62a870a9fabcc74f2d38c0bb5d881e8e1218cf52d8f5679d",
+  "bytes": 130087672,
+  "source_count": 135,
+  "stage_count": 137,
+  "pck_count": 246,
+  "scope": "Candidate33: Core16/World31d/Actor32b/HUD27/Input21/FX33b. Lower fire plumes retaining paid ground impacts, clearer existing drop rarity light hierarchy. No damage/generation/collection/save rule changes. Prior actual whole31 and elite32 retain scope; final same-product whole/manual/hearing/focused performance gates remain open."
+}

@@ -1,3 +1,8 @@
+# 최신 · 후보33 패키지 종료 / 실제 전체화염 GPU 진행
+
+loot33/REVIEW.ko.md 먼저읽는다. product33 Core16/World31d/Actor32b/HUD27/Input21/FX33b. EXE SHA f22c74d623a2dc1c62a870a9fabcc74f2d38c0bb5d881e8e1218cf52d8f5679d/runtime135-stage137-PCK246. package83207완료. 정상3등급11165tick·4등급fixture compare80502 quietpass/4PNG전부검수/원core같음;cost92691 새33b단독p9510.488ms/독립core같음. 기존후보/사용자23복원후·29rev2사본·핀보존. 실제전체화염 full33/runtime/gpu-fire01/session45133/PID5240 live. 다음진입시launch/execution/raw/현재process확인하고절대중복실행금지. 종료후21749tick 원16화염10필드같음·드롭등급표시수명·보스보상화면확인예정. 도감v37 최신후보표지를간결하게정리/이전v36보존/브라우저미검수. 목표active/수동·실청취·최종focused성능미완료/추가툴·Github보류.
+
+---
 # 도감 로컬서버 재개
 
 book-v36/server01 launch PID8528,127.0.0.1:8781/root C:/Project/d2r-combat-baseline. flame33.html HTTP200확인(정적접근확인이지브라우저화면검수아님). 서버살아있는지직접확인후재사용/중복서버금지. 최신페이지 /plans/chapter1-quality04-20261101-01/full30/book-v36/dist/flame33.html.
