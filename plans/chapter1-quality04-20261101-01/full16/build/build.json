@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261101-16\\AshenCloister-Chapter1.exe",
+  "sha256": "b774dc161f78dca569b23b8a3333d35d8f0b9bdb4b3ec70918bb3fbfef483197",
+  "bytes": 130001208,
+  "source_count": 103,
+  "stage_count": 105,
+  "pck_count": 184,
+  "scope": "Full chapter candidate16; evolved cold direct kills cause bounded actual shatter at 50% ordinary /25% elite damage; actual .48s chunks and .22s ordinary cold corpse fade, accurate HUD; inherited13boss/14FX and unchanged fire/arc rules. Not SACRATA quality, manual/audio or formal performance approval."
+}

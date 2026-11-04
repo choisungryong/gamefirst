@@ -1,0 +1,127 @@
+{
+  "width": 1254,
+  "height": 1254,
+  "major_components": 16,
+  "transparent_pixels": 1099341,
+  "pixels_per_meter_by_direction": {
+    "south": 127.805,
+    "east": 119.0,
+    "north": 122.662,
+    "west": 120.927
+  },
+  "frames": [
+    {
+      "direction": "south",
+      "phase": 0,
+      "component": 1,
+      "pixels": 20964,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "south",
+      "phase": 1,
+      "component": 3,
+      "pixels": 21505,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "south",
+      "phase": 2,
+      "component": 4,
+      "pixels": 20983,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "south",
+      "phase": 3,
+      "component": 2,
+      "pixels": 19981,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "east",
+      "phase": 0,
+      "component": 7,
+      "pixels": 20965,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "east",
+      "phase": 1,
+      "component": 6,
+      "pixels": 23434,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "east",
+      "phase": 2,
+      "component": 8,
+      "pixels": 25904,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "east",
+      "phase": 3,
+      "component": 5,
+      "pixels": 22525,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "north",
+      "phase": 0,
+      "component": 9,
+      "pixels": 23202,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "north",
+      "phase": 1,
+      "component": 11,
+      "pixels": 24299,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "north",
+      "phase": 2,
+      "component": 10,
+      "pixels": 24221,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "north",
+      "phase": 3,
+      "component": 12,
+      "pixels": 22878,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "west",
+      "phase": 0,
+      "component": 15,
+      "pixels": 22936,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "west",
+      "phase": 1,
+      "component": 16,
+      "pixels": 23887,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "west",
+      "phase": 2,
+      "component": 17,
+      "pixels": 24713,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "direction": "west",
+      "phase": 3,
+      "component": 14,
+      "pixels": 22605,
+      "neighbor_major_pixels": 0
+    }
+  ],
+  "scope": "Alpha-only metadata analysis; PNG bytes copied unchanged. No motion quality approval implied."
+}

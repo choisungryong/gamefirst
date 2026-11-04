@@ -1,0 +1,60 @@
+{
+  "width": 1774,
+  "height": 887,
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "transparent_pixels": 522406,
+  "major_components": 8,
+  "unassigned_visible_minor_pixels": 0,
+  "components": [
+    {
+      "id": "grass_a",
+      "component": 2,
+      "pixels": 101888,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "grass_b",
+      "component": 3,
+      "pixels": 103717,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "fern_a",
+      "component": 8,
+      "pixels": 90223,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "grass_bent",
+      "component": 1,
+      "pixels": 86262,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "grass_leaf",
+      "component": 184,
+      "pixels": 91748,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "fern_moss",
+      "component": 182,
+      "pixels": 101091,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "grass_sedge",
+      "component": 181,
+      "pixels": 99448,
+      "neighbor_major_pixels": 0
+    },
+    {
+      "id": "fern_grass",
+      "component": 183,
+      "pixels": 85555,
+      "neighbor_major_pixels": 0
+    }
+  ],
+  "scope": "Alpha-only metadata analysis. Major components fully contained, no neighboring major pixels. Tiny detached alpha fragments may be trimmed."
+}

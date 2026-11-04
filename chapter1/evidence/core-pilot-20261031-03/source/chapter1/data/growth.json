@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "provenance": "independent_design",
+  "max_active_skills": 3,
+  "max_passives": 3,
+  "xp_thresholds": [0, 6, 18, 36, 60, 90, 126, 168, 216, 270, 330, 396],
+  "passives": [
+    {"id": "chapter1.passive.embers", "name": "잔불", "weight": 100},
+    {"id": "chapter1.passive.crystal", "name": "결정", "weight": 100},
+    {"id": "chapter1.passive.conductor", "name": "도체", "weight": 100}
+  ],
+  "skills": [
+    {
+      "id": "chapter1.skill.ember", "name": "잿불탄", "weight": 100,
+      "passive_id": "chapter1.passive.embers", "evolution_name": "연쇄 화염구",
+      "ranks": [
+        {"damage_raw":3072,"cooldown_ticks":72,"projectiles":1,"chain_targets":0,"branches":1,"pierce":0,"radius_cm":0,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":1},
+        {"damage_raw":3584,"cooldown_ticks":66,"projectiles":3,"chain_targets":0,"branches":1,"pierce":0,"radius_cm":0,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":3},
+        {"damage_raw":4608,"cooldown_ticks":60,"projectiles":3,"chain_targets":0,"branches":1,"pierce":0,"radius_cm":220,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":24},
+        {"damage_raw":5632,"cooldown_ticks":54,"projectiles":3,"chain_targets":0,"branches":1,"pierce":0,"radius_cm":260,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":1,"proc_depth":1,"hit_budget":40}
+      ],
+      "evolution": {"damage_raw":8192,"cooldown_ticks":48,"projectiles":3,"chain_targets":0,"branches":1,"pierce":1,"radius_cm":340,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":1,"proc_depth":1,"hit_budget":64}
+    },
+    {
+      "id": "chapter1.skill.frost", "name": "서리창", "weight": 100,
+      "passive_id": "chapter1.passive.crystal", "evolution_name": "파쇄 물결",
+      "ranks": [
+        {"damage_raw":2560,"cooldown_ticks":84,"projectiles":1,"chain_targets":0,"branches":1,"pierce":2,"radius_cm":0,"slow_bps":2000,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":3},
+        {"damage_raw":3072,"cooldown_ticks":78,"projectiles":2,"chain_targets":0,"branches":1,"pierce":2,"radius_cm":0,"slow_bps":2500,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":6},
+        {"damage_raw":3840,"cooldown_ticks":72,"projectiles":2,"chain_targets":0,"branches":1,"pierce":3,"radius_cm":0,"slow_bps":3000,"freeze_stacks":3,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":8},
+        {"damage_raw":4608,"cooldown_ticks":66,"projectiles":2,"chain_targets":0,"branches":1,"pierce":3,"radius_cm":160,"slow_bps":3000,"freeze_stacks":3,"shatter_count":3,"death_burst":0,"proc_depth":1,"hit_budget":32}
+      ],
+      "evolution": {"damage_raw":7168,"cooldown_ticks":60,"projectiles":3,"chain_targets":0,"branches":1,"pierce":5,"radius_cm":280,"slow_bps":3500,"freeze_stacks":2,"shatter_count":5,"death_burst":0,"proc_depth":1,"hit_budget":64}
+    },
+    {
+      "id": "chapter1.skill.arc", "name": "연쇄 전류", "weight": 100,
+      "passive_id": "chapter1.passive.conductor", "evolution_name": "두 갈래 폭풍",
+      "ranks": [
+        {"damage_raw":2304,"cooldown_ticks":90,"projectiles":0,"chain_targets":3,"branches":1,"pierce":0,"radius_cm":700,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":3},
+        {"damage_raw":2816,"cooldown_ticks":84,"projectiles":0,"chain_targets":4,"branches":1,"pierce":0,"radius_cm":750,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":4},
+        {"damage_raw":3328,"cooldown_ticks":78,"projectiles":0,"chain_targets":4,"branches":2,"pierce":0,"radius_cm":800,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":0,"proc_depth":0,"hit_budget":8},
+        {"damage_raw":4096,"cooldown_ticks":72,"projectiles":0,"chain_targets":5,"branches":2,"pierce":0,"radius_cm":850,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":1,"proc_depth":1,"hit_budget":20}
+      ],
+      "evolution": {"damage_raw":6144,"cooldown_ticks":66,"projectiles":0,"chain_targets":7,"branches":2,"pierce":0,"radius_cm":950,"slow_bps":0,"freeze_stacks":0,"shatter_count":0,"death_burst":1,"proc_depth":1,"hit_budget":32}
+    }
+  ]
+}

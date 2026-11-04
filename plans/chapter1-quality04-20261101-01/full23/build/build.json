@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261103-23\\AshenCloister-Chapter1.exe",
+  "sha256": "40fa95609b3d4ff3d81efcc752648bf87de74da04e4d660f43cc8611ff9966cd",
+  "bytes": 130052208,
+  "source_count": 120,
+  "stage_count": 122,
+  "pck_count": 217,
+  "scope": "Full chapter candidate23: clear two-line dodge and potion HUD, no forced mid-word wrapping. Core16/World22/FX22/Actor21/Input21 unchanged. Manual whole/audio/default-save/formal performance quality gates remain separate."
+}

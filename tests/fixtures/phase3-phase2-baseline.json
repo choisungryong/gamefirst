@@ -1,0 +1,109 @@
+{
+  "cases": [
+    {
+      "checkpoints": [
+        "1561d78c7b3872deca899166a3bf00e768743821271b6b13f945a4a6ea8e2a96",
+        "68b955241bddbe0b982175d2bc577bc2d84985f81e65c2d38ac6d387599e04b5",
+        "dde840fbe70254c12696622ff7e3ac7e47880360fa38a21e64294b3f7b5ae27e",
+        "e8cc252030a44657ea70e55b50a80cb6e8350d89f3b3e926647269cb446aeded",
+        "06702002578f8d494b77f9fbcd9d021e2a1c32ef03f13238689590f0d7307c0f",
+        "97476b1f23f83f965b4692f6f732ece16688fd9ee9c670750e552e10f99368f9",
+        "3b40fb8ad668932408bb26e03fa4d7ccecb8234cc8623a833208be76f768c993",
+        "3f394e1a2a6dd4cd8698de42967c716009e8a1edee7e7c683c48063f34970ce4",
+        "737ae96e49ade420b6be9aaa8536eddb5020e0c80ee05ceff5be582c25b7c275",
+        "3d155988769398147849dc8ced1266082bfe1055f8b377ddd5329e114b044fcf"
+      ],
+      "count": 1,
+      "event_count": 10,
+      "final_tick": 600,
+      "hits": 2,
+      "kills": 1,
+      "shots": 3
+    },
+    {
+      "checkpoints": [
+        "d74d6f703e8c503369236bb95c136614d3e89cf9509f308ba9110000ac38c37b",
+        "d9c2335d4960a2950bbd502f119fd34e2c034039e7015475cbce18f5ce2b9bdc",
+        "252420f9fef7aa780093639ea4cf612cd35ca6caddf8b6cf0895f219c1f2bbf6",
+        "d0e6f3f0d9decc054a3c7b44f54960f5ce315f95e17e5a1687fd3749645a6743",
+        "b2c6257741551e1ac3e29818f04bee0597506bc9f44161bb7464f98a119cf1fc",
+        "ff479a896383e275e38402969ac72a40c41ba21ada02bbc618323e4334501d98",
+        "08881fe849075dbf6330095da03ad389faa5edb183d4f0bd67a704377166992a",
+        "8fc736d86c87ee082b405b87394d0178c8ec14e56af220edfae9bd478022e7de",
+        "b2d9dcfbca010b3f00bfe6c183943aec630af69bcd5efc1f344cff663c273782",
+        "4bf9947aabc9ea1800c6a50d2fe904130a93f2da7ff4a6fe79b9a7af5b41e018"
+      ],
+      "count": 10,
+      "event_count": 132,
+      "final_tick": 600,
+      "hits": 17,
+      "kills": 6,
+      "shots": 17
+    },
+    {
+      "checkpoints": [
+        "d2d164443fb649722d597876c0cad914dabfc71cedcf336c59c095f6df3988af",
+        "fb361f542e62baeab557094ff4638cab7998251f1f629ef9cbdeca5183deba80",
+        "64be1d95c89495fcd5547bb19132493ca12c443cc3bcda0dcca408efa30beddf",
+        "704db0abeefaa1f66080fcb4204563a4d610f5a428e00f2f08c3e044af1e35c1",
+        "1fc5ded00c36b19a125533475895f01c58a86579f1f3b5c45a5aec7690e12e17",
+        "9f3d0f9f54d4acad22a6583199f2c066b9a929a3c37990d2982c4ac5302d61ec",
+        "0f07992713e010121f8f118d25d74a1abaa6ee48d3d31be234e18d93f2987dee",
+        "0ea738e8a0ecd68a9caccc6a6fa3747648cbf43be6eeffb8fbd1d9aebeead855",
+        "f4695a452e3beb64713ab0123c9072d06561049e18a2506b82d1b21a5b8a7dd2",
+        "7ee8e5e0b6ae9572c953952a7a739b0706c568669955b2dc622a040a8b461e6f"
+      ],
+      "count": 100,
+      "event_count": 901,
+      "final_tick": 600,
+      "hits": 17,
+      "kills": 4,
+      "shots": 17
+    },
+    {
+      "checkpoints": [
+        "57f10c139b0781baecfb80a1e3c29c96680e340a2ed84f3c25f9eb2e0d6710b9",
+        "abaa7d3b76f6dbc807f7906b6bcad633c014fd0f0d334a963eb23a2bdea2730a",
+        "1a217460635f356c75e9d7547d5948d8bbf37ee76d5fced1dc0bd49a8c4b0fb5",
+        "ed81ef910cc9202545914dc33d2d2e0369c9aeb340d0731c4d59a7a9f94cf33b",
+        "ba55931b91d631183f31bfeb165f9a887742e475c6218d4cf0c4d64f1862cce5",
+        "1c27aa59334e780e69ea8cbcec59142ddd12d69dd1e58a5663dae5a1e849d29b",
+        "b1000b5a4d2eecf445b25dd0d9aacf661789832e85e1c47ee6a710f7a3830c98",
+        "f929aaf804670f7b8fdcc4aacc04ace5dc19c33c8200740d563327cf1e6e4b23",
+        "d79027113c728c14caaca84cf6e1744ad40a9e9880b7a36f11b244a7783fe05e",
+        "55fff7029eaf6edf98f8a0edcb52870473ea5e7ada5e081b5c0f5ca54d04360e"
+      ],
+      "count": 300,
+      "event_count": 2049,
+      "final_tick": 600,
+      "hits": 17,
+      "kills": 4,
+      "shots": 17
+    },
+    {
+      "checkpoints": [
+        "14b73642062b9ca41b7682e7c8da14fd0f084b596c983f0a96fd2aca02c3fa48",
+        "8584c6f3273f0a0b38ee9c1ffec8ec9f9937698370ab65de6c13bdb274f34bbb",
+        "70d0243a875c0c418392a10dd38dab6f2bab68096927327ff805a810f07b0059",
+        "4e3de6ebc652044f5cc4c483f505473362cae2e6bdd374bb1770845ab58763db",
+        "4ed8efabee4c6061eff9c279e4243b2d76b8137196b0ca9746739a14b1b72fcb",
+        "b13c80434d3efd493d547fc20f84f8c0c123861d42d2761222de1c669a86222b",
+        "f2f0f66890fe89851ad35be1a0fadfae0d98edeede4faf7127acce7171d516b3",
+        "ce8d29fa9b3a27dd676c44120ef21489927c2d8c23df62fc30cba55d1c635306",
+        "cf2488b4a03f364b66691590b5d82b193b299f777c016465fd89a8ec7570477c",
+        "b63c2d1043d9746c916ac57d9da57b4800fa0507e93b5d3299218324673f69db"
+      ],
+      "count": 500,
+      "event_count": 2932,
+      "final_tick": 600,
+      "hits": 17,
+      "kills": 5,
+      "shots": 17
+    }
+  ],
+  "catalog_sha256": "dbf793a87b339d29db3012476dfe7afe7b24782a73f87e5ca517b3aedfeb6a26",
+  "engine": "4.5.1-stable (official)",
+  "scope": "accepted phase2 local deterministic stress snapshots; independent design, not D2R rules",
+  "source": "C:/Project/game-research/implementation-backups/phase2-final-source-20261027/baseline_sim.gd",
+  "source_sha256": "9f56569c739a1523a6ff0b68456074dce48a4779cae1f3449e585895d5274dc0"
+}

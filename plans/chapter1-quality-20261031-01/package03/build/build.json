@@ -1,0 +1,10 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-c2-candidate-20261101-03\\AshenCloister-Chapter1.exe",
+  "sha256": "c916e280facbc89c6fcb1b21ee9a3fc9725313e248956e1918342ac2d4602fbb",
+  "bytes": 116516096,
+  "entry_count": 122,
+  "source_count": 70,
+  "stage": "C:\\Project\\game-research\\build-staging\\chapter1-c2-candidate-20261101-03",
+  "entrypoint": "res://chapter1/Chapter1.tscn",
+  "scope": "C2 representative encounter; not full5-8min chapter, SACRATA-quality approval, manual play, or formal performance"
+}

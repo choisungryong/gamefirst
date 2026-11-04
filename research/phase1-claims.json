@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "build": "93847",
+  "claims": [
+    {
+      "id": "skills.txt.Fire Bolt.mana",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "5",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\skills.txt",
+        "sha256": "56944cb6b6b0f3c57f7b690977987a732afeafc961fa9dc969e7796e54c93f3f",
+        "line": 38,
+        "selector": {
+          "skill": "Fire Bolt"
+        },
+        "column": "mana"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "skills.txt.Fire Bolt.manashift",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "7",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\skills.txt",
+        "sha256": "56944cb6b6b0f3c57f7b690977987a732afeafc961fa9dc969e7796e54c93f3f",
+        "line": 38,
+        "selector": {
+          "skill": "Fire Bolt"
+        },
+        "column": "manashift"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "skills.txt.Fire Bolt.EMin",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "6",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\skills.txt",
+        "sha256": "56944cb6b6b0f3c57f7b690977987a732afeafc961fa9dc969e7796e54c93f3f",
+        "line": 38,
+        "selector": {
+          "skill": "Fire Bolt"
+        },
+        "column": "EMin"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "skills.txt.Fire Bolt.EMax",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "12",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\skills.txt",
+        "sha256": "56944cb6b6b0f3c57f7b690977987a732afeafc961fa9dc969e7796e54c93f3f",
+        "line": 38,
+        "selector": {
+          "skill": "Fire Bolt"
+        },
+        "column": "EMax"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "skills.txt.Fire Bolt.HitShift",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "7",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\skills.txt",
+        "sha256": "56944cb6b6b0f3c57f7b690977987a732afeafc961fa9dc969e7796e54c93f3f",
+        "line": 38,
+        "selector": {
+          "skill": "Fire Bolt"
+        },
+        "column": "HitShift"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "monstats.txt.zombie1.noRatio",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\monstats.txt",
+        "sha256": "8831fce35fc549a4849b13a1bd467eb34913f58b8269c0c1bbfa76aeabb6d32e",
+        "line": 7,
+        "selector": {
+          "Id": "zombie1"
+        },
+        "column": "noRatio"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "monstats.txt.zombie1.ResFi",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\monstats.txt",
+        "sha256": "8831fce35fc549a4849b13a1bd467eb34913f58b8269c0c1bbfa76aeabb6d32e",
+        "line": 7,
+        "selector": {
+          "Id": "zombie1"
+        },
+        "column": "ResFi"
+      },
+      "limitations": [
+        "Observed table bytes, not D2R runtime value or native function"
+      ]
+    },
+    {
+      "id": "treasureclassex.first_signed_picks",
+      "method": "local_casc_extract",
+      "status": "observed",
+      "raw": "-1",
+      "normalized": null,
+      "unit": null,
+      "meaning_status": "unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\tables\\treasureclassex.txt",
+        "sha256": "3abbfc59535e67cf52b0256b3518623edba072eb4235e7d1824a7f847abeca6d",
+        "line": 153,
+        "selector": {
+          "Treasure Class": "Act 1 Worldstone Shard Parent"
+        },
+        "column": "Picks"
+      },
+      "limitations": [
+        "Negative source value preserved; roll semantics not established"
+      ]
+    }
+  ]
+}

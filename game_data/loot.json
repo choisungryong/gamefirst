@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "catalog_id": "loot.prototype",
+  "definition_version": 1,
+  "provenance": {
+    "status": "design_choice",
+    "method": "project_design",
+    "note": "Independent flat loot weights, not recovered D2R drops."
+  },
+  "entries": [
+    {
+      "kind": "no-drop",
+      "weight": 2
+    },
+    {
+      "kind": "item",
+      "weight": 2,
+      "base_id": "item.ember_focus",
+      "quality": "common"
+    },
+    {
+      "kind": "item",
+      "weight": 2,
+      "base_id": "item.ward_robe",
+      "quality": "common"
+    },
+    {
+      "kind": "item",
+      "weight": 1,
+      "base_id": "item.well_charm",
+      "quality": "crafted"
+    }
+  ]
+}

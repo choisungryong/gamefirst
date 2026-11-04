@@ -1,0 +1,51 @@
+# Godot import/cache and local editor state
+.godot/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+# Build output and recorded evidence remain preserved on disk
+/builds/
+/evidence/**
+!/evidence/**/
+!/evidence/**/source-manifest.json
+!/evidence/**/staging-manifest.json
+# Keep research/implementation sources and release pins, not captured runs
+/plans/**
+!/plans/**/
+!/plans/**/*.py
+!/plans/**/*.gd
+!/plans/**/*.gdshader
+!/plans/**/*.tscn
+!/plans/**/*.md
+!/plans/**/FINAL-SOURCE-FREEZE.json
+!/plans/**/source-manifest.json
+!/plans/**/staging-manifest.json
+!/plans/**/closure.json
+!/plans/**/build.json
+/plans/**/book-v*/
+/plans/**/draft*/
+# Executables, packages, recordings and generated caches
+*.exe
+*.dll
+*.pck
+*.zip
+*.7z
+*.avi
+*.mp4
+*.webm
+*.wav.import
+# User-local settings/credentials and save copies
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+**/user-save*/
+**/profile-before/
+**/profile-after/
+**/default-profile-preserved/
+**/chapter-one-profile-v1*.json

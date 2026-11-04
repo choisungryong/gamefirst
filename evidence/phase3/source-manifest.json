@@ -1,0 +1,78 @@
+[
+  {
+    "path": "baseline_sim.gd",
+    "sha256": "2169FCDF514552026251A0D88DDE1728EF7750FB1C93E59ECE1971DE0E672753"
+  },
+  {
+    "path": "baseline_view.gd",
+    "sha256": "6936B9A0FD0D50B2983EDD38A47E5E6E2F28880C171A4C822D66A4E95E85C853"
+  },
+  {
+    "path": "project.godot",
+    "sha256": "AE76830FF8EB69F5380486329C7AD769D9D05D3D5E7DF958C33656AF8B4AD866"
+  },
+  {
+    "path": "Baseline.tscn",
+    "sha256": "EA07886D1C1DB9E7E3F1106E489F6C9F5B3E7DC571D7A60ABE6BD331E6DA267E"
+  },
+  {
+    "path": "export_presets.cfg",
+    "sha256": "DA428690E2D0BFB475CDF04688F1A23E17505EF22207E5A6573BAA9CC62BC378"
+  },
+  {
+    "path": "game_data\\catalog.json",
+    "sha256": "DBF793A87B339D29DB3012476DFE7AFE7B24782A73F87E5CA517B3AEDFEB6A26"
+  },
+  {
+    "path": "data\\game_catalog.gd",
+    "sha256": "1772387DAA325EC67EDA7005CD53E8DE3472CD280F8F8DCD58B48D358B33CF16"
+  },
+  {
+    "path": "presentation\\actor_registry.gd",
+    "sha256": "23A6CB9EEC9A75D7E84D62D83540CE7573115204B19CE96962FD46F5027A25DD"
+  },
+  {
+    "path": "presentation\\effect_presenter.gd",
+    "sha256": "08722F5EB9244F5147B03CD31C9F22E05915B3E21E101FDF847EB3AE8A5394A5"
+  },
+  {
+    "path": "presentation\\hud_presenter.gd",
+    "sha256": "B39ECBDE39DB41BACB44CD429763713B0B5D7484F7468D6B1D8F303B4D73EE7C"
+  },
+  {
+    "path": "presentation\\input_controller.gd",
+    "sha256": "EE256852ED84BAA7E3477C794A53DDA9CD2AC0BF716325B9B1A328517F16D7A5"
+  },
+  {
+    "path": "presentation\\qa_output.gd",
+    "sha256": "190821CA4DFE5AF968D85D7291F819C0072C9EE45E1BEC1BF3888AA90327470C"
+  },
+  {
+    "path": "presentation\\skinned_mesh_batch.gd",
+    "sha256": "AEFBA804722E913ACC2F182A498BB075EED585E49BF547397723EEE35BA66EEB"
+  },
+  {
+    "path": "presentation\\static_batch.gd",
+    "sha256": "D6DD38B6DBC13C767AD7912C887F1EB8B4602D562F6A634734475696E1A9F718"
+  },
+  {
+    "path": "benchmark\\crowd_benchmark.gd",
+    "sha256": "163A49857D442067FDF4D3A1DF8A3B09FB27157B559FAB294EC763EFCABF4248"
+  },
+  {
+    "path": "benchmark\\crowd_benchmark.tscn",
+    "sha256": "2D8405123BE62F02E2E92C06D2E1FA4CB17816DF069E610B3F36F0F93483FF7D"
+  },
+  {
+    "path": "benchmark\\flight_qa.gd",
+    "sha256": "10AF9E2DCE90FCDE094FA81863D12489DA6EAC24DF8BE1376B2AEA3BC6D0FA5D"
+  },
+  {
+    "path": "benchmark\\flight_qa.tscn",
+    "sha256": "165D57496EA68FC025507B4EB3D18A57526CF6847358C82B46F314695D5C0063"
+  },
+  {
+    "path": "game_data\\build_info.json",
+    "sha256": "1EA1FC0AD4E03042DAB4DB1C0D6FB343295AD5BAAA1F197943EBAFEF639697DC"
+  }
+]

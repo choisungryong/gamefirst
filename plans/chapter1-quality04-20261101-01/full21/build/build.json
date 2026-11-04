@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261103-21\\AshenCloister-Chapter1.exe",
+  "sha256": "3775b55ab2f52d03c844b80c1392251669bf2ac96e5bb43e8bda645189763000",
+  "bytes": 130042864,
+  "source_count": 116,
+  "stage_count": 118,
+  "pck_count": 210,
+  "scope": "Full chapter candidate21: rigged ranged/charger roles, shared single-surface staff, paid dash/recovery and bounded distant pose updates. Full-chapter click target uses unlocked core bounds, fixing later-zone first-arena clamp. Core16/World18/HUD20/FX20 unchanged. Not final art/manual/audio/save-path/formal performance approval."
+}

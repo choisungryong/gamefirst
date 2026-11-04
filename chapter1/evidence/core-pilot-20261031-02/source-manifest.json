@@ -1,0 +1,26 @@
+[
+  {
+    "path": "chapter1\\core\\combat_run.gd",
+    "sha256": "7b7d6a41dc211efbb04fad02cfcbb11fa20f13f8ebce6bb21da2669c77889fee"
+  },
+  {
+    "path": "chapter1\\core\\run_growth.gd",
+    "sha256": "0af25e8f01272fdc65fa297969594ba4ef38308e6e36f82ce0e8a24b396aa9c8"
+  },
+  {
+    "path": "chapter1\\core\\growth_catalog.gd",
+    "sha256": "ecaa03d78ab8558c2281b0454dd39d89823a392bd4e8a853197885fc337503ce"
+  },
+  {
+    "path": "chapter1\\data\\growth.json",
+    "sha256": "5f7a1138e4d7a72ca6436d0af894f8e890c009bd8836bb93ef880a7ce79ad203"
+  },
+  {
+    "path": "chapter1\\tests\\test_combat_run.gd",
+    "sha256": "c06015541be41e31093d7f54133cf015754da45753596b184f8629f4bd52f217"
+  },
+  {
+    "path": "chapter1\\tests\\pilot_combat_run.gd",
+    "sha256": "9835bbc5d58235dd46029a2c865bd08ee2a6e01870c400044e4ee82e39e9b5d3"
+  }
+]

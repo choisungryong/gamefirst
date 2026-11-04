@@ -1,0 +1,2791 @@
+{
+	"cases": [
+		{
+			"cpu_wall_us": 1419913,
+			"elapsed": 75.7,
+			"elite_killed": true,
+			"elite_spawned": true,
+			"equipped": {
+				"body": 2,
+				"charm": 3,
+				"ring": 5,
+				"weapon": 1
+			},
+			"growth": {
+				"epoch": 1,
+				"evolved": [
+					"chapter1.skill.ember"
+				],
+				"level": 12,
+				"offer": {
+
+				},
+				"passives": [
+					"chapter1.passive.embers",
+					"chapter1.passive.crystal"
+				],
+				"pending_levels": [],
+				"primary": "chapter1.skill.ember",
+				"ranks": {
+					"chapter1.skill.arc": 1,
+					"chapter1.skill.ember": 4,
+					"chapter1.skill.frost": 4
+				},
+				"rng_state": "-1977329988869993017",
+				"xp": 858
+			},
+			"hp_raw": 16794,
+			"inventory_count": 13,
+			"kills": 764,
+			"metrics": {
+				"casts": {
+					"chapter1.skill.arc": 46,
+					"chapter1.skill.ember": 91,
+					"chapter1.skill.frost": 61
+				},
+				"collected_xp": 858,
+				"damage_raw": 7188759,
+				"dropped_items": 13,
+				"enemy_attacks": 52,
+				"events_dropped": 0,
+				"hits": {
+					"chapter1.skill.arc": 196,
+					"chapter1.skill.ember": 663,
+					"chapter1.skill.frost": 163
+				},
+				"max_alive": 92,
+				"orbs_merged": 0,
+				"peak_projectiles": 31,
+				"picked_items": 13
+			},
+			"mode": "victory",
+			"primary": "chapter1.skill.ember",
+			"samples": [
+				{
+					"alive": 24,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						0.0966666713356972,
+						0.0
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1
+					},
+					"tick": 1,
+					"xp": 0
+				},
+				{
+					"alive": 39,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 5,
+					"level": 1,
+					"position": [
+						-2.74516534805298,
+						5.91898727416992
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1
+					},
+					"tick": 301,
+					"xp": 5
+				},
+				{
+					"alive": 50,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 14,
+					"level": 2,
+					"position": [
+						-4.25067090988159,
+						-4.83789587020874
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 601,
+					"xp": 14
+				},
+				{
+					"alive": 57,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 28,
+					"level": 3,
+					"position": [
+						4.07117033004761,
+						-3.32045030593872
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 901,
+					"xp": 23
+				},
+				{
+					"alive": 71,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 26880,
+					"kills": 53,
+					"level": 4,
+					"position": [
+						-2.94212341308594,
+						-8.36139488220215
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 2,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1201,
+					"xp": 54
+				},
+				{
+					"alive": 57,
+					"equipped": {
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 25600,
+					"kills": 109,
+					"level": 5,
+					"position": [
+						6.46636009216309,
+						-5.34519910812378
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 3,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1501,
+					"xp": 75
+				},
+				{
+					"alive": 14,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 23220,
+					"kills": 191,
+					"level": 9,
+					"position": [
+						7.27190685272217,
+						-9.19314765930176
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 1801,
+					"xp": 218
+				},
+				{
+					"alive": 20,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 23220,
+					"kills": 227,
+					"level": 9,
+					"position": [
+						0.485639452934265,
+						-10.9208831787109
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 2101,
+					"xp": 263
+				},
+				{
+					"alive": 34,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 23220,
+					"kills": 270,
+					"level": 10,
+					"position": [
+						2.82180237770081,
+						-7.58048343658447
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 2401,
+					"xp": 325
+				},
+				{
+					"alive": 26,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 23220,
+					"kills": 332,
+					"level": 11,
+					"position": [
+						-3.41181683540344,
+						-1.01673007011414
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 3
+					},
+					"tick": 2701,
+					"xp": 372
+				},
+				{
+					"alive": 27,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 22030,
+					"kills": 388,
+					"level": 12,
+					"position": [
+						-1.98801445960999,
+						2.3171124458313
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3001,
+					"xp": 431
+				},
+				{
+					"alive": 66,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 22030,
+					"kills": 425,
+					"level": 12,
+					"position": [
+						-1.80325436592102,
+						-16.0255851745605
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3301,
+					"xp": 480
+				},
+				{
+					"alive": 57,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 20840,
+					"kills": 510,
+					"level": 12,
+					"position": [
+						-1.16874575614929,
+						-2.49263596534729
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3601,
+					"xp": 614
+				},
+				{
+					"alive": 55,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 19650,
+					"kills": 584,
+					"level": 12,
+					"position": [
+						-10.0547075271606,
+						-12.9378547668457
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3901,
+					"xp": 695
+				},
+				{
+					"alive": 36,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 19650,
+					"kills": 680,
+					"level": 12,
+					"position": [
+						-2.45346140861511,
+						-8.90355968475342
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4201,
+					"xp": 775
+				},
+				{
+					"alive": 40,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 19650,
+					"kills": 752,
+					"level": 12,
+					"position": [
+						-2.74250197410584,
+						-10.8839406967163
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4501,
+					"xp": 858
+				}
+			],
+			"scope": "Normal movement/dash/choice/equip inputs; no invulnerability, pre-awarded XP, item gifts or forced kills. Automatic pilot is not actual user play or GPU QA.",
+			"seed": 71,
+			"tick": 4542
+		},
+		{
+			"cpu_wall_us": 1529046,
+			"elapsed": 77.9,
+			"elite_killed": true,
+			"elite_spawned": true,
+			"equipped": {
+				"body": 2,
+				"charm": 3,
+				"ring": 5,
+				"weapon": 1
+			},
+			"growth": {
+				"epoch": 1,
+				"evolved": [
+					"chapter1.skill.ember"
+				],
+				"level": 12,
+				"offer": {
+
+				},
+				"passives": [
+					"chapter1.passive.embers"
+				],
+				"pending_levels": [],
+				"primary": "chapter1.skill.ember",
+				"ranks": {
+					"chapter1.skill.arc": 2,
+					"chapter1.skill.ember": 4,
+					"chapter1.skill.frost": 4
+				},
+				"rng_state": "-1926986189707837987",
+				"xp": 903
+			},
+			"hp_raw": 25960,
+			"inventory_count": 11,
+			"kills": 795,
+			"metrics": {
+				"casts": {
+					"chapter1.skill.arc": 48,
+					"chapter1.skill.ember": 93,
+					"chapter1.skill.frost": 63
+				},
+				"collected_xp": 903,
+				"damage_raw": 7629139,
+				"dropped_items": 12,
+				"enemy_attacks": 58,
+				"events_dropped": 0,
+				"hits": {
+					"chapter1.skill.arc": 232,
+					"chapter1.skill.ember": 690,
+					"chapter1.skill.frost": 175
+				},
+				"max_alive": 101,
+				"orbs_merged": 0,
+				"peak_projectiles": 49,
+				"picked_items": 11
+			},
+			"mode": "victory",
+			"primary": "chapter1.skill.ember",
+			"samples": [
+				{
+					"alive": 24,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						0.0966666713356972,
+						0.0
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1
+					},
+					"tick": 1,
+					"xp": 0
+				},
+				{
+					"alive": 39,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 5,
+					"level": 1,
+					"position": [
+						-2.67514061927795,
+						7.42786598205566
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1
+					},
+					"tick": 301,
+					"xp": 5
+				},
+				{
+					"alive": 53,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 11,
+					"level": 2,
+					"position": [
+						-4.57093715667725,
+						-4.7373743057251
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 601,
+					"xp": 11
+				},
+				{
+					"alive": 64,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 21,
+					"level": 3,
+					"position": [
+						6.25079584121704,
+						-1.78358948230743
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 901,
+					"xp": 22
+				},
+				{
+					"alive": 86,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 38,
+					"level": 4,
+					"position": [
+						4.65070486068726,
+						5.29404640197754
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 2,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1201,
+					"xp": 39
+				},
+				{
+					"alive": 70,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 96,
+					"level": 6,
+					"position": [
+						-1.6524965763092,
+						2.52134203910828
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1501,
+					"xp": 96
+				},
+				{
+					"alive": 40,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 30720,
+					"kills": 165,
+					"level": 8,
+					"position": [
+						2.03471159934998,
+						8.46072673797607
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1801,
+					"xp": 187
+				},
+				{
+					"alive": 34,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 28340,
+					"kills": 213,
+					"level": 9,
+					"position": [
+						3.27784729003906,
+						-2.40640711784363
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 2101,
+					"xp": 250
+				},
+				{
+					"alive": 29,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 28340,
+					"kills": 275,
+					"level": 10,
+					"position": [
+						0.907055735588074,
+						3.40702795982361
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 3
+					},
+					"tick": 2401,
+					"xp": 311
+				},
+				{
+					"alive": 27,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 28340,
+					"kills": 331,
+					"level": 11,
+					"position": [
+						7.00991153717041,
+						3.15564393997192
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 3
+					},
+					"tick": 2701,
+					"xp": 375
+				},
+				{
+					"alive": 30,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 28340,
+					"kills": 385,
+					"level": 12,
+					"position": [
+						0.436193585395813,
+						6.10268926620483
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3001,
+					"xp": 430
+				},
+				{
+					"alive": 45,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 27150,
+					"kills": 446,
+					"level": 12,
+					"position": [
+						-7.41577625274658,
+						3.09556889533997
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3301,
+					"xp": 522
+				},
+				{
+					"alive": 35,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 27150,
+					"kills": 532,
+					"level": 12,
+					"position": [
+						6.50187253952026,
+						7.07442712783813
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3601,
+					"xp": 606
+				},
+				{
+					"alive": 51,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 27150,
+					"kills": 588,
+					"level": 12,
+					"position": [
+						9.3654203414917,
+						-1.12895011901855
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3901,
+					"xp": 660
+				},
+				{
+					"alive": 41,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 25960,
+					"kills": 675,
+					"level": 12,
+					"position": [
+						1.61720323562622,
+						8.51723670959473
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4201,
+					"xp": 758
+				},
+				{
+					"alive": 47,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.ember"
+					],
+					"hp_raw": 25960,
+					"kills": 745,
+					"level": 12,
+					"position": [
+						2.51339888572693,
+						6.96154022216797
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4501,
+					"xp": 846
+				}
+			],
+			"scope": "Normal movement/dash/choice/equip inputs; no invulnerability, pre-awarded XP, item gifts or forced kills. Automatic pilot is not actual user play or GPU QA.",
+			"seed": 907,
+			"tick": 4674
+		},
+		{
+			"cpu_wall_us": 2537472,
+			"elapsed": 81.6666666666667,
+			"elite_killed": true,
+			"elite_spawned": true,
+			"equipped": {
+				"body": 2,
+				"charm": 3,
+				"ring": 5,
+				"weapon": 1
+			},
+			"growth": {
+				"epoch": 1,
+				"evolved": [
+					"chapter1.skill.frost"
+				],
+				"level": 12,
+				"offer": {
+
+				},
+				"passives": [
+					"chapter1.passive.crystal",
+					"chapter1.passive.embers"
+				],
+				"pending_levels": [],
+				"primary": "chapter1.skill.frost",
+				"ranks": {
+					"chapter1.skill.arc": 1,
+					"chapter1.skill.ember": 4,
+					"chapter1.skill.frost": 4
+				},
+				"rng_state": "-1977329988869993017",
+				"xp": 953
+			},
+			"hp_raw": 2366,
+			"inventory_count": 11,
+			"kills": 850,
+			"metrics": {
+				"casts": {
+					"chapter1.skill.arc": 44,
+					"chapter1.skill.ember": 68,
+					"chapter1.skill.frost": 77
+				},
+				"collected_xp": 953,
+				"damage_raw": 7013015,
+				"dropped_items": 13,
+				"enemy_attacks": 217,
+				"events_dropped": 0,
+				"hits": {
+					"chapter1.skill.arc": 203,
+					"chapter1.skill.ember": 428,
+					"chapter1.skill.frost": 518
+				},
+				"max_alive": 170,
+				"orbs_merged": 0,
+				"peak_projectiles": 66,
+				"picked_items": 11
+			},
+			"mode": "victory",
+			"primary": "chapter1.skill.frost",
+			"samples": [
+				{
+					"alive": 24,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						0.0966666713356972,
+						0.0
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1,
+					"xp": 0
+				},
+				{
+					"alive": 42,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 2,
+					"level": 1,
+					"position": [
+						-2.74433541297913,
+						5.89241886138916
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 301,
+					"xp": 2
+				},
+				{
+					"alive": 62,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 2,
+					"level": 1,
+					"position": [
+						-6.62567472457886,
+						-5.14112043380737
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 601,
+					"xp": 2
+				},
+				{
+					"alive": 80,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 5,
+					"level": 1,
+					"position": [
+						5.74485683441162,
+						-2.54257750511169
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 901,
+					"xp": 5
+				},
+				{
+					"alive": 110,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 28160,
+					"kills": 14,
+					"level": 2,
+					"position": [
+						0.457688540220261,
+						6.05485725402832
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1201,
+					"xp": 14
+				},
+				{
+					"alive": 139,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 25690,
+					"kills": 27,
+					"level": 3,
+					"position": [
+						-5.67413139343262,
+						9.27624225616455
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1501,
+					"xp": 31
+				},
+				{
+					"alive": 150,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 22596,
+					"kills": 55,
+					"level": 4,
+					"position": [
+						-1.46270883083344,
+						0.847400546073914
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 1801,
+					"xp": 57
+				},
+				{
+					"alive": 160,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 21406,
+					"kills": 87,
+					"level": 6,
+					"position": [
+						-6.69684791564941,
+						7.16308259963989
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 2101,
+					"xp": 98
+				},
+				{
+					"alive": 165,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 19502,
+					"kills": 139,
+					"level": 7,
+					"position": [
+						-3.29771423339844,
+						-2.88644218444824
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 2401,
+					"xp": 159
+				},
+				{
+					"alive": 125,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 18312,
+					"kills": 233,
+					"level": 9,
+					"position": [
+						2.97843313217163,
+						4.96644926071167
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 2,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 2701,
+					"xp": 237
+				},
+				{
+					"alive": 60,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 14742,
+					"kills": 355,
+					"level": 11,
+					"position": [
+						-2.60210537910461,
+						3.74788880348206
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 3,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3001,
+					"xp": 393
+				},
+				{
+					"alive": 63,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 11172,
+					"kills": 428,
+					"level": 12,
+					"position": [
+						-3.43588590621948,
+						-7.31946802139282
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3301,
+					"xp": 464
+				},
+				{
+					"alive": 68,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 7602,
+					"kills": 499,
+					"level": 12,
+					"position": [
+						4.40121698379517,
+						-9.76249980926514
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3601,
+					"xp": 515
+				},
+				{
+					"alive": 44,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 7602,
+					"kills": 595,
+					"level": 12,
+					"position": [
+						-1.54226469993591,
+						-10.4664449691772
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3901,
+					"xp": 651
+				},
+				{
+					"alive": 47,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 6412,
+					"kills": 669,
+					"level": 12,
+					"position": [
+						-1.19810783863068,
+						-0.635429441928864
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4201,
+					"xp": 774
+				},
+				{
+					"alive": 71,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 3556,
+					"kills": 721,
+					"level": 12,
+					"position": [
+						-14.617094039917,
+						6.99141550064087
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4501,
+					"xp": 863
+				},
+				{
+					"alive": 52,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 3556,
+					"kills": 816,
+					"level": 12,
+					"position": [
+						-16.87721824646,
+						8.37562370300293
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4801,
+					"xp": 918
+				}
+			],
+			"scope": "Normal movement/dash/choice/equip inputs; no invulnerability, pre-awarded XP, item gifts or forced kills. Automatic pilot is not actual user play or GPU QA.",
+			"seed": 71,
+			"tick": 4900
+		},
+		{
+			"cpu_wall_us": 2673001,
+			"elapsed": 86.7166666666667,
+			"elite_killed": true,
+			"elite_spawned": true,
+			"equipped": {
+				"body": 2,
+				"charm": 3,
+				"ring": 6,
+				"weapon": 1
+			},
+			"growth": {
+				"epoch": 1,
+				"evolved": [
+					"chapter1.skill.frost"
+				],
+				"level": 12,
+				"offer": {
+
+				},
+				"passives": [
+					"chapter1.passive.crystal"
+				],
+				"pending_levels": [],
+				"primary": "chapter1.skill.frost",
+				"ranks": {
+					"chapter1.skill.arc": 2,
+					"chapter1.skill.ember": 4,
+					"chapter1.skill.frost": 4
+				},
+				"rng_state": "-1926986189707837987",
+				"xp": 1039
+			},
+			"hp_raw": 10310,
+			"inventory_count": 13,
+			"kills": 924,
+			"metrics": {
+				"casts": {
+					"chapter1.skill.arc": 50,
+					"chapter1.skill.ember": 75,
+					"chapter1.skill.frost": 83
+				},
+				"collected_xp": 1039,
+				"damage_raw": 7720366,
+				"dropped_items": 13,
+				"enemy_attacks": 242,
+				"events_dropped": 0,
+				"hits": {
+					"chapter1.skill.arc": 251,
+					"chapter1.skill.ember": 436,
+					"chapter1.skill.frost": 594
+				},
+				"max_alive": 170,
+				"orbs_merged": 0,
+				"peak_projectiles": 70,
+				"picked_items": 13
+			},
+			"mode": "victory",
+			"primary": "chapter1.skill.frost",
+			"samples": [
+				{
+					"alive": 24,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						0.0966666713356972,
+						0.0
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1,
+					"xp": 0
+				},
+				{
+					"alive": 42,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 2,
+					"level": 1,
+					"position": [
+						7.02587080001831,
+						4.13511610031128
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 301,
+					"xp": 1
+				},
+				{
+					"alive": 61,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 3,
+					"level": 1,
+					"position": [
+						1.60689330101013,
+						-2.84431290626526
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 601,
+					"xp": 3
+				},
+				{
+					"alive": 80,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 5,
+					"level": 1,
+					"position": [
+						3.8127760887146,
+						-8.79719066619873
+					],
+					"ranks": {
+						"chapter1.skill.frost": 1
+					},
+					"tick": 901,
+					"xp": 5
+				},
+				{
+					"alive": 107,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 28160,
+					"kills": 17,
+					"level": 2,
+					"position": [
+						4.26252937316895,
+						4.35951614379883
+					],
+					"ranks": {
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1201,
+					"xp": 17
+				},
+				{
+					"alive": 134,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 28160,
+					"kills": 32,
+					"level": 3,
+					"position": [
+						-3.12770557403564,
+						-3.36602354049683
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1501,
+					"xp": 29
+				},
+				{
+					"alive": 134,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 25780,
+					"kills": 71,
+					"level": 5,
+					"position": [
+						4.22363185882568,
+						-1.85562455654144
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 3
+					},
+					"tick": 1801,
+					"xp": 70
+				},
+				{
+					"alive": 131,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 24590,
+					"kills": 116,
+					"level": 6,
+					"position": [
+						-4.44441032409668,
+						-4.42997789382935
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 2101,
+					"xp": 117
+				},
+				{
+					"alive": 151,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 24590,
+					"kills": 153,
+					"level": 7,
+					"position": [
+						8.06540775299072,
+						-0.102525040507317
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 2401,
+					"xp": 160
+				},
+				{
+					"alive": 157,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 21496,
+					"kills": 201,
+					"level": 8,
+					"position": [
+						-5.51880359649658,
+						-4.22803354263306
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 2701,
+					"xp": 201
+				},
+				{
+					"alive": 148,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 20306,
+					"kills": 267,
+					"level": 10,
+					"position": [
+						7.79370927810669,
+						-9.38390922546387
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 3,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3001,
+					"xp": 272
+				},
+				{
+					"alive": 65,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 16736,
+					"kills": 426,
+					"level": 12,
+					"position": [
+						4.91364526748657,
+						-0.42533552646637
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3301,
+					"xp": 449
+				},
+				{
+					"alive": 52,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 16736,
+					"kills": 515,
+					"level": 12,
+					"position": [
+						-2.56380534172058,
+						-13.5464553833008
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3601,
+					"xp": 567
+				},
+				{
+					"alive": 44,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 16736,
+					"kills": 595,
+					"level": 12,
+					"position": [
+						7.30310678482056,
+						-9.52745151519775
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 3901,
+					"xp": 655
+				},
+				{
+					"alive": 55,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 16736,
+					"kills": 661,
+					"level": 12,
+					"position": [
+						-5.04985284805298,
+						-16.1712036132813
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4201,
+					"xp": 776
+				},
+				{
+					"alive": 53,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 15546,
+					"kills": 739,
+					"level": 12,
+					"position": [
+						-5.21095180511475,
+						-10.2634382247925
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4501,
+					"xp": 852
+				},
+				{
+					"alive": 47,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 13166,
+					"kills": 821,
+					"level": 12,
+					"position": [
+						-9.26745223999023,
+						-3.12007260322571
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 4801,
+					"xp": 900
+				},
+				{
+					"alive": 61,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 6,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.frost"
+					],
+					"hp_raw": 10310,
+					"kills": 879,
+					"level": 12,
+					"position": [
+						1.92789316177368,
+						-14.2349243164063
+					],
+					"ranks": {
+						"chapter1.skill.arc": 2,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 4
+					},
+					"tick": 5101,
+					"xp": 1013
+				}
+			],
+			"scope": "Normal movement/dash/choice/equip inputs; no invulnerability, pre-awarded XP, item gifts or forced kills. Automatic pilot is not actual user play or GPU QA.",
+			"seed": 907,
+			"tick": 5203
+		},
+		{
+			"cpu_wall_us": 1740744,
+			"elapsed": 83.1333333333333,
+			"elite_killed": true,
+			"elite_spawned": true,
+			"equipped": {
+				"body": 2,
+				"charm": 3,
+				"ring": 5,
+				"weapon": 1
+			},
+			"growth": {
+				"epoch": 1,
+				"evolved": [
+					"chapter1.skill.arc"
+				],
+				"level": 12,
+				"offer": {
+
+				},
+				"passives": [
+					"chapter1.passive.conductor",
+					"chapter1.passive.embers"
+				],
+				"pending_levels": [],
+				"primary": "chapter1.skill.arc",
+				"ranks": {
+					"chapter1.skill.arc": 4,
+					"chapter1.skill.ember": 4,
+					"chapter1.skill.frost": 1
+				},
+				"rng_state": "-1977329988869993017",
+				"xp": 912
+			},
+			"hp_raw": 20930,
+			"inventory_count": 13,
+			"kills": 900,
+			"metrics": {
+				"casts": {
+					"chapter1.skill.arc": 72,
+					"chapter1.skill.ember": 71,
+					"chapter1.skill.frost": 48
+				},
+				"collected_xp": 912,
+				"damage_raw": 6955062,
+				"dropped_items": 13,
+				"enemy_attacks": 133,
+				"events_dropped": 0,
+				"hits": {
+					"chapter1.skill.arc": 914,
+					"chapter1.skill.ember": 114,
+					"chapter1.skill.frost": 103
+				},
+				"max_alive": 146,
+				"orbs_merged": 0,
+				"peak_projectiles": 59,
+				"picked_items": 13
+			},
+			"mode": "victory",
+			"primary": "chapter1.skill.arc",
+			"samples": [
+				{
+					"alive": 24,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						0.0966666713356972,
+						0.0
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 1,
+					"xp": 0
+				},
+				{
+					"alive": 42,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 2,
+					"level": 1,
+					"position": [
+						-2.05625820159912,
+						7.72898101806641
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 301,
+					"xp": 2
+				},
+				{
+					"alive": 61,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 3,
+					"level": 1,
+					"position": [
+						-4.34091091156006,
+						-4.85625457763672
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 601,
+					"xp": 3
+				},
+				{
+					"alive": 79,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 6,
+					"level": 1,
+					"position": [
+						6.25100660324097,
+						-1.78946566581726
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 901,
+					"xp": 5
+				},
+				{
+					"alive": 109,
+					"equipped": {
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 28160,
+					"kills": 15,
+					"level": 2,
+					"position": [
+						7.88479614257813,
+						3.88350582122803
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1
+					},
+					"tick": 1201,
+					"xp": 15
+				},
+				{
+					"alive": 131,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 26880,
+					"kills": 35,
+					"level": 3,
+					"position": [
+						-4.57577705383301,
+						2.21463847160339
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1501,
+					"xp": 35
+				},
+				{
+					"alive": 137,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 24500,
+					"kills": 68,
+					"level": 5,
+					"position": [
+						4.96889209747314,
+						-0.237066760659218
+					],
+					"ranks": {
+						"chapter1.skill.arc": 3,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1801,
+					"xp": 69
+				},
+				{
+					"alive": 92,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 23310,
+					"kills": 155,
+					"level": 7,
+					"position": [
+						-0.103305660188198,
+						4.51371812820435
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 2101,
+					"xp": 154
+				},
+				{
+					"alive": 24,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 280,
+					"level": 9,
+					"position": [
+						4.09337425231934,
+						-3.55663466453552
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 2,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 2401,
+					"xp": 267
+				},
+				{
+					"alive": 12,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 346,
+					"level": 10,
+					"position": [
+						1.46569192409515,
+						-12.3372211456299
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 2,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 2701,
+					"xp": 306
+				},
+				{
+					"alive": 9,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 406,
+					"level": 12,
+					"position": [
+						1.91047763824463,
+						6.50053930282593
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 3001,
+					"xp": 409
+				},
+				{
+					"alive": 12,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 479,
+					"level": 12,
+					"position": [
+						-1.42590773105621,
+						-2.16244578361511
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 3301,
+					"xp": 478
+				},
+				{
+					"alive": 14,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 553,
+					"level": 12,
+					"position": [
+						8.54231548309326,
+						-11.1788482666016
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 3601,
+					"xp": 545
+				},
+				{
+					"alive": 2,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 637,
+					"level": 12,
+					"position": [
+						2.70367169380188,
+						-0.0320485532283783
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 3901,
+					"xp": 607
+				},
+				{
+					"alive": 2,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 714,
+					"level": 12,
+					"position": [
+						13.2573585510254,
+						-11.5938491821289
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 4201,
+					"xp": 667
+				},
+				{
+					"alive": 5,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 787,
+					"level": 12,
+					"position": [
+						9.46185302734375,
+						6.68694591522217
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 4501,
+					"xp": 788
+				},
+				{
+					"alive": 17,
+					"equipped": {
+						"body": 2,
+						"charm": 3,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 20930,
+					"kills": 851,
+					"level": 12,
+					"position": [
+						-1.65704369544983,
+						0.866854548454285
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 4801,
+					"xp": 862
+				}
+			],
+			"scope": "Normal movement/dash/choice/equip inputs; no invulnerability, pre-awarded XP, item gifts or forced kills. Automatic pilot is not actual user play or GPU QA.",
+			"seed": 71,
+			"tick": 4988
+		},
+		{
+			"cpu_wall_us": 2190302,
+			"elapsed": 88.1166666666667,
+			"elite_killed": true,
+			"elite_spawned": true,
+			"equipped": {
+				"body": 2,
+				"charm": 4,
+				"ring": 5,
+				"weapon": 1
+			},
+			"growth": {
+				"epoch": 1,
+				"evolved": [
+					"chapter1.skill.arc"
+				],
+				"level": 12,
+				"offer": {
+
+				},
+				"passives": [
+					"chapter1.passive.conductor"
+				],
+				"pending_levels": [],
+				"primary": "chapter1.skill.arc",
+				"ranks": {
+					"chapter1.skill.arc": 4,
+					"chapter1.skill.ember": 4,
+					"chapter1.skill.frost": 2
+				},
+				"rng_state": "-1926986189707837987",
+				"xp": 976
+			},
+			"hp_raw": 12182,
+			"inventory_count": 8,
+			"kills": 964,
+			"metrics": {
+				"casts": {
+					"chapter1.skill.arc": 75,
+					"chapter1.skill.ember": 76,
+					"chapter1.skill.frost": 51
+				},
+				"collected_xp": 976,
+				"damage_raw": 7394415,
+				"dropped_items": 14,
+				"enemy_attacks": 239,
+				"events_dropped": 0,
+				"hits": {
+					"chapter1.skill.arc": 960,
+					"chapter1.skill.ember": 141,
+					"chapter1.skill.frost": 120
+				},
+				"max_alive": 179,
+				"orbs_merged": 0,
+				"peak_projectiles": 92,
+				"picked_items": 8
+			},
+			"mode": "victory",
+			"primary": "chapter1.skill.arc",
+			"samples": [
+				{
+					"alive": 24,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 30720,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						0.0966666713356972,
+						0.0
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 1,
+					"xp": 0
+				},
+				{
+					"alive": 44,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 0,
+					"level": 1,
+					"position": [
+						-2.82947278022766,
+						7.635573387146
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 301,
+					"xp": 0
+				},
+				{
+					"alive": 61,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 29440,
+					"kills": 3,
+					"level": 1,
+					"position": [
+						-4.20380592346191,
+						-4.9261155128479
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 601,
+					"xp": 3
+				},
+				{
+					"alive": 79,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 28160,
+					"kills": 6,
+					"level": 1,
+					"position": [
+						6.71984529495239,
+						-0.972559094429016
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1
+					},
+					"tick": 901,
+					"xp": 5
+				},
+				{
+					"alive": 112,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 28160,
+					"kills": 12,
+					"level": 2,
+					"position": [
+						13.1083202362061,
+						-1.80941867828369
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1
+					},
+					"tick": 1201,
+					"xp": 13
+				},
+				{
+					"alive": 147,
+					"equipped": {
+
+					},
+					"evolved": [],
+					"hp_raw": 25600,
+					"kills": 19,
+					"level": 3,
+					"position": [
+						4.39541387557983,
+						-0.485013872385025
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1501,
+					"xp": 20
+				},
+				{
+					"alive": 170,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 23130,
+					"kills": 35,
+					"level": 3,
+					"position": [
+						9.45701789855957,
+						-9.26086807250977
+					],
+					"ranks": {
+						"chapter1.skill.arc": 1,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 1801,
+					"xp": 34
+				},
+				{
+					"alive": 177,
+					"equipped": {
+						"body": 2,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 18132,
+					"kills": 60,
+					"level": 5,
+					"position": [
+						11.8243684768677,
+						-0.75932914018631
+					],
+					"ranks": {
+						"chapter1.skill.arc": 3,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 2101,
+					"xp": 65
+				},
+				{
+					"alive": 141,
+					"equipped": {
+						"body": 2,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [],
+					"hp_raw": 13372,
+					"kills": 142,
+					"level": 7,
+					"position": [
+						3.62488317489624,
+						-6.47835397720337
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 2401,
+					"xp": 135
+				},
+				{
+					"alive": 70,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 267,
+					"level": 8,
+					"position": [
+						11.9078779220581,
+						-4.64731931686401
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 1,
+						"chapter1.skill.frost": 1
+					},
+					"tick": 2701,
+					"xp": 202
+				},
+				{
+					"alive": 6,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 388,
+					"level": 12,
+					"position": [
+						5.36429166793823,
+						-12.1682348251343
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 3001,
+					"xp": 425
+				},
+				{
+					"alive": 8,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 462,
+					"level": 12,
+					"position": [
+						-10.0702247619629,
+						-10.4615411758423
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 3301,
+					"xp": 469
+				},
+				{
+					"alive": 8,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 538,
+					"level": 12,
+					"position": [
+						-17.3180294036865,
+						-10.7709856033325
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 3601,
+					"xp": 528
+				},
+				{
+					"alive": 10,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 608,
+					"level": 12,
+					"position": [
+						3.29306530952454,
+						-15.5446662902832
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 3901,
+					"xp": 594
+				},
+				{
+					"alive": 7,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 688,
+					"level": 12,
+					"position": [
+						9.72981929779053,
+						-6.99249792098999
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 4201,
+					"xp": 712
+				},
+				{
+					"alive": 2,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 769,
+					"level": 12,
+					"position": [
+						0.963661968708038,
+						-17.1595287322998
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 4501,
+					"xp": 789
+				},
+				{
+					"alive": 4,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 843,
+					"level": 12,
+					"position": [
+						16.5011367797852,
+						-7.25214719772339
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 4801,
+					"xp": 885
+				},
+				{
+					"alive": 14,
+					"equipped": {
+						"body": 2,
+						"charm": 4,
+						"ring": 5,
+						"weapon": 1
+					},
+					"evolved": [
+						"chapter1.skill.arc"
+					],
+					"hp_raw": 12182,
+					"kills": 905,
+					"level": 12,
+					"position": [
+						10.9806671142578,
+						6.51218175888062
+					],
+					"ranks": {
+						"chapter1.skill.arc": 4,
+						"chapter1.skill.ember": 4,
+						"chapter1.skill.frost": 2
+					},
+					"tick": 5101,
+					"xp": 942
+				}
+			],
+			"scope": "Normal movement/dash/choice/equip inputs; no invulnerability, pre-awarded XP, item gifts or forced kills. Automatic pilot is not actual user play or GPU QA.",
+			"seed": 907,
+			"tick": 5287
+		}
+	],
+	"scope": "C2 core normal-rule pilot only. Does not approve art, sound, fun, whole chapter or GPU performance.",
+	"success": true
+}

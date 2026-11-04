@@ -1,0 +1,24 @@
+{
+  "candidate": "03",
+  "source_count": 9,
+  "source_mismatches": [],
+  "functional_actual_exit": 0,
+  "functional_checks": 75,
+  "negative_actual_exit": 1,
+  "negative_checks": 76,
+  "normal_pilot_actual_exit": 1,
+  "normal_cases": 6,
+  "normal_victories": 5,
+  "normal_success": false,
+  "normal_failure": {
+    "primary": "chapter1.skill.frost",
+    "seed": 71,
+    "mode": "defeat",
+    "elapsed": 64.9,
+    "kills": 237,
+    "max_alive": 179
+  },
+  "inventory_policy": "ordinary64 + dedicated objective reserve1, bounded total65, no replacement; reward bypasses ground32",
+  "changes": "objective reward cap fix and exact12dash-move/18future-step invulnerability boundaries only; no balancing or local separation change",
+  "scope": "Core functional fixtures pass. Normal pilot5/6, balance/driver gap remains. No C2 balance, art, sound, OS play or GPU quality approval."
+}

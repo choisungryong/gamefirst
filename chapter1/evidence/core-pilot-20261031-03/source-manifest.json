@@ -1,0 +1,38 @@
+[
+  {
+    "path": "chapter1/core/combat_run.gd",
+    "sha256": "a3a4d62e70779af99fb4e76c16e4222ae20062df91775326431bba3ce68286d7"
+  },
+  {
+    "path": "chapter1/core/run_growth.gd",
+    "sha256": "0af25e8f01272fdc65fa297969594ba4ef38308e6e36f82ce0e8a24b396aa9c8"
+  },
+  {
+    "path": "chapter1/core/growth_catalog.gd",
+    "sha256": "ecaa03d78ab8558c2281b0454dd39d89823a392bd4e8a853197885fc337503ce"
+  },
+  {
+    "path": "chapter1/data/growth.json",
+    "sha256": "5f7a1138e4d7a72ca6436d0af894f8e890c009bd8836bb93ef880a7ce79ad203"
+  },
+  {
+    "path": "combat/combat_resolver.gd",
+    "sha256": "462cde1c5ff1bd33553757e2cbd8639c04737b000db4591905fb0bb63d9d92f8"
+  },
+  {
+    "path": "combat/stat_block.gd",
+    "sha256": "1b71b8689e049f32bc6261b158fc0dedb9af252369120d2a63371e766ede3b88"
+  },
+  {
+    "path": "chapter1/tests/test_combat_run.gd",
+    "sha256": "a00c42c2429eaf3d8806252817ec780ed47df3dbd1fc7ce8947e646d7b569edd"
+  },
+  {
+    "path": "chapter1/tests/pilot_combat_run.gd",
+    "sha256": "9835bbc5d58235dd46029a2c865bd08ee2a6e01870c400044e4ee82e39e9b5d3"
+  },
+  {
+    "path": "chapter1/core/COMBAT-RUN.ko.md",
+    "sha256": "de322ee0edf04c737ba0f4bd90082f0ae91b774d379b0c4459963e8a0d799edf"
+  }
+]

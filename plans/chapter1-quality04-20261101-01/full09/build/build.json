@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261101-09\\AshenCloister-Chapter1.exe",
+  "sha256": "98ead9b666373b1e746d8c57910c8ee27265290b78c0c01e35c9e268ad358724",
+  "bytes": 116595376,
+  "source_count": 83,
+  "stage_count": 85,
+  "pck_count": 146,
+  "scope": "Full chapter candidate09; three zones/trials/champions/boss/persistent gear implemented. Not SACRATA quality, manual/audio or formal performance approval."
+}

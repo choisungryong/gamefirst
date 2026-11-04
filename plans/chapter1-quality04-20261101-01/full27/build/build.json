@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261104-27\\AshenCloister-Chapter1.exe",
+  "sha256": "bef824b0f4ef6605182e7b97b61200e101aacaa41a6e669f9dd1db7e19637ea7",
+  "bytes": 130062304,
+  "source_count": 124,
+  "stage_count": 126,
+  "pck_count": 225,
+  "scope": "Full chapter candidate27: temporary combat notices stay below champion/boss health bars. Core16/World22/Actor25b/HUD27/Input21/FX26; unchanged drops and combat rules. Actor26 hit and World27 floor studies not adopted. Actual packaged/manual/audio/final performance approval separate."
+}

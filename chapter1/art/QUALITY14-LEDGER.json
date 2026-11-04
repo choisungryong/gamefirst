@@ -1,0 +1,41 @@
+{
+  "candidate": 14,
+  "scope": "Own code/mesh/shader elements, not final art approval. Hero/model/environment licenses and changes inherit QUALITY13/11.",
+  "inherits": [
+    "chapter1/art/QUALITY13-LEDGER.json",
+    "chapter1/art/QUALITY11-LEDGER.json"
+  ],
+  "sources": {
+    "chapter1/view/chapter_elements_quality14.gd": "06896223c7bf1abc76ef14965d698dbe011e8bfb429998f785928ff721842b0f",
+    "chapter1/view/comet_quality14.gdshader": "cd65c8fea0d79afb2524a4be5702961c63d306b0a725dbb6117362e421d74614",
+    "chapter1/view/impact_quality14.gdshader": "583844f4ff4e7219b58725a4002120a9c37a7ef2bfc1647bf02002a6bec97da9",
+    "chapter1/view/arc_quality14.gdshader": "336d3f35497ee76dd72d0e9b27adb1890b526a2d3e31bc5984705acb3ae4569c"
+  },
+  "rules": [
+    "Paid frost point centered at nose; faceted trailing body, fire/hostile branch preserved",
+    "Actual frozen_until/hp selects24targets; elites prioritized;4crystals each;48state records",
+    "Actual shatter emits6chunks per event,8events per consume/128live shards",
+    "Paid arc.targets only,64links/.20s; thin decorative side branches deal no damage",
+    "Frost/arc contact accents3perconsume/.68 and.55scale to limit duplicate white marks",
+    "Renderer does not alter run snapshot; dedupe, pause, thaw and reset verified in packaged release external probe"
+  ],
+  "new_protected_game_asset": false,
+  "new_external_art": false,
+  "comparison": "plans/chapter1-quality04-20261101-01/elements14/movie05/COMPARISON.json",
+  "configured_arena": "80placed140HP/.75speed enemies; supplied evolved frost4 and arc4 at8s, hero5000HP; not earned/normal chapter",
+  "release_caps13": "plans/chapter1-quality04-20261101-01/full14/release-caps02/result.json",
+  "retained_failures": [
+    "arena01 fixture step() signature",
+    "arena02 dark ice/oversized overlapping contact stars",
+    "arena03 intermittent exit warning, release-caps01 verbose identified paused WAV/playback; probe now matches production audio.reset/real wall release",
+    "movie compose helper mistook ffmpeg info stderr for failure; encoded output exit0/ffprobe validated without re-encoding"
+  ],
+  "open": [
+    "natural ice/fracture art direction",
+    "normal full gameplay visual reading",
+    "general/champion actors",
+    "world depth",
+    "loot/reward UX",
+    "manual full run/heard audio/formal performance"
+  ]
+}

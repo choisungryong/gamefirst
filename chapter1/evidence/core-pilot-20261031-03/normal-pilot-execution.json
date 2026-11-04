@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Project\\rea-tools\\godot-4.5.1\\Godot_v4.5.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "C:\\Project\\d2r-combat-baseline",
+    "--quit-after",
+    "2",
+    "--script",
+    "res://chapter1/tests/pilot_combat_run.gd",
+    "--",
+    "--output=C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-03\\results.json"
+  ],
+  "cwd": "C:\\Project\\d2r-combat-baseline",
+  "actual_exit": 1,
+  "stdout": "Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org\n\nCHAPTER1_NORMAL_PILOT {\"cases\":[{\"elapsed\":80.1166666666667,\"equipped\":{\"body\":2,\"charm\":3,\"ring\":5,\"weapon\":1},\"kills\":808,\"max_alive\":94,\"mode\":\"victory\",\"primary\":\"chapter1.skill.ember\",\"seed\":71},{\"elapsed\":77.5166666666667,\"equipped\":{\"body\":2,\"charm\":3,\"ring\":5,\"weapon\":1},\"kills\":788,\"max_alive\":80,\"mode\":\"victory\",\"primary\":\"chapter1.skill.ember\",\"seed\":907},{\"elapsed\":64.9,\"equipped\":{\"body\":2,\"charm\":3,\"ring\":5,\"weapon\":1},\"kills\":237,\"max_alive\":179,\"mode\":\"defeat\",\"primary\":\"chapter1.skill.frost\",\"seed\":71},{\"elapsed\":88.85,\"equipped\":{\"body\":2,\"charm\":3,\"ring\":5,\"weapon\":1},\"kills\":952,\"max_alive\":179,\"mode\":\"victory\",\"primary\":\"chapter1.skill.frost\",\"seed\":907},{\"elapsed\":88.4333333333333,\"equipped\":{\"body\":2,\"charm\":3,\"ring\":5,\"weapon\":1},\"kills\":983,\"max_alive\":155,\"mode\":\"victory\",\"primary\":\"chapter1.skill.arc\",\"seed\":71},{\"elapsed\":75.1333333333333,\"equipped\":{\"body\":2,\"charm\":3,\"ring\":5,\"weapon\":1},\"kills\":783,\"max_alive\":179,\"mode\":\"victory\",\"primary\":\"chapter1.skill.arc\",\"seed\":907}],\"evidence\":\"C:\\\\Project\\\\d2r-combat-baseline\\\\chapter1\\\\evidence\\\\core-pilot-20261031-03\\\\results.json\",\"success\":false}\n",
+  "stderr": ""
+}

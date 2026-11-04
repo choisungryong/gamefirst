@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "catalog_id": "catalog.combat_baseline.v1",
+  "definition_version": 3,
+  "numeric_scale": 256,
+  "simulation_hz": 60,
+  "provenance": {
+    "status": "design_choice",
+    "method": "project_design",
+    "note": "Independent experiment choice; not recovered D2R logic"
+  },
+  "stats": [
+    {
+      "id": "stat.health",
+      "unit": "health",
+      "scale": 256,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      },
+      "minimum_raw": 1,
+      "maximum_raw": 2147483647,
+      "default_raw": 1
+    },
+    {
+      "id": "stat.mana",
+      "unit": "mana",
+      "scale": 256,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      },
+      "minimum_raw": 0,
+      "maximum_raw": 2147483647,
+      "default_raw": 0
+    },
+    {
+      "id": "stat.spell_power",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -10000,
+      "maximum_raw": 100000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.cast_speed",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -7500,
+      "maximum_raw": 30000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.mana_cost",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -9000,
+      "maximum_raw": 100000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.flat_reduction",
+      "unit": "health",
+      "scale": 256,
+      "minimum_raw": 0,
+      "maximum_raw": 2147483647,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.resist.fire",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -10000,
+      "maximum_raw": 10000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.resist.cold",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -10000,
+      "maximum_raw": 10000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.resist.lightning",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -10000,
+      "maximum_raw": 10000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.resist.physical",
+      "unit": "basis_points",
+      "scale": 10000,
+      "minimum_raw": -10000,
+      "maximum_raw": 10000,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    },
+    {
+      "id": "stat.skill.ember_level",
+      "unit": "count",
+      "scale": 1,
+      "minimum_raw": 0,
+      "maximum_raw": 20,
+      "default_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent item skill bonus count, not a D2R recovered skill rule"
+      }
+    }
+  ],
+  "player": {
+    "id": "actor.caster",
+    "health_stat_id": "stat.health",
+    "mana_stat_id": "stat.mana",
+    "max_health_raw": 10240,
+    "max_mana_raw": 8960,
+    "move_speed_world_per_second": 4.0,
+    "spawn_world": [
+      0.0,
+      3.5
+    ],
+    "provenance": {
+      "status": "design_choice",
+      "method": "project_design",
+      "note": "Independent experiment choice; not recovered D2R logic"
+    }
+  },
+  "skills": [
+    {
+      "id": "skill.ember_bolt",
+      "projectile_id": "projectile.ember_bolt",
+      "cost": {
+        "stat_id": "stat.mana",
+        "raw": 640,
+        "unit": "mana",
+        "scale": 256
+      },
+      "damage": {
+        "stat_id": "stat.health",
+        "min_raw": 768,
+        "max_raw": 1536,
+        "unit": "health",
+        "scale": 256,
+        "element": "fire"
+      },
+      "startup_ticks": 18,
+      "cycle_ticks": 33,
+      "provenance": {
+        "mana_cost": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent experiment choice; not recovered D2R logic",
+          "basis": [
+            "formula.mana.normal_branch",
+            "observation.RT-003"
+          ]
+        },
+        "damage": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent experiment choice; not recovered D2R logic",
+          "basis": [
+            "formula.damage.level1"
+          ]
+        },
+        "startup": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Visible comparison target, not D2R internal release tick",
+          "basis": [
+            "observation.RT-007.visible_separation"
+          ]
+        },
+        "cycle": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent experiment choice; not recovered D2R logic",
+          "basis": []
+        }
+      },
+      "display_name": "화염탄",
+      "kind": "projectile",
+      "bonus_curve": {
+        "stat_id": "stat.skill.ember_level",
+        "min_per_bonus_raw": 256,
+        "max_per_bonus_raw": 512
+      }
+    },
+    {
+      "id": "skill.frost_pulse",
+      "cost": {
+        "stat_id": "stat.mana",
+        "raw": 1024,
+        "unit": "mana",
+        "scale": 256
+      },
+      "damage": {
+        "stat_id": "stat.health",
+        "min_raw": 1024,
+        "max_raw": 1792,
+        "unit": "health",
+        "scale": 256,
+        "element": "cold"
+      },
+      "startup_ticks": 18,
+      "cycle_ticks": 75,
+      "provenance": {
+        "mana_cost": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        },
+        "damage": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        },
+        "startup": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        },
+        "cycle": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        }
+      },
+      "display_name": "서리 파동",
+      "kind": "area",
+      "effect": {
+        "radius_world": 4.0,
+        "max_targets": 12,
+        "status": {
+          "kind": "chill",
+          "duration_ticks": 120,
+          "slow_bps": 4000
+        }
+      }
+    },
+    {
+      "id": "skill.arc_chain",
+      "cost": {
+        "stat_id": "stat.mana",
+        "raw": 896,
+        "unit": "mana",
+        "scale": 256
+      },
+      "damage": {
+        "stat_id": "stat.health",
+        "min_raw": 1024,
+        "max_raw": 1536,
+        "unit": "health",
+        "scale": 256,
+        "element": "lightning"
+      },
+      "startup_ticks": 12,
+      "cycle_ticks": 45,
+      "provenance": {
+        "mana_cost": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        },
+        "damage": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        },
+        "startup": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        },
+        "cycle": {
+          "status": "design_choice",
+          "method": "project_design",
+          "note": "Independent phase4 skill parameter; not a recovered D2R skill",
+          "basis": []
+        }
+      },
+      "display_name": "연쇄 번개",
+      "kind": "chain",
+      "effect": {
+        "range_world": 8.0,
+        "jump_range_world": 3.5,
+        "max_targets": 4
+      }
+    }
+  ],
+  "projectiles": [
+    {
+      "id": "projectile.ember_bolt",
+      "speed_world_per_second": 12.0,
+      "lifetime_seconds": 2.2,
+      "spawn_offset_world": 0.62,
+      "collision_radius_world": 0.52,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy.mire_walker",
+      "health_stat_id": "stat.health",
+      "max_health_raw": 2304,
+      "move_speed_world_per_second": 1.05,
+      "spawn_world": [
+        3.4,
+        -2.5
+      ],
+      "attack": {
+        "windup_seconds": 0.5,
+        "recovery_seconds": 1.1,
+        "start_range_world": 1.18,
+        "hit_range_world": 1.32,
+        "damage_raw": 768
+      },
+      "hurt_seconds": 0.3,
+      "death_threshold_raw": 0,
+      "provenance": {
+        "status": "design_choice",
+        "method": "project_design",
+        "note": "Independent experiment choice; not recovered D2R logic"
+      }
+    }
+  ],
+  "experiment": {
+    "skill_id": "skill.ember_bolt",
+    "enemy_id": "enemy.mire_walker",
+    "world_bounds": [
+      8.0,
+      6.0
+    ],
+    "rng_seed": 2751,
+    "mana_regen_per_second": 0.0,
+    "damage_selection": "seeded uniform raw integer, reconstruction choice not D2R RNG",
+    "charge_phase": "cast request, reconstruction choice",
+    "atlas_playback_fps": 12,
+    "proxy_cast_animation_speed": 1.4,
+    "provenance": {
+      "status": "design_choice",
+      "method": "project_design",
+      "note": "Independent experiment choice; not recovered D2R logic"
+    }
+  },
+  "migration_source_sha256": "69924f5a8d16bc00886a9e2d2340f05f5a9e590ef5fa6a1b165d6373714d2cf6",
+  "evidence_index": [
+    {
+      "id": "formula.mana.normal_branch",
+      "method": "classic_reference",
+      "status": "derived",
+      "scope": "Normal mana branch raw640, scale256; current D2R native equality unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\baseline\\FORMULA-EVIDENCE.json",
+        "sha256": "698afa1c7aa03ea444883163f564cca506da72395075e4e07a3e2e36df8a6ce2"
+      }
+    },
+    {
+      "id": "formula.damage.level1",
+      "method": "classic_reference",
+      "status": "derived",
+      "scope": "Level1 raw768-1536; current applied damage unknown",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\baseline\\FORMULA-EVIDENCE.json",
+        "sha256": "698afa1c7aa03ea444883163f564cca506da72395075e4e07a3e2e36df8a6ce2"
+      }
+    },
+    {
+      "id": "observation.RT-003",
+      "method": "runtime_observation",
+      "status": "observed",
+      "scope": "Earlier REA character UI tooltip, not latest READ equipment",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\baseline\\RUNTIME-OBSERVATIONS.json",
+        "sha256": "a6aa87e94611b3fe20fc24e7f4b5987e7e674e2300f445d5f7a154dc6a7191eb"
+      }
+    },
+    {
+      "id": "observation.RT-007.visible_separation",
+      "method": "runtime_observation",
+      "status": "derived",
+      "scope": "Visible motion to separated bolt, not native release tick",
+      "locator": {
+        "path": "C:\\Project\\game-research\\d2r-analysis\\baseline\\CAST-VISIBILITY.json",
+        "sha256": "b3e03ddde131b6c74528382d36ea573b92e4fd389358cacc0a37e00355e824fd"
+      }
+    }
+  ]
+}

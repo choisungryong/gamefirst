@@ -1,0 +1,147 @@
+--- candidate02/chapter1/core/combat_run.gd
++++ candidate03/chapter1/core/combat_run.gd
+@@ -17,6 +17,7 @@
+ const MAX_ORBS := 400
+ const MAX_GROUND_ITEMS := 32
+ const MAX_INVENTORY := 64
++const MAX_OBJECTIVE_REWARDS := 1 # Reserved owned slot; never replaces ordinary gear.
+ const MAX_EVENTS := 1024
+ const ELITE_TICK := 70 * HZ
+ const SKILL_IDS := ["chapter1.skill.ember","chapter1.skill.frost","chapter1.skill.arc"]
+@@ -71,6 +72,7 @@
+ var _invulnerable_until := 0
+ var _gear_stats: Dictionary = {}
+ var _guaranteed_drops := 0
++var _elite_reward_uid := 0
+ 
+ func start(seed_: int = 1, primary: String = "chapter1.skill.ember") -> bool:
+ 	if not _catalog.load_file():
+@@ -112,6 +114,7 @@
+ 	_invulnerable_until = 0
+ 	_gear_stats.clear()
+ 	_guaranteed_drops = 0
++	_elite_reward_uid = 0
+ 	_spawn_rng.seed = seed_ ^ 0x53504157
+ 	_loot_rng.seed = seed_ ^ 0x4c4f4f54
+ 	metrics = {"casts":{},"hits":{},"max_alive":0,"peak_projectiles":0,"enemy_attacks":0,"collected_xp":0,"dropped_items":0,"picked_items":0,"events_dropped":0,"orbs_merged":0,"damage_raw":0}
+@@ -172,7 +175,8 @@
+ 	_dash_direction = direction.normalized() if direction.length_squared() > .001 else hero.direction
+ 	_dash_until = tick+12
+ 	_next_dash = tick+180
+-	_invulnerable_until = maxi(_invulnerable_until,tick+18)
++	# step() increments first: protect the next18 simulation steps, including step18.
++	_invulnerable_until = maxi(_invulnerable_until,tick+19)
+ 	_emit("dash",hero.position,{"direction":_dash_direction})
+ 	return true
+ 
+@@ -235,7 +239,7 @@
+ 	var direction := move.limit_length(1.0)
+ 	if direction.length_squared() > .001: hero.direction = direction.normalized()
+ 	var displacement: Vector2 = direction*float(hero.speed)*STEP
+-	if tick < _dash_until: displacement = _dash_direction*13.5*STEP
++	if tick <= _dash_until: displacement = _dash_direction*13.5*STEP
+ 	hero.position = _clamp_point(hero.position+displacement)
+ 	_spawn_wave()
+ 	_step_enemies()
+@@ -579,7 +583,11 @@
+ 	var thresholds := [6,24,55,100]
+ 	var forced: bool = _guaranteed_drops < thresholds.size() and kills >= int(thresholds[_guaranteed_drops])
+ 	if not e.elite and not forced and _loot_rng.randi_range(0,99) != 0: return
+-	if items.size() >= MAX_GROUND_ITEMS or inventory.size() >= MAX_INVENTORY: return
++	if e.elite:
++		# Objective reward is directly owned, independent of ground/ordinary capacity.
++		# There is only one objective in this run; the reserved slot bounds total65.
++		if _elite_reward_uid != 0 or inventory.size() >= MAX_INVENTORY+MAX_OBJECTIVE_REWARDS: return
++	elif items.size() >= MAX_GROUND_ITEMS or inventory.size() >= MAX_INVENTORY: return
+ 	var template_index := _guaranteed_drops if forced else _loot_rng.randi_range(0,ITEM_TEMPLATES.size()-1)
+ 	if forced: _guaranteed_drops += 1
+ 	_item_sequence += 1
+@@ -588,6 +596,7 @@
+ 	item.position = e.position
+ 	item.quality = "rare" if e.elite else ("magic" if template_index != 1 else "common")
+ 	item.collected = false
++	if e.elite: item.objective_reward = true
+ 	item.drop_tick = tick
+ 	# Distinct bounded rolls provide a comparison without changing the guaranteed shape effect.
+ 	if item.stats.has("damage_bps"): item.stats.damage_bps += _loot_rng.randi_range(0,5)*100
+@@ -596,6 +605,7 @@
+ 	_emit("item_drop",item.position,{"item":item.duplicate(true)})
+ 	if e.elite:
+ 		item.collected = true
++		_elite_reward_uid = int(item.uid)
+ 		inventory.append(item)
+ 		metrics.picked_items += 1
+ 		_emit("item_pickup",hero.position,{"item":item.duplicate(true)})
+@@ -656,4 +666,4 @@
+ 		"projectiles":projectiles.duplicate(true),"orbs":orbs.duplicate(true),"items":items.duplicate(true),
+ 		"inventory":inventory.duplicate(true),"equipped":equipped.duplicate(true),"growth":growth.snapshot(),
+ 		"metrics":metrics.duplicate(true),"elite_spawned":_elite_spawned,"elite_killed":_elite_killed,
+-		"next_dash_tick":_next_dash,"epoch":_epoch}
++		"next_dash_tick":_next_dash,"epoch":_epoch,"elite_reward_uid":_elite_reward_uid}
+--- candidate02/chapter1/tests/test_combat_run.gd
++++ candidate03/chapter1/tests/test_combat_run.gd
+@@ -66,6 +66,22 @@
+ 	check(run.hero.position == before_bad,"nonfinite movement rejected")
+ 	check(run.request_dash(Vector2.RIGHT),"dash request reserves cooldown")
+ 	check(not run.request_dash(Vector2.RIGHT),"second dash cannot bypass cooldown")
++	var dash = sandbox()
++	check(dash.request_dash(Vector2.RIGHT),"dash boundary fixture accepts initial request")
++	for i in 12: dash.step()
++	check(is_equal_approx(dash.hero.position.x,12.0*13.5/60.0),"dash moves on all twelve subsequent steps")
++	dash.step()
++	check(is_equal_approx(dash.hero.position.x,2.7),"dash movement stops on thirteenth step")
++	for i in range(13,18): dash.step()
++	dash._hero_damage(256,Vector2.ZERO)
++	check(dash.hero.hp_raw == 120*256,"dash invulnerability includes eighteenth subsequent step")
++	dash.step()
++	dash._hero_damage(256,Vector2.ZERO)
++	check(dash.hero.hp_raw == 119*256,"dash invulnerability expires on nineteenth subsequent step")
++	while dash.tick < 179: dash.step()
++	check(not dash.request_dash(Vector2.RIGHT),"dash cooldown rejects step179")
++	dash.step()
++	check(dash.request_dash(Vector2.RIGHT),"dash cooldown reopens on step180")
+ 
+ 	# Each unlocked skill schedules independently; these XP fixtures do not claim normal pacing.
+ 	var multi = sandbox()
+@@ -251,6 +267,41 @@
+ 	var ended: int = win.tick
+ 	win.step(Vector2.RIGHT)
+ 	check(win.tick == ended,"terminal encounter freezes further simulation")
++	# Ground capacity cannot consume a directly owned objective reward. Ordinary
++	# inventory64 has one extra reserved objective slot, usable through existing UI.
++	for owned_count in [0,63,64]:
++		var full = sandbox()
++		full._item_sequence = 20000
++		for i in Run.MAX_GROUND_ITEMS:
++			var ground_item: Dictionary = Run.ITEM_TEMPLATES[0].duplicate(true)
++			ground_item.merge({"uid":1000+i,"position":Vector2(10,10),"drop_tick":0},true)
++			full.items.append(ground_item)
++		for i in owned_count:
++			var owned_item: Dictionary = Run.ITEM_TEMPLATES[0].duplicate(true)
++			owned_item.uid = 10000+i
++			full.inventory.append(owned_item)
++		if owned_count > 0: full.equipped.weapon = 10000
++		var old_inventory: Array = full.inventory.duplicate(true)
++		var old_equipped: Dictionary = full.equipped.duplicate(true)
++		if owned_count == Run.MAX_INVENTORY:
++			full.items[0].position = full.hero.position
++			full._collect_pickups()
++			check(full.inventory.size() == 64 and full.items.size() == 32,"ordinary pickup cannot consume the reserved objective slot")
++		full._spawn("elite",Vector2(0,-2))
++		full._rebuild_grid()
++		var reward_context := context_for(full,"chapter1.skill.ember")
++		reward_context.effects.damage_raw = 1000*256
++		full._damage_enemy(1,reward_context,0)
++		var reward_uid: int = full.snapshot().elite_reward_uid
++		check(full.mode == "victory" and full.inventory.size() == owned_count+1 and full.items.size() == 32 and reward_uid > 0,"elite reward bypasses full ground at owned capacity "+str(owned_count))
++		check(full.inventory.slice(0,owned_count) == old_inventory and full.equipped == old_equipped,"elite reward preserves every owned identity and equipped choice "+str(owned_count))
++		full._damage_enemy(1,reward_context,0)
++		full._maybe_drop_item(full.enemies[1])
++		check(full.inventory.size() == owned_count+1 and full.metrics.picked_items == 1,"elite corpse or repeated award cannot duplicate reserved reward "+str(owned_count))
++		full.open_inventory()
++		check(full.compare_item(reward_uid).candidate.uid == reward_uid and full.equip(reward_uid),"reserved reward can be compared and equipped through normal inventory API "+str(owned_count))
++		full.close_inventory()
++		check(full.mode == "victory" and full.inventory.size() <= Run.MAX_INVENTORY+Run.MAX_OBJECTIVE_REWARDS,"reserved reward preserves terminal mode and total bound65 "+str(owned_count))
+ 	var lose = sandbox()
+ 	lose._hero_damage(200*256,Vector2.ZERO)
+ 	check(lose.mode == "defeat" and lose.hero.hp_raw == 0,"player HP zero causes real defeat")

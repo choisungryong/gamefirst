@@ -1,0 +1,237 @@
+[
+  {
+    "bytes": 10043,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\chapter_view.gd",
+    "sha256": "0DFE33E6DAA1A933748EC737C3AF3A5C14F29E4343486078677AF2FE6DD8D2C2"
+  },
+  {
+    "bytes": 172,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\Chapter1.tscn",
+    "sha256": "57153A67290916C658BB932D030A5D29A125BA8DE2B08DF8B7513F82794D2E21"
+  },
+  {
+    "bytes": 1441909,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\battle_mage_walk_4x4_v01.png",
+    "sha256": "8FF6F65F27CB75C26AE55DB8AE4BFCEBE75BD3CAA9B2F133359CDCBF54712A6A"
+  },
+  {
+    "bytes": 1980396,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\charger_actions.png",
+    "sha256": "5EBC1CC4D620EB94E40C82B4871682936E03D5D14F197DA0049D99DEC1B97A89"
+  },
+  {
+    "bytes": 10253,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\charger.json",
+    "sha256": "3E33AABE0BD7055CAA5972AF10CED8BCDD7580A4AAA56D49166B3CC8B570F0A6"
+  },
+  {
+    "bytes": 1997130,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\charger.png",
+    "sha256": "BCF2DEDD8895D31FB8E1FBFB77A9EDCF8E703150831F8A386A0F0EF04E049220"
+  },
+  {
+    "bytes": 1607373,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\elite_actions.png",
+    "sha256": "76F102745659470A5BA4C6FF2B647DDC0F22AAE91121715E1174F845CC177926"
+  },
+  {
+    "bytes": 9735,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\elite.json",
+    "sha256": "8346CCE22A1104C4711544B444787C5F3E401CC0F5EC9C7A6244F11D6DED9196"
+  },
+  {
+    "bytes": 1443056,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\elite.png",
+    "sha256": "924ED57B296BA48D6078E1A45BE5FF80C94DD29CABCA88A95EADDA1504D4D2D3"
+  },
+  {
+    "bytes": 1370796,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\hero_actions.png",
+    "sha256": "EBE895E56DF903771BD46CA6744F220811310839D2E8A803B849569A04C044EB"
+  },
+  {
+    "bytes": 9778,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\hero.json",
+    "sha256": "A4B2E33E2E1CA3EE1E4A8B1E651745FF526B982FDD8467A1011EB81AC46E1BA5"
+  },
+  {
+    "bytes": 1108239,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\hero.png",
+    "sha256": "CAB77BFFF78E1FA183EE4026D3B6D85CCB8F10D1B1357EB1624CA06BE5013D14"
+  },
+  {
+    "bytes": 1298201,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\ranged_actions.png",
+    "sha256": "7C414E8AE65B7A75550EF0A4AADF0CFD799F77E906C5A5FFB7160DA610969864"
+  },
+  {
+    "bytes": 10231,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\ranged.json",
+    "sha256": "21131D1EA0F63D0B3B853F0AD8F732B57D13CAACC14E4D82056E17C009B25037"
+  },
+  {
+    "bytes": 1227411,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\ranged.png",
+    "sha256": "44148BA55343F38B0D56E71774FC61E7A46C79A68224BDC95433AE0457C7B77F"
+  },
+  {
+    "bytes": 1417543,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\walker_actions.png",
+    "sha256": "2880E1D81FEE17E3B3332E0299E07D653E45C6546EAF2570524D161DDA804E8F"
+  },
+  {
+    "bytes": 10220,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\walker.json",
+    "sha256": "DC57AC5689EBCAA63BDF48DF1131170D515BEB77264F93059B10DE3CCB2F5CB7"
+  },
+  {
+    "bytes": 1356430,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\actors\\walker.png",
+    "sha256": "42C1F7A76B016B7F54D6D5F9D081E79BADBFC9BAD2387D45B41432C2D27ED848"
+  },
+  {
+    "bytes": 4073226,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\art\\terrain\\cloister_ground_v01.png",
+    "sha256": "08A7D818039F7ED506E36554EDB77256DAC4E561F1A078BDE0C33B12569C777F"
+  },
+  {
+    "bytes": 28986,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\core\\combat_run.gd",
+    "sha256": "7B7D6A41DC211EFBB04FAD02CFCBB11FA20F13F8EBCE6BB21DA2669C77889FEE"
+  },
+  {
+    "bytes": 4323,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\core\\growth_catalog.gd",
+    "sha256": "ECAA03D78AB8558C2281B0454DD39D89823A392BD4E8A853197885FC337503CE"
+  },
+  {
+    "bytes": 5683,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\core\\run_growth.gd",
+    "sha256": "0AF25E8F01272FDC65FA297969594BA4EF38308E6E36F82CE0E8A24B396AA9C8"
+  },
+  {
+    "bytes": 4343,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\data\\growth.json",
+    "sha256": "5F7A1138E4D7A72CA6436D0AF894F8E890C009BD8836BB93EF880A7CE79AD203"
+  },
+  {
+    "bytes": 28355,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-01\\combat_run.source.gd",
+    "sha256": "74AE541A4D8BB39F27A9BEEC3C38FFEA4867025416749F6510F27C2826AA6EDB"
+  },
+  {
+    "bytes": 4751,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-01\\pilot.source.gd",
+    "sha256": "9835BBC5D58235DD46029A2C865BD08EE2A6E01870C400044E4EE82E39E9B5D3"
+  },
+  {
+    "bytes": 53951,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-01\\results.json",
+    "sha256": "52159D6D05A0998BAFDCA0688EAC56461F9158F834AF08FE1599511802057241"
+  },
+  {
+    "bytes": 289,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\CORE-FREEZE.json",
+    "sha256": "50CAAD7DC9678FF00ACA151008DF5DC34666B3B4ECD99C657DC3516406230EB5"
+  },
+  {
+    "bytes": 369,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\functional-negative-result.json",
+    "sha256": "32D7EBACADF447B79EE5EA2CD73B975AD00130B6309C14F69E38A137E2F61A34"
+  },
+  {
+    "bytes": 466,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\functional-positive-result.json",
+    "sha256": "6835F03125B7CF75476255F8F497A01E1161C14FB9B3990AB5A8338EE590D208"
+  },
+  {
+    "bytes": 51096,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\results.json",
+    "sha256": "EAEE838C16481E541381C79F5681ABF89B2DE47975B78F02D5EE4F2A49ED3B45"
+  },
+  {
+    "bytes": 854,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source-manifest.json",
+    "sha256": "19BBC2FB0928F2233670A3A3230D5BFE247E6F82A174D98079E172D0F17862BF"
+  },
+  {
+    "bytes": 28986,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source\\chapter1\\core\\combat_run.gd",
+    "sha256": "7B7D6A41DC211EFBB04FAD02CFCBB11FA20F13F8EBCE6BB21DA2669C77889FEE"
+  },
+  {
+    "bytes": 4323,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source\\chapter1\\core\\growth_catalog.gd",
+    "sha256": "ECAA03D78AB8558C2281B0454DD39D89823A392BD4E8A853197885FC337503CE"
+  },
+  {
+    "bytes": 5683,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source\\chapter1\\core\\run_growth.gd",
+    "sha256": "0AF25E8F01272FDC65FA297969594BA4EF38308E6E36F82CE0E8A24B396AA9C8"
+  },
+  {
+    "bytes": 4343,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source\\chapter1\\data\\growth.json",
+    "sha256": "5F7A1138E4D7A72CA6436D0AF894F8E890C009BD8836BB93EF880A7CE79AD203"
+  },
+  {
+    "bytes": 4751,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source\\chapter1\\tests\\pilot_combat_run.gd",
+    "sha256": "9835BBC5D58235DD46029A2C865BD08EE2A6E01870C400044E4EE82E39E9B5D3"
+  },
+  {
+    "bytes": 12261,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\evidence\\core-pilot-20261031-02\\source\\chapter1\\tests\\test_combat_run.gd",
+    "sha256": "C06015541BE41E31093D7F54133CF015754DA45753596B184F8629F4BD52F217"
+  },
+  {
+    "bytes": 4751,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\tests\\pilot_combat_run.gd",
+    "sha256": "9835BBC5D58235DD46029A2C865BD08EE2A6E01870C400044E4EE82E39E9B5D3"
+  },
+  {
+    "bytes": 12261,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\tests\\test_combat_run.gd",
+    "sha256": "C06015541BE41E31093D7F54133CF015754DA45753596B184F8629F4BD52F217"
+  },
+  {
+    "bytes": 6800,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\tests\\test_growth.gd",
+    "sha256": "30CC143E1E71D100C577B1DEA5B7E6BF11BBFD1414B6A69F73140E2D72015944"
+  },
+  {
+    "bytes": 11088,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\cloister_actors.gd",
+    "sha256": "3B9CD2662742ACAB694FBE12C7ED478FAA92439565CA2FED29FC598E9B5EE3CA"
+  },
+  {
+    "bytes": 11736,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\cloister_effects.gd",
+    "sha256": "54E39922F0EBDC12BDD398036F6699C59B8B7900B9D2C1943E1CDB07E2689AC7"
+  },
+  {
+    "bytes": 14565,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\cloister_hud.gd",
+    "sha256": "DA7D32638EA633957CAD6A71F7BC4A07CAE8C7C1BAA21924C5EB3665402156BF"
+  },
+  {
+    "bytes": 9313,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\cloister_world.gd",
+    "sha256": "D16A4FA82A1F26C213426234DDFEEFE1AE75EC966462E8937B6BA351E16A40CE"
+  },
+  {
+    "bytes": 1238,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\comet.gdshader",
+    "sha256": "F31F8D9F0B276E51BD5D8D3831F3AD59AE2737812CD8A6E9F14AD6F560F00545"
+  },
+  {
+    "bytes": 193,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\foot_shadow.gdshader",
+    "sha256": "6D05A3246EFD839D2DC5132180F5727FDD1AC39F6E5911B889E2F7331DB89078"
+  },
+  {
+    "bytes": 586,
+    "path": "C:\\Project\\d2r-combat-baseline\\chapter1\\view\\impact.gdshader",
+    "sha256": "6E438EF41ECE8FC3D6C1F0A39652F3E017FAC0286E85EBBEFA990FA0967B7B62"
+  }
+]

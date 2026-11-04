@@ -1,0 +1,6 @@
+{
+  "prompt": "Use case: stylized-concept. Asset type: seamless square diffuse/albedo ground material for an original mature dark-fantasy action RPG. Straight overhead 90-degree material scan of compacted charcoal-brown soil in a long-abandoned stone cloister verge: fine gravel, tiny shale chips, thin roots embedded flush in dirt, sparse crumbled dull dead leaves and minute dry moss fibres. Fairly even small-scale texture detail, no large patches or individual focal objects. Physically believable surface, subdued umber/grey with restrained contrast for bright combat readability. FLAT DIFFUSE neutral soft illumination, absolutely no directional highlights, cast shadows, ambient shadow blobs, round stains, dark circular areas, vignette, perspective or raised grass tufts. No flagstones, no paths drawn into the texture, no big stones, no props, characters, bones, writing, symbols, UI, frame or border. Seamless edge continuation all4edges, texture fills whole image. New independent game material, not a screenshot or copied game asset.",
+  "original": "C:/Users/twins/.codex/generated_images/01a191b7-2f06-71f2-8374-65bd3e9e4f7a/exec-2fed0e2f-c733-40b1-99f6-1122445ed17a.png",
+  "target": "ground_soil_v01.png",
+  "transparent_background": false
+}

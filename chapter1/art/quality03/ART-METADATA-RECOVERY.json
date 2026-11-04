@@ -1,0 +1,14 @@
+{
+  "first_script": "finalize_art_metadata.py",
+  "first_actual_exit": 1,
+  "first_error": "FileNotFoundError: wrong parent selected project/art/actors/hero.json instead of chapter1/art/actors/hero.json",
+  "retained_first_source": true,
+  "recovery_script": "finalize_art_metadata_v02.py",
+  "recovery_actual_exit": 0,
+  "recovery_changes": [
+    "Correct read-only reference path.",
+    "If the already copied PNG exists, verify exact original SHA256 instead of replacing it."
+  ],
+  "game_bug": false,
+  "image_pixels_changed": false
+}

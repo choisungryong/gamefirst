@@ -1,0 +1,531 @@
+{
+  "schema": 1,
+  "kind": "elite",
+  "source_type": "independent_generated_2d_sprite_atlas",
+  "texture": "res://chapter1/art/actors/elite.png",
+  "columns": 4,
+  "rows": 4,
+  "pixels_per_meter": 132.0,
+  "alpha_cutoff": 0.15,
+  "directions": [
+    "south",
+    "east",
+    "north",
+    "west"
+  ],
+  "frames": [
+    {
+      "region": [
+        85,
+        13,
+        171,
+        274
+      ],
+      "feet": [
+        104.0,
+        274.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        407,
+        12,
+        164,
+        275
+      ],
+      "feet": [
+        101.0,
+        275.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        724,
+        13,
+        167,
+        274
+      ],
+      "feet": [
+        102.0,
+        274.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1035,
+        12,
+        173,
+        275
+      ],
+      "feet": [
+        94.0,
+        275.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        72,
+        304,
+        214,
+        269
+      ],
+      "feet": [
+        155.0,
+        269.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        408,
+        302,
+        196,
+        271
+      ],
+      "feet": [
+        84.0,
+        271.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        710,
+        308,
+        212,
+        265
+      ],
+      "feet": [
+        161.0,
+        265.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        1055,
+        306,
+        181,
+        266
+      ],
+      "feet": [
+        134.0,
+        266.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        99,
+        593,
+        180,
+        283
+      ],
+      "feet": [
+        86.0,
+        283.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        425,
+        595,
+        176,
+        283
+      ],
+      "feet": [
+        69.5,
+        283.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        744,
+        594,
+        180,
+        284
+      ],
+      "feet": [
+        79.0,
+        284.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        1074,
+        594,
+        177,
+        284
+      ],
+      "feet": [
+        74.0,
+        284.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        56,
+        892,
+        222,
+        269
+      ],
+      "feet": [
+        47.0,
+        269.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        393,
+        892,
+        200,
+        274
+      ],
+      "feet": [
+        153.0,
+        274.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        716,
+        892,
+        215,
+        265
+      ],
+      "feet": [
+        46.0,
+        265.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        1039,
+        894,
+        211,
+        273
+      ],
+      "feet": [
+        160.0,
+        273.0
+      ],
+      "pixels_per_meter": 132.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        24,
+        94,
+        299,
+        309
+      ],
+      "feet": [
+        102.0,
+        309.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        441,
+        9,
+        219,
+        406
+      ],
+      "feet": [
+        180.0,
+        406.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        773,
+        153,
+        243,
+        278
+      ],
+      "feet": [
+        109.0,
+        278.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1144,
+        98,
+        286,
+        310
+      ],
+      "feet": [
+        38.0,
+        310.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        16,
+        426,
+        322,
+        322
+      ],
+      "feet": [
+        129.0,
+        322.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        443,
+        468,
+        215,
+        279
+      ],
+      "feet": [
+        35.0,
+        279.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        786,
+        468,
+        219,
+        267
+      ],
+      "feet": [
+        129.0,
+        267.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1114,
+        427,
+        263,
+        322
+      ],
+      "feet": [
+        103.0,
+        322.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        29,
+        793,
+        301,
+        217
+      ],
+      "feet": [
+        185.0,
+        217.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        378,
+        774,
+        329,
+        275
+      ],
+      "feet": [
+        100.0,
+        275.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        730,
+        842,
+        327,
+        199
+      ],
+      "feet": [
+        249.0,
+        199.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1089,
+        903,
+        343,
+        160
+      ],
+      "feet": [
+        63.0,
+        160.0
+      ],
+      "pixels_per_meter": 148.831,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/elite_actions.png",
+      "direction": "south"
+    }
+  ],
+  "frames_by_direction": {
+    "south": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "east": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "north": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "west": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "states": {
+    "idle": [
+      1
+    ],
+    "move": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cast": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "hit": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "death": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "attack": [
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "notes": [
+    "2.5D raster candidate, not rigged 3D. Dedicated idle clip not supplied; idle uses one walk keyframe.",
+    "Attack/hit/death south-facing only; engine scale visual check required."
+  ]
+}

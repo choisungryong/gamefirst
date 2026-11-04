@@ -1,0 +1,50 @@
+{
+  "scope": "Small local reconstruction experiment; current D2R native combat functions are not recovered",
+  "player": {"life": 40, "mana_raw": 8960, "raw_unit": 256, "status": "UI maximum values; baseline starts full rather than latest READ mana3"},
+  "firebolt": {
+    "mana_cost_raw": 640,
+    "display_damage": [3, 6],
+    "damage_raw": [768, 1536],
+    "formula_status": "classic reconstruction arithmetic consistent with D2R tooltip; actual applied damage not established",
+    "visible_startup_seconds": 0.3,
+    "observed_visibility_bounds_seconds": [0.267, 0.333],
+    "visibility_evidence": "CAST-VISIBILITY.json RT007; body-motion to clearly detached bright projectile, not native spawn tick"
+  },
+  "runtime_combat": {
+    "source_file": "2026-10-25 23-32-23.mp4",
+    "sha256": "baf114070eee5cea577c1356b0cb0ba6eda6f52c0c415ec5aa0c477a3f91beea",
+    "character": "READ, level1, XP108/500 after recording, distinct from earlier REA",
+    "observed": "zombie name/full bar at F1798; explosion F1811 and bar reduction F1812; second explosion F1858; bar/name gone1859, falling1870 and corpse1900",
+    "numeric_target_hp_and_applied_damage": "unknown"
+  },
+  "provisional_parameters": {
+    "simulation_hz": 60,
+    "repeat_seconds": 0.55,
+    "projectile_world_speed": 12.0,
+    "projectile_life_seconds": 2.2,
+    "collision_radius": 0.52,
+    "enemy_hp": 9.0,
+    "enemy_speed": 1.05,
+    "enemy_attack_windup_seconds": 0.5,
+    "enemy_attack_recovery_seconds": 1.1,
+    "enemy_attack_start_range": 1.18,
+    "enemy_attack_hit_range": 1.32,
+    "enemy_damage": 3.0,
+    "player_world_speed": 4.0,
+    "mana_regen_per_second": 0.0,
+    "damage_selection": "seeded uniform raw integer, reconstruction choice not D2R RNG",
+    "charge_phase": "cast request, reconstruction choice",
+    "enemy_hurt_seconds": 0.3,
+    "death_threshold_raw": 0,
+    "spawn_player_world": [0.0, 3.5],
+    "spawn_enemy_world": [3.4, -2.5],
+    "projectile_spawn_offset": 0.62,
+    "rng_seed": 2751,
+    "atlas_playback_fps": 12,
+    "proxy_cast_animation_speed": 1.4,
+    "world_bounds": [8.0, 6.0],
+    "status": "experiment assumptions; not original final values"
+  },
+  "original_firebolt_atlas_sha256": "9b450d2a5807d373e05cb80f52287d753a88bafa459ed8178cf4cb18d56a247e",
+  "models": "KayKit CC0 Mage and Skeleton Minion, visibly marked temporary proxies; not decoded D2R HD assets"
+}

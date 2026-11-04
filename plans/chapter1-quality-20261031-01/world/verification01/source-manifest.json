@@ -1,0 +1,8 @@
+{
+  "chapter1/view/cloister_world.gd": "7f3e347573c2bdaa6a61455eb9dc0dbb37ce7f64ebce47340727a473c923146c",
+  "chapter1/view/cloister_world_quality03.gd": "e3ad01f5072abc98ed1fcf2be608241154422a66866c3792a59b5a41736c633d",
+  "chapter1/view/cloister_ground_quality03.gdshader": "0276ed42a593c2397fb7be16618ac892a27fc0083e624e5da1507a6e0da0d0a9",
+  "chapter1/view/cloister_props_quality03.gdshader": "8d87226a5ce1b59e8ea6e348a610228b0bc0e7263b244685098736d55224346b",
+  "chapter1/view/cloister_contact_quality03.gdshader": "20c4709489799ea9e82f0a51b1be054235d54f5cc44320a3751ad9b2414d93ad",
+  "chapter1/view/cloister_actors.gd": "efbf3ba2ae469f09b1a1dcb51184e220fb8c13cd25efeafce86564ab319c7386"
+}

@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261104-29\\AshenCloister-Chapter1.exe",
+  "sha256": "5945c30b4a03f69367f345fd423be1d532d48ecf75e634747e40fd0d8a25a350",
+  "bytes": 130066760,
+  "source_count": 126,
+  "stage_count": 128,
+  "pck_count": 229,
+  "scope": "Full chapter candidate29: existing ordinary/middle-elite model meshes cast directional shadows using the existing moon, improving ground contact. Core16/World22/Actor29/HUD27/Input21/FX26; no extra geometry/light or combat-rule changes. SSAO World29 and floor27 studies not adopted. Actual package/manual/hearing/final performance gates separate."
+}

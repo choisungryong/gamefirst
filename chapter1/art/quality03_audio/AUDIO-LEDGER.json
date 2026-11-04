@@ -1,0 +1,532 @@
+{
+  "creator": "Kenney",
+  "license": "CC0 1.0 Universal",
+  "pages": [
+    "https://kenney.nl/assets/impact-sounds",
+    "https://kenney.nl/assets/rpg-audio",
+    "https://kenney.nl/assets/sci-fi-sounds"
+  ],
+  "method": "Mono48kPCM16, selected licensed source layers, rate variation, edge fades, DC removal and per-cue peak normalization. No synthesized sine cues. Ambience remains designed drone candidate, not field-recording claim.",
+  "source_sha256": {
+    "sci-fi-sounds/Audio/thrusterFire_000.ogg": "0fdc474d93f209debf1fc4ea77765a669dcb7676db31b4d8a0a509685bccf374",
+    "rpg-audio/Audio/knifeSlice.ogg": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f",
+    "Audio/impactPunch_heavy_000.ogg": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8",
+    "Audio/impactWood_light_000.ogg": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+    "Audio/impactWood_heavy_000.ogg": "15ff82332f342c30e469215539e1cc57e11b221aa2cf7e11e811d313a9927f3d",
+    "Audio/impactGlass_medium_000.ogg": "9252d50bfb85edb17d6073c4a7806e10cdb9de56d3dbfc93a4b9727146d2df6d",
+    "sci-fi-sounds/Audio/thrusterFire_001.ogg": "924636edc923fe4aab5829b69dc5dc1c5d659dec5739865434dabee752a3bb79",
+    "Audio/impactPunch_heavy_001.ogg": "f92f5cb6ba4ff2766497292ffd90865654317eeca976f5652e0708dbdcdc0dd9",
+    "Audio/impactWood_light_001.ogg": "4b76bf3ccc8e60d19188f3165b778a7817786faa6887c55d9049bcbeef3b425f",
+    "Audio/impactWood_heavy_001.ogg": "f1b07a53ac10c615fff9ba470511fdeb722b5902e1a8520759fc20ad6f546015",
+    "Audio/impactGlass_medium_001.ogg": "d3d806cb3012c9ddd87010b30295ccb74d6d8b690077d19e67afd09a9d8feb03",
+    "sci-fi-sounds/Audio/thrusterFire_002.ogg": "5f7731c30196d73777d62eec7cb36a28bf63852e70244057b7625b888e71a3a8",
+    "Audio/impactPunch_heavy_002.ogg": "7993dd4c156b9979ad69f17be5ebe31850b16039a3857f8477141be54dfee1b3",
+    "Audio/impactWood_light_002.ogg": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc",
+    "Audio/impactWood_heavy_002.ogg": "ce1e06f2a05f2634c645cb72f6a1623e64bc2d92be34917430a61031fb6597d4",
+    "Audio/impactGlass_medium_002.ogg": "48616f22c95589ed9fe55babf0fd012721d7b2ef1b9e85c2ad6408a2cd7c164f",
+    "rpg-audio/Audio/drawKnife2.ogg": "d5df6a4130cbb016f97b4883769a418917b9629cb4c21717030b186e0c73281a",
+    "Audio/impactGlass_light_000.ogg": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f",
+    "rpg-audio/Audio/drawKnife3.ogg": "a11ae62fb1a628425769d11a9de394980ad8909c31f4c9a4316f226963e21caf",
+    "Audio/impactGlass_light_001.ogg": "05e513fbd42829060eb37855f8c3866722ec5c39a8937c9bfde518cc609effa2",
+    "sci-fi-sounds/Audio/forceField_000.ogg": "c2916f2a062c8ddd1aca2826d134fe90847037db31342726ffb0f9097afe339c",
+    "Audio/impactMetal_medium_000.ogg": "a96f879fec0864a8938e0c745b6996a6c5679c16a234ce31a01cc995e8401003",
+    "sci-fi-sounds/Audio/explosionCrunch_000.ogg": "4b597d658d0ae101f0a030fbeea5fc3a4292ab85f017470a8254a8e7959cbd69",
+    "sci-fi-sounds/Audio/lowFrequency_explosion_000.ogg": "3cb48d86dab63140cfb9aaeea4d4a6846abaca5831d157d8adbec0490da26343",
+    "Audio/impactPunch_heavy_004.ogg": "f4c0c3eb8ab6517583b8218ed03f28923d1b687379aab4c1d5a6d4c10cf8e500",
+    "rpg-audio/Audio/cloth3.ogg": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b",
+    "rpg-audio/Audio/metalPot1.ogg": "159def979e8e386c2c539f5e99cc30a080eb2dcb6c911fa2e4ccc0785b2522fd",
+    "Audio/impactBell_heavy_000.ogg": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+    "rpg-audio/Audio/handleCoins.ogg": "8a91f969e932df709df80ee124d86a51389eed9b67f22e5e716bc2bbf60d8dab",
+    "rpg-audio/Audio/bookClose.ogg": "81e976532565f4372abd14e83d2684195fa548d0a28d345de221e56052454f32",
+    "rpg-audio/Audio/metalLatch.ogg": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708",
+    "Audio/footstep_concrete_000.ogg": "d7267e183067757c92c169de2a379abea592cfca6b39bb2e8feea15221ad79fe",
+    "Audio/footstep_concrete_003.ogg": "8b513c2f0316324060b9174b8f28df6c2147418c506e6a53b77f18e149a5547b",
+    "sci-fi-sounds/Audio/spaceEngineLow_000.ogg": "d7deee8d7217ce63aab802ad7365a59cacfd243392dc1bd03b0a9d454aa494df",
+    "rpg-audio/Audio/creak1.ogg": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e"
+  },
+  "products": [
+    {
+      "file": "fire_0.wav",
+      "duration": 0.42,
+      "frames": 20160,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.12920129375156503,
+      "clipped_samples": 0,
+      "sha256": "104e55e0d7e0a21cd0fb16b374c21cab62e3ba1eaf9fdd9a6f1e83c08cf6d851",
+      "layers": [
+        [
+          "sci-fi-sounds/Audio/thrusterFire_000.ogg",
+          0.85,
+          0,
+          1.5
+        ],
+        [
+          "rpg-audio/Audio/knifeSlice.ogg",
+          0.3,
+          0.015,
+          0.8
+        ]
+      ]
+    },
+    {
+      "file": "impact_0.wav",
+      "duration": 0.25,
+      "frames": 12000,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.15346789660662088,
+      "clipped_samples": 0,
+      "sha256": "b358eb2e9d0f9514de92761adc1115c071b38b848bb7186116b3b60d9bd79537",
+      "layers": [
+        [
+          "Audio/impactPunch_heavy_000.ogg",
+          0.8,
+          0,
+          1.0
+        ],
+        [
+          "Audio/impactWood_light_000.ogg",
+          0.32,
+          0.008,
+          1.15
+        ]
+      ]
+    },
+    {
+      "file": "death_0.wav",
+      "duration": 0.34,
+      "frames": 16320,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.10622351750231637,
+      "clipped_samples": 0,
+      "sha256": "de6bb9cdf26735adc75b39da3b5165f09c535c3687c4a42b801905c2348e145f",
+      "layers": [
+        [
+          "Audio/impactWood_heavy_000.ogg",
+          0.7,
+          0,
+          0.9
+        ],
+        [
+          "Audio/impactGlass_medium_000.ogg",
+          0.25,
+          0.01,
+          0.85
+        ]
+      ]
+    },
+    {
+      "file": "fire_1.wav",
+      "duration": 0.42,
+      "frames": 20160,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.1236243895590192,
+      "clipped_samples": 0,
+      "sha256": "143e6f86353e6b65f12599d7a5c52b5f480df1c34896faa53ba34607dc1d2f70",
+      "layers": [
+        [
+          "sci-fi-sounds/Audio/thrusterFire_001.ogg",
+          0.85,
+          0,
+          1.5
+        ],
+        [
+          "rpg-audio/Audio/knifeSlice.ogg",
+          0.3,
+          0.015,
+          0.8
+        ]
+      ]
+    },
+    {
+      "file": "impact_1.wav",
+      "duration": 0.25,
+      "frames": 12000,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.15024790785595948,
+      "clipped_samples": 0,
+      "sha256": "95afb80f03ef26ed39e269095dbef07192ddf3f1f3fc83c3fe8b49f991c969ee",
+      "layers": [
+        [
+          "Audio/impactPunch_heavy_001.ogg",
+          0.8,
+          0,
+          1.0
+        ],
+        [
+          "Audio/impactWood_light_001.ogg",
+          0.32,
+          0.008,
+          1.15
+        ]
+      ]
+    },
+    {
+      "file": "death_1.wav",
+      "duration": 0.34,
+      "frames": 16320,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.10596777742121467,
+      "clipped_samples": 0,
+      "sha256": "716497ad375cce469b8b5872ab4265a031bfbbe97db2ec863dab96a6b18fc9f9",
+      "layers": [
+        [
+          "Audio/impactWood_heavy_001.ogg",
+          0.7,
+          0,
+          0.9
+        ],
+        [
+          "Audio/impactGlass_medium_001.ogg",
+          0.25,
+          0.01,
+          0.85
+        ]
+      ]
+    },
+    {
+      "file": "fire_2.wav",
+      "duration": 0.42,
+      "frames": 20160,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.12326505043911891,
+      "clipped_samples": 0,
+      "sha256": "7e64ea804e41f91ffdf7d2ca316369e4c69e5db200639813185b3d8f35dfd5dd",
+      "layers": [
+        [
+          "sci-fi-sounds/Audio/thrusterFire_002.ogg",
+          0.85,
+          0,
+          1.5
+        ],
+        [
+          "rpg-audio/Audio/knifeSlice.ogg",
+          0.3,
+          0.015,
+          0.8
+        ]
+      ]
+    },
+    {
+      "file": "impact_2.wav",
+      "duration": 0.25,
+      "frames": 12000,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.15383507951425685,
+      "clipped_samples": 0,
+      "sha256": "72df38fb736c106d8ecb5e886442364456f6d91fdea601e48162a1d0d9cc099c",
+      "layers": [
+        [
+          "Audio/impactPunch_heavy_002.ogg",
+          0.8,
+          0,
+          1.0
+        ],
+        [
+          "Audio/impactWood_light_002.ogg",
+          0.32,
+          0.008,
+          1.15
+        ]
+      ]
+    },
+    {
+      "file": "death_2.wav",
+      "duration": 0.34,
+      "frames": 16320,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.10886546932344088,
+      "clipped_samples": 0,
+      "sha256": "2928fa5f1ae275a4fafd0134289800e4d98488f5b8e9e6cd36ad6a7a4e1d29c5",
+      "layers": [
+        [
+          "Audio/impactWood_heavy_002.ogg",
+          0.7,
+          0,
+          0.9
+        ],
+        [
+          "Audio/impactGlass_medium_002.ogg",
+          0.25,
+          0.01,
+          0.85
+        ]
+      ]
+    },
+    {
+      "file": "cold_0.wav",
+      "duration": 0.43,
+      "frames": 20640,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.045862286555418005,
+      "clipped_samples": 0,
+      "sha256": "4440f31ee680db67f9de4946a2602faac0d79c8868015a141c7a79fab47553fe",
+      "layers": [
+        [
+          "rpg-audio/Audio/drawKnife2.ogg",
+          0.65,
+          0,
+          1.1
+        ],
+        [
+          "Audio/impactGlass_light_000.ogg",
+          0.5,
+          0.035,
+          1.15
+        ]
+      ]
+    },
+    {
+      "file": "cold_1.wav",
+      "duration": 0.43,
+      "frames": 20640,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.044205322638991865,
+      "clipped_samples": 0,
+      "sha256": "40f17f1c39552b6600b666759c656a53a3295d03dff9555f224f2c48f9b32a21",
+      "layers": [
+        [
+          "rpg-audio/Audio/drawKnife3.ogg",
+          0.65,
+          0,
+          1.1
+        ],
+        [
+          "Audio/impactGlass_light_001.ogg",
+          0.5,
+          0.035,
+          1.15
+        ]
+      ]
+    },
+    {
+      "file": "lightning_0.wav",
+      "duration": 0.3,
+      "frames": 14400,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.25220904025286167,
+      "clipped_samples": 0,
+      "sha256": "f46dd0fdfca7a081da0f494a665747e5c4e5ca6e31508eb59415808f23d4475e",
+      "layers": [
+        [
+          "sci-fi-sounds/Audio/forceField_000.ogg",
+          0.65,
+          0,
+          1.8
+        ],
+        [
+          "Audio/impactMetal_medium_000.ogg",
+          0.3,
+          0.01,
+          0.9
+        ]
+      ]
+    },
+    {
+      "file": "explosion_0.wav",
+      "duration": 0.64,
+      "frames": 30720,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.18829268185229828,
+      "clipped_samples": 0,
+      "sha256": "2c13efe5cf11c78eecd9614b6d6679ad07126ae95f981a8736df1df43711f3d9",
+      "layers": [
+        [
+          "sci-fi-sounds/Audio/explosionCrunch_000.ogg",
+          0.85,
+          0,
+          1.2
+        ],
+        [
+          "sci-fi-sounds/Audio/lowFrequency_explosion_000.ogg",
+          0.45,
+          0.0,
+          1.25
+        ]
+      ]
+    },
+    {
+      "file": "hurt_0.wav",
+      "duration": 0.3,
+      "frames": 14400,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.15018486372860892,
+      "clipped_samples": 0,
+      "sha256": "7db6938639d47b1ec669cfc80ee643cbf7e855b6478d8c18fd0c567741dd7797",
+      "layers": [
+        [
+          "Audio/impactPunch_heavy_004.ogg",
+          0.8,
+          0,
+          0.85
+        ],
+        [
+          "rpg-audio/Audio/cloth3.ogg",
+          0.35,
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "file": "drop_0.wav",
+      "duration": 0.5,
+      "frames": 24000,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.14962026284753677,
+      "clipped_samples": 0,
+      "sha256": "bdc209fe306a4de70bc17860599b27f79f517ab098b9f16f99e00835b6c04173",
+      "layers": [
+        [
+          "rpg-audio/Audio/metalPot1.ogg",
+          0.5,
+          0,
+          1.0
+        ],
+        [
+          "Audio/impactBell_heavy_000.ogg",
+          0.25,
+          0.025,
+          1.5
+        ]
+      ]
+    },
+    {
+      "file": "pickup_0.wav",
+      "duration": 0.28,
+      "frames": 13440,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.04211326428670065,
+      "clipped_samples": 0,
+      "sha256": "dd20035e5f9fafaf10864d52185f6dc42929ce7287a0aa05dc7b4659dc2e6c6e",
+      "layers": [
+        [
+          "rpg-audio/Audio/handleCoins.ogg",
+          1,
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "file": "equip_0.wav",
+      "duration": 0.28,
+      "frames": 13440,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.06698238015944641,
+      "clipped_samples": 0,
+      "sha256": "4b5ffcf58978b9fc39f889adc62e7f0ecc1c4593508257df451e7cd63233d1e4",
+      "layers": [
+        [
+          "rpg-audio/Audio/bookClose.ogg",
+          0.7,
+          0,
+          1.0
+        ],
+        [
+          "rpg-audio/Audio/metalLatch.ogg",
+          0.35,
+          0.01,
+          1.0
+        ]
+      ]
+    },
+    {
+      "file": "step_0.wav",
+      "duration": 0.22,
+      "frames": 10560,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.08938072229243842,
+      "clipped_samples": 0,
+      "sha256": "cef9bd4d3d46f27abe5345b751f4a2b1407e4ab223ce49f4b79ebb08fdded1e0",
+      "layers": [
+        [
+          "Audio/footstep_concrete_000.ogg",
+          1,
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "file": "step_1.wav",
+      "duration": 0.22,
+      "frames": 10560,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.68,
+      "rms": 0.08627904763635101,
+      "clipped_samples": 0,
+      "sha256": "2c5be03b5380fd7b6995ebc46003c666f7eec201f97ddecbf54e2418e57e59a6",
+      "layers": [
+        [
+          "Audio/footstep_concrete_003.ogg",
+          1,
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "file": "ambience.wav",
+      "duration": 4.0,
+      "frames": 192000,
+      "rate": 48000,
+      "channels": 1,
+      "peak": 0.22,
+      "rms": 0.10279336285312937,
+      "clipped_samples": 0,
+      "sha256": "50b13d1cd4617aa9a42430428a94eda4c387ddedf8876617e868964250e99480",
+      "layers": [
+        [
+          "sci-fi-sounds/Audio/spaceEngineLow_000.ogg",
+          0.7,
+          0,
+          0.55
+        ],
+        [
+          "rpg-audio/Audio/creak1.ogg",
+          0.1,
+          0.5,
+          0.6
+        ]
+      ]
+    }
+  ],
+  "actual_hearing": "Not certified by waveform validation; needs real listening in game."
+}

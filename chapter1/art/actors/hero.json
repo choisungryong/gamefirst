@@ -1,0 +1,527 @@
+{
+  "schema": 1,
+  "kind": "hero",
+  "source_type": "independent_generated_2d_sprite_atlas",
+  "texture": "res://chapter1/art/actors/hero.png",
+  "columns": 4,
+  "rows": 4,
+  "pixels_per_meter": 119.0,
+  "alpha_cutoff": 0.15,
+  "directions": [
+    "south",
+    "east",
+    "north",
+    "west"
+  ],
+  "frames": [
+    {
+      "region": [
+        140,
+        65,
+        127,
+        232
+      ],
+      "feet": [
+        58.0,
+        232.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        434,
+        61,
+        134,
+        237
+      ],
+      "feet": [
+        58.0,
+        237.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        716,
+        63,
+        142,
+        236
+      ],
+      "feet": [
+        60.0,
+        236.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1015,
+        60,
+        136,
+        239
+      ],
+      "feet": [
+        63.0,
+        239.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        111,
+        347,
+        151,
+        247
+      ],
+      "feet": [
+        123.0,
+        247.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        398,
+        342,
+        152,
+        250
+      ],
+      "feet": [
+        120.0,
+        250.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        683,
+        342,
+        167,
+        254
+      ],
+      "feet": [
+        139.0,
+        254.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        980,
+        340,
+        173,
+        254
+      ],
+      "feet": [
+        138.0,
+        254.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "east"
+    },
+    {
+      "region": [
+        123,
+        640,
+        139,
+        257
+      ],
+      "feet": [
+        54.5,
+        257.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        405,
+        641,
+        156,
+        258
+      ],
+      "feet": [
+        74.0,
+        258.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        691,
+        640,
+        151,
+        263
+      ],
+      "feet": [
+        82.0,
+        263.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        1002,
+        640,
+        138,
+        262
+      ],
+      "feet": [
+        72.0,
+        262.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "north"
+    },
+    {
+      "region": [
+        116,
+        944,
+        176,
+        247
+      ],
+      "feet": [
+        30.0,
+        247.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        414,
+        941,
+        178,
+        249
+      ],
+      "feet": [
+        31.0,
+        249.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        705,
+        944,
+        173,
+        246
+      ],
+      "feet": [
+        29.0,
+        246.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        1003,
+        942,
+        188,
+        247
+      ],
+      "feet": [
+        109.0,
+        247.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero.png",
+      "direction": "west"
+    },
+    {
+      "region": [
+        30,
+        135,
+        305,
+        276
+      ],
+      "feet": [
+        171.0,
+        276.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        445,
+        10,
+        233,
+        402
+      ],
+      "feet": [
+        86.0,
+        402.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        805,
+        137,
+        232,
+        276
+      ],
+      "feet": [
+        111.0,
+        276.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1166,
+        104,
+        215,
+        310
+      ],
+      "feet": [
+        82.0,
+        310.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        127,
+        453,
+        213,
+        292
+      ],
+      "feet": [
+        99.0,
+        292.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        450,
+        445,
+        243,
+        301
+      ],
+      "feet": [
+        99.0,
+        301.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        799,
+        460,
+        214,
+        287
+      ],
+      "feet": [
+        84.0,
+        287.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1168,
+        429,
+        171,
+        317
+      ],
+      "feet": [
+        80.0,
+        317.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        94,
+        768,
+        237,
+        259
+      ],
+      "feet": [
+        146.0,
+        259.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        403,
+        790,
+        287,
+        250
+      ],
+      "feet": [
+        217.0,
+        250.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        744,
+        854,
+        331,
+        204
+      ],
+      "feet": [
+        150.0,
+        204.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    },
+    {
+      "region": [
+        1130,
+        824,
+        288,
+        233
+      ],
+      "feet": [
+        188.0,
+        233.0
+      ],
+      "pixels_per_meter": 151.0,
+      "duration": 0.12,
+      "texture": "res://chapter1/art/actors/hero_actions.png",
+      "direction": "south"
+    }
+  ],
+  "frames_by_direction": {
+    "south": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "east": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "north": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "west": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "states": {
+    "idle": [
+      1
+    ],
+    "move": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cast": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "hit": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "death": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "notes": [
+    "Direction-specific four-frame walk keyframes, not a rigged3D model.",
+    "Explicit variable regions avoid equal-grid drift.",
+    "Idle uses one passing frame; dedicated idle loop not authored.",
+    "Cast/hit/death action frames face south only; directional action expansion pending. Scaling151ppm is provisional pending actualengine visual."
+  ]
+}

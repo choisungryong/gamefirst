@@ -1,0 +1,1 @@
+追加probeのrun.snapshot()はRefCounted経由でVariantなのでvar before:=の型推論がParseErrorだった。原実行/修正前probeを保存しDictionary型を明記したsemantic04へ進む。製品core16/HUD16/FX16はこの修正で変更しない。prototype02の16検査/3主力pacingは別の通過証拠。

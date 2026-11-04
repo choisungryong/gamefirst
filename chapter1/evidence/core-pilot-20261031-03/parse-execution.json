@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Project\\rea-tools\\godot-4.5.1\\Godot_v4.5.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "C:\\Project\\d2r-combat-baseline",
+    "--quit-after",
+    "2",
+    "--check-only",
+    "--script",
+    "res://chapter1/core/combat_run.gd"
+  ],
+  "cwd": "C:\\Project\\d2r-combat-baseline",
+  "actual_exit": 0,
+  "stdout": "Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org\n\n",
+  "stderr": ""
+}

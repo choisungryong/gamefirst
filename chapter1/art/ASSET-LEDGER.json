@@ -1,0 +1,281 @@
+{
+  "schema": 1,
+  "date_local": "2026-10-31",
+  "scope": "Chapter1 C2 first playable 2.5D art candidate; final quality approval pending",
+  "generation_mode": "built-in image_gen.imagegen; no CLI/API fallback; transparency preserved; no image pixels altered by analysis scripts",
+  "approval": "Root approved adult dark-fantasy 2.5D style for first playable candidate only, preserving rigged GLB alternative brief.",
+  "assets": [
+    {
+      "path": "chapter1/art/terrain/cloister_ground_v01.png",
+      "format": "PNG raster",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "sha256": "08a7d818039f7ed506e36554edb77256dac4e561f1a078bde0c33b12569c777f",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-09c69a53-68ac-4fcb-9875-dfaa8bc98973.png",
+      "original_preserved": true,
+      "original_sha256": "08a7d818039f7ed506e36554edb77256dac4e561f1a078bde0c33b12569c777f",
+      "prompt_key": "terrain",
+      "prompt": "Use case: stylized-concept. Asset type: game-ready diffuse/albedo terrain texture, square image. Create one seamless tileable top-down dark fantasy ruined-cloister ground material: naturally worn irregular slate cobblestones mixed with cracked soil, small pebbles and sparse dark moss/short dry grass in the joints. Dense believable stone and soil detail, adult realistic dark fantasy action RPG art direction, cool neutral grey-brown and desaturated olive, no toy low-poly look, no cartoon outline. Orthographic straight overhead, uniformly soft neutral lighting, no cast shadows, no directional highlight, no vignette, no perspective, no objects above ground, no weapons, characters, text, symbols, interface or frame. Seamless edge continuity on all four edges is essential. Keep local contrast restrained so bright combat effects and danger telegraphs remain readable. Render only the texture filling the entire square canvas. This is an independent new texture for an original game, do not reproduce any existing game screenshot or asset.",
+      "reference_inputs": [],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "candidate_ground_material",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/battle_mage_walk_4x4_v01.png",
+      "format": "PNG raster",
+      "width": 1247,
+      "height": 1261,
+      "mode": "RGBA",
+      "sha256": "8ff6f65f27cb75c26ae55db8ae4bfcebe75bd3caa9b2f133359cdcbf54712a6a",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-7d80c7ce-5025-414f-86b8-970cc809d1e5.png",
+      "original_preserved": true,
+      "original_sha256": "8ff6f65f27cb75c26ae55db8ae4bfcebe75bd3caa9b2f133359cdcbf54712a6a",
+      "prompt_key": "hero_initial",
+      "prompt": "Use case: stylized-concept. Asset type: production sprite sheet for an original dark-fantasy isometric action RPG. Create a perfectly aligned 4 column by 4 row sprite sheet on a genuinely transparent background, 16 equally sized cells, no padding between cells and no grid lines. Every cell shows the SAME adult female battle mage, full body from head to boots and staff included, normal realistic adult proportions (7.5 heads tall), layered weathered charcoal leather armor and long split dark steel-blue robe, subtle bronze fittings, short pale hair, no hood covering the entire face. Mature believable painted 3D-render quality, physically textured fabric/leather/metal, cool grey palette with a restrained teal crystal staff. She is not a copy of any existing game character. Camera is fixed orthographic isometric game camera looking downward around 40 degrees. Row 1: facing down/south toward viewer. Row 2: facing right/east. Row 3: facing up/north away. Row 4: facing left/west. In EACH ROW columns1–4 are four consecutive WALK CYCLE keyframes: left leg forward, passing stance, right leg forward, passing stance. Keep identical character design, body size, lighting, camera, footprint anchor and staff in every frame. Staff held steadily, legs and fabric clearly vary across walk frames. Each figure fully fits its own cell with a little transparent margin, feet aligned at 90% of cell height, head near15%. No cut-off weapons, overlap between cells, text, labels, borders, environment, ground plane, cast shadows or visual effects. This is an actual sprite asset sheet, not concept art presentation.",
+      "reference_inputs": [],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "preserved_rejected_layout_proof",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/hero.png",
+      "format": "PNG raster",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "cab77bfff78e1fa183ee4026d3b6d85ccb8f10d1b1357eb1624ca06be5013d14",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-3d074285-9364-442a-aaa1-09ae387fb3cc.png",
+      "original_preserved": true,
+      "original_sha256": "cab77bfff78e1fa183ee4026d3b6d85ccb8f10d1b1357eb1624ca06be5013d14",
+      "prompt_key": "hero_repack",
+      "prompt": "Repack this SAME battle mage and SAME16 walk poses into a practical sprite atlas. Keep exact character identity, armor, body proportions, orthographic game camera and directional walk sequence. Output a transparent square 4 columns ×4 rows sheet. CRITICAL: reduce each complete character to only60% of its tile height; leave a wide blank transparent band around all four sides of every cell. Each of16 sprites must be centered horizontally at exact cell center, feet at80% of cell height. No sprite may touch its cell border or overlap another sprite, includingstaff tip and robe hem. Each row retains its facing: south, east, north, west; four walk keyframes across columns. Uniform figure scale, same lighting, no visual effects, shadows, text or guides. Preserve the adult realistic darkfantasy rendering, not cartoon. Avoid filling canvas edge to edge; generous transparent gutters are essential. This is layout correction for game sprite extraction.",
+      "reference_inputs": [
+        "actors/battle_mage_walk_4x4_v01.png"
+      ],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/hero_actions.png",
+      "format": "PNG raster",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "ebe895e56df903771bd46ca6744f220811310839d2e8a803b849569a04c044eb",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-4217486e-5a43-45b4-8e33-949f4aac6bc6.png",
+      "original_preserved": true,
+      "original_sha256": "ebe895e56df903771bd46ca6744f220811310839d2e8a803b849569a04c044eb",
+      "prompt_key": "hero_actions",
+      "prompt": "Using the attached character ONLY as identity/style reference, create a new transparent sprite animation sheet of the SAME adult armored battle mage with pale hair, dark steel-blue split robe and teal crystal staff. Orthographic isometric camera lookingdown40degrees, normaladultproportions and realistic textured darkfantasy3D-render look. 4 columns by3 rows,12 equalcells, generous transparent gutters: every full sprite uses60%cellheight and stays centered. All sprites face down/south towardviewer. Row1 four CASTING sequence frames: anticipatestaffback, raisedstaff, forwardreleasepose, recovery. No renderedmagicbolt/effects. Row2 four distinct HIT REACTION keyframes: impactlean, recoiledtorso, regainingbalance, neutralrecovery. Row3 four DEATH keyframes: kneesbuckling, fallingbackward, bodyhittingground, motionlessbodylyingonitsbackwithstaffbesideit. Keep native body/prop scale identical through actions, even when lyingdown. Do not enlarge pronefiguretofillcell. Each complete figure/weapon must stay insideitsowncellwithtransparentmargins. No text, labels, borders, floor, castshadow or background. This sheet needs actual distinct action poses, not the same standing pose repeated.",
+      "reference_inputs": [
+        "actors/hero.png"
+      ],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/walker.png",
+      "format": "PNG raster",
+      "width": 1295,
+      "height": 1214,
+      "mode": "RGBA",
+      "sha256": "42c1f7a76b016b7f54d6d5f9d081e79badbfc9bad2387d45b41432c2d27ed848",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-09874ab1-5a4b-4af0-a09a-c5dc8cc7712a.png",
+      "original_preserved": true,
+      "original_sha256": "42c1f7a76b016b7f54d6d5f9d081e79badbfc9bad2387d45b41432c2d27ed848",
+      "prompt_key": "walker",
+      "prompt": "Use case: stylized-concept. Asset type: animation sprite sheet for original dark-fantasy isometric action RPG. Create a perfectly aligned 4 column by 4 row sprite sheet on a genuinely transparent background. 16 equally sized cells. Subject: a gaunt adult undead foot soldier, normal human proportions, pale desiccated skin and exposed skull, broken rusted iron helmet, torn charcoal cloth and rusted leather scraps, holding a short chipped cleaver, hunched threatening gait. Distinct readable narrow silhouette, not cute, no glowing full body. Mature realistic painted 3D-render quality, textured bone/cloth/metal/hide, desaturated neutral palette, crisp grounded silhouette. Camera fixed orthographic isometric looking downward around40 degrees. Row1 faces down/south towardviewer, row2 right/east, row3 up/north away, row4 left/west. EACH ROW columns1–4 show four consecutive walking keyframes with clear alternating legs/stance. Keep identity, scale, camera, lighting and feet anchor consistent in every frame. Every sprite fully contained in its cell with generous transparent space: silhouette covers only65–70% of cell height and atmost65% width. No overlap with adjacent cells. No perspective grid, text, label, border, ground, cast shadow, extra characters, effects or background. Render only16 sprite poses; this is a practical sprite atlas, not a concept art panel. Entire creature/weapon must fit in eachcell.",
+      "reference_inputs": null,
+      "reference_note": "Earlier generation call reference list was not retained in compacted context; no external/protected asset was copied.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/ranged.png",
+      "format": "PNG raster",
+      "width": 1266,
+      "height": 1242,
+      "mode": "RGBA",
+      "sha256": "44148ba55343f38b0d56e71774fc61e7a46c79a68224bdc95433ae0457c7b77f",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-e31f7df6-4633-4107-8297-4c5c864e38cb.png",
+      "original_preserved": true,
+      "original_sha256": "44148ba55343f38b0d56e71774fc61e7a46c79a68224bdc95433ae0457c7b77f",
+      "prompt_key": "ranged",
+      "prompt": "Use case: stylized-concept. Asset type: animation sprite sheet for original dark-fantasy isometric action RPG. Create a perfectly aligned 4 column by 4 row sprite sheet on a genuinely transparent background. 16 equally sized cells. Subject: an adult skeletal grave archer, normal human proportions, bone skull under a ragged dark olive hood, weathered leather and cloth, thin tall silhouette, carrying a long blackened bow with one arrow ready, slightly crouched cautious gait. No cape spreading wide, no magical glow. Mature realistic painted 3D-render quality, textured bone/cloth/metal/hide, desaturated neutral palette, crisp grounded silhouette. Camera fixed orthographic isometric looking downward around40 degrees. Row1 faces down/south towardviewer, row2 right/east, row3 up/north away, row4 left/west. EACH ROW columns1–4 show four consecutive walking keyframes with clear alternating legs/stance. Keep identity, scale, camera, lighting and feet anchor consistent in every frame. Every sprite fully contained in its cell with generous transparent space: silhouette covers only65–70% of cell height and atmost65% width. No overlap with adjacent cells. No perspective grid, text, label, border, ground, cast shadow, extra characters, effects or background. Render only16 sprite poses; this is a practical sprite atlas, not a concept art panel. Entire creature/weapon must fit in eachcell.",
+      "reference_inputs": null,
+      "reference_note": "Earlier generation call reference list was not retained in compacted context; no external/protected asset was copied.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/charger.png",
+      "format": "PNG raster",
+      "width": 1268,
+      "height": 1240,
+      "mode": "RGBA",
+      "sha256": "bcf2dedd8895d31fb8e1fbfb77a9edcf8e703150831f8a386a0f0ef04e049220",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-b174cbea-4dca-418c-9106-c3a40b64b9e4.png",
+      "original_preserved": true,
+      "original_sha256": "bcf2dedd8895d31fb8e1fbfb77a9edcf8e703150831f8a386a0f0ef04e049220",
+      "prompt_key": "charger",
+      "prompt": "Use case: stylized-concept. Asset type: animation sprite sheet for original dark-fantasy isometric action RPG. Create a perfectly aligned 4 column by 4 row sprite sheet on a genuinely transparent background. 16 equally sized cells. Subject: a massive low-slung undead boar-like grave beast, heavy muscular four-legged body in rotting dark hide, exposed pale bone face and two forward tusks, jagged shoulder spines and rusted chain harness, no rider. Wide low silhouette, violent forward-leaning charge-walk gait. Not cute, no cartoon proportions. Mature realistic painted 3D-render quality, textured bone/cloth/metal/hide, desaturated neutral palette, crisp grounded silhouette. Camera fixed orthographic isometric looking downward around40 degrees. Row1 faces down/south towardviewer, row2 right/east, row3 up/north away, row4 left/west. EACH ROW columns1–4 show four consecutive walking keyframes with clear alternating legs/stance. Keep identity, scale, camera, lighting and feet anchor consistent in every frame. Every sprite fully contained in its cell with generous transparent space: silhouette covers only65–70% of cell height and atmost65% width. No overlap with adjacent cells. No perspective grid, text, label, border, ground, cast shadow, extra characters, effects or background. Render only16 sprite poses; this is a practical sprite atlas, not a concept art panel. Entire creature/weapon must fit in eachcell.",
+      "reference_inputs": null,
+      "reference_note": "Earlier generation call reference list was not retained in compacted context; no external/protected asset was copied.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/walker_actions.png",
+      "format": "PNG raster",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "2880e1d81fee17e3b3332e0299e07d653e45c6546eaf2570524d161dda804e8f",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-7e81fbd2-9402-4358-bd1d-173a5d7f44bb.png",
+      "original_preserved": true,
+      "original_sha256": "2880e1d81fee17e3b3332e0299e07d653e45c6546eaf2570524d161dda804e8f",
+      "prompt_key": "walker_actions",
+      "prompt": "Use case: stylized-concept. Asset type: production action sprite atlas for original darkfantasy isometric action RPG. Attachedimage is identity/style reference ONLY; make new poses. The SAME gaunt armored undead cleaver soldier as reference. Row1 ATTACK: pull cleaverback, raisedchop, downwardslashcontactpose, recovery. Row2 HIT: impactlean, recoil, regainbalance, neutralrecovery. Row3 DEATH: kneesbuckling, fallingback, hittingground, motionlesscorpse. Keep cleaverwithactor, no flyingbodyparts. All12poses face south/down towardviewer, cameraorthographic lookingdown40degrees. 4 columns by3 rows,12equalcells. Fullspriteinsideeachcell withgeneroustransparentmargin aroundall sides; doNOTfilltileedge-to-edge. Consistent nativebody/weapon scale andlightingthroughout; pronebodydoesnotgetrescaled tofillcell. Mature realistic physicallytextured painted3D-renderstyle matchingreference, notcartoon. Genuinetransparentbackground, no floor, no castshadow, no text, no labels, no frame, no particles, no overlappingneighbors. Eachposemustdiffer clearly enough for an actionanimation; a repeated standingpose is not acceptable.",
+      "reference_inputs": [
+        "actors/walker.png"
+      ],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/ranged_actions.png",
+      "format": "PNG raster",
+      "width": 1438,
+      "height": 1093,
+      "mode": "RGBA",
+      "sha256": "7c414e8ae65b7a75550ef0a4aadf0cfd799f77e906c5a5ffb7160da610969864",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-1d61e19f-2e65-42c3-80bd-d731a7f993f4.png",
+      "original_preserved": true,
+      "original_sha256": "7c414e8ae65b7a75550ef0a4aadf0cfd799f77e906c5a5ffb7160da610969864",
+      "prompt_key": "ranged_actions",
+      "prompt": "Use case: stylized-concept. Asset type: production action sprite atlas for original darkfantasy isometric action RPG. Attachedimage is identity/style reference ONLY; make new poses. The SAME hooded skeletal archer as reference. Row1 ATTACK: reacharrow/drawbow, fullbowdraw, bowreleasestring withhandopened, recovery. No projectile outsidecell. Row2 HIT: impactlean, recoil, regainbalance, neutralrecovery. Row3 DEATH: kneesbuckling, fallingback, hittingground, motionlesscorpsewithbow. All12poses face south/down towardviewer, cameraorthographic lookingdown40degrees. 4 columns by3 rows,12equalcells. Fullspriteinsideeachcell withgeneroustransparentmargin aroundall sides; doNOTfilltileedge-to-edge. Consistent nativebody/weapon scale andlightingthroughout; pronebodydoesnotgetrescaled tofillcell. Mature realistic physicallytextured painted3D-renderstyle matchingreference, notcartoon. Genuinetransparentbackground, no floor, no castshadow, no text, no labels, no frame, no particles, no overlappingneighbors. Eachposemustdiffer clearly enough for an actionanimation; a repeated standingpose is not acceptable.",
+      "reference_inputs": [
+        "actors/ranged.png"
+      ],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/charger_actions.png",
+      "format": "PNG raster",
+      "width": 1441,
+      "height": 1092,
+      "mode": "RGBA",
+      "sha256": "5ebc1cc4d620eb94e40c82b4871682936e03d5d14f197da0049d99dec1b97a89",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-d4d97772-875d-4052-9ec3-8a42307b011f.png",
+      "original_preserved": true,
+      "original_sha256": "5ebc1cc4d620eb94e40c82b4871682936e03d5d14f197da0049d99dec1b97a89",
+      "prompt_key": "charger_actions",
+      "prompt": "Use case: stylized-concept. Asset type: production action sprite atlas for original darkfantasy isometric action RPG. Attachedimage is identity/style reference ONLY; make new poses. The SAME undead tusked boar gravebeast as reference. Row1 ATTACK: lowerhead/brace, coiledlegs, extendedlungingstridewithtusksforward, recoverstance. Row2 HIT: headjerk, recoilbody, regainingfooting, recoveredstance. Row3 DEATH: legsgiveway, bodyrollingsideways, sidehittingground, motionlessbeastlyingonside. No gore or flyingparts. All12poses face south/down towardviewer, cameraorthographic lookingdown40degrees. 4 columns by3 rows,12equalcells. Fullspriteinsideeachcell withgeneroustransparentmargin aroundall sides; doNOTfilltileedge-to-edge. Consistent nativebody/weapon scale andlightingthroughout; pronebodydoesnotgetrescaled tofillcell. Mature realistic physicallytextured painted3D-renderstyle matchingreference, notcartoon. Genuinetransparentbackground, no floor, no castshadow, no text, no labels, no frame, no particles, no overlappingneighbors. Eachposemustdiffer clearly enough for an actionanimation; a repeated standingpose is not acceptable.",
+      "reference_inputs": [
+        "actors/charger.png"
+      ],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/elite.png",
+      "format": "PNG raster",
+      "width": 1312,
+      "height": 1199,
+      "mode": "RGBA",
+      "sha256": "924ed57b296ba48d6078e1a45be5ff80c94dd29cabca88a95eadda1504d4d2d3",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-45f68cd2-97c8-4d2c-b4a0-a8c8b4064cc4.png",
+      "original_preserved": true,
+      "original_sha256": "924ed57b296ba48d6078e1a45be5ff80c94dd29cabca88a95eadda1504d4d2d3",
+      "prompt_key": "elite",
+      "prompt": "Use case: stylized-concept. Asset type: production sprite atlas for an original adult dark fantasy isometric action RPG. Create a DISTINCT elite enemy: a towering skeletal warlord with a narrow iron crown, battered blackened plate armor with layered broad pauldrons, faded burgundy waistcloth, heavy short-handled chainhammer held close to body, pale bone face. Adult realistic human proportions, intimidating broad angular silhouette clearly different from a thin cleaver soldier, hooded archer and boar beast. Physically textured realistic painted 3D render quality, restrained steel/rust/cloth colors, no cartoon or cute proportions. Camera fixed orthographic looking down40 degrees. Exactly4columns by4rows with16fullbody WALK poses: row1 facing south/down towardviewer, row2 east/right, row3 north/away, row4 west/left; each rowfour consecutivewalkcyclekeys leftstep, passing, rightstep, passing. Consistent same armor/weapon/body native scale, generous transparent gutter insideeverycell. Entirecharacter andchainhammer contained ineachcell withoutcutoffs orneighbors touching. Legs andwaistcloth visiblyvary acrossposes, weapon heldclose. Genuinetransparentbackground, no groundplane/shadow, no particles, no glow, no typography, no frame/grid. Not a copy of any existinggamecharacter.",
+      "reference_inputs": [],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    },
+    {
+      "path": "chapter1/art/actors/elite_actions.png",
+      "format": "PNG raster",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "76f102745659470a5ba4c6ff2b647ddc0f22aae91121715e1174f845cc177926",
+      "original_generation_path": "C:\\Users\\twins\\.codex\\generated_images\\01a18dbd-c8b9-7ea0-a8f0-42956fd4b51d\\exec-4468bbb4-5f29-46b3-abb6-909372d66ef6.png",
+      "original_preserved": true,
+      "original_sha256": "76f102745659470a5ba4c6ff2b647ddc0f22aae91121715e1174f845cc177926",
+      "prompt_key": "elite_actions",
+      "prompt": "Use case: stylized-concept. Asset type: action sprite atlas for original darkfantasy RPG. Referenceimage ONLYidentity/style: SAME adult armored skeletal warlord narrowiron crown, blackenedplate broadpauldrons, burgundy waistcloth andclose-heldheavychainhammer. Create12distinctposes ontransparentbackground,4columns by3rows. All face south/down towardviewer, fixedorthographiccamera down40degrees. Row1 ATTACK: hammerpullback, hammerraisedoverhead, hammerdownwardstrikecontact, recovery. Row2 HIT: impactlean, recoil, regainbalance, recoveredstance. Row3 DEATH: kneesbuckling, fallingback, landingonside, motionlessplatearmoredcorpse. Fullbody plusweapon contained ineachcell withgeneroustransparentgutters. Samebody/armor/weapon scale acrossallposes, neverenlargecorpse tofillcell. Physicallytextured realistic painted3Drender style matchingreference. Actualposeschange, no repeatedstandingpose. GenuinetransparentBG, noground/shadow/environment, noVFX/gore/text/grid/borders, nocutoffs oroverlap.",
+      "reference_inputs": [
+        "actors/elite.png"
+      ],
+      "reference_note": "Only independent generated local reference assets, when listed.",
+      "status": "playable_2_5d_candidate",
+      "authoring": "Built-in OpenAI image_gen.imagegen during authorized project development; model identifier not exposed.",
+      "license": "Generated project asset; no third-party asset license asserted. Not labeled CC0. No protected source-game code/art copied."
+    }
+  ],
+  "metadata": [
+    {
+      "path": "chapter1/art/actors/charger.json",
+      "sha256": "3e33aabe0bd7055caa5972af10ced8bcdd7580a4aaa56d49166b3cc8b570f0a6"
+    },
+    {
+      "path": "chapter1/art/actors/elite.json",
+      "sha256": "8346cce22a1104c4711544b444787c5f3e401cc0f5ec9c7a6244f11d6ded9196"
+    },
+    {
+      "path": "chapter1/art/actors/hero.json",
+      "sha256": "a4b2e33e2e1ca3ee1e4a8b1e651745ff526b982fdd8467a1011eb81ac46e1ba5"
+    },
+    {
+      "path": "chapter1/art/actors/ranged.json",
+      "sha256": "21131d1ea0f63d0b3b853f0ad8f732b57d13caacc14e4d82056e17c009b25037"
+    },
+    {
+      "path": "chapter1/art/actors/walker.json",
+      "sha256": "dc57ac5689ebcaa63bdf48df1131170d515beb77264f93059b10de3ccb2f5cb7"
+    }
+  ],
+  "limitations": [
+    "Raster sprite atlases, not rigged 3D models.",
+    "Four directions with four walk keyframes each; dedicated idle clip absent (held walk keyframe).",
+    "Cast/attack, hit and death have four actual poses each, south facing only.",
+    "PPM/feet anchors are initial calibration. Runtime view agent must inspect actual world scale and contact alignment.",
+    "No authored directional action clips, model rigs, animation blending or new independent equipment-on-body variants.",
+    "Terrain seamlessness was requested, but actual engine seam/tiling test has not been performed by art agent.",
+    "Initial battle_mage_walk_4x4_v01 is preserved as a layout proof and should not be runtime uniform-grid cropped."
+  ],
+  "researched_not_adopted": [
+    {
+      "name": "Quaternius RPG Character Pack",
+      "url": "https://quaternius.com/packs/rpgcharacters.html",
+      "license_observation": "Official page identifies CC0; rigged animated low-poly format route. Not downloaded or adopted because appearance did not meet adult grounded target."
+    },
+    {
+      "name": "Gobkit free inventory",
+      "url": "https://gobkit.com/api/free",
+      "license_observation": "Official inventory exposes downloadable GLBs and pack licenses. No model downloaded or adopted; no blanket license assumed."
+    }
+  ],
+  "preservation_manifest": "C:/Project/game-research/implementation-backups/chapter1-c2-before-20261031-01/manifest.json"
+}

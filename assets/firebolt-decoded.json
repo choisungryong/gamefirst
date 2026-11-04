@@ -1,0 +1,1220 @@
+{
+  "cell_height": 66,
+  "cell_width": 116,
+  "directions": 16,
+  "frames": [
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -71
+        },
+        "Max": {
+          "X": 39,
+          "Y": -32
+        }
+      },
+      "direction": 0,
+      "frame": 0,
+      "nonzero_pixels": 850
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -67
+        },
+        "Max": {
+          "X": 43,
+          "Y": -32
+        }
+      },
+      "direction": 0,
+      "frame": 1,
+      "nonzero_pixels": 836
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -68
+        },
+        "Max": {
+          "X": 37,
+          "Y": -33
+        }
+      },
+      "direction": 0,
+      "frame": 2,
+      "nonzero_pixels": 784
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -67
+        },
+        "Max": {
+          "X": 37,
+          "Y": -32
+        }
+      },
+      "direction": 0,
+      "frame": 3,
+      "nonzero_pixels": 769
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -70
+        },
+        "Max": {
+          "X": 39,
+          "Y": -32
+        }
+      },
+      "direction": 0,
+      "frame": 4,
+      "nonzero_pixels": 769
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -54
+        },
+        "Max": {
+          "X": 48,
+          "Y": -19
+        }
+      },
+      "direction": 1,
+      "frame": 0,
+      "nonzero_pixels": 937
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -55
+        },
+        "Max": {
+          "X": 47,
+          "Y": -14
+        }
+      },
+      "direction": 1,
+      "frame": 1,
+      "nonzero_pixels": 909
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -55
+        },
+        "Max": {
+          "X": 51,
+          "Y": -17
+        }
+      },
+      "direction": 1,
+      "frame": 2,
+      "nonzero_pixels": 909
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -55
+        },
+        "Max": {
+          "X": 36,
+          "Y": -16
+        }
+      },
+      "direction": 1,
+      "frame": 3,
+      "nonzero_pixels": 835
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -10,
+          "Y": -55
+        },
+        "Max": {
+          "X": 47,
+          "Y": -21
+        }
+      },
+      "direction": 1,
+      "frame": 4,
+      "nonzero_pixels": 883
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -41,
+          "Y": -54
+        },
+        "Max": {
+          "X": 11,
+          "Y": -21
+        }
+      },
+      "direction": 2,
+      "frame": 0,
+      "nonzero_pixels": 887
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -49,
+          "Y": -54
+        },
+        "Max": {
+          "X": 11,
+          "Y": -16
+        }
+      },
+      "direction": 2,
+      "frame": 1,
+      "nonzero_pixels": 873
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -44,
+          "Y": -55
+        },
+        "Max": {
+          "X": 11,
+          "Y": -15
+        }
+      },
+      "direction": 2,
+      "frame": 2,
+      "nonzero_pixels": 865
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -41,
+          "Y": -56
+        },
+        "Max": {
+          "X": 11,
+          "Y": -22
+        }
+      },
+      "direction": 2,
+      "frame": 3,
+      "nonzero_pixels": 865
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -46,
+          "Y": -55
+        },
+        "Max": {
+          "X": 13,
+          "Y": -22
+        }
+      },
+      "direction": 2,
+      "frame": 4,
+      "nonzero_pixels": 865
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -41,
+          "Y": -67
+        },
+        "Max": {
+          "X": 11,
+          "Y": -32
+        }
+      },
+      "direction": 3,
+      "frame": 0,
+      "nonzero_pixels": 798
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -43,
+          "Y": -65
+        },
+        "Max": {
+          "X": 11,
+          "Y": -32
+        }
+      },
+      "direction": 3,
+      "frame": 1,
+      "nonzero_pixels": 783
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -44,
+          "Y": -64
+        },
+        "Max": {
+          "X": 10,
+          "Y": -32
+        }
+      },
+      "direction": 3,
+      "frame": 2,
+      "nonzero_pixels": 772
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -32,
+          "Y": -67
+        },
+        "Max": {
+          "X": 12,
+          "Y": -31
+        }
+      },
+      "direction": 3,
+      "frame": 3,
+      "nonzero_pixels": 708
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -41,
+          "Y": -71
+        },
+        "Max": {
+          "X": 10,
+          "Y": -31
+        }
+      },
+      "direction": 3,
+      "frame": 4,
+      "nonzero_pixels": 762
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -15,
+          "Y": -76
+        },
+        "Max": {
+          "X": 14,
+          "Y": -33
+        }
+      },
+      "direction": 4,
+      "frame": 0,
+      "nonzero_pixels": 650
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -15,
+          "Y": -71
+        },
+        "Max": {
+          "X": 15,
+          "Y": -31
+        }
+      },
+      "direction": 4,
+      "frame": 1,
+      "nonzero_pixels": 564
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -70
+        },
+        "Max": {
+          "X": 13,
+          "Y": -32
+        }
+      },
+      "direction": 4,
+      "frame": 2,
+      "nonzero_pixels": 541
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -70
+        },
+        "Max": {
+          "X": 14,
+          "Y": -32
+        }
+      },
+      "direction": 4,
+      "frame": 3,
+      "nonzero_pixels": 541
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -75
+        },
+        "Max": {
+          "X": 13,
+          "Y": -32
+        }
+      },
+      "direction": 4,
+      "frame": 4,
+      "nonzero_pixels": 541
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -57
+        },
+        "Max": {
+          "X": 56,
+          "Y": -29
+        }
+      },
+      "direction": 5,
+      "frame": 0,
+      "nonzero_pixels": 977
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -57
+        },
+        "Max": {
+          "X": 56,
+          "Y": -28
+        }
+      },
+      "direction": 5,
+      "frame": 1,
+      "nonzero_pixels": 924
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -57
+        },
+        "Max": {
+          "X": 57,
+          "Y": -29
+        }
+      },
+      "direction": 5,
+      "frame": 2,
+      "nonzero_pixels": 918
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -58
+        },
+        "Max": {
+          "X": 47,
+          "Y": -28
+        }
+      },
+      "direction": 5,
+      "frame": 3,
+      "nonzero_pixels": 868
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -58
+        },
+        "Max": {
+          "X": 58,
+          "Y": -30
+        }
+      },
+      "direction": 5,
+      "frame": 4,
+      "nonzero_pixels": 905
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -15,
+          "Y": -55
+        },
+        "Max": {
+          "X": 16,
+          "Y": -14
+        }
+      },
+      "direction": 6,
+      "frame": 0,
+      "nonzero_pixels": 722
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -54
+        },
+        "Max": {
+          "X": 17,
+          "Y": -10
+        }
+      },
+      "direction": 6,
+      "frame": 1,
+      "nonzero_pixels": 681
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -54
+        },
+        "Max": {
+          "X": 15,
+          "Y": -10
+        }
+      },
+      "direction": 6,
+      "frame": 2,
+      "nonzero_pixels": 681
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -56
+        },
+        "Max": {
+          "X": 15,
+          "Y": -13
+        }
+      },
+      "direction": 6,
+      "frame": 3,
+      "nonzero_pixels": 681
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -55
+        },
+        "Max": {
+          "X": 16,
+          "Y": -17
+        }
+      },
+      "direction": 6,
+      "frame": 4,
+      "nonzero_pixels": 658
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -57,
+          "Y": -55
+        },
+        "Max": {
+          "X": 13,
+          "Y": -31
+        }
+      },
+      "direction": 7,
+      "frame": 0,
+      "nonzero_pixels": 959
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -56,
+          "Y": -55
+        },
+        "Max": {
+          "X": 13,
+          "Y": -30
+        }
+      },
+      "direction": 7,
+      "frame": 1,
+      "nonzero_pixels": 942
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -57,
+          "Y": -56
+        },
+        "Max": {
+          "X": 13,
+          "Y": -30
+        }
+      },
+      "direction": 7,
+      "frame": 2,
+      "nonzero_pixels": 924
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -47,
+          "Y": -56
+        },
+        "Max": {
+          "X": 13,
+          "Y": -31
+        }
+      },
+      "direction": 7,
+      "frame": 3,
+      "nonzero_pixels": 870
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -54,
+          "Y": -57
+        },
+        "Max": {
+          "X": 14,
+          "Y": -29
+        }
+      },
+      "direction": 7,
+      "frame": 4,
+      "nonzero_pixels": 884
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -75
+        },
+        "Max": {
+          "X": 27,
+          "Y": -33
+        }
+      },
+      "direction": 8,
+      "frame": 0,
+      "nonzero_pixels": 728
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -70
+        },
+        "Max": {
+          "X": 30,
+          "Y": -32
+        }
+      },
+      "direction": 8,
+      "frame": 1,
+      "nonzero_pixels": 685
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -69
+        },
+        "Max": {
+          "X": 24,
+          "Y": -32
+        }
+      },
+      "direction": 8,
+      "frame": 2,
+      "nonzero_pixels": 672
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -10,
+          "Y": -69
+        },
+        "Max": {
+          "X": 26,
+          "Y": -31
+        }
+      },
+      "direction": 8,
+      "frame": 3,
+      "nonzero_pixels": 672
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -10,
+          "Y": -73
+        },
+        "Max": {
+          "X": 27,
+          "Y": -32
+        }
+      },
+      "direction": 8,
+      "frame": 4,
+      "nonzero_pixels": 672
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -65
+        },
+        "Max": {
+          "X": 48,
+          "Y": -32
+        }
+      },
+      "direction": 9,
+      "frame": 0,
+      "nonzero_pixels": 978
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -61
+        },
+        "Max": {
+          "X": 54,
+          "Y": -32
+        }
+      },
+      "direction": 9,
+      "frame": 1,
+      "nonzero_pixels": 959
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -61
+        },
+        "Max": {
+          "X": 51,
+          "Y": -32
+        }
+      },
+      "direction": 9,
+      "frame": 2,
+      "nonzero_pixels": 959
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -13,
+          "Y": -63
+        },
+        "Max": {
+          "X": 45,
+          "Y": -32
+        }
+      },
+      "direction": 9,
+      "frame": 3,
+      "nonzero_pixels": 927
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -14,
+          "Y": -65
+        },
+        "Max": {
+          "X": 54,
+          "Y": -32
+        }
+      },
+      "direction": 9,
+      "frame": 4,
+      "nonzero_pixels": 927
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -56
+        },
+        "Max": {
+          "X": 55,
+          "Y": -25
+        }
+      },
+      "direction": 10,
+      "frame": 0,
+      "nonzero_pixels": 1006
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -55
+        },
+        "Max": {
+          "X": 53,
+          "Y": -24
+        }
+      },
+      "direction": 10,
+      "frame": 1,
+      "nonzero_pixels": 955
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -55
+        },
+        "Max": {
+          "X": 57,
+          "Y": -24
+        }
+      },
+      "direction": 10,
+      "frame": 2,
+      "nonzero_pixels": 955
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -55
+        },
+        "Max": {
+          "X": 45,
+          "Y": -24
+        }
+      },
+      "direction": 10,
+      "frame": 3,
+      "nonzero_pixels": 880
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -55
+        },
+        "Max": {
+          "X": 56,
+          "Y": -25
+        }
+      },
+      "direction": 10,
+      "frame": 4,
+      "nonzero_pixels": 909
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -10,
+          "Y": -54
+        },
+        "Max": {
+          "X": 33,
+          "Y": -15
+        }
+      },
+      "direction": 11,
+      "frame": 0,
+      "nonzero_pixels": 791
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -54
+        },
+        "Max": {
+          "X": 34,
+          "Y": -11
+        }
+      },
+      "direction": 11,
+      "frame": 1,
+      "nonzero_pixels": 755
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -10,
+          "Y": -54
+        },
+        "Max": {
+          "X": 37,
+          "Y": -10
+        }
+      },
+      "direction": 11,
+      "frame": 2,
+      "nonzero_pixels": 755
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -12,
+          "Y": -55
+        },
+        "Max": {
+          "X": 26,
+          "Y": -17
+        }
+      },
+      "direction": 11,
+      "frame": 3,
+      "nonzero_pixels": 700
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -11,
+          "Y": -55
+        },
+        "Max": {
+          "X": 30,
+          "Y": -18
+        }
+      },
+      "direction": 11,
+      "frame": 4,
+      "nonzero_pixels": 654
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -31,
+          "Y": -55
+        },
+        "Max": {
+          "X": 12,
+          "Y": -16
+        }
+      },
+      "direction": 12,
+      "frame": 0,
+      "nonzero_pixels": 788
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -35,
+          "Y": -54
+        },
+        "Max": {
+          "X": 10,
+          "Y": -12
+        }
+      },
+      "direction": 12,
+      "frame": 1,
+      "nonzero_pixels": 701
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -26,
+          "Y": -55
+        },
+        "Max": {
+          "X": 10,
+          "Y": -10
+        }
+      },
+      "direction": 12,
+      "frame": 2,
+      "nonzero_pixels": 649
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -27,
+          "Y": -55
+        },
+        "Max": {
+          "X": 11,
+          "Y": -18
+        }
+      },
+      "direction": 12,
+      "frame": 3,
+      "nonzero_pixels": 616
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -30,
+          "Y": -55
+        },
+        "Max": {
+          "X": 10,
+          "Y": -18
+        }
+      },
+      "direction": 12,
+      "frame": 4,
+      "nonzero_pixels": 616
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -54,
+          "Y": -54
+        },
+        "Max": {
+          "X": 13,
+          "Y": -25
+        }
+      },
+      "direction": 13,
+      "frame": 0,
+      "nonzero_pixels": 956
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -54,
+          "Y": -56
+        },
+        "Max": {
+          "X": 13,
+          "Y": -23
+        }
+      },
+      "direction": 13,
+      "frame": 1,
+      "nonzero_pixels": 942
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -54,
+          "Y": -55
+        },
+        "Max": {
+          "X": 13,
+          "Y": -20
+        }
+      },
+      "direction": 13,
+      "frame": 2,
+      "nonzero_pixels": 942
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -46,
+          "Y": -56
+        },
+        "Max": {
+          "X": 13,
+          "Y": -25
+        }
+      },
+      "direction": 13,
+      "frame": 3,
+      "nonzero_pixels": 913
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -58,
+          "Y": -56
+        },
+        "Max": {
+          "X": 13,
+          "Y": -29
+        }
+      },
+      "direction": 13,
+      "frame": 4,
+      "nonzero_pixels": 876
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -52,
+          "Y": -61
+        },
+        "Max": {
+          "X": 13,
+          "Y": -32
+        }
+      },
+      "direction": 14,
+      "frame": 0,
+      "nonzero_pixels": 931
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -52,
+          "Y": -59
+        },
+        "Max": {
+          "X": 12,
+          "Y": -32
+        }
+      },
+      "direction": 14,
+      "frame": 1,
+      "nonzero_pixels": 902
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -54,
+          "Y": -60
+        },
+        "Max": {
+          "X": 12,
+          "Y": -32
+        }
+      },
+      "direction": 14,
+      "frame": 2,
+      "nonzero_pixels": 897
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -43,
+          "Y": -62
+        },
+        "Max": {
+          "X": 13,
+          "Y": -31
+        }
+      },
+      "direction": 14,
+      "frame": 3,
+      "nonzero_pixels": 787
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -52,
+          "Y": -65
+        },
+        "Max": {
+          "X": 13,
+          "Y": -30
+        }
+      },
+      "direction": 14,
+      "frame": 4,
+      "nonzero_pixels": 803
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -28,
+          "Y": -72
+        },
+        "Max": {
+          "X": 12,
+          "Y": -33
+        }
+      },
+      "direction": 15,
+      "frame": 0,
+      "nonzero_pixels": 679
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -29,
+          "Y": -67
+        },
+        "Max": {
+          "X": 11,
+          "Y": -33
+        }
+      },
+      "direction": 15,
+      "frame": 1,
+      "nonzero_pixels": 637
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -32,
+          "Y": -69
+        },
+        "Max": {
+          "X": 10,
+          "Y": -32
+        }
+      },
+      "direction": 15,
+      "frame": 2,
+      "nonzero_pixels": 594
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -25,
+          "Y": -69
+        },
+        "Max": {
+          "X": 11,
+          "Y": -31
+        }
+      },
+      "direction": 15,
+      "frame": 3,
+      "nonzero_pixels": 581
+    },
+    {
+      "bounds": {
+        "Min": {
+          "X": -29,
+          "Y": -74
+        },
+        "Max": {
+          "X": 10,
+          "Y": -32
+        }
+      },
+      "direction": 15,
+      "frame": 4,
+      "nonzero_pixels": 581
+    }
+  ],
+  "frames_per_direction": 5,
+  "palette": "act1 pal.dat BGR, index 0 transparent",
+  "timing": "preview rate only; not verified against game",
+  "union_bounds": {
+    "Min": {
+      "X": -58,
+      "Y": -76
+    },
+    "Max": {
+      "X": 58,
+      "Y": -10
+    }
+  }
+}

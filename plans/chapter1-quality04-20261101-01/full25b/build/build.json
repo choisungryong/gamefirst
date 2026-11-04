@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261103-25b\\AshenCloister-Chapter1.exe",
+  "sha256": "6a45fc58934e138eee0ab1a976f5ce44a60c2d67626df7b5656a8f36356f3d98",
+  "bytes": 130056648,
+  "source_count": 122,
+  "stage_count": 124,
+  "pck_count": 221,
+  "scope": "Full chapter candidate25b: preallocate224 ordinary actor presenters before menu and recycle only removed core entities by kind. Retained corpses and elite/final boss lifetime preserved. Core16/World22/FX22/HUD23/Input21 unchanged. One matched source experiment reduced long frames; packaged actual/manual/audio/final3run quality approval remains separate."
+}

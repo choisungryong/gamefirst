@@ -1,0 +1,77 @@
+[
+  {
+    "path": "chapter1/core/combat_run.gd",
+    "sha256": "ae46dc968e619d1866460f7019323441e40b81b434b32bd8e86adbb4117bae43",
+    "bytes": 34838
+  },
+  {
+    "path": "chapter1/core/run_growth.gd",
+    "sha256": "0af25e8f01272fdc65fa297969594ba4ef38308e6e36f82ce0e8a24b396aa9c8",
+    "bytes": 5683
+  },
+  {
+    "path": "chapter1/core/growth_catalog.gd",
+    "sha256": "ecaa03d78ab8558c2281b0454dd39d89823a392bd4e8a853197885fc337503ce",
+    "bytes": 4323
+  },
+  {
+    "path": "chapter1/data/growth.json",
+    "sha256": "5f7a1138e4d7a72ca6436d0af894f8e890c009bd8836bb93ef880a7ce79ad203",
+    "bytes": 4343
+  },
+  {
+    "path": "combat/combat_resolver.gd",
+    "sha256": "462cde1c5ff1bd33553757e2cbd8639c04737b000db4591905fb0bb63d9d92f8",
+    "bytes": 2459
+  },
+  {
+    "path": "combat/stat_block.gd",
+    "sha256": "1b71b8689e049f32bc6261b158fc0dedb9af252369120d2a63371e766ede3b88",
+    "bytes": 5422
+  },
+  {
+    "path": "chapter1/tests/test_combat_run.gd",
+    "sha256": "a00c42c2429eaf3d8806252817ec780ed47df3dbd1fc7ce8947e646d7b569edd",
+    "bytes": 15474
+  },
+  {
+    "path": "chapter1/tests/pilot_combat_run.gd",
+    "sha256": "9835bbc5d58235dd46029a2c865bd08ee2a6e01870c400044e4ee82e39e9b5d3",
+    "bytes": 4751
+  },
+  {
+    "path": "chapter1/core/COMBAT-RUN.ko.md",
+    "sha256": "de322ee0edf04c737ba0f4bd90082f0ae91b774d379b0c4459963e8a0d799edf",
+    "bytes": 7671
+  },
+  {
+    "path": "plans/chapter1-quality04-20261101-01/core04/semantic_regression.gd",
+    "sha256": "2562b08d84bd2c9bd9870ff177b3087c0a561946bcb0da13aa0434829c70cfd7",
+    "bytes": 15786
+  },
+  {
+    "path": "plans/chapter1-quality04-20261101-01/core04/test_crowd.gd",
+    "sha256": "2b19841647b199331dfe19ddfe37ccfb0a04e8ad4a7da879ed64b8211cb6b8eb",
+    "bytes": 8427
+  },
+  {
+    "path": "plans/chapter1-quality04-20261101-01/core04/normal_pilot.gd",
+    "sha256": "59599d33f39ac90c2f7872e239b11ee8b3dbe1195b9788f8fc95d27aa5e628cb",
+    "bytes": 4856
+  },
+  {
+    "path": "plans/chapter1-quality04-20261101-01/core04/corner_diagnostic.gd",
+    "sha256": "2912e7a1073395f355ab542f3ed36140482c74ffdfbf37856d3c629cceda3f46",
+    "bytes": 4166
+  },
+  {
+    "path": "plans/chapter1-quality04-20261101-01/core04/CONTRACT.ko.md",
+    "sha256": "c2817e4f0d81984656fc0112d45634a3a1bd17e8d3e2b599e0700a3ea559801c",
+    "bytes": 3887
+  },
+  {
+    "path": "plans/chapter1-quality04-20261101-01/core04/run_verification.py",
+    "sha256": "31c6d04ee5ed511f8a607192186028b1a06cf840ceb092a161ff382e0f697463",
+    "bytes": 3166
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "catalog_id": "equipment.prototype",
+  "definition_version": 1,
+  "provenance": {"status":"design_choice","method":"project_design","note":"Independent prototype equipment, requirements, rolls and spell bonuses; not recovered D2R item generation."},
+  "items": [
+    {"id":"item.ember_focus","display_name":"불씨 지팡이","slot":"focus","tags":["caster","focus"],"minimum_level":1,"actor_tag":"caster","base_modifiers":[{"id":"ember_level","stat_id":"stat.skill.ember_level","operation":"add","value":1}],"affix_ids":["affix.kindling"]},
+    {"id":"item.ward_robe","display_name":"수호의 로브","slot":"body","tags":["caster","body"],"minimum_level":1,"actor_tag":"caster","base_modifiers":[{"id":"life","stat_id":"stat.health","operation":"add","value":2560}],"affix_ids":["affix.shelter"]},
+    {"id":"item.well_charm","display_name":"샘의 부적","slot":"charm","tags":["caster","charm"],"minimum_level":2,"actor_tag":"caster","base_modifiers":[{"id":"mana","stat_id":"stat.mana","operation":"add","value":1280}],"affix_ids":["affix.haste"]}
+  ],
+  "affixes": [
+    {"id":"affix.kindling","display_name":"점화","required_tag":"focus","group":"power","modifier":{"stat_id":"stat.spell_power","operation":"add","minimum":500,"maximum":1000,"step":100}},
+    {"id":"affix.shelter","display_name":"보호","required_tag":"body","group":"guard","modifier":{"stat_id":"stat.resist.physical","operation":"add","minimum":500,"maximum":1500,"step":500}},
+    {"id":"affix.haste","display_name":"기민","required_tag":"charm","group":"speed","modifier":{"stat_id":"stat.cast_speed","operation":"add","minimum":200,"maximum":600,"step":200}}
+  ]
+}

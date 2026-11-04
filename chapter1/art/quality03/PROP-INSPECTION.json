@@ -1,0 +1,105 @@
+{
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "transparent_pixels": 1035594,
+  "major_components": 12,
+  "props": [
+    {
+      "id": "pillar_whole",
+      "major_component": 2,
+      "major_pixels": 23127,
+      "inside_pixels": 23127,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 23127
+    },
+    {
+      "id": "pillar_broken",
+      "major_component": 4,
+      "major_pixels": 20649,
+      "inside_pixels": 20649,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 20649
+    },
+    {
+      "id": "arch",
+      "major_component": 1,
+      "major_pixels": 43359,
+      "inside_pixels": 43359,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 43359
+    },
+    {
+      "id": "wall",
+      "major_component": 3,
+      "major_pixels": 37967,
+      "inside_pixels": 37967,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 37967
+    },
+    {
+      "id": "grave_cross",
+      "major_component": 8,
+      "major_pixels": 30215,
+      "inside_pixels": 30215,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 30215
+    },
+    {
+      "id": "grave_slab",
+      "major_component": 12,
+      "major_pixels": 33476,
+      "inside_pixels": 33476,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 33476
+    },
+    {
+      "id": "brazier",
+      "major_component": 10,
+      "major_pixels": 25658,
+      "inside_pixels": 25658,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 25658
+    },
+    {
+      "id": "tree",
+      "major_component": 5,
+      "major_pixels": 34811,
+      "inside_pixels": 34811,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 34817
+    },
+    {
+      "id": "roots",
+      "major_component": 15,
+      "major_pixels": 33446,
+      "inside_pixels": 33446,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 33455
+    },
+    {
+      "id": "shrub_a",
+      "major_component": 14,
+      "major_pixels": 31419,
+      "inside_pixels": 31419,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 31502
+    },
+    {
+      "id": "shrub_b",
+      "major_component": 18,
+      "major_pixels": 27181,
+      "inside_pixels": 27181,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 27211
+    },
+    {
+      "id": "rubble",
+      "major_component": 19,
+      "major_pixels": 29625,
+      "inside_pixels": 29625,
+      "neighbor_major_pixels": 0,
+      "opaque_pixels": 35507
+    }
+  ],
+  "scope": "Read-only alpha/component metadata analysis; not image pixel editing or visual approval"
+}

@@ -1,0 +1,8 @@
+{
+  "actual_exit_code": 0,
+  "checks": 52,
+  "failures": [],
+  "source": "Direct tools.exec_command result for unchanged final test_combat_run.gd immediately before source pin; see source-manifest.json.",
+  "stdout": "Godot Engine v4.5.1.stable.official.f62fdbde1\nCHAPTER1_COMBAT_RESULT {\"checks\":52,\"failures\":[],\"scope\":\"behavioral fixtures; normal pilot is a separate script\"}",
+  "scope": "Behavioral fixtures, not normal gameplay or visual quality."
+}

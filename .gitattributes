@@ -1,0 +1,3 @@
+# Preserve exact working bytes: archived source-freeze files use SHA256 pins.
+# Normalize line endings only in a separately reviewed migration.
+* -text

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "baseline_sim.gd",
+    "sha256": "2169FCDF514552026251A0D88DDE1728EF7750FB1C93E59ECE1971DE0E672753",
+    "matches_snapshot": true
+  },
+  {
+    "path": "data\\game_catalog.gd",
+    "sha256": "1772387DAA325EC67EDA7005CD53E8DE3472CD280F8F8DCD58B48D358B33CF16",
+    "matches_snapshot": true
+  },
+  {
+    "path": "game_data\\catalog.json",
+    "sha256": "DBF793A87B339D29DB3012476DFE7AFE7B24782A73F87E5CA517B3AEDFEB6A26",
+    "matches_snapshot": true
+  },
+  {
+    "path": "project.godot",
+    "sha256": "AE76830FF8EB69F5380486329C7AD769D9D05D3D5E7DF958C33656AF8B4AD866",
+    "matches_snapshot": true
+  }
+]

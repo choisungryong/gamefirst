@@ -1,0 +1,7 @@
+{
+  "chunk_id": "6b43c4",
+  "wall_time_seconds": 0.6424909,
+  "exit_code": 1,
+  "original_token_count": 57,
+  "output": "Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org\r\n\r\nCHAPTER1_COMBAT_RESULT {\"checks\":53,\"failures\":[\"intentional combat harness failure\"],\"scope\":\"behavioral fixtures; normal pilot is a separate script\"}\r\n"
+}

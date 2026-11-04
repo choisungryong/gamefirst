@@ -1,0 +1,72 @@
+{
+  "candidate": 11,
+  "scope": "Current presentation additions, not final art approval. Existing source/asset/audio ledgers still apply to other assets.",
+  "hero": {
+    "source": "https://opengameart.org/content/rigged-textured-mage",
+    "author": "thecubber",
+    "rig_credit": "Julius / OpenGameArt",
+    "license": "CC BY-SA3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "runtime_path": "chapter1/art/rigged_mage/v01/mage_animated.glb",
+    "sha256": "9a37da85a99d2f50e1c122ee3ab36c7028c26512de68c4c98ccb68fecebd0e65",
+    "bytes": 24162060,
+    "bones_actual_godot": 53,
+    "clips": [
+      "idle",
+      "run",
+      "cast",
+      "hit",
+      "death"
+    ],
+    "changes": [
+      "legacy material conversion",
+      "own authored IK animation/baking, not mocap",
+      "unweighted vertex2053 repaired with one-ring inverse-distance weights; four low-weight vertices normalized",
+      "metre conversion",
+      "distance gait/upper-body blend/runtime artist lighting/readability"
+    ],
+    "derived_source_directory": "C:/Project/game-research/art-sources/oga-mage-20261101-01/gltf-preview-06",
+    "runtime_attribution": "chapter1/art/rigged_mage/v01/ATTRIBUTION.ko.md",
+    "derivative_model_and_renders": "CC BY-SA3.0",
+    "open_art_work": [
+      "natural run",
+      "staff grip/fingers",
+      "cloth deformations"
+    ]
+  },
+  "independent_geometry": [
+    "chapter1/view/ember_staff_visual.gd",
+    "chapter1/view/chapter_world_quality10.gd"
+  ],
+  "independent_shaders": [
+    "chapter1/view/chapter_grass_quality10.gdshader",
+    "chapter1/view/chapter_ground_quality10.gdshader",
+    "chapter1/view/contact_quality10.gdshader"
+  ],
+  "grass": {
+    "patches": 545,
+    "blades": 11492,
+    "surfaces": 1,
+    "removed_round_foliage_quads": 720,
+    "collision_added": false
+  },
+  "contact": {
+    "duration_seconds": 0.13,
+    "per_consume": 8,
+    "active_cap": 96,
+    "drives_damage": false
+  },
+  "rejected": [
+    "AI eight-walk03 repeated leading foot",
+    "unrepaired mage black chest spike",
+    "gold clone depth tint reveals robe internal surfaces",
+    "grass01 invisible under lighting",
+    "grass02 sRGB-linear mismatch too pale",
+    "candidate10 PCK missing attribution MD"
+  ],
+  "not_used": [
+    "D2/SACRATA protected runtime art or source",
+    "CMU mocap (research only)"
+  ],
+  "root_import_ignore_archived": "C:/Project/game-research/implementation-backups/chapter1-full10-before-20261101-01/mage-research-before-adoption.gdignore"
+}

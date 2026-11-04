@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261104-28\\AshenCloister-Chapter1.exe",
+  "sha256": "a925cb49aa7fc1c0e99e6ddc5e44166394e7d700084f6eb5f4b9e77d0bd2115d",
+  "bytes": 130065656,
+  "source_count": 125,
+  "stage_count": 127,
+  "pck_count": 227,
+  "scope": "Full chapter candidate28: readable upper-body hit recoil, planted lower-body poses, and paid attack direction retained during recovery. Core16/World22/Actor28/HUD27/Input21/FX26; combat rules unchanged. World27 floor study not adopted. Actual package/manual/audio/final performance gates separate."
+}

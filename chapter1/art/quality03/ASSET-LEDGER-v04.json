@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "accepted_for_runtime_trial": [
+    {
+      "key": "ground",
+      "path": "ground_flagstone_v01.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-bdd9375f-b3ce-4eea-86c9-9d3a9ae2ba3d.png",
+      "sha256": "f6a3cd679f4137186a047235724113dba4d3dd358f4764d9a2c7b3c902f1f851",
+      "original_sha256": "f6a3cd679f4137186a047235724113dba4d3dd358f4764d9a2c7b3c902f1f851",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "prompt": "Use case: stylized-concept. Asset type: production diffuse/albedo terrain material for an original dark fantasy isometric action RPG. Make a single square seamless tiling texture of an abandoned medieval cloister floor: irregular large grey slate flagstones, hairline cracks and worn chiselled edges, dark brown earth compacted in narrow joints, a few tiny dull moss fibres. Straight 90-degree overhead orthographic material scan, no perspective. Physically believable detailed stone surface with restrained local contrast. Neutral soft FLAT DIFFUSE illumination only: absolutely no directional lighting, cast shadows, circular shadow/light patches, ambient occlusion blobs, vignette or highlights. The floor must have no circular stains, no large isolated hero object, no grass tufts sticking up, no game props, no bones, no characters, no inscriptions, no symbols, no text, no UI, no border. Subdued grey and earth palette suitable beneath bright fire/ice/lightning combat; not toy low-poly, not cartoon. Exact seamless continuity on all four edges, fairly even pattern frequency across canvas. Fill image only with the surface. This is independent new artwork; do not reproduce a named game asset.",
+      "reference_inputs": [],
+      "generation_mode": "built-in image_gen.imagegen; all PNG pixels preserved unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license asserted",
+      "status": "Art supplied for actual runtime integration trial; final quality approval remains open"
+    },
+    {
+      "key": "props",
+      "path": "cloister_props_v01.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-22dad67e-49ea-4d63-9ef6-ea14c9bb239f.png",
+      "sha256": "da0fb08565041cecd47aeeabbe796d4508394eb0196562d75b8102083f2d0369",
+      "original_sha256": "da0fb08565041cecd47aeeabbe796d4508394eb0196562d75b8102083f2d0369",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "prompt": "Use case: stylized-concept. Asset type: actual transparent environment prop sprite atlas for an original mature dark-fantasy isometric action RPG. Create exactly 12 isolated game props in a precise 4-column by 3-row grid, equal cells, on a genuinely transparent background. Camera fixed orthographic looking down 48 degrees, same orientation and lighting for every prop, front three-quarter view. Weathered sculptural stone, worn iron, aged bark; detailed believable painted 3D-render finish, muted slate grey and umber with sparse dry moss, adult realistic scale, no cartoon low-poly toy appearance. Row1 left to right: intact tall gothic cloister stone column with carved capital; broken half column with jagged fracture; ruined pointed stone arch with two feet; low broken monastery stone wall segment. Row2 left to right: eroded stone grave marker with subtle cross-shaped silhouette but NO letters; cracked horizontal tomb slab; iron brazier on stone pedestal with a restrained amber ember flame; gnarled leafless dead tree. Row3 left to right: exposed tangled root cluster; dry thorn shrub; a different low dead bramble cluster; scattered fractured stone masonry rubble. IMPORTANT: every complete prop must fit entirely inside its OWN cell using only60% of cell height/width, leaving wide TRANSPARENT gutters on all sides. Feet/ground-contact points near75% cell height. Tree, arch, roots, wall and rubble must not overlap adjacent cells. No platforms or attached ground tiles, no cast shadows onto background, no baked round shadow blobs, no characters, no environment/background scene, no text, numbers, labels, gridlines, UI or borders. Ground contact must be easy to anchor in an engine. All12 props are separate useful assets, not a conceptart scene. New independent artwork, not a named game's assets.",
+      "reference_inputs": [],
+      "generation_mode": "built-in image_gen.imagegen; all PNG pixels preserved unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license asserted",
+      "status": "Art supplied for actual runtime integration trial; final quality approval remains open"
+    },
+    {
+      "key": "soil",
+      "path": "ground_soil_v01.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-2fed0e2f-c733-40b1-99f6-1122445ed17a.png",
+      "sha256": "751f561c71cedec70c87c189a4c42b461c016794bc2639dda6f88f5489520f3b",
+      "original_sha256": "751f561c71cedec70c87c189a4c42b461c016794bc2639dda6f88f5489520f3b",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "prompt": "Use case: stylized-concept. Asset type: seamless square diffuse/albedo ground material for an original mature dark-fantasy action RPG. Straight overhead 90-degree material scan of compacted charcoal-brown soil in a long-abandoned stone cloister verge: fine gravel, tiny shale chips, thin roots embedded flush in dirt, sparse crumbled dull dead leaves and minute dry moss fibres. Fairly even small-scale texture detail, no large patches or individual focal objects. Physically believable surface, subdued umber/grey with restrained contrast for bright combat readability. FLAT DIFFUSE neutral soft illumination, absolutely no directional highlights, cast shadows, ambient shadow blobs, round stains, dark circular areas, vignette, perspective or raised grass tufts. No flagstones, no paths drawn into the texture, no big stones, no props, characters, bones, writing, symbols, UI, frame or border. Seamless edge continuation all4edges, texture fills whole image. New independent game material, not a screenshot or copied game asset.",
+      "reference_inputs": [],
+      "generation_mode": "built-in image_gen.imagegen; all PNG pixels preserved unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license asserted",
+      "status": "Art supplied for actual runtime integration trial; final quality approval remains open"
+    },
+    {
+      "key": "hero_cast",
+      "path": "hero_cast_v01.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-505b0369-9141-47cc-8241-3633d9d465e7.png",
+      "sha256": "fb2f5d50edd5c00ef735176505554011e1dfcdf27604cd4cdd13923bc6c17ea1",
+      "original_sha256": "fb2f5d50edd5c00ef735176505554011e1dfcdf27604cd4cdd13923bc6c17ea1",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "prompt": "Use case: identity-preserve. Asset type: production directional CAST animation sprite atlas for the original game character shown in reference image1. Reference image1 is ONLY identity/costume/camera reference: keep the SAME adult pale-haired female battle mage, realistic 7.5-head proportions, layered weathered charcoal leather/metal armor and split desaturated steel-blue robe, bronze details, dark staff with teal crystal. Produce a NEW square transparent 4-column×4-row atlas of16 full-body CAST poses. Same orthographic camera asreference, looking down approximately40degrees, same subdued lighting/materials and body scale. Row1 faces SOUTH/towardviewer, row2 EAST/screenright, row3 NORTH/awayfromviewer, row4 WEST/screenleft. Within EACH ROW, columns are four coherent successive casting phases:1feetplanted ready withstaffupright,2anticipation torso coils andfreehand drawsback,3release freearm extends clearly in facingdirection andstaffleansforward,4recovery armreturns towardready. This is a compact animation, NOT walking: bothboots remain on the SAME ground-contact line and samecenter across that row. Identity/staff/armor must remainconsistent and there must be exactlytwoarms/twolegs in eachframe. Everypose entirely insideowncell, fullstaffincluded, use only60% of cellheight withbroadtransparentgutters. Staffneverextendsbelowboots. No overlapbetweenneighbors, no text/gridlines/labels/border, no groundplane, no castshadows, no spellparticles/glow/smoke or background. Clear silhouettes and believable planted casting motion; northmustshowback, east/westmustrespecttheirfacing and aim. Independently generated game asset, do notcopyanynamedgame character.",
+      "reference_inputs": [
+        "C:/Project/d2r-combat-baseline/chapter1/art/actors/hero.png"
+      ],
+      "generation_mode": "built-in image_gen.imagegen; all PNG pixels preserved unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license asserted",
+      "status": "Art supplied for actual runtime integration trial; final quality approval remains open"
+    },
+    {
+      "key": "foliage",
+      "path": "cloister_foliage_v01.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-62a96c8b-34f5-4975-be6a-3f1aa1efeed9.png",
+      "sha256": "52f53659589ae92b62637a607e99659dc272ff286fd1114d52ba6a462d9ca42f",
+      "original_sha256": "52f53659589ae92b62637a607e99659dc272ff286fd1114d52ba6a462d9ca42f",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "prompt": "Use case: stylized-concept. Asset type: production transparent foliage sprite atlas for an original mature dark-fantasy isometric action RPG. Make exactly8 separate dense natural vegetation CLUSTERS in a4-column×2-row grid, broad transparentpadding percell, fixedorthographiccamera lookingdown48degrees. Row1: thick tuftoflongolivegrasswithdrytipvariations; densewidefountainofsagegrassblades; lowlushfernclusterwith4-6unfurlingfronds; windbentdarkolivegrassclump. Row2: mixedolivegrassandtinydeadleavescluster; mottledmoss-edgeferncluster; thickdesaturatedgreentussockwithshortbrownbase; lowfernandgrassmixedcluster. Eachisoneusefulgameprop withmanyfineleavesandclearfullsilhouette, rootcontactatbottomcenter. Mature realisticpainted3D-render finish, detailedthinblades/serratedferns, restrainedcoolgreen/olive/sagepalettewithfewwarmdrytips. Notcartoontriangles, notlowpolycones, notindividualgiantleaves. Modestnatural variation, noflowers. Everyclustercompletelyfitsowncellwithwidegutterandnoadjacentoverlap. Genuinetransparentbackground, NOgroundtile/slab/soilpatch, no castshadow onbackground, no bakedroundshadow, no text,numbers,gridlines,labels,UIorborder. Newindependentgameassets, notcopiedfromanynamedgame.",
+      "reference_inputs": [],
+      "generation_mode": "built-in image_gen.imagegen; PNG pixels copied unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license assertion",
+      "status": "Candidate art; real-engine approval pending"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "key": "run_attempt01",
+      "path": "attempts/hero_run_attempt01.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-faa0d529-b053-40fd-8a48-363c721a1bfc.png",
+      "sha256": "0e1a323dfadd0df897619f580dc65fd5d6552b10213bb4b116dbe0a306e1aa36",
+      "original_sha256": "0e1a323dfadd0df897619f580dc65fd5d6552b10213bb4b116dbe0a306e1aa36",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "prompt": "Use case: identity-preserve. Asset type: actual32-frame production RUN animation atlas for an original adult dark-fantasy isometric action RPG. Input images1 and2 are identity/costume/camera references ONLY. Preserve the SAME pale-haired adult female armored battle mage: realistic adultproportions, steel-blue splitrobe, charcoalmetal/leather armor, bronze details and dark tealcrystalstaff. Make one WIDE2:1 transparent sprite sheet, exactly8equalcolumns×4equalrows,32isolated fullbodyposes. Eachrow is ONE smooth in-place RUN CYCLE across8columns, notwalk andnotrandomstancevariants. Row1 SOUTH/towardviewer, row2 EAST/right, row3 NORTH/away, row4 WEST/left. Sameorthographicdownwardcamera asrefs. Torsoleansslightlyforward, robe swingswithmomentum, staffsecuredclose notwavingwildly. Across eachrow the eight successive phases are:1LEFTfoot forward groundcontact/rightlegback;2leftlegcompresses underweight/rightlegswings;3leftfootpushesoff/rightkneecomesforward;4briefairborne/rightfootreachesforward;5RIGHTfoot forward groundcontact/leftlegback;6rightlegcompresses/leftlegswings;7rightfootpushesoff/leftkneecomesforward;8briefairborne/leftfootreachesforward. The samecycle mustrepeatcleanly8→1. Strong clearlyalternating kneesandfeet and coherentanatomy, exactlytwoarms/twolegs ineachpose. Samebodyheight/hipcenter/costume/lighting/camera inallframes; noidentitydrift. Eachfullfigure andfullstaff occupiesonly65% ofitscellheight leavingtransparentpadding, noadjacentoverlap orclipping. Footgroundplane staysat80%ofeachcellheight; airbornefeet mayliftjustaboveit. Samecellcenteracrossphases. Genuinealpha, nofloor, castshadows, particles, effects, background, letters, numbers, gridlines, guides, borderorUI. Render gameassetsonly, photorealisticpainted3D finishnotcartoon. Independentlygeneratedcharacter, notanexistinggamehero.",
+      "reference_inputs": [
+        "C:/Project/d2r-combat-baseline/chapter1/art/actors/hero.png",
+        "C:/Project/d2r-combat-baseline/chapter1/art/quality03/hero_cast_v01.png"
+      ],
+      "generation_mode": "built-in image_gen.imagegen; PNG pixels copied unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license assertion",
+      "status": "rejected_motion_coherence",
+      "reason": "Visual inspection found repeated leading foot across phases; cape/stance variation does not establish genuine alternating run contacts or suspension."
+    },
+    {
+      "key": "run_attempt02",
+      "path": "attempts/hero_run_attempt02.png",
+      "original": "C:\\Users\\twins\\.codex\\generated_images\\01a191b7-2f06-71f2-8374-65bd3e9e4f7a\\exec-ac8f97cc-0e95-4f31-b864-c29487ee8601.png",
+      "sha256": "9cd8d2e54e5df99b958af4d37472488d438fdd90f1cf6afb81a8e289232efe13",
+      "original_sha256": "9cd8d2e54e5df99b958af4d37472488d438fdd90f1cf6afb81a8e289232efe13",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "prompt": "Use case: precise-object-edit. Asset type: corrected32-frameRUNspriteatlas. Image1 is the EDIT TARGET. Preserve exactsamecharacteridentity, costume, staff, viewdirections, camera, lighting,8columns×4rows layout, transparentbackground andbody scale. Change ONLY lower-body running motion and robe openings required to reveal that motion. The current target FAILS because the SAME leadingboot remains forward in almostallcolumns. FIXTHIS: the left andright legs MUST visiblyexchange front/back. Columns1-4: LEFTleg iscontact/push-off whileRIGHTlegswingsforward. Columns5-8: RIGHTleg iscontact/push-off whileLEFTlegswingsforward. Atcolumn1leftbootreachesoutfrontandrightboottrailsfarbehind; atcolumn5thismustbevisiblyREVERSED. Atcolumn3rightkneeisraisedhighforward,leftlegextendsback; atcolumn7leftkneeisraisedhighforward,rightlegextendsback. Columns4and8showbriefairbornenarrowstride, BOTHbootsclearlyaboveothercontactbaseline. Eastrowandwestrow musthaveobviousoppositelegpositions betweencolumns1and5, notjustcapevariation. Southandnorthrowsmustshowalternatingleft/rightkneeandbootpositions inrobeopening. Twoarms/twolegsonly. Staffstayssteady, upperbodyconsistent. Itmustreadasasequentialin-placeRUNcyclein4facingdirections, not8similarportraitposes. Allspritesfullyinsidecellswithpadding; nooverlaps, effects, writing, gridlines, groundplaneorcastshadows. Preservegenuinealpha.",
+      "reference_inputs": [
+        "C:/Users/twins/.codex/generated_images/01a191b7-2f06-71f2-8374-65bd3e9e4f7a/exec-faa0d529-b053-40fd-8a48-363c721a1bfc.png"
+      ],
+      "generation_mode": "built-in image_gen.imagegen; PNG pixels copied unchanged",
+      "rights": "Independently generated project artwork; no third-party or CC0 license assertion",
+      "status": "rejected_motion_coherence",
+      "reason": "Visual inspection found repeated leading foot across phases; cape/stance variation does not establish genuine alternating run contacts or suspension."
+    }
+  ],
+  "metadata_sha256": {
+    "cloister_props_v01.json": "1095377c3458754886ca907fccbd568f556dc71e63b69df99161509a862720bc",
+    "hero_cast_v01.json": "1e4ca95c49bf7fa568a185c9bf88ed8bea5784dca78b3ef3fd8bdf0718bc0009",
+    "cloister_foliage_v01.json": "d5f279f4ec847511722bec65329e78056009fa6f6ea064560d259a9f298af7a8"
+  },
+  "png_copies_original_hash_match": true,
+  "scope": "Five new adopted trial PNGs and two rejected animation attempts. Existing art and old ledgers preserved.",
+  "limitations": [
+    "Materials requested seamless; runtime edge/repetition check required.",
+    "Props are 2.5D billboards, not physical 3D geometry.",
+    "Height and feet anchors initially authored; verify occlusion/grounding at game camera.",
+    "Hero directional cast has four poses/facing; temporal coherence and moving-cast transition must be reviewed in-game.",
+    "Existing enemy and hero hit/death action direction limitations remain.",
+    "Eight-frame directional run not supplied: both32-pose attempts failed visible leg alternation; hero_run_v01.json deliberately absent.",
+    "Existing4-frame walk remains runtime fallback; do not advertise a finished run cycle."
+  ]
+}

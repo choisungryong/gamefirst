@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261102-18\\AshenCloister-Chapter1.exe",
+  "sha256": "a535cc3f2854d5afaf2968abd642007bcbd18595934aef90db6d05986caef898",
+  "bytes": 130015824,
+  "source_count": 108,
+  "stage_count": 110,
+  "pck_count": 194,
+  "scope": "Full chapter candidate18: viewport-derived single ground plane covers all legal camera targets with3m margin, world-space terrain unchanged. Inherits17b presentation and16 combat. Not final art/manual/audio/formal performance approval."
+}

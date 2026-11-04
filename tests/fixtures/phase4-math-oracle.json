@@ -1,0 +1,5723 @@
+{
+  "scope": "Independent exact Fraction arithmetic for declared phase4 project rules, not D2R",
+  "generator_sha256": "e79418a62981ec81c830857a642aa48c172f5d353608bb5877657c72567ad005",
+  "damage": [
+    {
+      "input": [
+        1536,
+        2304,
+        256,
+        2500,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 1536,
+        "power_bps": 0,
+        "after_power_raw": 1536,
+        "flat_reduction_raw": 256,
+        "after_flat_raw": 1280,
+        "resistance_bps": 2500,
+        "after_resist_raw": 960,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 960,
+        "hp_before_raw": 2304,
+        "hp_after_raw": 1344,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        1001,
+        2304,
+        0,
+        2500,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 1001,
+        "power_bps": 0,
+        "after_power_raw": 1001,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1001,
+        "resistance_bps": 2500,
+        "after_resist_raw": 750,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 750,
+        "hp_before_raw": 2304,
+        "hp_after_raw": 1554,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        100,
+        1,
+        256,
+        0,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 100,
+        "power_bps": 0,
+        "after_power_raw": 100,
+        "flat_reduction_raw": 256,
+        "after_flat_raw": 0,
+        "resistance_bps": 0,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 1,
+        "hp_after_raw": 1,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        1,
+        256,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 1,
+        "power_bps": 0,
+        "after_power_raw": 1,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1,
+        "resistance_bps": 0,
+        "after_resist_raw": 1,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1,
+        "hp_before_raw": 256,
+        "hp_after_raw": 255,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 1,
+        "power_bps": 0,
+        "after_power_raw": 1,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1,
+        "resistance_bps": 0,
+        "after_resist_raw": 1,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1,
+        "hp_before_raw": 1,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        1,
+        256,
+        0,
+        0,
+        0,
+        255
+      ],
+      "expected": {
+        "base_raw": 1,
+        "power_bps": 0,
+        "after_power_raw": 1,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1,
+        "resistance_bps": 0,
+        "after_resist_raw": 1,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1,
+        "hp_before_raw": 256,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        1001,
+        10000,
+        0,
+        -10000,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 1001,
+        "power_bps": 0,
+        "after_power_raw": 1001,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1001,
+        "resistance_bps": -10000,
+        "after_resist_raw": 2002,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 2002,
+        "hp_before_raw": 10000,
+        "hp_after_raw": 7998,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        1001,
+        10000,
+        0,
+        10000,
+        0,
+        0
+      ],
+      "expected": {
+        "base_raw": 1001,
+        "power_bps": 0,
+        "after_power_raw": 1001,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1001,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 10000,
+        "hp_after_raw": 10000,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        1,
+        10000,
+        0,
+        0,
+        5000,
+        0
+      ],
+      "expected": {
+        "base_raw": 1,
+        "power_bps": 5000,
+        "after_power_raw": 1,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 1,
+        "resistance_bps": 0,
+        "after_resist_raw": 1,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1,
+        "hp_before_raw": 10000,
+        "hp_after_raw": 9999,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        7,
+        10000,
+        1,
+        3333,
+        5000,
+        0
+      ],
+      "expected": {
+        "base_raw": 7,
+        "power_bps": 5000,
+        "after_power_raw": 10,
+        "flat_reduction_raw": 1,
+        "after_flat_raw": 9,
+        "resistance_bps": 3333,
+        "after_resist_raw": 6,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 6,
+        "hp_before_raw": 10000,
+        "hp_after_raw": 9994,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        -10,
+        256,
+        -1,
+        -20000,
+        200000,
+        -1
+      ],
+      "expected": {
+        "base_raw": 0,
+        "power_bps": 100000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 0,
+        "resistance_bps": -10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 256,
+        "hp_after_raw": 256,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        0,
+        -10000,
+        100000,
+        0
+      ],
+      "expected": {
+        "base_raw": 2147483647,
+        "power_bps": 100000,
+        "after_power_raw": 23622320117,
+        "flat_reduction_raw": 0,
+        "after_flat_raw": 23622320117,
+        "resistance_bps": -10000,
+        "after_resist_raw": 47244640234,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 47244640234,
+        "hp_before_raw": 2147483647,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        108803,
+        982780,
+        1905,
+        9763,
+        587,
+        0
+      ],
+      "expected": {
+        "base_raw": 108803,
+        "power_bps": 587,
+        "after_power_raw": 115189,
+        "flat_reduction_raw": 1905,
+        "after_flat_raw": 113284,
+        "resistance_bps": 9763,
+        "after_resist_raw": 2684,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 2684,
+        "hp_before_raw": 982780,
+        "hp_after_raw": 980096,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        38202,
+        957030,
+        1110,
+        -4277,
+        61241,
+        0
+      ],
+      "expected": {
+        "base_raw": 38202,
+        "power_bps": 61241,
+        "after_power_raw": 272154,
+        "flat_reduction_raw": 1110,
+        "after_flat_raw": 271044,
+        "resistance_bps": -4277,
+        "after_resist_raw": 386969,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 386969,
+        "hp_before_raw": 957030,
+        "hp_after_raw": 570061,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        54554,
+        494608,
+        904,
+        13212,
+        19241,
+        255
+      ],
+      "expected": {
+        "base_raw": 54554,
+        "power_bps": 19241,
+        "after_power_raw": 159521,
+        "flat_reduction_raw": 904,
+        "after_flat_raw": 158617,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 494608,
+        "hp_after_raw": 494608,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        98080,
+        51739,
+        673,
+        8417,
+        46295,
+        0
+      ],
+      "expected": {
+        "base_raw": 98080,
+        "power_bps": 46295,
+        "after_power_raw": 552141,
+        "flat_reduction_raw": 673,
+        "after_flat_raw": 551468,
+        "resistance_bps": 8417,
+        "after_resist_raw": 87297,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 87297,
+        "hp_before_raw": 51739,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        82910,
+        113045,
+        2044,
+        13706,
+        76698,
+        0
+      ],
+      "expected": {
+        "base_raw": 82910,
+        "power_bps": 76698,
+        "after_power_raw": 718813,
+        "flat_reduction_raw": 2044,
+        "after_flat_raw": 716769,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 113045,
+        "hp_after_raw": 113045,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        88164,
+        912089,
+        60,
+        4733,
+        116799,
+        0
+      ],
+      "expected": {
+        "base_raw": 88164,
+        "power_bps": 100000,
+        "after_power_raw": 969804,
+        "flat_reduction_raw": 60,
+        "after_flat_raw": 969744,
+        "resistance_bps": 4733,
+        "after_resist_raw": 510764,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 510764,
+        "hp_before_raw": 912089,
+        "hp_after_raw": 401325,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        48222,
+        302442,
+        1771,
+        14076,
+        -12088,
+        0
+      ],
+      "expected": {
+        "base_raw": 48222,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 1771,
+        "after_flat_raw": 0,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 302442,
+        "hp_after_raw": 302442,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        86853,
+        435052,
+        1123,
+        11803,
+        109710,
+        0
+      ],
+      "expected": {
+        "base_raw": 86853,
+        "power_bps": 100000,
+        "after_power_raw": 955383,
+        "flat_reduction_raw": 1123,
+        "after_flat_raw": 954260,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 435052,
+        "hp_after_raw": 435052,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        56711,
+        85795,
+        477,
+        7451,
+        -2147,
+        255
+      ],
+      "expected": {
+        "base_raw": 56711,
+        "power_bps": -2147,
+        "after_power_raw": 44535,
+        "flat_reduction_raw": 477,
+        "after_flat_raw": 44058,
+        "resistance_bps": 7451,
+        "after_resist_raw": 11230,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 11230,
+        "hp_before_raw": 85795,
+        "hp_after_raw": 74565,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        54263,
+        899002,
+        529,
+        -73,
+        102160,
+        255
+      ],
+      "expected": {
+        "base_raw": 54263,
+        "power_bps": 100000,
+        "after_power_raw": 596893,
+        "flat_reduction_raw": 529,
+        "after_flat_raw": 596364,
+        "resistance_bps": -73,
+        "after_resist_raw": 600717,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 600717,
+        "hp_before_raw": 899002,
+        "hp_after_raw": 298285,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        47539,
+        493076,
+        719,
+        6645,
+        32509,
+        0
+      ],
+      "expected": {
+        "base_raw": 47539,
+        "power_bps": 32509,
+        "after_power_raw": 202083,
+        "flat_reduction_raw": 719,
+        "after_flat_raw": 201364,
+        "resistance_bps": 6645,
+        "after_resist_raw": 67557,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 67557,
+        "hp_before_raw": 493076,
+        "hp_after_raw": 425519,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        191660,
+        490396,
+        209,
+        -12848,
+        72161,
+        0
+      ],
+      "expected": {
+        "base_raw": 191660,
+        "power_bps": 72161,
+        "after_power_raw": 1574697,
+        "flat_reduction_raw": 209,
+        "after_flat_raw": 1574488,
+        "resistance_bps": -10000,
+        "after_resist_raw": 3148976,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 3148976,
+        "hp_before_raw": 490396,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        140973,
+        687827,
+        2899,
+        2228,
+        68974,
+        0
+      ],
+      "expected": {
+        "base_raw": 140973,
+        "power_bps": 68974,
+        "after_power_raw": 1113320,
+        "flat_reduction_raw": 2899,
+        "after_flat_raw": 1110421,
+        "resistance_bps": 2228,
+        "after_resist_raw": 863019,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 863019,
+        "hp_before_raw": 687827,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        60440,
+        317444,
+        1883,
+        14075,
+        -4014,
+        255
+      ],
+      "expected": {
+        "base_raw": 60440,
+        "power_bps": -4014,
+        "after_power_raw": 36179,
+        "flat_reduction_raw": 1883,
+        "after_flat_raw": 34296,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 317444,
+        "hp_after_raw": 317444,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        24523,
+        572923,
+        2672,
+        -14966,
+        2334,
+        0
+      ],
+      "expected": {
+        "base_raw": 24523,
+        "power_bps": 2334,
+        "after_power_raw": 30246,
+        "flat_reduction_raw": 2672,
+        "after_flat_raw": 27574,
+        "resistance_bps": -10000,
+        "after_resist_raw": 55148,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 55148,
+        "hp_before_raw": 572923,
+        "hp_after_raw": 517775,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        72363,
+        727569,
+        1569,
+        7230,
+        40508,
+        0
+      ],
+      "expected": {
+        "base_raw": 72363,
+        "power_bps": 40508,
+        "after_power_raw": 365491,
+        "flat_reduction_raw": 1569,
+        "after_flat_raw": 363922,
+        "resistance_bps": 7230,
+        "after_resist_raw": 100806,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 100806,
+        "hp_before_raw": 727569,
+        "hp_after_raw": 626763,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        183359,
+        285121,
+        2161,
+        -13250,
+        34511,
+        0
+      ],
+      "expected": {
+        "base_raw": 183359,
+        "power_bps": 34511,
+        "after_power_raw": 816149,
+        "flat_reduction_raw": 2161,
+        "after_flat_raw": 813988,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1627976,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1627976,
+        "hp_before_raw": 285121,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        46705,
+        242995,
+        2828,
+        -11503,
+        43553,
+        0
+      ],
+      "expected": {
+        "base_raw": 46705,
+        "power_bps": 43553,
+        "after_power_raw": 250119,
+        "flat_reduction_raw": 2828,
+        "after_flat_raw": 247291,
+        "resistance_bps": -10000,
+        "after_resist_raw": 494582,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 494582,
+        "hp_before_raw": 242995,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        63344,
+        436384,
+        650,
+        11938,
+        26773,
+        255
+      ],
+      "expected": {
+        "base_raw": 63344,
+        "power_bps": 26773,
+        "after_power_raw": 232934,
+        "flat_reduction_raw": 650,
+        "after_flat_raw": 232284,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 436384,
+        "hp_after_raw": 436384,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        15623,
+        339560,
+        2420,
+        -14391,
+        105764,
+        0
+      ],
+      "expected": {
+        "base_raw": 15623,
+        "power_bps": 100000,
+        "after_power_raw": 171853,
+        "flat_reduction_raw": 2420,
+        "after_flat_raw": 169433,
+        "resistance_bps": -10000,
+        "after_resist_raw": 338866,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 338866,
+        "hp_before_raw": 339560,
+        "hp_after_raw": 694,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        131270,
+        666148,
+        1510,
+        -11791,
+        64673,
+        0
+      ],
+      "expected": {
+        "base_raw": 131270,
+        "power_bps": 64673,
+        "after_power_raw": 980232,
+        "flat_reduction_raw": 1510,
+        "after_flat_raw": 978722,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1957444,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1957444,
+        "hp_before_raw": 666148,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        40046,
+        939185,
+        1925,
+        4174,
+        84218,
+        0
+      ],
+      "expected": {
+        "base_raw": 40046,
+        "power_bps": 84218,
+        "after_power_raw": 377305,
+        "flat_reduction_raw": 1925,
+        "after_flat_raw": 375380,
+        "resistance_bps": 4174,
+        "after_resist_raw": 218696,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 218696,
+        "hp_before_raw": 939185,
+        "hp_after_raw": 720489,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        48378,
+        955679,
+        787,
+        8897,
+        61432,
+        0
+      ],
+      "expected": {
+        "base_raw": 48378,
+        "power_bps": 61432,
+        "after_power_raw": 345573,
+        "flat_reduction_raw": 787,
+        "after_flat_raw": 344786,
+        "resistance_bps": 8897,
+        "after_resist_raw": 38029,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 38029,
+        "hp_before_raw": 955679,
+        "hp_after_raw": 917650,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        42840,
+        258681,
+        2527,
+        9493,
+        90668,
+        0
+      ],
+      "expected": {
+        "base_raw": 42840,
+        "power_bps": 90668,
+        "after_power_raw": 431261,
+        "flat_reduction_raw": 2527,
+        "after_flat_raw": 428734,
+        "resistance_bps": 9493,
+        "after_resist_raw": 21736,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 21736,
+        "hp_before_raw": 258681,
+        "hp_after_raw": 236945,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        26702,
+        668304,
+        2970,
+        -5028,
+        89349,
+        255
+      ],
+      "expected": {
+        "base_raw": 26702,
+        "power_bps": 89349,
+        "after_power_raw": 265281,
+        "flat_reduction_raw": 2970,
+        "after_flat_raw": 262311,
+        "resistance_bps": -5028,
+        "after_resist_raw": 394200,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 394200,
+        "hp_before_raw": 668304,
+        "hp_after_raw": 274104,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        23846,
+        345322,
+        625,
+        -11641,
+        99430,
+        0
+      ],
+      "expected": {
+        "base_raw": 23846,
+        "power_bps": 99430,
+        "after_power_raw": 260946,
+        "flat_reduction_raw": 625,
+        "after_flat_raw": 260321,
+        "resistance_bps": -10000,
+        "after_resist_raw": 520642,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 520642,
+        "hp_before_raw": 345322,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        100547,
+        619996,
+        849,
+        -8813,
+        -7352,
+        0
+      ],
+      "expected": {
+        "base_raw": 100547,
+        "power_bps": -7352,
+        "after_power_raw": 26624,
+        "flat_reduction_raw": 849,
+        "after_flat_raw": 25775,
+        "resistance_bps": -8813,
+        "after_resist_raw": 48490,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 48490,
+        "hp_before_raw": 619996,
+        "hp_after_raw": 571506,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        22787,
+        871477,
+        928,
+        11903,
+        104086,
+        0
+      ],
+      "expected": {
+        "base_raw": 22787,
+        "power_bps": 100000,
+        "after_power_raw": 250657,
+        "flat_reduction_raw": 928,
+        "after_flat_raw": 249729,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 871477,
+        "hp_after_raw": 871477,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        171782,
+        6391,
+        928,
+        2938,
+        29165,
+        0
+      ],
+      "expected": {
+        "base_raw": 171782,
+        "power_bps": 29165,
+        "after_power_raw": 672784,
+        "flat_reduction_raw": 928,
+        "after_flat_raw": 671856,
+        "resistance_bps": 2938,
+        "after_resist_raw": 474464,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 474464,
+        "hp_before_raw": 6391,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        179846,
+        775232,
+        2150,
+        -13071,
+        88883,
+        0
+      ],
+      "expected": {
+        "base_raw": 179846,
+        "power_bps": 88883,
+        "after_power_raw": 1778371,
+        "flat_reduction_raw": 2150,
+        "after_flat_raw": 1776221,
+        "resistance_bps": -10000,
+        "after_resist_raw": 3552442,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 3552442,
+        "hp_before_raw": 775232,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        91239,
+        634042,
+        1594,
+        -9951,
+        73911,
+        0
+      ],
+      "expected": {
+        "base_raw": 91239,
+        "power_bps": 73911,
+        "after_power_raw": 765595,
+        "flat_reduction_raw": 1594,
+        "after_flat_raw": 764001,
+        "resistance_bps": -9951,
+        "after_resist_raw": 1524258,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1524258,
+        "hp_before_raw": 634042,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        14525,
+        635774,
+        2265,
+        -2169,
+        66907,
+        0
+      ],
+      "expected": {
+        "base_raw": 14525,
+        "power_bps": 66907,
+        "after_power_raw": 111707,
+        "flat_reduction_raw": 2265,
+        "after_flat_raw": 109442,
+        "resistance_bps": -2169,
+        "after_resist_raw": 133179,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 133179,
+        "hp_before_raw": 635774,
+        "hp_after_raw": 502595,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        42438,
+        253996,
+        2237,
+        -10477,
+        73627,
+        0
+      ],
+      "expected": {
+        "base_raw": 42438,
+        "power_bps": 73627,
+        "after_power_raw": 354896,
+        "flat_reduction_raw": 2237,
+        "after_flat_raw": 352659,
+        "resistance_bps": -10000,
+        "after_resist_raw": 705318,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 705318,
+        "hp_before_raw": 253996,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        55939,
+        297352,
+        1682,
+        -12677,
+        39716,
+        255
+      ],
+      "expected": {
+        "base_raw": 55939,
+        "power_bps": 39716,
+        "after_power_raw": 278106,
+        "flat_reduction_raw": 1682,
+        "after_flat_raw": 276424,
+        "resistance_bps": -10000,
+        "after_resist_raw": 552848,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 552848,
+        "hp_before_raw": 297352,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        90494,
+        577481,
+        155,
+        13616,
+        32116,
+        0
+      ],
+      "expected": {
+        "base_raw": 90494,
+        "power_bps": 32116,
+        "after_power_raw": 381124,
+        "flat_reduction_raw": 155,
+        "after_flat_raw": 380969,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 577481,
+        "hp_after_raw": 577481,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        113298,
+        849477,
+        1548,
+        8881,
+        102274,
+        255
+      ],
+      "expected": {
+        "base_raw": 113298,
+        "power_bps": 100000,
+        "after_power_raw": 1246278,
+        "flat_reduction_raw": 1548,
+        "after_flat_raw": 1244730,
+        "resistance_bps": 8881,
+        "after_resist_raw": 139285,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 139285,
+        "hp_before_raw": 849477,
+        "hp_after_raw": 710192,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        77714,
+        418755,
+        1914,
+        8276,
+        38976,
+        0
+      ],
+      "expected": {
+        "base_raw": 77714,
+        "power_bps": 38976,
+        "after_power_raw": 380612,
+        "flat_reduction_raw": 1914,
+        "after_flat_raw": 378698,
+        "resistance_bps": 8276,
+        "after_resist_raw": 65287,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 65287,
+        "hp_before_raw": 418755,
+        "hp_after_raw": 353468,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        111357,
+        665469,
+        761,
+        3819,
+        38649,
+        0
+      ],
+      "expected": {
+        "base_raw": 111357,
+        "power_bps": 38649,
+        "after_power_raw": 541740,
+        "flat_reduction_raw": 761,
+        "after_flat_raw": 540979,
+        "resistance_bps": 3819,
+        "after_resist_raw": 334379,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 334379,
+        "hp_before_raw": 665469,
+        "hp_after_raw": 331090,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        88671,
+        104614,
+        2129,
+        -9286,
+        30897,
+        0
+      ],
+      "expected": {
+        "base_raw": 88671,
+        "power_bps": 30897,
+        "after_power_raw": 362637,
+        "flat_reduction_raw": 2129,
+        "after_flat_raw": 360508,
+        "resistance_bps": -9286,
+        "after_resist_raw": 695275,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 695275,
+        "hp_before_raw": 104614,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        93194,
+        73769,
+        1231,
+        2119,
+        70719,
+        0
+      ],
+      "expected": {
+        "base_raw": 93194,
+        "power_bps": 70719,
+        "after_power_raw": 752252,
+        "flat_reduction_raw": 1231,
+        "after_flat_raw": 751021,
+        "resistance_bps": 2119,
+        "after_resist_raw": 591879,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 591879,
+        "hp_before_raw": 73769,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        36490,
+        553670,
+        2102,
+        5182,
+        87538,
+        0
+      ],
+      "expected": {
+        "base_raw": 36490,
+        "power_bps": 87538,
+        "after_power_raw": 355916,
+        "flat_reduction_raw": 2102,
+        "after_flat_raw": 353814,
+        "resistance_bps": 5182,
+        "after_resist_raw": 170467,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 170467,
+        "hp_before_raw": 553670,
+        "hp_after_raw": 383203,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        50019,
+        938665,
+        1395,
+        4721,
+        49304,
+        0
+      ],
+      "expected": {
+        "base_raw": 50019,
+        "power_bps": 49304,
+        "after_power_raw": 296632,
+        "flat_reduction_raw": 1395,
+        "after_flat_raw": 295237,
+        "resistance_bps": 4721,
+        "after_resist_raw": 155855,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 155855,
+        "hp_before_raw": 938665,
+        "hp_after_raw": 782810,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        182258,
+        852996,
+        397,
+        -929,
+        69740,
+        255
+      ],
+      "expected": {
+        "base_raw": 182258,
+        "power_bps": 69740,
+        "after_power_raw": 1453325,
+        "flat_reduction_raw": 397,
+        "after_flat_raw": 1452928,
+        "resistance_bps": -929,
+        "after_resist_raw": 1587905,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1587905,
+        "hp_before_raw": 852996,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        105066,
+        411486,
+        1901,
+        2802,
+        54489,
+        255
+      ],
+      "expected": {
+        "base_raw": 105066,
+        "power_bps": 54489,
+        "after_power_raw": 677560,
+        "flat_reduction_raw": 1901,
+        "after_flat_raw": 675659,
+        "resistance_bps": 2802,
+        "after_resist_raw": 486339,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 486339,
+        "hp_before_raw": 411486,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        71810,
+        188953,
+        1784,
+        4419,
+        100383,
+        0
+      ],
+      "expected": {
+        "base_raw": 71810,
+        "power_bps": 100000,
+        "after_power_raw": 789910,
+        "flat_reduction_raw": 1784,
+        "after_flat_raw": 788126,
+        "resistance_bps": 4419,
+        "after_resist_raw": 439853,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 439853,
+        "hp_before_raw": 188953,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        28103,
+        119377,
+        2058,
+        -5709,
+        75201,
+        0
+      ],
+      "expected": {
+        "base_raw": 28103,
+        "power_bps": 75201,
+        "after_power_raw": 239440,
+        "flat_reduction_raw": 2058,
+        "after_flat_raw": 237382,
+        "resistance_bps": -5709,
+        "after_resist_raw": 372903,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 372903,
+        "hp_before_raw": 119377,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        151191,
+        805505,
+        359,
+        6575,
+        25877,
+        0
+      ],
+      "expected": {
+        "base_raw": 151191,
+        "power_bps": 25877,
+        "after_power_raw": 542427,
+        "flat_reduction_raw": 359,
+        "after_flat_raw": 542068,
+        "resistance_bps": 6575,
+        "after_resist_raw": 185658,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 185658,
+        "hp_before_raw": 805505,
+        "hp_after_raw": 619847,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        21638,
+        996549,
+        1409,
+        1127,
+        17530,
+        0
+      ],
+      "expected": {
+        "base_raw": 21638,
+        "power_bps": 17530,
+        "after_power_raw": 59569,
+        "flat_reduction_raw": 1409,
+        "after_flat_raw": 58160,
+        "resistance_bps": 1127,
+        "after_resist_raw": 51605,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 51605,
+        "hp_before_raw": 996549,
+        "hp_after_raw": 944944,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        165570,
+        750047,
+        1993,
+        -2096,
+        17958,
+        0
+      ],
+      "expected": {
+        "base_raw": 165570,
+        "power_bps": 17958,
+        "after_power_raw": 462900,
+        "flat_reduction_raw": 1993,
+        "after_flat_raw": 460907,
+        "resistance_bps": -2096,
+        "after_resist_raw": 557513,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 557513,
+        "hp_before_raw": 750047,
+        "hp_after_raw": 192534,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        140843,
+        533704,
+        14,
+        -12214,
+        47012,
+        0
+      ],
+      "expected": {
+        "base_raw": 140843,
+        "power_bps": 47012,
+        "after_power_raw": 802974,
+        "flat_reduction_raw": 14,
+        "after_flat_raw": 802960,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1605920,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1605920,
+        "hp_before_raw": 533704,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        68015,
+        723285,
+        1645,
+        -14830,
+        9708,
+        255
+      ],
+      "expected": {
+        "base_raw": 68015,
+        "power_bps": 9708,
+        "after_power_raw": 134043,
+        "flat_reduction_raw": 1645,
+        "after_flat_raw": 132398,
+        "resistance_bps": -10000,
+        "after_resist_raw": 264796,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 264796,
+        "hp_before_raw": 723285,
+        "hp_after_raw": 458489,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        20938,
+        395381,
+        2541,
+        -5745,
+        116319,
+        255
+      ],
+      "expected": {
+        "base_raw": 20938,
+        "power_bps": 100000,
+        "after_power_raw": 230318,
+        "flat_reduction_raw": 2541,
+        "after_flat_raw": 227777,
+        "resistance_bps": -5745,
+        "after_resist_raw": 358634,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 358634,
+        "hp_before_raw": 395381,
+        "hp_after_raw": 36747,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        194814,
+        17397,
+        1773,
+        1086,
+        22182,
+        255
+      ],
+      "expected": {
+        "base_raw": 194814,
+        "power_bps": 22182,
+        "after_power_raw": 626950,
+        "flat_reduction_raw": 1773,
+        "after_flat_raw": 625177,
+        "resistance_bps": 1086,
+        "after_resist_raw": 557282,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 557282,
+        "hp_before_raw": 17397,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        181725,
+        3853,
+        537,
+        -8957,
+        28747,
+        0
+      ],
+      "expected": {
+        "base_raw": 181725,
+        "power_bps": 28747,
+        "after_power_raw": 704129,
+        "flat_reduction_raw": 537,
+        "after_flat_raw": 703592,
+        "resistance_bps": -8957,
+        "after_resist_raw": 1333799,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1333799,
+        "hp_before_raw": 3853,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        100364,
+        408639,
+        1665,
+        11238,
+        92698,
+        0
+      ],
+      "expected": {
+        "base_raw": 100364,
+        "power_bps": 92698,
+        "after_power_raw": 1030718,
+        "flat_reduction_raw": 1665,
+        "after_flat_raw": 1029053,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 408639,
+        "hp_after_raw": 408639,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        18481,
+        997313,
+        347,
+        -6117,
+        109863,
+        0
+      ],
+      "expected": {
+        "base_raw": 18481,
+        "power_bps": 100000,
+        "after_power_raw": 203291,
+        "flat_reduction_raw": 347,
+        "after_flat_raw": 202944,
+        "resistance_bps": -6117,
+        "after_resist_raw": 327084,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 327084,
+        "hp_before_raw": 997313,
+        "hp_after_raw": 670229,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        53309,
+        554190,
+        1914,
+        8516,
+        19972,
+        0
+      ],
+      "expected": {
+        "base_raw": 53309,
+        "power_bps": 19972,
+        "after_power_raw": 159777,
+        "flat_reduction_raw": 1914,
+        "after_flat_raw": 157863,
+        "resistance_bps": 8516,
+        "after_resist_raw": 23426,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 23426,
+        "hp_before_raw": 554190,
+        "hp_after_raw": 530764,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        120861,
+        856832,
+        1496,
+        5040,
+        53064,
+        0
+      ],
+      "expected": {
+        "base_raw": 120861,
+        "power_bps": 53064,
+        "after_power_raw": 762197,
+        "flat_reduction_raw": 1496,
+        "after_flat_raw": 760701,
+        "resistance_bps": 5040,
+        "after_resist_raw": 377307,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 377307,
+        "hp_before_raw": 856832,
+        "hp_after_raw": 479525,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        153597,
+        39477,
+        1727,
+        -2092,
+        77335,
+        0
+      ],
+      "expected": {
+        "base_raw": 153597,
+        "power_bps": 77335,
+        "after_power_raw": 1341439,
+        "flat_reduction_raw": 1727,
+        "after_flat_raw": 1339712,
+        "resistance_bps": -2092,
+        "after_resist_raw": 1619979,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1619979,
+        "hp_before_raw": 39477,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        21580,
+        107639,
+        2278,
+        -14275,
+        101524,
+        0
+      ],
+      "expected": {
+        "base_raw": 21580,
+        "power_bps": 100000,
+        "after_power_raw": 237380,
+        "flat_reduction_raw": 2278,
+        "after_flat_raw": 235102,
+        "resistance_bps": -10000,
+        "after_resist_raw": 470204,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 470204,
+        "hp_before_raw": 107639,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        71793,
+        923651,
+        1361,
+        417,
+        44241,
+        0
+      ],
+      "expected": {
+        "base_raw": 71793,
+        "power_bps": 44241,
+        "after_power_raw": 389412,
+        "flat_reduction_raw": 1361,
+        "after_flat_raw": 388051,
+        "resistance_bps": 417,
+        "after_resist_raw": 371869,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 371869,
+        "hp_before_raw": 923651,
+        "hp_after_raw": 551782,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        158319,
+        592408,
+        197,
+        10507,
+        61500,
+        0
+      ],
+      "expected": {
+        "base_raw": 158319,
+        "power_bps": 61500,
+        "after_power_raw": 1131980,
+        "flat_reduction_raw": 197,
+        "after_flat_raw": 1131783,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 592408,
+        "hp_after_raw": 592408,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        60274,
+        503111,
+        1044,
+        7462,
+        10076,
+        0
+      ],
+      "expected": {
+        "base_raw": 60274,
+        "power_bps": 10076,
+        "after_power_raw": 121006,
+        "flat_reduction_raw": 1044,
+        "after_flat_raw": 119962,
+        "resistance_bps": 7462,
+        "after_resist_raw": 30446,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 30446,
+        "hp_before_raw": 503111,
+        "hp_after_raw": 472665,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        146032,
+        677567,
+        861,
+        -6171,
+        100104,
+        0
+      ],
+      "expected": {
+        "base_raw": 146032,
+        "power_bps": 100000,
+        "after_power_raw": 1606352,
+        "flat_reduction_raw": 861,
+        "after_flat_raw": 1605491,
+        "resistance_bps": -6171,
+        "after_resist_raw": 2596239,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 2596239,
+        "hp_before_raw": 677567,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        55584,
+        826869,
+        2532,
+        4530,
+        30822,
+        0
+      ],
+      "expected": {
+        "base_raw": 55584,
+        "power_bps": 30822,
+        "after_power_raw": 226905,
+        "flat_reduction_raw": 2532,
+        "after_flat_raw": 224373,
+        "resistance_bps": 4530,
+        "after_resist_raw": 122732,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 122732,
+        "hp_before_raw": 826869,
+        "hp_after_raw": 704137,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        106404,
+        940831,
+        2816,
+        -2246,
+        -14469,
+        255
+      ],
+      "expected": {
+        "base_raw": 106404,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 2816,
+        "after_flat_raw": 0,
+        "resistance_bps": -2246,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 940831,
+        "hp_after_raw": 940831,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        78782,
+        360237,
+        2964,
+        -5410,
+        21248,
+        0
+      ],
+      "expected": {
+        "base_raw": 78782,
+        "power_bps": 21248,
+        "after_power_raw": 246177,
+        "flat_reduction_raw": 2964,
+        "after_flat_raw": 243213,
+        "resistance_bps": -5410,
+        "after_resist_raw": 374791,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 374791,
+        "hp_before_raw": 360237,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        120486,
+        905649,
+        1271,
+        -9021,
+        71882,
+        0
+      ],
+      "expected": {
+        "base_raw": 120486,
+        "power_bps": 71882,
+        "after_power_raw": 986563,
+        "flat_reduction_raw": 1271,
+        "after_flat_raw": 985292,
+        "resistance_bps": -9021,
+        "after_resist_raw": 1874123,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1874123,
+        "hp_before_raw": 905649,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        98160,
+        417027,
+        1816,
+        13521,
+        113951,
+        255
+      ],
+      "expected": {
+        "base_raw": 98160,
+        "power_bps": 100000,
+        "after_power_raw": 1079760,
+        "flat_reduction_raw": 1816,
+        "after_flat_raw": 1077944,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 417027,
+        "hp_after_raw": 417027,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        123078,
+        887622,
+        488,
+        -12109,
+        65593,
+        0
+      ],
+      "expected": {
+        "base_raw": 123078,
+        "power_bps": 65593,
+        "after_power_raw": 930383,
+        "flat_reduction_raw": 488,
+        "after_flat_raw": 929895,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1859790,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1859790,
+        "hp_before_raw": 887622,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        54838,
+        722001,
+        463,
+        11603,
+        55070,
+        0
+      ],
+      "expected": {
+        "base_raw": 54838,
+        "power_bps": 55070,
+        "after_power_raw": 356830,
+        "flat_reduction_raw": 463,
+        "after_flat_raw": 356367,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 722001,
+        "hp_after_raw": 722001,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        36680,
+        296928,
+        1912,
+        12004,
+        107096,
+        0
+      ],
+      "expected": {
+        "base_raw": 36680,
+        "power_bps": 100000,
+        "after_power_raw": 403480,
+        "flat_reduction_raw": 1912,
+        "after_flat_raw": 401568,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 296928,
+        "hp_after_raw": 296928,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        123683,
+        500688,
+        2044,
+        3860,
+        10461,
+        0
+      ],
+      "expected": {
+        "base_raw": 123683,
+        "power_bps": 10461,
+        "after_power_raw": 253067,
+        "flat_reduction_raw": 2044,
+        "after_flat_raw": 251023,
+        "resistance_bps": 3860,
+        "after_resist_raw": 154128,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 154128,
+        "hp_before_raw": 500688,
+        "hp_after_raw": 346560,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        50628,
+        602108,
+        2256,
+        -646,
+        56803,
+        255
+      ],
+      "expected": {
+        "base_raw": 50628,
+        "power_bps": 56803,
+        "after_power_raw": 338210,
+        "flat_reduction_raw": 2256,
+        "after_flat_raw": 335954,
+        "resistance_bps": -646,
+        "after_resist_raw": 357656,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 357656,
+        "hp_before_raw": 602108,
+        "hp_after_raw": 244452,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        113860,
+        964647,
+        88,
+        6489,
+        21126,
+        0
+      ],
+      "expected": {
+        "base_raw": 113860,
+        "power_bps": 21126,
+        "after_power_raw": 354400,
+        "flat_reduction_raw": 88,
+        "after_flat_raw": 354312,
+        "resistance_bps": 6489,
+        "after_resist_raw": 124398,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 124398,
+        "hp_before_raw": 964647,
+        "hp_after_raw": 840249,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        103408,
+        150865,
+        1438,
+        -2677,
+        92508,
+        255
+      ],
+      "expected": {
+        "base_raw": 103408,
+        "power_bps": 92508,
+        "after_power_raw": 1060014,
+        "flat_reduction_raw": 1438,
+        "after_flat_raw": 1058576,
+        "resistance_bps": -2677,
+        "after_resist_raw": 1341956,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1341956,
+        "hp_before_raw": 150865,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        31978,
+        674797,
+        2456,
+        -13956,
+        15281,
+        0
+      ],
+      "expected": {
+        "base_raw": 31978,
+        "power_bps": 15281,
+        "after_power_raw": 80843,
+        "flat_reduction_raw": 2456,
+        "after_flat_raw": 78387,
+        "resistance_bps": -10000,
+        "after_resist_raw": 156774,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 156774,
+        "hp_before_raw": 674797,
+        "hp_after_raw": 518023,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        84754,
+        497869,
+        2891,
+        3873,
+        76241,
+        0
+      ],
+      "expected": {
+        "base_raw": 84754,
+        "power_bps": 76241,
+        "after_power_raw": 730926,
+        "flat_reduction_raw": 2891,
+        "after_flat_raw": 728035,
+        "resistance_bps": 3873,
+        "after_resist_raw": 446067,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 446067,
+        "hp_before_raw": 497869,
+        "hp_after_raw": 51802,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        22508,
+        433366,
+        1508,
+        2490,
+        61296,
+        0
+      ],
+      "expected": {
+        "base_raw": 22508,
+        "power_bps": 61296,
+        "after_power_raw": 160473,
+        "flat_reduction_raw": 1508,
+        "after_flat_raw": 158965,
+        "resistance_bps": 2490,
+        "after_resist_raw": 119382,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 119382,
+        "hp_before_raw": 433366,
+        "hp_after_raw": 313984,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        110470,
+        801467,
+        1485,
+        -14684,
+        55281,
+        0
+      ],
+      "expected": {
+        "base_raw": 110470,
+        "power_bps": 55281,
+        "after_power_raw": 721159,
+        "flat_reduction_raw": 1485,
+        "after_flat_raw": 719674,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1439348,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1439348,
+        "hp_before_raw": 801467,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        139476,
+        792217,
+        1659,
+        -6492,
+        33797,
+        0
+      ],
+      "expected": {
+        "base_raw": 139476,
+        "power_bps": 33797,
+        "after_power_raw": 610863,
+        "flat_reduction_raw": 1659,
+        "after_flat_raw": 609204,
+        "resistance_bps": -6492,
+        "after_resist_raw": 1004699,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1004699,
+        "hp_before_raw": 792217,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        21905,
+        643871,
+        125,
+        -12459,
+        65914,
+        0
+      ],
+      "expected": {
+        "base_raw": 21905,
+        "power_bps": 65914,
+        "after_power_raw": 166289,
+        "flat_reduction_raw": 125,
+        "after_flat_raw": 166164,
+        "resistance_bps": -10000,
+        "after_resist_raw": 332328,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 332328,
+        "hp_before_raw": 643871,
+        "hp_after_raw": 311543,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        197150,
+        8725,
+        735,
+        -2743,
+        33125,
+        255
+      ],
+      "expected": {
+        "base_raw": 197150,
+        "power_bps": 33125,
+        "after_power_raw": 850209,
+        "flat_reduction_raw": 735,
+        "after_flat_raw": 849474,
+        "resistance_bps": -2743,
+        "after_resist_raw": 1082484,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1082484,
+        "hp_before_raw": 8725,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        119538,
+        772546,
+        2570,
+        -7565,
+        106469,
+        255
+      ],
+      "expected": {
+        "base_raw": 119538,
+        "power_bps": 100000,
+        "after_power_raw": 1314918,
+        "flat_reduction_raw": 2570,
+        "after_flat_raw": 1312348,
+        "resistance_bps": -7565,
+        "after_resist_raw": 2305139,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 2305139,
+        "hp_before_raw": 772546,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        67279,
+        728457,
+        1680,
+        3867,
+        73956,
+        255
+      ],
+      "expected": {
+        "base_raw": 67279,
+        "power_bps": 73956,
+        "after_power_raw": 564847,
+        "flat_reduction_raw": 1680,
+        "after_flat_raw": 563167,
+        "resistance_bps": 3867,
+        "after_resist_raw": 345390,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 345390,
+        "hp_before_raw": 728457,
+        "hp_after_raw": 383067,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        87421,
+        87962,
+        1982,
+        7838,
+        -13249,
+        0
+      ],
+      "expected": {
+        "base_raw": 87421,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 1982,
+        "after_flat_raw": 0,
+        "resistance_bps": 7838,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 87962,
+        "hp_after_raw": 87962,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        44657,
+        286194,
+        804,
+        -6895,
+        34173,
+        0
+      ],
+      "expected": {
+        "base_raw": 44657,
+        "power_bps": 34173,
+        "after_power_raw": 197263,
+        "flat_reduction_raw": 804,
+        "after_flat_raw": 196459,
+        "resistance_bps": -6895,
+        "after_resist_raw": 331917,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 331917,
+        "hp_before_raw": 286194,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        98492,
+        16567,
+        712,
+        9608,
+        99660,
+        0
+      ],
+      "expected": {
+        "base_raw": 98492,
+        "power_bps": 99660,
+        "after_power_raw": 1080063,
+        "flat_reduction_raw": 712,
+        "after_flat_raw": 1079351,
+        "resistance_bps": 9608,
+        "after_resist_raw": 42310,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 42310,
+        "hp_before_raw": 16567,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        131494,
+        714105,
+        2413,
+        1970,
+        65791,
+        0
+      ],
+      "expected": {
+        "base_raw": 131494,
+        "power_bps": 65791,
+        "after_power_raw": 996606,
+        "flat_reduction_raw": 2413,
+        "after_flat_raw": 994193,
+        "resistance_bps": 1970,
+        "after_resist_raw": 798336,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 798336,
+        "hp_before_raw": 714105,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        104664,
+        697804,
+        1978,
+        932,
+        -6497,
+        0
+      ],
+      "expected": {
+        "base_raw": 104664,
+        "power_bps": -6497,
+        "after_power_raw": 36663,
+        "flat_reduction_raw": 1978,
+        "after_flat_raw": 34685,
+        "resistance_bps": 932,
+        "after_resist_raw": 31452,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 31452,
+        "hp_before_raw": 697804,
+        "hp_after_raw": 666352,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        93076,
+        237419,
+        2336,
+        14271,
+        4109,
+        0
+      ],
+      "expected": {
+        "base_raw": 93076,
+        "power_bps": 4109,
+        "after_power_raw": 131320,
+        "flat_reduction_raw": 2336,
+        "after_flat_raw": 128984,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 237419,
+        "hp_after_raw": 237419,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        175712,
+        500065,
+        2427,
+        -12278,
+        56663,
+        0
+      ],
+      "expected": {
+        "base_raw": 175712,
+        "power_bps": 56663,
+        "after_power_raw": 1171348,
+        "flat_reduction_raw": 2427,
+        "after_flat_raw": 1168921,
+        "resistance_bps": -10000,
+        "after_resist_raw": 2337842,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 2337842,
+        "hp_before_raw": 500065,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        102111,
+        811395,
+        2250,
+        -937,
+        32439,
+        0
+      ],
+      "expected": {
+        "base_raw": 102111,
+        "power_bps": 32439,
+        "after_power_raw": 433348,
+        "flat_reduction_raw": 2250,
+        "after_flat_raw": 431098,
+        "resistance_bps": -937,
+        "after_resist_raw": 471491,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 471491,
+        "hp_before_raw": 811395,
+        "hp_after_raw": 339904,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        93906,
+        837919,
+        2967,
+        10646,
+        37052,
+        255
+      ],
+      "expected": {
+        "base_raw": 93906,
+        "power_bps": 37052,
+        "after_power_raw": 441846,
+        "flat_reduction_raw": 2967,
+        "after_flat_raw": 438879,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 837919,
+        "hp_after_raw": 837919,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        131501,
+        634161,
+        63,
+        -5167,
+        44871,
+        0
+      ],
+      "expected": {
+        "base_raw": 131501,
+        "power_bps": 44871,
+        "after_power_raw": 721559,
+        "flat_reduction_raw": 63,
+        "after_flat_raw": 721496,
+        "resistance_bps": -5167,
+        "after_resist_raw": 1094292,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1094292,
+        "hp_before_raw": 634161,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        172364,
+        340241,
+        788,
+        2543,
+        6313,
+        0
+      ],
+      "expected": {
+        "base_raw": 172364,
+        "power_bps": 6313,
+        "after_power_raw": 281177,
+        "flat_reduction_raw": 788,
+        "after_flat_raw": 280389,
+        "resistance_bps": 2543,
+        "after_resist_raw": 209086,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 209086,
+        "hp_before_raw": 340241,
+        "hp_after_raw": 131155,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        59303,
+        873127,
+        1757,
+        5682,
+        -2924,
+        0
+      ],
+      "expected": {
+        "base_raw": 59303,
+        "power_bps": -2924,
+        "after_power_raw": 41962,
+        "flat_reduction_raw": 1757,
+        "after_flat_raw": 40205,
+        "resistance_bps": 5682,
+        "after_resist_raw": 17360,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 17360,
+        "hp_before_raw": 873127,
+        "hp_after_raw": 855767,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        146564,
+        488075,
+        1441,
+        -11521,
+        -7517,
+        0
+      ],
+      "expected": {
+        "base_raw": 146564,
+        "power_bps": -7517,
+        "after_power_raw": 36391,
+        "flat_reduction_raw": 1441,
+        "after_flat_raw": 34950,
+        "resistance_bps": -10000,
+        "after_resist_raw": 69900,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 69900,
+        "hp_before_raw": 488075,
+        "hp_after_raw": 418175,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        3911,
+        329280,
+        2867,
+        -5258,
+        9468,
+        0
+      ],
+      "expected": {
+        "base_raw": 3911,
+        "power_bps": 9468,
+        "after_power_raw": 7613,
+        "flat_reduction_raw": 2867,
+        "after_flat_raw": 4746,
+        "resistance_bps": -5258,
+        "after_resist_raw": 7241,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 7241,
+        "hp_before_raw": 329280,
+        "hp_after_raw": 322039,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        26410,
+        548848,
+        2028,
+        -4695,
+        -11698,
+        0
+      ],
+      "expected": {
+        "base_raw": 26410,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 2028,
+        "after_flat_raw": 0,
+        "resistance_bps": -4695,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 548848,
+        "hp_after_raw": 548848,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        92365,
+        620102,
+        2445,
+        -12277,
+        10108,
+        0
+      ],
+      "expected": {
+        "base_raw": 92365,
+        "power_bps": 10108,
+        "after_power_raw": 185727,
+        "flat_reduction_raw": 2445,
+        "after_flat_raw": 183282,
+        "resistance_bps": -10000,
+        "after_resist_raw": 366564,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 366564,
+        "hp_before_raw": 620102,
+        "hp_after_raw": 253538,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        199662,
+        283209,
+        2086,
+        -1050,
+        22741,
+        0
+      ],
+      "expected": {
+        "base_raw": 199662,
+        "power_bps": 22741,
+        "after_power_raw": 653713,
+        "flat_reduction_raw": 2086,
+        "after_flat_raw": 651627,
+        "resistance_bps": -1050,
+        "after_resist_raw": 720047,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 720047,
+        "hp_before_raw": 283209,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        80936,
+        341337,
+        1556,
+        -1231,
+        81269,
+        255
+      ],
+      "expected": {
+        "base_raw": 80936,
+        "power_bps": 81269,
+        "after_power_raw": 738694,
+        "flat_reduction_raw": 1556,
+        "after_flat_raw": 737138,
+        "resistance_bps": -1231,
+        "after_resist_raw": 827879,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 827879,
+        "hp_before_raw": 341337,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        99927,
+        82872,
+        1322,
+        3988,
+        4220,
+        0
+      ],
+      "expected": {
+        "base_raw": 99927,
+        "power_bps": 4220,
+        "after_power_raw": 142096,
+        "flat_reduction_raw": 1322,
+        "after_flat_raw": 140774,
+        "resistance_bps": 3988,
+        "after_resist_raw": 84633,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 84633,
+        "hp_before_raw": 82872,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        130448,
+        956778,
+        2018,
+        -9746,
+        66939,
+        0
+      ],
+      "expected": {
+        "base_raw": 130448,
+        "power_bps": 66939,
+        "after_power_raw": 1003653,
+        "flat_reduction_raw": 2018,
+        "after_flat_raw": 1001635,
+        "resistance_bps": -9746,
+        "after_resist_raw": 1977828,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1977828,
+        "hp_before_raw": 956778,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        154752,
+        159577,
+        1619,
+        -9917,
+        -559,
+        0
+      ],
+      "expected": {
+        "base_raw": 154752,
+        "power_bps": -559,
+        "after_power_raw": 146101,
+        "flat_reduction_raw": 1619,
+        "after_flat_raw": 144482,
+        "resistance_bps": -9917,
+        "after_resist_raw": 287764,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 287764,
+        "hp_before_raw": 159577,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        161990,
+        454106,
+        2944,
+        -14869,
+        9449,
+        0
+      ],
+      "expected": {
+        "base_raw": 161990,
+        "power_bps": 9449,
+        "after_power_raw": 315054,
+        "flat_reduction_raw": 2944,
+        "after_flat_raw": 312110,
+        "resistance_bps": -10000,
+        "after_resist_raw": 624220,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 624220,
+        "hp_before_raw": 454106,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        199887,
+        656296,
+        680,
+        -13053,
+        9423,
+        255
+      ],
+      "expected": {
+        "base_raw": 199887,
+        "power_bps": 9423,
+        "after_power_raw": 388240,
+        "flat_reduction_raw": 680,
+        "after_flat_raw": 387560,
+        "resistance_bps": -10000,
+        "after_resist_raw": 775120,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 775120,
+        "hp_before_raw": 656296,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        113970,
+        388091,
+        2818,
+        14912,
+        67937,
+        255
+      ],
+      "expected": {
+        "base_raw": 113970,
+        "power_bps": 67937,
+        "after_power_raw": 888247,
+        "flat_reduction_raw": 2818,
+        "after_flat_raw": 885429,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 388091,
+        "hp_after_raw": 388091,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        155516,
+        350691,
+        2971,
+        11695,
+        -4238,
+        0
+      ],
+      "expected": {
+        "base_raw": 155516,
+        "power_bps": -4238,
+        "after_power_raw": 89608,
+        "flat_reduction_raw": 2971,
+        "after_flat_raw": 86637,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 350691,
+        "hp_after_raw": 350691,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        165603,
+        592186,
+        2438,
+        12965,
+        50757,
+        0
+      ],
+      "expected": {
+        "base_raw": 165603,
+        "power_bps": 50757,
+        "after_power_raw": 1006154,
+        "flat_reduction_raw": 2438,
+        "after_flat_raw": 1003716,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 592186,
+        "hp_after_raw": 592186,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        120074,
+        909348,
+        912,
+        -8744,
+        -12458,
+        0
+      ],
+      "expected": {
+        "base_raw": 120074,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 912,
+        "after_flat_raw": 0,
+        "resistance_bps": -8744,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 909348,
+        "hp_after_raw": 909348,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        24436,
+        732045,
+        2603,
+        1011,
+        16576,
+        0
+      ],
+      "expected": {
+        "base_raw": 24436,
+        "power_bps": 16576,
+        "after_power_raw": 64941,
+        "flat_reduction_raw": 2603,
+        "after_flat_raw": 62338,
+        "resistance_bps": 1011,
+        "after_resist_raw": 56035,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 56035,
+        "hp_before_raw": 732045,
+        "hp_after_raw": 676010,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        119128,
+        593236,
+        2263,
+        -3684,
+        103329,
+        0
+      ],
+      "expected": {
+        "base_raw": 119128,
+        "power_bps": 100000,
+        "after_power_raw": 1310408,
+        "flat_reduction_raw": 2263,
+        "after_flat_raw": 1308145,
+        "resistance_bps": -3684,
+        "after_resist_raw": 1790065,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1790065,
+        "hp_before_raw": 593236,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        32450,
+        549435,
+        2288,
+        13147,
+        56631,
+        0
+      ],
+      "expected": {
+        "base_raw": 32450,
+        "power_bps": 56631,
+        "after_power_raw": 216217,
+        "flat_reduction_raw": 2288,
+        "after_flat_raw": 213929,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 549435,
+        "hp_after_raw": 549435,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        100260,
+        902543,
+        2058,
+        9639,
+        7903,
+        0
+      ],
+      "expected": {
+        "base_raw": 100260,
+        "power_bps": 7903,
+        "after_power_raw": 179495,
+        "flat_reduction_raw": 2058,
+        "after_flat_raw": 177437,
+        "resistance_bps": 9639,
+        "after_resist_raw": 6405,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 6405,
+        "hp_before_raw": 902543,
+        "hp_after_raw": 896138,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        22843,
+        270652,
+        1253,
+        -728,
+        11874,
+        0
+      ],
+      "expected": {
+        "base_raw": 22843,
+        "power_bps": 11874,
+        "after_power_raw": 49966,
+        "flat_reduction_raw": 1253,
+        "after_flat_raw": 48713,
+        "resistance_bps": -728,
+        "after_resist_raw": 52259,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 52259,
+        "hp_before_raw": 270652,
+        "hp_after_raw": 218393,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        78151,
+        509249,
+        245,
+        4899,
+        41487,
+        0
+      ],
+      "expected": {
+        "base_raw": 78151,
+        "power_bps": 41487,
+        "after_power_raw": 402376,
+        "flat_reduction_raw": 245,
+        "after_flat_raw": 402131,
+        "resistance_bps": 4899,
+        "after_resist_raw": 205127,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 205127,
+        "hp_before_raw": 509249,
+        "hp_after_raw": 304122,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        64594,
+        276527,
+        2526,
+        7856,
+        28845,
+        0
+      ],
+      "expected": {
+        "base_raw": 64594,
+        "power_bps": 28845,
+        "after_power_raw": 250915,
+        "flat_reduction_raw": 2526,
+        "after_flat_raw": 248389,
+        "resistance_bps": 7856,
+        "after_resist_raw": 53254,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 53254,
+        "hp_before_raw": 276527,
+        "hp_after_raw": 223273,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        132730,
+        453374,
+        2621,
+        -534,
+        105732,
+        255
+      ],
+      "expected": {
+        "base_raw": 132730,
+        "power_bps": 100000,
+        "after_power_raw": 1460030,
+        "flat_reduction_raw": 2621,
+        "after_flat_raw": 1457409,
+        "resistance_bps": -534,
+        "after_resist_raw": 1535234,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1535234,
+        "hp_before_raw": 453374,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        68505,
+        802266,
+        778,
+        9109,
+        35974,
+        255
+      ],
+      "expected": {
+        "base_raw": 68505,
+        "power_bps": 35974,
+        "after_power_raw": 314944,
+        "flat_reduction_raw": 778,
+        "after_flat_raw": 314166,
+        "resistance_bps": 9109,
+        "after_resist_raw": 27992,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 27992,
+        "hp_before_raw": 802266,
+        "hp_after_raw": 774274,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        173786,
+        255761,
+        1743,
+        -8962,
+        93418,
+        0
+      ],
+      "expected": {
+        "base_raw": 173786,
+        "power_bps": 93418,
+        "after_power_raw": 1797260,
+        "flat_reduction_raw": 1743,
+        "after_flat_raw": 1795517,
+        "resistance_bps": -8962,
+        "after_resist_raw": 3404659,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 3404659,
+        "hp_before_raw": 255761,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        60373,
+        632365,
+        1754,
+        5752,
+        -9319,
+        255
+      ],
+      "expected": {
+        "base_raw": 60373,
+        "power_bps": -9319,
+        "after_power_raw": 4111,
+        "flat_reduction_raw": 1754,
+        "after_flat_raw": 2357,
+        "resistance_bps": 5752,
+        "after_resist_raw": 1001,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1001,
+        "hp_before_raw": 632365,
+        "hp_after_raw": 631364,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        92206,
+        617350,
+        40,
+        2466,
+        49676,
+        0
+      ],
+      "expected": {
+        "base_raw": 92206,
+        "power_bps": 49676,
+        "after_power_raw": 550248,
+        "flat_reduction_raw": 40,
+        "after_flat_raw": 550208,
+        "resistance_bps": 2466,
+        "after_resist_raw": 414526,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 414526,
+        "hp_before_raw": 617350,
+        "hp_after_raw": 202824,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        6373,
+        237105,
+        2742,
+        -13853,
+        19314,
+        0
+      ],
+      "expected": {
+        "base_raw": 6373,
+        "power_bps": 19314,
+        "after_power_raw": 18681,
+        "flat_reduction_raw": 2742,
+        "after_flat_raw": 15939,
+        "resistance_bps": -10000,
+        "after_resist_raw": 31878,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 31878,
+        "hp_before_raw": 237105,
+        "hp_after_raw": 205227,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        143835,
+        642735,
+        1860,
+        5155,
+        4969,
+        255
+      ],
+      "expected": {
+        "base_raw": 143835,
+        "power_bps": 4969,
+        "after_power_raw": 215306,
+        "flat_reduction_raw": 1860,
+        "after_flat_raw": 213446,
+        "resistance_bps": 5155,
+        "after_resist_raw": 103414,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 103414,
+        "hp_before_raw": 642735,
+        "hp_after_raw": 539321,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        20051,
+        3919,
+        1935,
+        -5704,
+        38147,
+        0
+      ],
+      "expected": {
+        "base_raw": 20051,
+        "power_bps": 38147,
+        "after_power_raw": 96539,
+        "flat_reduction_raw": 1935,
+        "after_flat_raw": 94604,
+        "resistance_bps": -5704,
+        "after_resist_raw": 148566,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 148566,
+        "hp_before_raw": 3919,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        141127,
+        752702,
+        693,
+        4900,
+        16111,
+        255
+      ],
+      "expected": {
+        "base_raw": 141127,
+        "power_bps": 16111,
+        "after_power_raw": 368496,
+        "flat_reduction_raw": 693,
+        "after_flat_raw": 367803,
+        "resistance_bps": 4900,
+        "after_resist_raw": 187579,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 187579,
+        "hp_before_raw": 752702,
+        "hp_after_raw": 565123,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        10853,
+        48424,
+        2776,
+        -12068,
+        111016,
+        255
+      ],
+      "expected": {
+        "base_raw": 10853,
+        "power_bps": 100000,
+        "after_power_raw": 119383,
+        "flat_reduction_raw": 2776,
+        "after_flat_raw": 116607,
+        "resistance_bps": -10000,
+        "after_resist_raw": 233214,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 233214,
+        "hp_before_raw": 48424,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        55390,
+        954781,
+        452,
+        8165,
+        110774,
+        0
+      ],
+      "expected": {
+        "base_raw": 55390,
+        "power_bps": 100000,
+        "after_power_raw": 609290,
+        "flat_reduction_raw": 452,
+        "after_flat_raw": 608838,
+        "resistance_bps": 8165,
+        "after_resist_raw": 111721,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 111721,
+        "hp_before_raw": 954781,
+        "hp_after_raw": 843060,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        149998,
+        770097,
+        2647,
+        280,
+        51464,
+        0
+      ],
+      "expected": {
+        "base_raw": 149998,
+        "power_bps": 51464,
+        "after_power_raw": 921947,
+        "flat_reduction_raw": 2647,
+        "after_flat_raw": 919300,
+        "resistance_bps": 280,
+        "after_resist_raw": 893559,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 893559,
+        "hp_before_raw": 770097,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        97374,
+        668400,
+        2802,
+        1608,
+        24202,
+        255
+      ],
+      "expected": {
+        "base_raw": 97374,
+        "power_bps": 24202,
+        "after_power_raw": 333038,
+        "flat_reduction_raw": 2802,
+        "after_flat_raw": 330236,
+        "resistance_bps": 1608,
+        "after_resist_raw": 277134,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 277134,
+        "hp_before_raw": 668400,
+        "hp_after_raw": 391266,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        90142,
+        517047,
+        2641,
+        -5823,
+        86615,
+        0
+      ],
+      "expected": {
+        "base_raw": 90142,
+        "power_bps": 86615,
+        "after_power_raw": 870906,
+        "flat_reduction_raw": 2641,
+        "after_flat_raw": 868265,
+        "resistance_bps": -5823,
+        "after_resist_raw": 1373855,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1373855,
+        "hp_before_raw": 517047,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        138613,
+        478712,
+        2157,
+        4939,
+        99437,
+        0
+      ],
+      "expected": {
+        "base_raw": 138613,
+        "power_bps": 99437,
+        "after_power_raw": 1516939,
+        "flat_reduction_raw": 2157,
+        "after_flat_raw": 1514782,
+        "resistance_bps": 4939,
+        "after_resist_raw": 766631,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 766631,
+        "hp_before_raw": 478712,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        75837,
+        67189,
+        2916,
+        -2354,
+        -12997,
+        0
+      ],
+      "expected": {
+        "base_raw": 75837,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 2916,
+        "after_flat_raw": 0,
+        "resistance_bps": -2354,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 67189,
+        "hp_after_raw": 67189,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        153313,
+        508313,
+        2732,
+        7695,
+        68806,
+        0
+      ],
+      "expected": {
+        "base_raw": 153313,
+        "power_bps": 68806,
+        "after_power_raw": 1208198,
+        "flat_reduction_raw": 2732,
+        "after_flat_raw": 1205466,
+        "resistance_bps": 7695,
+        "after_resist_raw": 277859,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 277859,
+        "hp_before_raw": 508313,
+        "hp_after_raw": 230454,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        174266,
+        515525,
+        2471,
+        14962,
+        80653,
+        0
+      ],
+      "expected": {
+        "base_raw": 174266,
+        "power_bps": 80653,
+        "after_power_raw": 1579773,
+        "flat_reduction_raw": 2471,
+        "after_flat_raw": 1577302,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 515525,
+        "hp_after_raw": 515525,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        6214,
+        231234,
+        1620,
+        8862,
+        118672,
+        0
+      ],
+      "expected": {
+        "base_raw": 6214,
+        "power_bps": 100000,
+        "after_power_raw": 68354,
+        "flat_reduction_raw": 1620,
+        "after_flat_raw": 66734,
+        "resistance_bps": 8862,
+        "after_resist_raw": 7594,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 7594,
+        "hp_before_raw": 231234,
+        "hp_after_raw": 223640,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        61321,
+        150931,
+        88,
+        -12368,
+        82155,
+        0
+      ],
+      "expected": {
+        "base_raw": 61321,
+        "power_bps": 82155,
+        "after_power_raw": 565103,
+        "flat_reduction_raw": 88,
+        "after_flat_raw": 565015,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1130030,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1130030,
+        "hp_before_raw": 150931,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        76715,
+        425396,
+        1220,
+        897,
+        15053,
+        0
+      ],
+      "expected": {
+        "base_raw": 76715,
+        "power_bps": 15053,
+        "after_power_raw": 192194,
+        "flat_reduction_raw": 1220,
+        "after_flat_raw": 190974,
+        "resistance_bps": 897,
+        "after_resist_raw": 173843,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 173843,
+        "hp_before_raw": 425396,
+        "hp_after_raw": 251553,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        130363,
+        449755,
+        99,
+        -12605,
+        53207,
+        0
+      ],
+      "expected": {
+        "base_raw": 130363,
+        "power_bps": 53207,
+        "after_power_raw": 823985,
+        "flat_reduction_raw": 99,
+        "after_flat_raw": 823886,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1647772,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1647772,
+        "hp_before_raw": 449755,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        67539,
+        285744,
+        1509,
+        3402,
+        59352,
+        0
+      ],
+      "expected": {
+        "base_raw": 67539,
+        "power_bps": 59352,
+        "after_power_raw": 468396,
+        "flat_reduction_raw": 1509,
+        "after_flat_raw": 466887,
+        "resistance_bps": 3402,
+        "after_resist_raw": 308052,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 308052,
+        "hp_before_raw": 285744,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        117721,
+        256485,
+        1593,
+        -12879,
+        57626,
+        0
+      ],
+      "expected": {
+        "base_raw": 117721,
+        "power_bps": 57626,
+        "after_power_raw": 796100,
+        "flat_reduction_raw": 1593,
+        "after_flat_raw": 794507,
+        "resistance_bps": -10000,
+        "after_resist_raw": 1589014,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1589014,
+        "hp_before_raw": 256485,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        157384,
+        929844,
+        833,
+        7429,
+        65635,
+        0
+      ],
+      "expected": {
+        "base_raw": 157384,
+        "power_bps": 65635,
+        "after_power_raw": 1190373,
+        "flat_reduction_raw": 833,
+        "after_flat_raw": 1189540,
+        "resistance_bps": 7429,
+        "after_resist_raw": 305830,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 305830,
+        "hp_before_raw": 929844,
+        "hp_after_raw": 624014,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        188712,
+        300026,
+        810,
+        -5603,
+        49267,
+        0
+      ],
+      "expected": {
+        "base_raw": 188712,
+        "power_bps": 49267,
+        "after_power_raw": 1118439,
+        "flat_reduction_raw": 810,
+        "after_flat_raw": 1117629,
+        "resistance_bps": -5603,
+        "after_resist_raw": 1743836,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1743836,
+        "hp_before_raw": 300026,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        167427,
+        149815,
+        1643,
+        325,
+        80859,
+        0
+      ],
+      "expected": {
+        "base_raw": 167427,
+        "power_bps": 80859,
+        "after_power_raw": 1521224,
+        "flat_reduction_raw": 1643,
+        "after_flat_raw": 1519581,
+        "resistance_bps": 325,
+        "after_resist_raw": 1470194,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1470194,
+        "hp_before_raw": 149815,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        45130,
+        289518,
+        779,
+        -13411,
+        32465,
+        255
+      ],
+      "expected": {
+        "base_raw": 45130,
+        "power_bps": 32465,
+        "after_power_raw": 191644,
+        "flat_reduction_raw": 779,
+        "after_flat_raw": 190865,
+        "resistance_bps": -10000,
+        "after_resist_raw": 381730,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 381730,
+        "hp_before_raw": 289518,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        118065,
+        161857,
+        91,
+        -1680,
+        37708,
+        0
+      ],
+      "expected": {
+        "base_raw": 118065,
+        "power_bps": 37708,
+        "after_power_raw": 563264,
+        "flat_reduction_raw": 91,
+        "after_flat_raw": 563173,
+        "resistance_bps": -1680,
+        "after_resist_raw": 657786,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 657786,
+        "hp_before_raw": 161857,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        22969,
+        547379,
+        363,
+        -1355,
+        88679,
+        0
+      ],
+      "expected": {
+        "base_raw": 22969,
+        "power_bps": 88679,
+        "after_power_raw": 226655,
+        "flat_reduction_raw": 363,
+        "after_flat_raw": 226292,
+        "resistance_bps": -1355,
+        "after_resist_raw": 256954,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 256954,
+        "hp_before_raw": 547379,
+        "hp_after_raw": 290425,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        19472,
+        137987,
+        297,
+        -3785,
+        15724,
+        255
+      ],
+      "expected": {
+        "base_raw": 19472,
+        "power_bps": 15724,
+        "after_power_raw": 50089,
+        "flat_reduction_raw": 297,
+        "after_flat_raw": 49792,
+        "resistance_bps": -3785,
+        "after_resist_raw": 68638,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 68638,
+        "hp_before_raw": 137987,
+        "hp_after_raw": 69349,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        80314,
+        847065,
+        2014,
+        -13969,
+        -7511,
+        0
+      ],
+      "expected": {
+        "base_raw": 80314,
+        "power_bps": -7511,
+        "after_power_raw": 19990,
+        "flat_reduction_raw": 2014,
+        "after_flat_raw": 17976,
+        "resistance_bps": -10000,
+        "after_resist_raw": 35952,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 35952,
+        "hp_before_raw": 847065,
+        "hp_after_raw": 811113,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        32579,
+        330408,
+        1236,
+        -6913,
+        15657,
+        0
+      ],
+      "expected": {
+        "base_raw": 32579,
+        "power_bps": 15657,
+        "after_power_raw": 83587,
+        "flat_reduction_raw": 1236,
+        "after_flat_raw": 82351,
+        "resistance_bps": -6913,
+        "after_resist_raw": 139280,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 139280,
+        "hp_before_raw": 330408,
+        "hp_after_raw": 191128,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        21225,
+        528252,
+        1596,
+        11399,
+        75865,
+        0
+      ],
+      "expected": {
+        "base_raw": 21225,
+        "power_bps": 75865,
+        "after_power_raw": 182248,
+        "flat_reduction_raw": 1596,
+        "after_flat_raw": 180652,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 528252,
+        "hp_after_raw": 528252,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        175644,
+        671181,
+        2468,
+        -157,
+        60199,
+        0
+      ],
+      "expected": {
+        "base_raw": 175644,
+        "power_bps": 60199,
+        "after_power_raw": 1233003,
+        "flat_reduction_raw": 2468,
+        "after_flat_raw": 1230535,
+        "resistance_bps": -157,
+        "after_resist_raw": 1249854,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1249854,
+        "hp_before_raw": 671181,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        171359,
+        651406,
+        1255,
+        -3091,
+        48169,
+        0
+      ],
+      "expected": {
+        "base_raw": 171359,
+        "power_bps": 48169,
+        "after_power_raw": 996778,
+        "flat_reduction_raw": 1255,
+        "after_flat_raw": 995523,
+        "resistance_bps": -3091,
+        "after_resist_raw": 1303239,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1303239,
+        "hp_before_raw": 651406,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        334,
+        618859,
+        1786,
+        -14472,
+        2016,
+        0
+      ],
+      "expected": {
+        "base_raw": 334,
+        "power_bps": 2016,
+        "after_power_raw": 401,
+        "flat_reduction_raw": 1786,
+        "after_flat_raw": 0,
+        "resistance_bps": -10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 618859,
+        "hp_after_raw": 618859,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        118041,
+        125164,
+        2924,
+        -13478,
+        11117,
+        0
+      ],
+      "expected": {
+        "base_raw": 118041,
+        "power_bps": 11117,
+        "after_power_raw": 249267,
+        "flat_reduction_raw": 2924,
+        "after_flat_raw": 246343,
+        "resistance_bps": -10000,
+        "after_resist_raw": 492686,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 492686,
+        "hp_before_raw": 125164,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        170914,
+        2526,
+        1619,
+        1091,
+        21734,
+        0
+      ],
+      "expected": {
+        "base_raw": 170914,
+        "power_bps": 21734,
+        "after_power_raw": 542378,
+        "flat_reduction_raw": 1619,
+        "after_flat_raw": 540759,
+        "resistance_bps": 1091,
+        "after_resist_raw": 481762,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 481762,
+        "hp_before_raw": 2526,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        106792,
+        889587,
+        569,
+        2130,
+        116911,
+        255
+      ],
+      "expected": {
+        "base_raw": 106792,
+        "power_bps": 100000,
+        "after_power_raw": 1174712,
+        "flat_reduction_raw": 569,
+        "after_flat_raw": 1174143,
+        "resistance_bps": 2130,
+        "after_resist_raw": 924050,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 924050,
+        "hp_before_raw": 889587,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        167257,
+        147238,
+        194,
+        -436,
+        39782,
+        0
+      ],
+      "expected": {
+        "base_raw": 167257,
+        "power_bps": 39782,
+        "after_power_raw": 832638,
+        "flat_reduction_raw": 194,
+        "after_flat_raw": 832444,
+        "resistance_bps": -436,
+        "after_resist_raw": 868738,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 868738,
+        "hp_before_raw": 147238,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        167617,
+        449146,
+        1311,
+        4477,
+        119293,
+        255
+      ],
+      "expected": {
+        "base_raw": 167617,
+        "power_bps": 100000,
+        "after_power_raw": 1843787,
+        "flat_reduction_raw": 1311,
+        "after_flat_raw": 1842476,
+        "resistance_bps": 4477,
+        "after_resist_raw": 1017599,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1017599,
+        "hp_before_raw": 449146,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        192354,
+        940902,
+        2792,
+        6423,
+        45257,
+        0
+      ],
+      "expected": {
+        "base_raw": 192354,
+        "power_bps": 45257,
+        "after_power_raw": 1062890,
+        "flat_reduction_raw": 2792,
+        "after_flat_raw": 1060098,
+        "resistance_bps": 6423,
+        "after_resist_raw": 379197,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 379197,
+        "hp_before_raw": 940902,
+        "hp_after_raw": 561705,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        189808,
+        273323,
+        1713,
+        10122,
+        -8516,
+        0
+      ],
+      "expected": {
+        "base_raw": 189808,
+        "power_bps": -8516,
+        "after_power_raw": 28167,
+        "flat_reduction_raw": 1713,
+        "after_flat_raw": 26454,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 273323,
+        "hp_after_raw": 273323,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        141427,
+        497599,
+        1358,
+        14060,
+        39535,
+        255
+      ],
+      "expected": {
+        "base_raw": 141427,
+        "power_bps": 39535,
+        "after_power_raw": 700558,
+        "flat_reduction_raw": 1358,
+        "after_flat_raw": 699200,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 497599,
+        "hp_after_raw": 497599,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        180059,
+        330117,
+        2885,
+        -7526,
+        -8777,
+        255
+      ],
+      "expected": {
+        "base_raw": 180059,
+        "power_bps": -8777,
+        "after_power_raw": 22021,
+        "flat_reduction_raw": 2885,
+        "after_flat_raw": 19136,
+        "resistance_bps": -7526,
+        "after_resist_raw": 33537,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 33537,
+        "hp_before_raw": 330117,
+        "hp_after_raw": 296580,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        11879,
+        671499,
+        2191,
+        13162,
+        76371,
+        255
+      ],
+      "expected": {
+        "base_raw": 11879,
+        "power_bps": 76371,
+        "after_power_raw": 102600,
+        "flat_reduction_raw": 2191,
+        "after_flat_raw": 100409,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 671499,
+        "hp_after_raw": 671499,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        185565,
+        275953,
+        710,
+        8454,
+        91278,
+        0
+      ],
+      "expected": {
+        "base_raw": 185565,
+        "power_bps": 91278,
+        "after_power_raw": 1879365,
+        "flat_reduction_raw": 710,
+        "after_flat_raw": 1878655,
+        "resistance_bps": 8454,
+        "after_resist_raw": 290440,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 290440,
+        "hp_before_raw": 275953,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        151362,
+        290865,
+        179,
+        4731,
+        105193,
+        0
+      ],
+      "expected": {
+        "base_raw": 151362,
+        "power_bps": 100000,
+        "after_power_raw": 1664982,
+        "flat_reduction_raw": 179,
+        "after_flat_raw": 1664803,
+        "resistance_bps": 4731,
+        "after_resist_raw": 877184,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 877184,
+        "hp_before_raw": 290865,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        147293,
+        402066,
+        1614,
+        -5295,
+        26046,
+        255
+      ],
+      "expected": {
+        "base_raw": 147293,
+        "power_bps": 26046,
+        "after_power_raw": 530932,
+        "flat_reduction_raw": 1614,
+        "after_flat_raw": 529318,
+        "resistance_bps": -5295,
+        "after_resist_raw": 809591,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 809591,
+        "hp_before_raw": 402066,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        182573,
+        521259,
+        274,
+        2119,
+        65764,
+        0
+      ],
+      "expected": {
+        "base_raw": 182573,
+        "power_bps": 65764,
+        "after_power_raw": 1383246,
+        "flat_reduction_raw": 274,
+        "after_flat_raw": 1382972,
+        "resistance_bps": 2119,
+        "after_resist_raw": 1089920,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1089920,
+        "hp_before_raw": 521259,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        110768,
+        513564,
+        2917,
+        -6809,
+        8634,
+        0
+      ],
+      "expected": {
+        "base_raw": 110768,
+        "power_bps": 8634,
+        "after_power_raw": 206405,
+        "flat_reduction_raw": 2917,
+        "after_flat_raw": 203488,
+        "resistance_bps": -6809,
+        "after_resist_raw": 342042,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 342042,
+        "hp_before_raw": 513564,
+        "hp_after_raw": 171522,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        103700,
+        296019,
+        2934,
+        -4103,
+        80726,
+        0
+      ],
+      "expected": {
+        "base_raw": 103700,
+        "power_bps": 80726,
+        "after_power_raw": 940828,
+        "flat_reduction_raw": 2934,
+        "after_flat_raw": 937894,
+        "resistance_bps": -4103,
+        "after_resist_raw": 1322711,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1322711,
+        "hp_before_raw": 296019,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        44980,
+        233598,
+        2533,
+        12599,
+        99309,
+        0
+      ],
+      "expected": {
+        "base_raw": 44980,
+        "power_bps": 99309,
+        "after_power_raw": 491671,
+        "flat_reduction_raw": 2533,
+        "after_flat_raw": 489138,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 233598,
+        "hp_after_raw": 233598,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        30173,
+        704612,
+        2315,
+        6474,
+        -2677,
+        0
+      ],
+      "expected": {
+        "base_raw": 30173,
+        "power_bps": -2677,
+        "after_power_raw": 22095,
+        "flat_reduction_raw": 2315,
+        "after_flat_raw": 19780,
+        "resistance_bps": 6474,
+        "after_resist_raw": 6974,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 6974,
+        "hp_before_raw": 704612,
+        "hp_after_raw": 697638,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        80479,
+        842926,
+        268,
+        -3881,
+        25429,
+        255
+      ],
+      "expected": {
+        "base_raw": 80479,
+        "power_bps": 25429,
+        "after_power_raw": 285129,
+        "flat_reduction_raw": 268,
+        "after_flat_raw": 284861,
+        "resistance_bps": -3881,
+        "after_resist_raw": 395415,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 395415,
+        "hp_before_raw": 842926,
+        "hp_after_raw": 447511,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        170913,
+        529259,
+        1592,
+        13037,
+        51833,
+        0
+      ],
+      "expected": {
+        "base_raw": 170913,
+        "power_bps": 51833,
+        "after_power_raw": 1056806,
+        "flat_reduction_raw": 1592,
+        "after_flat_raw": 1055214,
+        "resistance_bps": 10000,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 529259,
+        "hp_after_raw": 529259,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        107664,
+        396181,
+        2362,
+        -3015,
+        -13690,
+        0
+      ],
+      "expected": {
+        "base_raw": 107664,
+        "power_bps": -10000,
+        "after_power_raw": 0,
+        "flat_reduction_raw": 2362,
+        "after_flat_raw": 0,
+        "resistance_bps": -3015,
+        "after_resist_raw": 0,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 0,
+        "hp_before_raw": 396181,
+        "hp_after_raw": 396181,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        84035,
+        544055,
+        1660,
+        -2294,
+        110656,
+        255
+      ],
+      "expected": {
+        "base_raw": 84035,
+        "power_bps": 100000,
+        "after_power_raw": 924385,
+        "flat_reduction_raw": 1660,
+        "after_flat_raw": 922725,
+        "resistance_bps": -2294,
+        "after_resist_raw": 1134398,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 1134398,
+        "hp_before_raw": 544055,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    },
+    {
+      "input": [
+        73364,
+        667323,
+        2737,
+        -3021,
+        -7109,
+        0
+      ],
+      "expected": {
+        "base_raw": 73364,
+        "power_bps": -7109,
+        "after_power_raw": 21209,
+        "flat_reduction_raw": 2737,
+        "after_flat_raw": 18472,
+        "resistance_bps": -3021,
+        "after_resist_raw": 24052,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 24052,
+        "hp_before_raw": 667323,
+        "hp_after_raw": 643271,
+        "dead": false,
+        "death_reason": "alive"
+      }
+    },
+    {
+      "input": [
+        89884,
+        542646,
+        1016,
+        -6070,
+        38790,
+        0
+      ],
+      "expected": {
+        "base_raw": 89884,
+        "power_bps": 38790,
+        "after_power_raw": 438544,
+        "flat_reduction_raw": 1016,
+        "after_flat_raw": 437528,
+        "resistance_bps": -6070,
+        "after_resist_raw": 703107,
+        "absorbed_damage_raw": 0,
+        "absorb_heal_raw": 0,
+        "total_raw": 703107,
+        "hp_before_raw": 542646,
+        "hp_after_raw": 0,
+        "dead": true,
+        "death_reason": "threshold"
+      }
+    }
+  ],
+  "cost": [
+    {
+      "input": [
+        0,
+        -10000
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        0,
+        -9000
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        0,
+        -1
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        0,
+        0
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        0,
+        1
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        0,
+        2500
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        0,
+        100000
+      ],
+      "expected": 11
+    },
+    {
+      "input": [
+        0,
+        200000
+      ],
+      "expected": 11
+    },
+    {
+      "input": [
+        1,
+        -10000
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        1,
+        -9000
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        1,
+        -1
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        1,
+        0
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        1,
+        1
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        1,
+        2500
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        1,
+        100000
+      ],
+      "expected": 11
+    },
+    {
+      "input": [
+        1,
+        200000
+      ],
+      "expected": 11
+    },
+    {
+      "input": [
+        7,
+        -10000
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        7,
+        -9000
+      ],
+      "expected": 1
+    },
+    {
+      "input": [
+        7,
+        -1
+      ],
+      "expected": 6
+    },
+    {
+      "input": [
+        7,
+        0
+      ],
+      "expected": 7
+    },
+    {
+      "input": [
+        7,
+        1
+      ],
+      "expected": 7
+    },
+    {
+      "input": [
+        7,
+        2500
+      ],
+      "expected": 8
+    },
+    {
+      "input": [
+        7,
+        100000
+      ],
+      "expected": 77
+    },
+    {
+      "input": [
+        7,
+        200000
+      ],
+      "expected": 77
+    },
+    {
+      "input": [
+        640,
+        -10000
+      ],
+      "expected": 64
+    },
+    {
+      "input": [
+        640,
+        -9000
+      ],
+      "expected": 64
+    },
+    {
+      "input": [
+        640,
+        -1
+      ],
+      "expected": 639
+    },
+    {
+      "input": [
+        640,
+        0
+      ],
+      "expected": 640
+    },
+    {
+      "input": [
+        640,
+        1
+      ],
+      "expected": 640
+    },
+    {
+      "input": [
+        640,
+        2500
+      ],
+      "expected": 800
+    },
+    {
+      "input": [
+        640,
+        100000
+      ],
+      "expected": 7040
+    },
+    {
+      "input": [
+        640,
+        200000
+      ],
+      "expected": 7040
+    },
+    {
+      "input": [
+        1001,
+        -10000
+      ],
+      "expected": 100
+    },
+    {
+      "input": [
+        1001,
+        -9000
+      ],
+      "expected": 100
+    },
+    {
+      "input": [
+        1001,
+        -1
+      ],
+      "expected": 1000
+    },
+    {
+      "input": [
+        1001,
+        0
+      ],
+      "expected": 1001
+    },
+    {
+      "input": [
+        1001,
+        1
+      ],
+      "expected": 1001
+    },
+    {
+      "input": [
+        1001,
+        2500
+      ],
+      "expected": 1251
+    },
+    {
+      "input": [
+        1001,
+        100000
+      ],
+      "expected": 11011
+    },
+    {
+      "input": [
+        1001,
+        200000
+      ],
+      "expected": 11011
+    },
+    {
+      "input": [
+        2147483647,
+        -10000
+      ],
+      "expected": 214748364
+    },
+    {
+      "input": [
+        2147483647,
+        -9000
+      ],
+      "expected": 214748364
+    },
+    {
+      "input": [
+        2147483647,
+        -1
+      ],
+      "expected": 2147268898
+    },
+    {
+      "input": [
+        2147483647,
+        0
+      ],
+      "expected": 2147483647
+    },
+    {
+      "input": [
+        2147483647,
+        1
+      ],
+      "expected": 2147698395
+    },
+    {
+      "input": [
+        2147483647,
+        2500
+      ],
+      "expected": 2684354558
+    },
+    {
+      "input": [
+        2147483647,
+        100000
+      ],
+      "expected": 23622320117
+    },
+    {
+      "input": [
+        2147483647,
+        200000
+      ],
+      "expected": 23622320117
+    }
+  ],
+  "timing": [
+    {
+      "input": [
+        18,
+        33,
+        -10000
+      ],
+      "expected": {
+        "startup_ticks": 72,
+        "cycle_ticks": 132
+      }
+    },
+    {
+      "input": [
+        18,
+        33,
+        -7500
+      ],
+      "expected": {
+        "startup_ticks": 72,
+        "cycle_ticks": 132
+      }
+    },
+    {
+      "input": [
+        18,
+        33,
+        -1
+      ],
+      "expected": {
+        "startup_ticks": 19,
+        "cycle_ticks": 34
+      }
+    },
+    {
+      "input": [
+        18,
+        33,
+        0
+      ],
+      "expected": {
+        "startup_ticks": 18,
+        "cycle_ticks": 33
+      }
+    },
+    {
+      "input": [
+        18,
+        33,
+        1
+      ],
+      "expected": {
+        "startup_ticks": 18,
+        "cycle_ticks": 33
+      }
+    },
+    {
+      "input": [
+        18,
+        33,
+        30000
+      ],
+      "expected": {
+        "startup_ticks": 5,
+        "cycle_ticks": 9
+      }
+    },
+    {
+      "input": [
+        18,
+        33,
+        100000
+      ],
+      "expected": {
+        "startup_ticks": 5,
+        "cycle_ticks": 9
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        -10000
+      ],
+      "expected": {
+        "startup_ticks": 48,
+        "cycle_ticks": 180
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        -7500
+      ],
+      "expected": {
+        "startup_ticks": 48,
+        "cycle_ticks": 180
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        -1
+      ],
+      "expected": {
+        "startup_ticks": 13,
+        "cycle_ticks": 46
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        0
+      ],
+      "expected": {
+        "startup_ticks": 12,
+        "cycle_ticks": 45
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        1
+      ],
+      "expected": {
+        "startup_ticks": 12,
+        "cycle_ticks": 45
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        30000
+      ],
+      "expected": {
+        "startup_ticks": 3,
+        "cycle_ticks": 12
+      }
+    },
+    {
+      "input": [
+        12,
+        45,
+        100000
+      ],
+      "expected": {
+        "startup_ticks": 3,
+        "cycle_ticks": 12
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        -10000
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 4
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        -7500
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 4
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        -1
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 2
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        0
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 1
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        1
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 1
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        30000
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 1
+      }
+    },
+    {
+      "input": [
+        0,
+        1,
+        100000
+      ],
+      "expected": {
+        "startup_ticks": 0,
+        "cycle_ticks": 1
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        -10000
+      ],
+      "expected": {
+        "startup_ticks": 72,
+        "cycle_ticks": 73
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        -7500
+      ],
+      "expected": {
+        "startup_ticks": 72,
+        "cycle_ticks": 73
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        -1
+      ],
+      "expected": {
+        "startup_ticks": 19,
+        "cycle_ticks": 20
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        0
+      ],
+      "expected": {
+        "startup_ticks": 18,
+        "cycle_ticks": 19
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        1
+      ],
+      "expected": {
+        "startup_ticks": 18,
+        "cycle_ticks": 19
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        30000
+      ],
+      "expected": {
+        "startup_ticks": 5,
+        "cycle_ticks": 6
+      }
+    },
+    {
+      "input": [
+        18,
+        10,
+        100000
+      ],
+      "expected": {
+        "startup_ticks": 5,
+        "cycle_ticks": 6
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        -10000
+      ],
+      "expected": {
+        "startup_ticks": 8589934588,
+        "cycle_ticks": 8589934589
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        -7500
+      ],
+      "expected": {
+        "startup_ticks": 8589934588,
+        "cycle_ticks": 8589934589
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        -1
+      ],
+      "expected": {
+        "startup_ticks": 2147698417,
+        "cycle_ticks": 2147698418
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        0
+      ],
+      "expected": {
+        "startup_ticks": 2147483647,
+        "cycle_ticks": 2147483648
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        1
+      ],
+      "expected": {
+        "startup_ticks": 2147268921,
+        "cycle_ticks": 2147268922
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        30000
+      ],
+      "expected": {
+        "startup_ticks": 536870912,
+        "cycle_ticks": 536870913
+      }
+    },
+    {
+      "input": [
+        2147483647,
+        2147483647,
+        100000
+      ],
+      "expected": {
+        "startup_ticks": 536870912,
+        "cycle_ticks": 536870913
+      }
+    }
+  ]
+}

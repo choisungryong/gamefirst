@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "source_type": "independent_generated_2d_foliage_atlas",
+  "texture": "res://chapter1/art/quality03/cloister_foliage_v01.png",
+  "width": 1774,
+  "height": 887,
+  "columns": 4,
+  "rows": 2,
+  "alpha_cutoff": 0.15,
+  "props": [
+    {
+      "id": "grass_a",
+      "region": [
+        9,
+        26,
+        431,
+        403
+      ],
+      "feet": [
+        215.5,
+        396.0
+      ],
+      "height_m": 0.68,
+      "category": "foliage"
+    },
+    {
+      "id": "grass_b",
+      "region": [
+        442,
+        26,
+        448,
+        408
+      ],
+      "feet": [
+        224.0,
+        401.0
+      ],
+      "height_m": 0.78,
+      "category": "foliage"
+    },
+    {
+      "id": "fern_a",
+      "region": [
+        902,
+        65,
+        433,
+        376
+      ],
+      "feet": [
+        216.5,
+        369.0
+      ],
+      "height_m": 0.62,
+      "category": "foliage"
+    },
+    {
+      "id": "grass_bent",
+      "region": [
+        1348,
+        19,
+        415,
+        410
+      ],
+      "feet": [
+        207.5,
+        403.0
+      ],
+      "height_m": 0.74,
+      "category": "foliage"
+    },
+    {
+      "id": "grass_leaf",
+      "region": [
+        12,
+        495,
+        431,
+        357
+      ],
+      "feet": [
+        215.5,
+        350.0
+      ],
+      "height_m": 0.58,
+      "category": "foliage"
+    },
+    {
+      "id": "fern_moss",
+      "region": [
+        444,
+        469,
+        435,
+        382
+      ],
+      "feet": [
+        217.5,
+        375.0
+      ],
+      "height_m": 0.52,
+      "category": "foliage"
+    },
+    {
+      "id": "grass_sedge",
+      "region": [
+        892,
+        467,
+        438,
+        395
+      ],
+      "feet": [
+        219.0,
+        388.0
+      ],
+      "height_m": 0.82,
+      "category": "foliage"
+    },
+    {
+      "id": "fern_grass",
+      "region": [
+        1344,
+        473,
+        427,
+        377
+      ],
+      "feet": [
+        213.5,
+        370.0
+      ],
+      "height_m": 0.62,
+      "category": "foliage"
+    }
+  ],
+  "notes": [
+    "Dense realistic 2.5D grass/fern clusters; not 3D foliage geometry.",
+    "No attached ground tile or cast shadow.",
+    "Initial heights/feet require actual camera and overlap review."
+  ]
+}

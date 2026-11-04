@@ -1,0 +1,10 @@
+{
+  "source_mismatches": [],
+  "functional_actual_exit": 0,
+  "functional_checks": 52,
+  "negative_actual_exit": 1,
+  "normal_pilot_actual_exit": 0,
+  "normal_cases": 6,
+  "normal_victories": 6,
+  "scope": "C2 core candidate02 only; final scene/assets/OS play/GPU not approved."
+}

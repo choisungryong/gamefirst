@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261104-26\\AshenCloister-Chapter1.exe",
+  "sha256": "2b04ff7791dc96b0b7d28c49bc6dffe91e400a608acf18a181675b10fb424534",
+  "bytes": 130061608,
+  "source_count": 123,
+  "stage_count": 125,
+  "pck_count": 223,
+  "scope": "Full chapter candidate26: readable nearby ground gear names with camera-scaled text, priority layout and displacement leaders. Core16/World22/Actor25b/HUD23/Input21 and all drop/collection rules preserved. Actor26 hit-blend study not adopted. Actual packaged/manual/audio/new formal performance gates separate."
+}

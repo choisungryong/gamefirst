@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,hashlib,shutil,subprocess,sys
+R=Path('C:/Project/d2r-combat-baseline');B=R/'plans/chapter1-quality04-20261101-01';H=Path(__file__).parent;phase=sys.argv[1];assert phase in ['equip','reload'];O=B/('full29/runtime/native-profile-'+phase+'01');assert not O.exists();O.mkdir()
+read=lambda p:json.loads(p.read_text(encoding='utf-8'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();build=read(B/'full29/build/build.json');exe=Path(build['exe']);assert sha(exe)==build['sha256'];profile=Path('C:/Users/twins/AppData/Roaming/AshenCloisterChapterOneQuality29/chapter-one-profile-v1.json');assert profile.exists();shutil.copytree(profile.parent,O/'profile-before');script=H/'native_profile29.gd';shutil.copy2(script,O/script.name);runtime=exe.parent/('qa-probe/native-profile-'+phase+'01');assert not runtime.exists()
+for label,args in [('check',['--headless','--check-only','--script',str(script)]),('native',['--script',str(script),'--max-fps','120','--','--chapter1-qa-ignore-focus','--chapter1-quit-after=600','--native29-dir='+str(runtime),'--native29-phase='+phase])]:
+ with (O/(label+'.stdout.txt')).open('xb') as stdout,(O/(label+'.stderr.txt')).open('xb') as stderr:
+  cmd=[str(exe)]+args;p=subprocess.Popen(cmd,cwd=exe.parent,stdout=stdout,stderr=stderr);(O/(label+'-launch.json')).write_text(json.dumps(dict(pid=p.pid,command=cmd),indent=2));print(label,p.pid,flush=True);code=p.wait(timeout=660)
+ result=dict(exit=code,stderr_bytes=(O/(label+'.stderr.txt')).stat().st_size);(O/(label+'-execution.json')).write_text(json.dumps(result));assert result==dict(exit=0,stderr_bytes=0),result
+shutil.copytree(runtime,O/'proof');shutil.copytree(profile.parent,O/'profile-after');assert sha(exe)==build['sha256'];print('NATIVE29 PHASE TERMINAL',phase,flush=True)

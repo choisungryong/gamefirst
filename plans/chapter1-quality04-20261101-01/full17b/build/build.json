@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261102-17b\\AshenCloister-Chapter1.exe",
+  "sha256": "f09d067d1ebe54285f73e4a164980348f1393a5ac005fd7460bb79d16cc378c6",
+  "bytes": 130013760,
+  "source_count": 107,
+  "stage_count": 109,
+  "pck_count": 192,
+  "scope": "Full chapter candidate17b presentation: staggered sprite gait/paid windup lean, six stone batches outside walkable bounds, using own geometry and existing texture, persistent inventory scroll/slot sigils/unique descriptions, 1.3s boss-death reveal and actual unique reward card. Same16 combat rules. Final art/manual/audio/performance gates remain open."
+}

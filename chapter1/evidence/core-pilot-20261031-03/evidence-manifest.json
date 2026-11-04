@@ -1,0 +1,38 @@
+[
+  {
+    "path": "candidate02-to03.diff",
+    "sha256": "152ca17bcd24266fd4d6d5bff48644045b069659ace53a7d8379e342d4c42060"
+  },
+  {
+    "path": "CORE-FREEZE.json",
+    "sha256": "9a81bd161e5f1f66e0a26b5e0d6fd2741482765358168986aee6a38e1df7f040"
+  },
+  {
+    "path": "functional-negative-execution.json",
+    "sha256": "c47205d8b78d43f66688be797b9a79bc2a8d9c2cb47b0dd87635efdf40e9e35d"
+  },
+  {
+    "path": "functional-positive-execution.json",
+    "sha256": "9fc74c1afdf530cc4b52c9e24f8ec1cc6efdea47e6e2df661bfd35d4f4fea08f"
+  },
+  {
+    "path": "normal-pilot-execution.json",
+    "sha256": "73785c1790be9047b45d60f646b1b69792f397d75247606b76af8ac3e8457eb5"
+  },
+  {
+    "path": "parse-execution.json",
+    "sha256": "dd471c9ad8bf78e2190bcdf4cde5e4297c36849e7714c5ec60c3fa3873bd474b"
+  },
+  {
+    "path": "results.json",
+    "sha256": "1e147da6fd95c8fcba302e66d61bdcb43bfb843a4774c59b683b79fb0af53dec"
+  },
+  {
+    "path": "run_verification.py",
+    "sha256": "798f6060f4bc5ffd4bdbde14d6b63648f19f1f26154dc30ac380da9212fd4d9f"
+  },
+  {
+    "path": "source-manifest.json",
+    "sha256": "ca434d321d2ddc21a9d422c0d24e3bb8feb1f760adcedf137464ebd833aa8515"
+  }
+]

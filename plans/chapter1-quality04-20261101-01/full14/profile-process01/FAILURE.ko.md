@@ -1,0 +1,1 @@
+QA프로브가예약어namespace를지역변수로써서ParseError였다. 제품core는변경하지않았다. 원시실행/수정전프로브/stage/QA사용자폴더A를보존하고qa_user_dir로고친새stage/사용자폴더B에서02검수한다. 원래사용자저장미접근.

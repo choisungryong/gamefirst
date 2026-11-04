@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "kind": "hero_cast",
+  "source_type": "independent_generated_2d_directional_cast_atlas",
+  "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+  "columns": 4,
+  "rows": 4,
+  "width": 1254,
+  "height": 1254,
+  "pixels_per_meter": 128.0,
+  "alpha_cutoff": 0.15,
+  "directions": [
+    "south",
+    "east",
+    "north",
+    "west"
+  ],
+  "frames": [
+    {
+      "region": [
+        111,
+        47,
+        175,
+        266
+      ],
+      "feet": [
+        82.0,
+        260.0
+      ],
+      "pixels_per_meter": 127.805,
+      "duration": 0.07,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "south",
+      "phase": "ready"
+    },
+    {
+      "region": [
+        402,
+        56,
+        195,
+        261
+      ],
+      "feet": [
+        69.0,
+        255.0
+      ],
+      "pixels_per_meter": 127.805,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "south",
+      "phase": "anticipation"
+    },
+    {
+      "region": [
+        695,
+        68,
+        191,
+        246
+      ],
+      "feet": [
+        78.0,
+        240.0
+      ],
+      "pixels_per_meter": 127.805,
+      "duration": 0.09,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "south",
+      "phase": "release"
+    },
+    {
+      "region": [
+        1013,
+        49,
+        166,
+        265
+      ],
+      "feet": [
+        66.0,
+        259.0
+      ],
+      "pixels_per_meter": 127.805,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "south",
+      "phase": "recovery"
+    },
+    {
+      "region": [
+        90,
+        341,
+        176,
+        264
+      ],
+      "feet": [
+        142.0,
+        258.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.07,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "east",
+      "phase": "ready"
+    },
+    {
+      "region": [
+        372,
+        340,
+        202,
+        265
+      ],
+      "feet": [
+        162.0,
+        259.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "east",
+      "phase": "anticipation"
+    },
+    {
+      "region": [
+        653,
+        344,
+        258,
+        262
+      ],
+      "feet": [
+        175.0,
+        256.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.09,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "east",
+      "phase": "release"
+    },
+    {
+      "region": [
+        986,
+        338,
+        188,
+        267
+      ],
+      "feet": [
+        147.0,
+        261.0
+      ],
+      "pixels_per_meter": 119.0,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "east",
+      "phase": "recovery"
+    },
+    {
+      "region": [
+        94,
+        627,
+        179,
+        280
+      ],
+      "feet": [
+        81.0,
+        274.0
+      ],
+      "pixels_per_meter": 122.662,
+      "duration": 0.07,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "north",
+      "phase": "ready"
+    },
+    {
+      "region": [
+        376,
+        630,
+        195,
+        277
+      ],
+      "feet": [
+        97.0,
+        271.0
+      ],
+      "pixels_per_meter": 122.662,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "north",
+      "phase": "anticipation"
+    },
+    {
+      "region": [
+        672,
+        628,
+        201,
+        281
+      ],
+      "feet": [
+        102.0,
+        275.0
+      ],
+      "pixels_per_meter": 122.662,
+      "duration": 0.09,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "north",
+      "phase": "release"
+    },
+    {
+      "region": [
+        991,
+        635,
+        180,
+        273
+      ],
+      "feet": [
+        85.0,
+        267.0
+      ],
+      "pixels_per_meter": 122.662,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "north",
+      "phase": "recovery"
+    },
+    {
+      "region": [
+        107,
+        932,
+        198,
+        263
+      ],
+      "feet": [
+        39.0,
+        257.0
+      ],
+      "pixels_per_meter": 120.927,
+      "duration": 0.07,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "west",
+      "phase": "ready"
+    },
+    {
+      "region": [
+        388,
+        936,
+        205,
+        260
+      ],
+      "feet": [
+        41.5,
+        254.0
+      ],
+      "pixels_per_meter": 120.927,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "west",
+      "phase": "anticipation"
+    },
+    {
+      "region": [
+        657,
+        938,
+        256,
+        258
+      ],
+      "feet": [
+        76.0,
+        252.0
+      ],
+      "pixels_per_meter": 120.927,
+      "duration": 0.09,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "west",
+      "phase": "release"
+    },
+    {
+      "region": [
+        1008,
+        931,
+        203,
+        266
+      ],
+      "feet": [
+        48.0,
+        260.0
+      ],
+      "pixels_per_meter": 120.927,
+      "duration": 0.1,
+      "texture": "res://chapter1/art/quality03/hero_cast_v01.png",
+      "direction": "west",
+      "phase": "recovery"
+    }
+  ],
+  "frames_by_direction": {
+    "south": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "east": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "north": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "west": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "states": {
+    "cast_south": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cast_east": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "cast_north": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "cast_west": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "notes": [
+    "Directional raster cast candidate, not rigged 3D.",
+    "Four successive cast poses per facing: ready, anticipation, release, recovery.",
+    "Constant scale within each direction; scale matched to previous hero walk atlas by ready-pose height.",
+    "Existing walk/hit/death sheets unchanged. Feet and transitions require engine visual review."
+  ]
+}

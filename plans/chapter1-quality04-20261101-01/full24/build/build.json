@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261103-24\\AshenCloister-Chapter1.exe",
+  "sha256": "e0eb6b96298b95a0787ff854cee82bf132b23d40083cb125d10daa904c6a2f2e",
+  "bytes": 130053600,
+  "source_count": 121,
+  "stage_count": 123,
+  "pck_count": 219,
+  "scope": "Full chapter candidate24: share immutable imported minion mesh by resource path and kind, avoiding repeated mesh merge/texture reads on each spawn. Independent per-actor material/rig/poses and final boss preserved. Core16/World22/FX22/HUD23/Input21 unchanged; manual/audio/new actual performance gates separate."
+}

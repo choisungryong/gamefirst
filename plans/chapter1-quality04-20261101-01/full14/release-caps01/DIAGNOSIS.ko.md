@@ -1,0 +1,1 @@
+외부caps13검사는모두통과했으나종료때AudioStreamWAV/AudioStreamPlaybackWAV누수경고124bytes. verbose로실제객체를식별했다. 이검사는제품의audio.reset(중지voice의stream_paused=false)및실제시계release대기를우회했다. 제품정상종료경로를쓰는패키지전체/영상은quiet였다. 검사에동일reset/200ms실제시계대기를연결해새02에서검증하며,이결과전에는해결주장하지않는다.14제품freeze/EXE는수정하지않았다.

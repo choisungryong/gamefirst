@@ -1,0 +1,2 @@
+ full29/runtime/default-profile-earn01/proof/RESULT.json. 실제29 EXE/headless fixed60/처음 기본profile없음/정상획득 전체23862tick/원래 저장 이벤트, 기본 user:// 경로 재configure 후 전체 상태 일치. 34장비/완료1/revision1/겨울의심장 storage34. profileoff false/우회경로·장비지급 없음. 새 실제 사용자29 파일과 journal은 default-profile-preserved 및 PROFILE-PINS에 보존. C:/Users/twins/AppData/Roaming/AshenCloisterChapterOneQuality29/chapter-one-profile-v1.json 절대 reset/delete 금지. GPU·수동 검사가 아닌 기본 저장 파이프라인 증거다.
+

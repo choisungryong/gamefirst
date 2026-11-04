@@ -1,0 +1,10 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-c2-candidate-20261031-02\\AshenCloister-Chapter1.exe",
+  "sha256": "111c8434bd13d9724a4b1551fce97d0d1d241d59cde92a7df4ee23909f111188",
+  "bytes": 109675984,
+  "entry_count": 78,
+  "source_count": 42,
+  "stage": "C:\\Project\\game-research\\build-staging\\chapter1-c2-candidate-20261031-02",
+  "entrypoint": "res://chapter1/Chapter1.tscn",
+  "scope": "C2 candidate; quality approval remains open"
+}
