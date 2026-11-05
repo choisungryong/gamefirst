@@ -17,3 +17,9 @@ stunned_until은frozen_until과분리. 공격준비/돌진/회복시간을스턴
 ## 기본 규칙검사 종료
 
 rules02/session57054 import/check/rules 전부exit0-stderr0. 17 checks pass. 스턴/면역시계·동일연쇄중복방지·공격준비시간보존·해제즉발방지·정예단축·2차폭발스턴제외·냉기별도시계·전파catalog유효성 확인. 실제균형/확률분포/정상전체/화면승인아님. rules01실패원본stage와SOURCE핀 보존. 다음은필드고유확률·상한·획득및정상세속성결정론/5–8분페이싱과GPU상태표시를검수한다.
+
+## 정상 진행과 시각 검사 상태
+
+normal01/session27700 check/normalquiet종료. 세속성×동일seed90131두번씩6회,반복전체snapshot동일. 화염19122tick318.7초2918처치/필드고유2/물약2/적공격87,냉기21498tick358.3초3212처치/고유2/물약4/적공격339,번개19871tick331.18초3002처치/고유1/물약2/적공격35. 모두5–8분. 같은seed결정론·단일pilot증거이며균형확정아님. 번개가적공격을크게줄이는점추가평가. 기존고유3종이실제보스전필드에서나옴. 고유확률/상한대량검사는아직없음.
+
+Actor36 실제stunned_until동안posehold/FX36 최대48대상×3작은금색궤도표시(1draw)작성. 제품35미연결. visual01/02는각4500후240tick와초기600tick내생존일반스턴을찾지못해observerexit1(stderrempty),모두원시/stage보존. 초기walker9HP→arc첫9피해사망이라초기관찰창부적절. 다음정상코어run에서최초살아남은stun의정확한tick/종류를기록한후GPU검수한다. 아직새스턴PNG없음/시각승인금지.

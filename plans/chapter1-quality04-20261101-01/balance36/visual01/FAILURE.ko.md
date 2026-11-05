@@ -1,0 +1,1 @@
+import/check quiet. GPUexit1/stderr0:4500tick이후240tick내정상생존일반스턴(잔여12tick이상)을찾지못해관찰기조건으로종료. 게임/렌더오류가아님. core정상arc빌드가후반약한적을바로처치할수있어스턴관찰창이성립하지않았다. stage/SOURCE/원시보존. 최초정상발생스턴을보는별도visual02로진행.

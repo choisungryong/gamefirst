@@ -1,0 +1,1 @@
+import/check quiet. GPUexit1-stderr0:초기600tick내잔여12tick이상생존일반스턴을찾지못해관찰기조건종료. ChapterRun은초기walker를9HP로설정해arc첫9피해에도사망한다. 이기간만찾는관찰창이부적절했다. visual01의후반4500창과둘다원시보존. 다음정상run에서최초stun발생tick을정확히기록한뒤해당checkpoint로검수한다. 무작정같은창재실행금지. 그림은아직없고actor36/FX36시각승인아님.
