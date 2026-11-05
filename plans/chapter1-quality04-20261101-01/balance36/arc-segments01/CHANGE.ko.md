@@ -1,0 +1,1 @@
+arc01의실제전파사진에서갈래끝→다음갈래첫대상의거짓연결을확인. 원core _chain은갈래마다hero origin으로재시작하지만legacyFX는targets를1개연속경로로연결했다. 새36에실제paidfrom/to/branch를cast event에기록하고FX36이새links만대체. 기존target선택/피해/순서/RNG/상한유지. source-before원본보존. 수정후실제core동일/경로/중복consume/잔상유지/사진검수필요. arc01 RESULT의captured_frames상속값은실제와다르며실제1장arc-4.png직접검수. 최종성공아님.

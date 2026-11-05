@@ -28,3 +28,20 @@ func sync(run: RefCounted,delta: float) -> void:
 func reset() -> void:
  super.reset();stun36_visible=0
  if is_instance_valid(_stun36_sparks):_stun36_sparks.multimesh.visible_instance_count=0
+
+func consume(events: Array) -> void:
+ var previous_seq: int=_element_seq
+ var previous_links: int=arc_links.size()
+ super.consume(events)
+ var casts: Array=[]
+ for event in events:
+  if int(event.seq)>previous_seq and event.type=="cast" and event.get("skill_id","")=="chapter1.skill.arc":
+   if not event.has("segments"):return
+   casts.append(event)
+ if casts.is_empty():return
+ # Remove only the newly appended legacy concatenated paths; keep older fading arcs.
+ arc_links.resize(previous_links)
+ for event in casts:
+  for segment in event.segments:
+   if arc_links.size()>=ARC_CAP:break
+   arc_links.append({"from":segment.from,"to":segment.to,"age":0.0,"duration":.20,"evolved":bool(event.get("evolved",false)),"seed":int(event.seq)*17+arc_links.size()*13})

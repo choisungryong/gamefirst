@@ -1,3 +1,25 @@
+# 36 번개 경로 수정·동등성 종료 · 2026-11-06
+
+equivalence01/session65866 terminal/check-equivalencequiet/세속성수정전normal01완주전체core같음19122/21498/19871. branchstarts328/386/566 모든from/to/targets일치. arc02사진1장+crowd02사진9장직접검수/원시실패보존/캡처metadataaddendum있음. bookv43연구사진추가/정적2416refs missing0/브라우저미검수. 이번Godot전부종료. 제품35assembly/freeze/EXE/사용자보존. 다음효과비용→36채택·새고유stage/output패키지→실제전체·보상·기본저장·수동·실청취·최종focused. 아직목표완료아님.
+
+---
+# 번개 실제갈래 수정 / 동등성 검사 진행 · 2026-11-06
+
+balance36/DESIGN.ko.md 최신부분. crowd02/52802 terminalquiet/300frame×3계열core동일·상한/9PNG검수. arc01/75993 quiet사진1장에서false갈래연결발견→arc-segments01/source-before보존→core36 actualfrom/to/branch metadata+FX36새legacylinks대체. arc02/1021 terminalquiet/3checks/arc-4.png직접검수·hero갈래재시작확인. 각CAPTURE-ADDENDUM이실제1장범위명시;RESULT records.captured_frames상속잔재는잘못된값으로원시보존.
+
+arc-segments01/equivalence01/session65866 현재headless진행/checkquiet. 종료·원시확인·중복실행금지. 수정전normal01세속성완료snapshot과새metadata후전체core/branchendpoint검사. book-v43연구사진추가/정적refs감사pass/브라우저미검수. 제품35/rootfreeze/EXE/사용자보존. 다음동등성→비용·채택/실제패키지→수동/실청취/최종focused미완료.
+
+---
+# crowd36 후반02 종료 / arc01 순간검수 진행 · 2026-11-06
+
+balance36/DESIGN.ko.md 최신부분. crowd01 비교실패관찰기세대이력/stage원시보존. crowd02/52802 terminalquiet/6checks/3계열각300frame전체core동일·상한pass/9PNG직접검수. 화염/냉기위험영역읽힘,번개사진에는arc순간빠져직접승인불가. event8link이상목표arc01/session75993진행중,launch/execution/raw확인·중복금지. records.captured_frames상속잔재[30,90,180]잘못됨:실제1회event캡처file이름을종료후addendum으로명시하고원시소스유지. 제품35assembly/freeze/EXE/사용자그대로. 다음arc순간검수→비용/채택판단.
+
+---
+# 후반 군중36 비교검사 진행 · 2026-11-06
+
+balance36/crowd01 import/checkquiet/GPUexit2stderr0.3계열효과/풀상한pass이나전체core동일실패로채택금지;RESULT/9PNG/원시/stage보존. 관찰기viewboot초기start+계열별restart와reference매번새1회start차이의심. 별도crowd02/session52802실행중/import-checkquiet/GPU로그·PID확인하고중복실행금지. reference도boot초기arcstart후동일restart이력을갖춤/비교필드제외없음/첫불일치keys출력추가. 완료후같음여부확인·9PNG시각검수. 제품35/root/사용자미변경.
+
+---
 # 36 고유·추가시드·성장UI 검수 종료 · 2026-11-06
 
 balance36/DESIGN.ko.md 최신부분읽는다. loot01 check/lootquiet/일반조건부3.619%·정예11.3%/필드최대2중복제한·보스보장·저장형식pass. normal02/94473 terminalquiet/추가2seed×3속성전부승리5–8분,normal01포함9고유경로+반복3=12회. growth01/59950 terminalquiet/6checks/720p성장3PNG직접검수. HUD36새설명작성·제품35미연결. book-v42연구페이지/정적감사pass/브라우저미검수. 다음후반밀집전파·스턴연속가독성/실제발견/비용→채택판단. 기존35freeze/EXE/사용자보존. 모든검사종료/중복실행금지.

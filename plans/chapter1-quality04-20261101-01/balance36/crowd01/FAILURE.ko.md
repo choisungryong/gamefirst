@@ -1,0 +1,1 @@
+import/check quiet,GPUexit2/stderr0. 세속성효과/풀상한통과이나각300frame전체core동일실패. 채택금지. 원시9PNG와RESULT/stage보존. 관찰기에서view는boot시작후primary별재시작하지만reference는매번새인스턴스1회시작하여epoch/growth세대차이가능. 동일한시작이력을갖춘별도crowd02로확인하며비교필드를제외하지않는다.

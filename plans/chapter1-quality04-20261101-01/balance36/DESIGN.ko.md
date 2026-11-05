@@ -37,3 +37,21 @@ normal02/session94473 check/normal exit0-stderr0. 90132/90133:화염19979/20570t
 HUD36 성장설명추가(둔화%/적중빙결횟수/번개스턴·대상별간격). growth01/session59950 import/check/GPUquiet,6checks/세주력자연첫성장선택720p3PNG전부직접검수/텍스트잘림없음/core동일. 정지해피격을받은획득fixture이며수동플레이증거아님.
 
 book-v42/dist/balance36.html 연구사진/확률·페이싱·검수범위기록. 정적링크감사통과/브라우저미검수. 제품35assembly는그대로. 다음후반밀집의실제전파·스턴연속가독성과발견연출/비용검수뒤제품채택판단. 실청취·수동·최종focused관문남음.
+
+## 후반 군중02 종료
+
+crowd01 전체core비교실패(exit2/stderr0)는관찰기시작이력차이: view는boot초기arcstart와계열별restart,reference는매번새instance1회start. 원시/RESULT/9PNG/stage보존. 동일boot+restart이력을준crowd02/session52802는import/check/GPUexit0-stderr0/6checks pass. 필드제외없이3계열각300렌더iteration 전체snapshot동일.120simframe warmup뒤180simframe 관찰,9PNG전부직접검수. peak화염alive46/arc10/plume11/stun9,냉기alive69/arc12/shard36/stun10,번개alive23/arc13/stun3. cap64/128/48/pool224이내.
+
+화염·냉기명중순간도영웅·바닥위험영역읽힘. 냉기파쇄큰흰파편은대상몸일부를짧게가리므로실제연속체감추가검수필요. HUD재초기화fixture의발견알림은원래전체플레이의발견이력/자연발견타이밍증거로승격하지않는다. 번개3정기사진에는짧은arc가빠져있으므로연쇄직접시각승인아님.
+
+실제arc8link이상순간을표적으로삼은arc01/session75993시작. 종료·원시·실제사진확인후판정/중복실행금지. inherited records.captured_frames[30,90,180]는고정정기캡처였던이전관찰기잔재:이번실제캡처는event조건1회이므로그필드를실제증거로사용하지않고종료뒤actualfilename addendum기록해야한다. 실행중소스덮어쓰기금지.
+
+## 번개 실제 경로 수정
+
+arc01/session75993 quiet/3checks/실제event순간1장arc-4.png직접검수. 사진에서falsebranch연결발견: core는각branch를hero에서재시작하지만legacyFX는targetsconcat을끝없이이어그림. arc-segments01/source-before에수정전원본보존. Core36 _chain에실제from/to/branch를기록하고cast event에segments추가,FX36은새legacylinks만실제경로로대체하며이전잔상보존. 타깃선택/피해/순서/RNG는변경의도없음.
+
+arc02/session1021 import/check/GPUquiet/3checks/300frame전체core동일·상한pass/실제arc-4.png1장직접검수. 다음갈래가hero에서다시출발하고거짓갈래간연결이제거됨. arc01/02의상속된records.captured_frames는그대로보존하고각CAPTURE-ADDENDUM.json에실제1장이름·검수범위를명시. 9프레임/30·90·180사진이라고해석금지.
+
+arc-segments01/equivalence01/session65866 headless검사중:수정전normal01의세속성완료snapshot을기준으로새metadata후정상진행fullsnapshot비교와각cast from/to/branch연속성검사. 종료확인후판정/중복실행금지. 비용/실제패키지/수동/음향/최종성능은아직남음.
+
+동등성equivalence01/session65866 종료check/equivalence exit0-stderr0. 세속성완주전체snapshot이수정전normal01과전부같음(19122/21498/19871tick). 실제branchstarts328/386/566의모든segment순서/from/to/targets일치. 전투변경없는경로metadata수정범위확인. 모든이번Godot종료. 다음효과비용/새후보패키징후실제전체·보상·저장검수.

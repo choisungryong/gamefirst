@@ -532,7 +532,7 @@ func _auto_casts() -> void:
         metrics.casts[id_] = int(metrics.casts.get(id_,0))+1
         if id_ == "chapter1.skill.arc":
             var positions := _chain(target,context)
-            _emit("cast",hero.position,{"skill_id":id_,"direction":direction,"effects":effects.duplicate(true),"targets":positions,"evolved":skill.evolved})
+            _emit("cast",hero.position,{"skill_id":id_,"direction":direction,"effects":effects.duplicate(true),"targets":positions,"segments":context.get("arc_segments",[]),"evolved":skill.evolved})
             _contexts.erase(context.uid)
         else:
             _emit("cast",hero.position,{"skill_id":id_,"direction":direction,"effects":effects.duplicate(true),"targets":[],"evolved":skill.evolved})
@@ -547,6 +547,7 @@ func _auto_casts() -> void:
 
 func _chain(first: Dictionary, context: Dictionary) -> Array[Vector2]:
     var positions: Array[Vector2] = []
+    context.arc_segments=[]
     var effects: Dictionary = context.effects
     var origin: Vector2 = hero.position
     var preferred := int(first.id)
@@ -563,6 +564,7 @@ func _chain(first: Dictionary, context: Dictionary) -> Array[Vector2]:
             if target_id < 0 or int(context.remaining_hits) <= 0: break
             var target: Dictionary = enemies[target_id]
             positions.append(target.position)
+            context.arc_segments.append({"from":at,"to":target.position,"branch":branch})
             at = target.position
             _damage_enemy(target_id,context,0)
     return positions
