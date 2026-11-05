@@ -1,3 +1,10 @@
+# 36 고유·추가시드·성장UI 검수 종료 · 2026-11-06
+
+balance36/DESIGN.ko.md 최신부분읽는다. loot01 check/lootquiet/일반조건부3.619%·정예11.3%/필드최대2중복제한·보스보장·저장형식pass. normal02/94473 terminalquiet/추가2seed×3속성전부승리5–8분,normal01포함9고유경로+반복3=12회. growth01/59950 terminalquiet/6checks/720p성장3PNG직접검수. HUD36새설명작성·제품35미연결. book-v42연구페이지/정적감사pass/브라우저미검수. 다음후반밀집전파·스턴연속가독성/실제발견/비용→채택판단. 기존35freeze/EXE/사용자보존. 모든검사종료/중복실행금지.
+
+사용자모니터만끄고나머지자율진행지시. 재확인없이계속;본체절전·최대절전은진행중단가능안내함. 수동·실청취·최종focused미완료/원목표active/추가범용툴·Github보류.
+
+---
 # 번개 스턴 실제화면03 검수 종료 · 2026-11-06
 
 balance36/DESIGN.ko.md 먼저읽는다. trace01 정상최초생존스턴709tick/ranged31/18tick. visual03/session66712 terminal/import-check-GPUquiet/9checks/활성·해제2PNG직접검수. 작은머리금색3점보임/소멸/posehold/core동일/resetpass. 밀집가독성추가평가필요. 01/02관찰창실패원시보존. 제품35assembly미연결,새core36/actor36/FX36연구소스유지. 다음고유확률·상한·저장호환검사와추가seed세속성페이싱/연속스턴·전파시각검수. 모든Godot검사종료,중복실행금지.
