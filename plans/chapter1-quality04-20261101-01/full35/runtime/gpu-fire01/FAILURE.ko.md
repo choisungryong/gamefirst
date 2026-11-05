@@ -1,0 +1,1 @@
+실행 인자에 존재하지 않는 chapter1.skill.fire를 지정해 observer headless smoke exit1-stderr93 Unknown primary skill. GPU는 시작하지 않았다. 기존 원시와 실패 runner 보존. 실제 화염 키 ember로 별도 gpu-fire02 출력에서 진행한다. 제품 오류 또는 게임패배로 해석하지 않는다.

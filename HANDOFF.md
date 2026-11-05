@@ -1,3 +1,8 @@
+# 후보35 UI 종료 / 실제 화염 GPU 진행 · 2026-11-06
+
+full35/STATUS.ko.md 먼저읽는다. ui01 actualquiet/6PNG전부직접검수/core동일/보존핀pass. gpu-fire01 잘못된fire인자 headless실패/GPU미시작 보존. gpu-fire02 ember headless65sim초quiet 후GPU PID30528/session94531 진행중. launch/execution/raw/현재PID확인·중복실행금지. book-v41실제35UI사진/정적refs감사pass/브라우저미검수. root35/sourcefreeze/EXE/사용자핀유지. 다음전체검사종료·실제후반/보스보상/자연장비발견기록확인. 수동·실청취·최종focused성능미완료.
+
+---
 # 후보35 패키징 종료 · 2026-11-06
 
 39368 terminal/PACKAGE35 COMPLETE. full35/build/build.json EXE SHA cd161021c38ea40bc19de49ab80d406c8f7884a3c6be887faaeec67d777ad797/runtime149-stage151-PCK272. 이전EXE/사용자핀 재확인 pass. 다음은 실제35 패키지 GPU에서 SVG/HUD/보상 확인(아직미실행), 수동/실청취/동일제품최종focused 남음. 완료된검사중복금지. 사용자에게전체진척및예상시간안내.
