@@ -23,3 +23,7 @@ rules02/session57054 import/check/rules 전부exit0-stderr0. 17 checks pass. 스
 normal01/session27700 check/normalquiet종료. 세속성×동일seed90131두번씩6회,반복전체snapshot동일. 화염19122tick318.7초2918처치/필드고유2/물약2/적공격87,냉기21498tick358.3초3212처치/고유2/물약4/적공격339,번개19871tick331.18초3002처치/고유1/물약2/적공격35. 모두5–8분. 같은seed결정론·단일pilot증거이며균형확정아님. 번개가적공격을크게줄이는점추가평가. 기존고유3종이실제보스전필드에서나옴. 고유확률/상한대량검사는아직없음.
 
 Actor36 실제stunned_until동안posehold/FX36 최대48대상×3작은금색궤도표시(1draw)작성. 제품35미연결. visual01/02는각4500후240tick와초기600tick내생존일반스턴을찾지못해observerexit1(stderrempty),모두원시/stage보존. 초기walker9HP→arc첫9피해사망이라초기관찰창부적절. 다음정상코어run에서최초살아남은stun의정확한tick/종류를기록한후GPU검수한다. 아직새스턴PNG없음/시각승인금지.
+
+## 실제 스턴 화면03 종료
+
+stun-trace01 정상core로최초생존일반스턴709tick/ranged31/잔여18tick/hp1792확인. 해당시점만정확히재구성한visual03/session66712 import/check/GPUexit0-stderr0/9checks pass. 최초스턴/해제2PNG전부직접검수. 머리주변작은금색3점과해제뒤소멸확인. rig전체posehold·실제상태표시cap48·3점대상·독립정상core일치·reset지움통과. 표시는작아밀집전투에서도읽히는지추가평가필요. 정상checkpoint정적화면이며연속전체전투/수동/최종성능아님. visual01/02조건실패원시보존.
