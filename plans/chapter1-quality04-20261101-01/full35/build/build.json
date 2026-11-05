@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261106-35\\AshenCloister-Chapter1.exe",
+  "sha256": "cd161021c38ea40bc19de49ab80d406c8f7884a3c6be887faaeec67d777ad797",
+  "bytes": 134132968,
+  "source_count": 149,
+  "stage_count": 151,
+  "pck_count": 272,
+  "scope": "Candidate35: Core16/World31d/Actor34b/HUD35/Input21/FX33b. Four original painted equipment slot SVGs replace minimal sigils in discovery/reward/comparison. Combat, loot, growth and save rules retained. Source layout/core/scroll checks passed; actual package GPU/manual/hearing/final performance remain separate."
+}

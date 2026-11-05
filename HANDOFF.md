@@ -1,3 +1,13 @@
+# 후보35 패키징 종료 · 2026-11-06
+
+39368 terminal/PACKAGE35 COMPLETE. full35/build/build.json EXE SHA cd161021c38ea40bc19de49ab80d406c8f7884a3c6be887faaeec67d777ad797/runtime149-stage151-PCK272. 이전EXE/사용자핀 재확인 pass. 다음은 실제35 패키지 GPU에서 SVG/HUD/보상 확인(아직미실행), 수동/실청취/동일제품최종focused 남음. 완료된검사중복금지. 사용자에게전체진척및예상시간안내.
+
+---
+# 후보35 패키징 진행 · 2026-11-06
+
+full35/ADOPTION.json / FINAL-SOURCE-FREEZE.json 확인. package session39368 진행중, 시작을 반복하지 않는다. root HUD35만 채택/Core16 World31d Actor34b Input21 FX33b 유지. backup chapter1-before35-20261106-01과 이전EXE/사용자핀 확인. equipment35/layout01·slots01 모두 import/check/GPU exit0-stderr0,6+8PNG 전부 직접검수. 1080/720 UI 및 네슬롯·긴이름·스크롤복원/core동일. book-v40/dist 연구사진/2378refs missing0, 브라우저미검수. 다음은package39368종료·원시확인→실제제품SVG/PCK 및 발견·보상GPU 검수. UI도구오류로수동·실청취 미완료, 최종focused동일제품성능 필요. 목표active.
+
+---
 # 장비 HUD35 미연결 검사 · 2026-11-06
 
 chapter1/view/equipment_sigil_quality35.gd 및 chapter_hud_quality35.gd 추가. 자체SVG4개/56px/등급 frame 유지. 제품34 assembly 미변경. equipment35/hud01은검사cleanup에서RefCounted.free오류, 원시보존·PID종료·exitfailure. hud02는hud=null수정별도stage/import/check 모두exit0-stderr0. 네슬롯생성·텍스처크기확인만이며실제화면아님. 다음은hud02stage를보존한채새uniqueGPUfixture에서발견·보상·인벤토리1080/720실제PNG검수. 같은완료검사중복금지.
