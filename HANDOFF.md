@@ -1,3 +1,26 @@
+# 36 전체번개·기본저장·재로드 종료 · 2026-11-06
+
+full36/STATUS.ko.md 최신부분먼저읽는다. 제품36 EXE a889be6fcb57120083d78e84dacd4ae4976482edb04285ef017dbf37e993e22f/runtime156-stage158-PCK285. gpu-arc01/87925 terminalquiet19871tick3002처치/stun275/필드고유1/보스반지/소스36동일10필드/26PNG중6검수. bookv44종료사진/2436refs missing0.
+
+기본저장earn01/19840 정상냉기21498/22장비·완료1·rev1 실제저장/functional3true이나exit0stderr124 ObjectDB경고로strict실패;원시·실제proof·user36복구사본/pins보존. 같은최초없음획득검사재실행금지/프로필삭제금지. reload01 rawJSONfloat비교observerexit2(실제파일내용동일/quiet)/보존. reload02 별도실제36프로세스 기존Profile.normalize전체비교exit0stderr0/22장비완료1정확로드·모든사용자핀불변. 경고원인확정안함/수동장착시작반영아직없음.
+
+USER-PRESERVATION-ADDENDUM01.json에새36포함23·29·36핀. 다음후보백업/채택시반드시통합. 기존ADOPTION만읽으면새36누락됨. 현재Godot전부종료/중복실행금지. 다음품질은각진후방아치석재질감·자연깊이및3갈래번개진화명문구후속시안(36원freeze보존). 수동/실청취/최종focused미완료,UIkernelpath오류지속(마지막시도이후반복시도안함). 사용자모니터끄고자율진행지시유효/GitHub·범용툴보류/목표active.
+
+---
+# 36 실제 번개 전체 종료 / 기본저장 진행 · 2026-11-06
+
+full36/STATUS.ko.md 최신부분. gpu-arc01/87925 terminal PASS/exit0stderr0/19871tick3002처치/소스36동일10필드. stun275/cuepeak5/필드고유겨울의심장1/보스갈림길서약/소유권불일치0.26PNG중6직접검수(150/270/330/승리.35/.90/1.60). PRESERVATION01 root/stage/이전EXE/기존사용자핀pass. bookv44실제후반·보상사진추가/종료문구/정적2436refs감사/브라우저미검수.
+
+실제default36정상냉기획득·저장검사full36/runtime/default-profile-earn01/session19840/checkquiet/earnedPID30272진행중. 종료/raw/현재PID확인·중복실행금지. 새Quality36사용자프로필이생기면테스트쓰레기로삭제하지말고PROFILE-PINS/사본보존,다음후보채택핀에23·29와함께36도추가. root/exe36그대로. 수동·실청취·최종focused/재실행시작반영미완료.
+
+---
+# 후보36 패키지 종료 / 실제 번개 GPU 진행 · 2026-11-06
+
+full36/STATUS.ko.md 먼저읽는다. package45766 terminal/EXE SHA a889be6fcb57120083d78e84dacd4ae4976482edb04285ef017dbf37e993e22f/runtime156-stage158-PCK285/nativeprobe10checks. Core36/World31d/Actor36/HUD36/Input21/FX36. backupbefore36와이전EXE/사용자핀pass. cost01/42400 종료quiet/동일Core36표시비교p9513.421→13.252ms/draw616→617/새afterPNG검수(최종formal아님).
+
+full36/runtime/gpu-arc01/session87925 actualGPU PID28232 live,headless65sim초quiet/stun21/cuepeak2. launch/execution/raw/현재PID확인·중복실행금지. 첫승리normal01 source36 전체10필드비교/실제스턴·필드고유/보스보상검수예정. 아직완료승인금지. bookv44표지/소스사진명시/정적감사pass/브라우저미검수. 수동·실청취·최종focused·기본저장남음.
+
+---
 # 36 번개 경로 수정·동등성 종료 · 2026-11-06
 
 equivalence01/session65866 terminal/check-equivalencequiet/세속성수정전normal01완주전체core같음19122/21498/19871. branchstarts328/386/566 모든from/to/targets일치. arc02사진1장+crowd02사진9장직접검수/원시실패보존/캡처metadataaddendum있음. bookv43연구사진추가/정적2416refs missing0/브라우저미검수. 이번Godot전부종료. 제품35assembly/freeze/EXE/사용자보존. 다음효과비용→36채택·새고유stage/output패키지→실제전체·보상·기본저장·수동·실청취·최종focused. 아직목표완료아님.

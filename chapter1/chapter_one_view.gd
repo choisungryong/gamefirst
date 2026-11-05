@@ -1,11 +1,11 @@
 extends "res://chapter1/chapter_view.gd"
-const ChapterRun=preload("res://chapter1/core/chapter_run_quality16.gd")
+const ChapterRun=preload("res://chapter1/core/chapter_run_quality36.gd")
 const ChapterWorld=preload("res://chapter1/view/chapter_world_quality31d.gd")
-const ChapterHUD=preload("res://chapter1/view/chapter_hud_quality35.gd")
-const ChapterEffects=preload("res://chapter1/view/chapter_elements_quality33b.gd")
+const ChapterHUD=preload("res://chapter1/view/chapter_hud_quality36.gd")
+const ChapterEffects=preload("res://chapter1/view/chapter_elements_quality36.gd")
 const ChapterPilot=preload("res://chapter1/core/chapter_pilot.gd")
 const ChapterProfile=preload("res://chapter1/core/chapter_profile.gd")
-const ChapterActors=preload("res://chapter1/view/chapter_actors_quality34b.gd")
+const ChapterActors=preload("res://chapter1/view/chapter_actors_quality36.gd")
 var full_pilot=ChapterPilot.new()
 var profile=ChapterProfile.new()
 var _receipt := ""
