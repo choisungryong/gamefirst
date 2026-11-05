@@ -1,3 +1,13 @@
+# 장비 HUD35 미연결 검사 · 2026-11-06
+
+chapter1/view/equipment_sigil_quality35.gd 및 chapter_hud_quality35.gd 추가. 자체SVG4개/56px/등급 frame 유지. 제품34 assembly 미변경. equipment35/hud01은검사cleanup에서RefCounted.free오류, 원시보존·PID종료·exitfailure. hud02는hud=null수정별도stage/import/check 모두exit0-stderr0. 네슬롯생성·텍스처크기확인만이며실제화면아님. 다음은hud02stage를보존한채새uniqueGPUfixture에서발견·보상·인벤토리1080/720실제PNG검수. 같은완료검사중복금지.
+
+---
+# 재개 후 상태 · 2026-11-06
+
+full34/STATUS.ko.md 먼저 읽는다. 완료된 gpu-cold01 재실행 금지. 27PNG 중150/270/330/승리.35/.90/1.60 총6장 직접 검수. v39 전체검사 종료 문구 반영. UI도구 CUA 및 Windows sky 모두 kernel assets path error 지속, 수동/실청취 미완료. 추가 재시작 질문 반복하지 않는다. 다음 실제 장비 SVG35 HUD 연결 검수; 제품34와 사용자 저장 보존. GitHub·범용툴 보류.
+
+---
 # 재시작 인계 · 사용자 날짜 2026-11-06
 
 사용자가 UI도구 kernel assets path error 복구를 위해 “지금 재시작 후 이 채팅 재개”를 선택했다. 게임 검사와 변경 저장을 마쳤고 새 검사를 시작하지 않는다. 앱 재시작 자체 완료를 추정하지 말고, 재개 뒤 UI도구 초기화/Windows 연결부터 확인한다. 기존앱 보안·권한·인증설정 변경은 하지 않는다.
