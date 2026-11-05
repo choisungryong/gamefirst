@@ -1,3 +1,14 @@
+# 재시작 인계 · 사용자 날짜 2026-11-06
+
+사용자가 UI도구 kernel assets path error 복구를 위해 “지금 재시작 후 이 채팅 재개”를 선택했다. 게임 검사와 변경 저장을 마쳤고 새 검사를 시작하지 않는다. 앱 재시작 자체 완료를 추정하지 말고, 재개 뒤 UI도구 초기화/Windows 연결부터 확인한다. 기존앱 보안·권한·인증설정 변경은 하지 않는다.
+
+후보34 냉기 전체검사 full34/runtime/gpu-cold01 은 종료했다. gpu-execution.json actual_exit0/stderr0, RESULT.json 존재, 원PID4796 없음 확인. 정상23862tick(397.7초)/3451처치/장비34/원16냉기10필드전부같음. 새family34 실제2719UID, 냉기사체표본4162/age>=.23 alpha검사3408, 불일치0, 실제파쇄840. 같은검사 절대 재실행 금지. 후반·승리후 PNG는 아직직접열지않았으므로 다음엔보존captures에서시각검수만한다. 이번턴은새GPU/성능검사안함.
+
+제품34 EXE SHA e7b97b250c592bd69da2390eb183c25a39def354f02df0c1d318d5f122b9933f/Core16/World31d/Actor34b/HUD27/Input21/FX33b/runtime141-stage143-PCK258. root34freeze/이전EXEs/사용자23복원후·29rev2/journals핀재확인pass. 소스·실패원시·모든후보보존. Git변경저장후재개. full30/book-v39/dist는전체검수중문구가아직남아있으므로실제후반화면검수후종료현황갱신한다. 로컬서버기존PID8528/포트8781은재개때살아있는지확인후재사용하며중복서버금지.
+
+다음순서: (1) 재시작후UI연결복구확인, (2) 후보34보존후반/승리PNG검수·도감/STATUS종료갱신, (3) UI도구의실제입력왕복지연을메뉴에서확인해기존33초왕복수동패배방식반복방지, (4) 기본입력/수동전체/청취/최종동일후보focused1080p성능관문진행. SVG장비35 4개는작성·headless파서렌더만검수, HUD/제품미연결. 필요한경우실제발견/보상UI미술검수후채택. 추가범용툴개발·GitHub연결은사용자지시로보류. 원목표active/기술성공을최종품질완료로간주하지않는다.
+
+---
 # 최신 · 후보34 패키지 종료 / 실제전체냉기 GPU 진행
 
 monster34/REVIEW.ko.md 최신부분읽는다. directions02(23391)quiet/13checks/네방향공격·사망6PNG전부직접검수. 첫directions01 bool추론실패/GPU전보존. package34/session9532완료 EXE SHA e7b97b250c592bd69da2390eb183c25a39def354f02df0c1d318d5f122b9933f/runtime141-stage143-PCK258/Actor34b. source와코어및기존EXEs·사용자23복원후/29rev2핀보존. 실제전체냉기full34/runtime/gpu-cold01/session93270/PID4796현재live. launch/execution/raw/현재PID확인후중복실행금지. observer65sim초headlessquietpass,actual150초PNG1장직접검수/완료전승인금지. 도감v39현재34표지준비(전체검수중표기)/브라우저미검수. 별도equipment35/svg01 자체4SVG 아이콘작성·headless192px파서렌더quiet/4PNG검수,HUD35/제품연결아직없음. 다음34전체종료·후반/보상화면→아이콘발견/보상UI검수. UI복구질문답대기/목표active/최종수동·실청취·focused성능미완료/추가툴·Github보류.
