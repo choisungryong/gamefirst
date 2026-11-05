@@ -1,3 +1,8 @@
+# 최신 · 후보34 패키지 종료 / 실제전체냉기 GPU 진행
+
+monster34/REVIEW.ko.md 최신부분읽는다. directions02(23391)quiet/13checks/네방향공격·사망6PNG전부직접검수. 첫directions01 bool추론실패/GPU전보존. package34/session9532완료 EXE SHA e7b97b250c592bd69da2390eb183c25a39def354f02df0c1d318d5f122b9933f/runtime141-stage143-PCK258/Actor34b. source와코어및기존EXEs·사용자23복원후/29rev2핀보존. 실제전체냉기full34/runtime/gpu-cold01/session93270/PID4796현재live. launch/execution/raw/현재PID확인후중복실행금지. observer65sim초headlessquietpass,actual150초PNG1장직접검수/완료전승인금지. 도감v39현재34표지준비(전체검수중표기)/브라우저미검수. 별도equipment35/svg01 자체4SVG 아이콘작성·headless192px파서렌더quiet/4PNG검수,HUD35/제품연결아직없음. 다음34전체종료·후반/보상화면→아이콘발견/보상UI검수. UI복구질문답대기/목표active/최종수동·실청취·focused성능미완료/추가툴·Github보류.
+
+---
 # 최신 · 해골34b GPU비교·회귀·비용 종료 / 제품33 유지
 
 monster34/REVIEW.ko.md 최신부분과cost01/COMPARISON.json 읽는다. session24248 terminal양쪽quiet/모든이번Godot종료. source32b→34b p9510.101→10.548ms/p9911.217→12.352/draw384→546/전체core같음/1080새after화면직접검수. mapped03(41423) 새34b300framequiet·전체core같음,regression01 headless16checksquiet. 실패mapped01indent/GPU미시작·mapped02 native material-null571는원시보존/성공승격금지.34b meshbase선행분리로boot+mapped03+costquiet이나내부원인확정금지. 제품33·원freeze·기존EXEs/사용자23복원후·29rev2유지. 현재34게임EXE없음. 다음은해골walker4방향·사망화면/필요시실제패키지후채택.도감v38 연구페이지와비교영상/1080화면추가/실제브라우저미검수(커널경로오류). UI복구질문답대기/그동안품질작업계속.목표active/최종수동·실청취·focused성능/품질미완료.추가툴·Github보류.

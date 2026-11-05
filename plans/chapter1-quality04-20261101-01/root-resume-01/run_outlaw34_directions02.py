@@ -1,0 +1,8 @@
+from pathlib import Path
+import json,subprocess,hashlib
+R=Path('C:/Project/d2r-combat-baseline');B=R/'plans/chapter1-quality04-20261101-01';H=Path(__file__).parent;O=B/'monster34/directions02';assert not O.exists();O.mkdir();read=lambda p:json.loads(p.read_text(encoding='utf-8'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();d=read(B/'monster34/mapped03/source.json');S=Path(d['stage']);assert all(sha(S/n)==h for n,h in d['pins'].items());script=H/'outlaw34_directions02.gd';(O/'input.json').write_text(json.dumps(dict(stage=str(S),script=str(script),script_sha256=sha(script),stage_pins_from=str(B/'monster34/mapped03/source.json')),indent=2),encoding='utf-8');engine='C:/Project/rea-tools/godot-4.5.1/Godot_v4.5.1-stable_win64_console.exe'
+for label,args in [('check',['--check-only','--script',str(script)]),('gpu',['--resolution','1920x1080','--script',str(script),'--fixed-fps','60','--','--chapter1-profile-off','--chapter1-start','--chapter1-primary=chapter1.skill.ember','--chapter1-seed=90131','--directions34-dir='+str(O/'proof')])]:
+ with (O/(label+'.stdout.txt')).open('xb') as out,(O/(label+'.stderr.txt')).open('xb') as err:
+  cmd=[engine]+(['--headless'] if label=='check' else [])+['--path',str(S)]+args;p=subprocess.Popen(cmd,stdout=out,stderr=err);(O/(label+'-launch.json')).write_text(json.dumps(dict(pid=p.pid,command=cmd),indent=2));print(label,p.pid,flush=True);code=p.wait(timeout=180)
+ result=dict(exit=code,stderr_bytes=(O/(label+'.stderr.txt')).stat().st_size);(O/(label+'-execution.json')).write_text(json.dumps(result));print(result,flush=True);assert result==dict(exit=0,stderr_bytes=0),result
+assert read(O/'proof/RESULT.json')['passed'];assert all(sha(S/n)==h for n,h in d['pins'].items());print('DIRECTIONS COMPLETE',flush=True)

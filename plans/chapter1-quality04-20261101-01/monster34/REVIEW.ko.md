@@ -29,3 +29,13 @@ cost01/session24248 현재실행중:full33동일World/FX/기준Actor32b vs34b,�
 ## cost01 종료
 
 session24248 양쪽GPU exit0-stderr0/COMPARISON완료. 정상화염16000checkpoint/2초warmup+10초OS시계각1회/실제1920×1080/uncapped/VSyncoff/ignorefocus/profileoff/측정중readback없음.32b→34b p9510.101→10.548ms,p9911.217→12.352,max12.769→13.950,33ms초과0/0,drawmax384→546. 시작16128/16129로1tick차이/끝둘다16729각독립전체core같음. draw추가비용있음/정식focused패키지3회대체금지.34b after1080PNG직접검수,뼈·도끼근접형과기존원거리·돌진형상구분/주인공표식·위험원·이름읽힘. 모든이번Godot종료/같은검사재실행금지. 다음은새walker4방향과사망화면및패키지검수.현재제품33유지/34EXE없음.
+
+## 네 방향·사망과 후보34 패키징
+
+directions01의observer bool추론check오류는GPU전중단/FAILURE보존. 명시bool의directions02/session23391은check/GPUexit0-stderr0/13checks/6PNG전부직접검수. 네방향을비교용으로snap한복사fixture에서windup/release/recover 및death.25/.60/1.00초의도끼·몸자세가읽힘.1초에는쓰러진사체가희미해짐. 정상2800전체core복원. 이것을자연획득전투/모든방향연속영상/수동검수로승격하지않는다.
+
+후보34 채택: sourceActor34b는cost01/directions02와동일바이트. package/session9532종료/import-export-PCK-30sim초headless-releasebehavior통과. EXE e7b97b250c592bd69da2390eb183c25a39def354f02df0c1d318d5f122b9933f/134104744bytes/runtime141-stage143-PCK258. Core16/World31d/Actor34b/HUD27/Input21/FX33b. CC0원출처·병합기록·credits포함. 원33assembly/project/preset/freeze와23복원후/29rev2/journals는chapter1-before34-20261105-01. 기존EXE핀/full34ADOPTION/PRESERVATION01모두보존.
+
+현재 full34/runtime/gpu-cold01/session93270/PID4796 실제전체냉기실행중. observer65sim초headlessquietpass. 완료전승인금지/원시launch·execution·현재PID확인후재사용/중복실행금지. 새walker실제family·냉기사체alpha와840파쇄·전체core/보스보상관찰.150초actualPNG1장직접봤고새뼈형태/파쇄위치구분/사체누적억제보임. 끝났다고전수시각승인하지않는다.
+
+별도equipment35/svg01은기존네슬롯용자체SVG4개를새미연결폴더에작성. Godot headless SVG파서192×192렌더4개quiet/4PNG직접검수. HUD/기존Sigil/UI/제품34에는아직연결안함. 미래범용툴개발이아니라실제보상아이콘미술준비. 아이템종류·능력치불변. 다음은현재34전체종료확인후새아이콘의실제발견/보상UI크기·가독성검수. 최종수동·실청취·focused성능은UI복구등증거필요.

@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261105-34\\AshenCloister-Chapter1.exe",
+  "sha256": "e7b97b250c592bd69da2390eb183c25a39def354f02df0c1d318d5f122b9933f",
+  "bytes": 134104744,
+  "source_count": 141,
+  "stage_count": 143,
+  "pck_count": 258,
+  "scope": "Candidate34: Core16/World31d/Actor34b/HUD27/Input21/FX33b. Distinct CC0 skeletal axe walker body and authored gait/swing/hit/death. Other roles/boss remain32b. Paid core timing, pool224, cold fade and all combat/generation/save rules retained. Source direction/pose/core tests passed; actual whole/manual/hearing/final focused performance remain separate."
+}
