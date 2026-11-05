@@ -1,3 +1,15 @@
+# balance36 기본 규칙검사 종료 · 2026-11-06
+
+rules02/session57054 terminal/import-check-rules quiet/17checks pass. 중복실행금지. balance36/DESIGN.ko.md에사용자요청·수치시안·실패보존·다음검사기록. 새core36와growth36는제품35미연결. 다음확률고유분포/최대2·중복제한·원저장호환/세속성정상결정론과5–8분페이싱→실제번개스턴/전파표시. 전체35화염은종료성공보존,새밸런스성공으로확대금지.
+
+---
+# 속성·전파·확률고유36 요청 반영 중 · 2026-11-06
+
+balance36/DESIGN.ko.md 먼저읽는다. 사용자새요청:화염고피해/냉기둔화빙결/번개짧은스턴,성장전파확장,확률고유. 별도combat_run_stun36/chapter_run_stun36/chapter_run_quality36/growth_quality36 작성,제품35assembly미연결. rules01탭공백혼용check실패/GPU미시작/stage원본보존. 수정rules02/session57054현재검사중,실행상태확인후중복금지. 다음정상rules종료→고유확률/한도·결정론·3속성정상페이싱검수→실제스턴표시/전파시각작업. 수치는검증전시안.
+
+35 gpu-fire02/94531 종료PASS/exit0stderr0/21749tick3185처치/원16화염10필드동일/해골2500UID/소유권불일치0/자연발견3/25PNG중8직접검수. ui01quiet6PNG전부검수. default35save검사는준비만/미시작. bookv41종료문구반영. 기존35/rootfreeze/EXE/사용자핀보존. 최종수동·실청취·focused성능은새최종후보범위필요.
+
+---
 # 후보35 UI 종료 / 실제 화염 GPU 진행 · 2026-11-06
 
 full35/STATUS.ko.md 먼저읽는다. ui01 actualquiet/6PNG전부직접검수/core동일/보존핀pass. gpu-fire01 잘못된fire인자 headless실패/GPU미시작 보존. gpu-fire02 ember headless65sim초quiet 후GPU PID30528/session94531 진행중. launch/execution/raw/현재PID확인·중복실행금지. book-v41실제35UI사진/정적refs감사pass/브라우저미검수. root35/sourcefreeze/EXE/사용자핀유지. 다음전체검사종료·실제후반/보스보상/자연장비발견기록확인. 수동·실청취·최종focused성능미완료.

@@ -1,0 +1,1 @@
+import exit0-stderr0였지만check-only에서새Core36 script로드실패. 별도직접corecheck로63행탭/스페이스혼용을확인. rules/GPU미실행. 실패원본은rules01stage/SOURCE핀과원시보존. 들여쓰기통일과fixture의미습득기술효과조회수정은별도rules02에서검사. import성공을script컴파일성공으로승격하지않음.
