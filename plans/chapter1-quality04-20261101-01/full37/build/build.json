@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261106-37\\AshenCloister-Chapter1.exe",
+  "sha256": "8a54790cb5d4859e0855b327b9412f4a6468c82039f61ff1cb485bc081e3cca8",
+  "bytes": 134210312,
+  "source_count": 163,
+  "stage_count": 165,
+  "pck_count": 297,
+  "scope": "Candidate37: Core37 catalog name-only successor and World37c rear-only weathered masonry; Actor36/HUD36/Input21/FX36 retained. Explicit byte-identical copy of original Quality36 user state into initially absent Quality37 preserves22items/body1. Actual37 package UI, manual/audio and final focused performance remain separate."
+}

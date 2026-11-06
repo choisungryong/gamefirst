@@ -1,3 +1,23 @@
+# 최신 GitHub 이전 지시·후보37 빌드/저장 연속성 · 2026-11-07
+사용자가 https://github.com/choisungryong/gamefirst 로 저장소 이전을 명시. 이전 GitHub 보류는 철회됐으며 로컬 기존 이력 보존+main푸시 진행. 원격확인시empty/기존origin없음. 코드·필수에셋·라이선스·스크립트/문서만,builds/.godot/캡처/사용자저장/보존사본제외. ghCLI없지만GitCredentialManager설치됨. 인증질문을강제로우회하거나토큰출력하지않음.
+후보37 실제빌드성공 EXE8a54790cb5d4859e0855b327b9412f4a6468c82039f61ff1cb485bc081e3cca8/runtime163-stage165-PCK297. import/export/smoke1801tickLv4/releaseprobe21모두exit0stderr0. Root는Core37/World37c,기존36source158/stage158/EXEs보존. full37 ADOPTION/독립사후19checksPASS. 현재freeze165불변.
+실제37 nativeUI menu22/stashbody1완료1/냉기시작169확인,5개JPEG는full37/runtime/native-continuity01. 이후직접수동시도25초39처치Lv3패배(성장모달과입력왕복지연,전체수동성공아님),정상저장으로장비23/rev3/완료1/body1. 신규journal포함최신사용자핀13개는full37/USER-PRESERVATION-ADDENDUM02.json;prior01/ADOPTION12핀은역사적초기fork증거. 원23/29/36모든9핀+37oldjournal2불변. 13개현재파일post-manual-preserved에독립사본보존. 새로운진행을되돌리거나프로필삭제금지.
+성능37 helper는독립리뷰6개보완revision02파일준비(미실행). 기존12핀고정인증은현재13핀정상진행에대해실패차단하므로수정필요;원시/장프레임제외금지. Git스냅샷동안모든agent쓰기/엔진중지지시. 다음은Git푸시완료확인후최신13핀연결수정+한번집중검토→동일EXE1080p3회(10warm+60sample/nativeMENUfocusstart/profileoff)→수동플레이·가능한실청취. 이미완료한검사반복금지. 새게임프로세스없음확인됨.
+
+---
+# 최신 캐시 D이동으로 공간 확보·개발 재개 · 2026-11-06
+삭제는정책차단됐으나 비파괴 Move-Item허용. 재생성.godot223폴더 약6.782GiB를 D:\Project-Cache-Archive-20261106에보존이동, C여유9.085GiB. 실제영구삭제0/각222폴더 count·bytes·largestSHA검증/처음1은원inventory bytes일치. D SUMMARY/planned-moves가정확경로. 모든build-staging캐시0/root.godot이동됨:필요캐시만재생성,전체oldstage재import금지. old C삭제CSV는이제대부분존재안함. 제품36/사용자9핀해시불변. 37c검수는중단04stage소스재사용+새05출력예정(중단04덮어쓰기금지). text37 독립정적검토P2 malformed candidate검증선행누락→text02 Catalog.validate-first 최소수정/정적재검토PASS/실행검사중. 신규전체스테이지복사자제/게임목표active.
+
+---
+# 최신 C드라이브 공간 확보 우선 · 2026-11-06
+사용자가 게임 목표 계속 진행 중 C드라이브 꽉참으로 이 프로젝트 생성 불필요파일 삭제 요청. C:여유 약2.28GiB. 동적 전체목록 삭제가 과거거절됐고 이번 exact literal 단일캐시 Remove-Item도 자동정책거절: 실제삭제0. 우회삭제 안함. 모든 이번검사 소유프로세스 종료/추가빌드·캡처 없음. 게임목표active이나 다음작업은 공간확보 선행.
+저장경고 exit-diagnostic01 5casesquiet/독립review완료;원인미확정. exit-scene02 추가실제씬은용량우선으로PID32144중단(62.89초/4294967295/RESULT없음/passedfalse),성공아님. masonry37 compare03 37b완료quiet/core·anchors동일/테두리개선·질감차이남음/탐색비용다른headless겹침가능. compare04새37c는import/checkquiet만통과,GPU중단/RESULT없음/시각승인금지/원시보존. text01 새growth37/ChapterRun37 문자1필드수정39checks+retry21checksquiet,미채택·독립코드리뷰남음. 모든36제품158freeze·EXE·사용자9핀보존. 최신핀ADDENDUM02/수동선택후9개독립사본manual-loadout01/post-selection-preserved. 기존03/04stage전체삭제금지,각.godot만재생성캐시.
+
+---
+# 최신 수동 장착·재실행 종료 · 2026-11-06
+full36/STATUS.ko.md 마지막 절과 runtime/manual-loadout01/RESULT.json 우선. sky 복구/실제 후보36 장착 저장→냉기169HP→정상종료→재실행169HP 확인. 이동/회피/Esc 정지 직접 확인. 전체 수동/실청취/최종focused 미완료. 최신 사용자 핀은 USER-PRESERVATION-ADDENDUM02.json (01 대체): 정상선택으로36 revision2/body1,기존22장비·완료1 나머지동일,23/29/원36journal 불변,전8핀백업보존. EXE/freeze 불변/게임창전부종료. 다음경고원인분리·성능/전체수동·청취. masonry37 기존연구폴더존재/덮어쓰기금지. 삭제작업은 자동승인정책으로 거절됐고 이번엔 게임작업만 진행.
+
+---
 # 36 전체번개·기본저장·재로드 종료 · 2026-11-06
 
 full36/STATUS.ko.md 최신부분먼저읽는다. 제품36 EXE a889be6fcb57120083d78e84dacd4ae4976482edb04285ef017dbf37e993e22f/runtime156-stage158-PCK285. gpu-arc01/87925 terminalquiet19871tick3002처치/stun275/필드고유1/보스반지/소스36동일10필드/26PNG중6검수. bookv44종료사진/2436refs missing0.

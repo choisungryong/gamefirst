@@ -25,3 +25,12 @@ default-profile-earn01/session19840 종료. 실제default36처음없음→정상
 USER-PRESERVATION-ADDENDUM01.json에기존23복원후29와새36모든핀통합. 이후후보백업/채택시이추가파일도반드시반영한다. user36새저장을테스트쓰레기로삭제하지않는다. bookv44종료사진/검수범위갱신. 현재게임검사모두종료.
 
 다음품질작업: 실제150초사진의후방아치가각진블록형태라기존장식기둥과질감차이가남음. World31d/22원본을보존하고별도후속시안에서석재모서리·질감/공간깊이를검토한다. 새번개는3갈래까지늘었으나기존진화명두갈래폭풍은문구정리대상. 현재36freeze를덮어쓰지않는다. 수동/실청취/최종동일후보focused성능/후반최종질감은미완료.
+
+## 실제 수동 장착·재실행 검증 종료 · 2026-11-06
+Computer Use sky 연결 복구. manual-loadout01/RESULT.json: 실제 후보36 EXE 두 번 독립 실행. 보관함22/완료1 확인→기존 흉의 storage_id1을 다음 도전 장착으로 선택→저장 완료→냉기 시작169/169→장비 패널 현재 장착 확인→정상 종료→재실행 냉기 시작169/169 확인. 원수치120*256+12517=43237, HUD ceil169. 클릭 이동/Space 회피2.4초 쿨다운/Esc 00:14 일시정지 직접 관찰. 전체 수동 승리/실청취/focused 성능 승인 아님. UI 실행 stderr 수집 안 했으므로 종료 경고 해결로 승격하지 않는다. 모든 게임 창 종료 확인.
+
+실제 장착으로 default36 revision2/body1이 정상 저장됨. 기존22아이템·완료1 및 나머지 전체 내용 동일(장착/revision만 변경),23/29 및 원36 journal 핀 불변. 변경 전8핀 파일은 runtime/manual-loadout01에 백업. USER-PRESERVATION-ADDENDUM02.json을 이후 백업·채택의 최신 기준으로 사용,01의 default36 핀은 역사값이다. 새 journal도02에 포함. freeze/EXE 변경 없음. 다음은 기본 저장 종료 ObjectDB 경고 원인분리(최초없음획득검사 재실행 금지), 최종 동일제품 focused 성능, 전체 수동/실청취 및 후방 석재 마감. 후보37 연구 폴더가 존재하므로 새 작업 전 기존 masonry37 상태 확인.
+
+## 공간 확보 및 후속37 검토 · 2026-11-06
+재생성.godot223폴더6.782GiB를 D:\Project-Cache-Archive-20261106로 비파괴 이동, 영구삭제0/C여유9.09GiB. 삭제 자동정책 거절 뒤 허용된 안전한 이동으로 해결. 각222폴더 sourceabsent/countbytes/largestSHA 검증,처음1은원inventorybytes일치. D SUMMARY/planned-moves참조. oldstage전체import/새불필요복제금지.
+text02 P2입력검증선행수정30checksquiet/independent-review PASS;기존text01 39+21은수정전소스의역사증거. compare05는04stage재사용37c4PNG+6checksquiet 완료,루트view3직접검수에서질감개선확인(최종SACRATA아님).37c독립검토와exclusive cost01 진행,아직제품채택안함. 다음조건부37패키지runtime163/stage165 예상220~250MiB. 저장연속성결정:현재Quality37 absent확인후36프로필+2journals바이트동일fork,원36불변/9핀+3=12핀/재작성·grant없음. 실제37UI22개/body1/169확인필요. root36freeze/EXE/사용자9핀여전히유지.
