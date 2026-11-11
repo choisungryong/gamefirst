@@ -1,0 +1,17 @@
+{
+  "id": "portrait.oath_witch.v01",
+  "name": "금기 서약의 마녀 초상",
+  "created_date": "2026-11-11",
+  "file": "oath_witch_portrait_v01.png",
+  "sha256": "78e94cc1e554479a57ab3c17bad9e9dbff5694585a6920f5b78f1fcb63f1442e",
+  "bytes": 2353461,
+  "width": 1024,
+  "height": 1536,
+  "background": "opaque dark charcoal",
+  "generation": "OpenAI built-in image_gen; AI-generated original portrait; no input reference images",
+  "prompt_file": "PROMPT.txt",
+  "attribution_file": "ATTRIBUTION.ko.md",
+  "intended_use": "2D portrait for oath/growth/result UI",
+  "status": "asset generated and visually inspected; UI integration pending",
+  "not_delivered": ["3D model", "rig", "animation", "product UI integration"]
+}

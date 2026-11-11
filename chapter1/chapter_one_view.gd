@@ -1,8 +1,8 @@
 extends "res://chapter1/chapter_view.gd"
 const ChapterRun=preload("res://chapter1/core/chapter_run_quality37.gd")
 const ChapterWorld=preload("res://chapter1/view/chapter_world_quality37c.gd")
-const ChapterHUD=preload("res://chapter1/view/ui38/chapter_hud_quality38.gd")
-const ChapterEffects=preload("res://chapter1/view/chapter_elements_quality36.gd")
+const ChapterHUD=preload("res://chapter1/view/ui40/chapter_hud_quality40.gd")
+const ChapterEffects=preload("res://chapter1/view/chapter_elements_quality39.gd")
 const ChapterPilot=preload("res://chapter1/core/chapter_pilot.gd")
 const ChapterProfile=preload("res://chapter1/core/chapter_profile.gd")
 const ChapterActors=preload("res://chapter1/view/chapter_actors_quality36.gd")
