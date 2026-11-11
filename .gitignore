@@ -49,3 +49,6 @@ __pycache__/
 **/profile-after/
 **/default-profile-preserved/
 **/chapter-one-profile-v1*.json
+
+# Authored UI design contract, not captured/user data
+!/plans/chapter1-presentation-roadmap-20261107-01/UI-DESIGN-TOKENS.json

@@ -1,0 +1,22 @@
+{
+  "status": "design contract, not applied to candidate37",
+  "direction": "금기 서약의 회랑",
+  "palette": {
+    "charcoal": "#17191B",
+    "stone": "#34393A",
+    "leather": "#241B1D",
+    "aged_brass": "#AA8D58",
+    "ivory_text": "#E7DFC9",
+    "muted_text": "#B5B0A3",
+    "health": "#B83F51",
+    "ember": "#E8A05A",
+    "frost": "#7CC9D9",
+    "arc": "#ABB8EC",
+    "danger": "#EC704D"
+  },
+  "type_at_1600x900": {"body": 20, "secondary": 18, "title": 30, "hero_title": 42, "numbers": 22},
+  "layout": {"safe_margin": 28, "spacing_unit": 8, "skill_icon": 56, "minimum_button_height": 48, "combat_center": "clear", "map": "truthful three-zone schematic only until terrain data exists"},
+  "materials": ["carbonized stone", "aged brass", "dark leather", "red life sigil"],
+  "motion": {"response_ms": 120, "modal_reveal_ms": 180, "important_reward_ms": 600, "respect_reduced_motion": true},
+  "rules": ["actual HP/XP/skill/potion/dash/objective data only", "no mana system invented", "ornament encodes hierarchy", "readable Korean before ornament", "all button states", "no persistent central portrait during combat", "720p and1080p visual verification required"]
+}

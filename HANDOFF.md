@@ -1,3 +1,14 @@
+# 최신 목표·후보38·전체 요소 제작실 — 2026-11-07
+
+사용자 최신 지시는 효과음 후순위, 보이는 품질 우선, 전체 요소 관리 툴이며 계획 후 계속 구현한다. PROJECT-GOAL.ko.md와 plans/chapter1-presentation-roadmap-20261107-01/CURRENT-ORDER.ko.md가 과거 음향/검증 우선순위를 대체한다. 관리 툴 범위는 현황·미리보기·작업 관리로 사용자 확정. 게임 수치 직접 편집은 후속이다.
+
+후보38 실제 패키지 완성: builds/chapter1/chapter1-full-candidate-20261107-38/AshenCloister-Chapter1.exe, SHA256 71daa23b7337598f65d1ab519bfb0f66fda0357941c40a8537aa8fae5e6c77e5, 134224600bytes. runtime166/stage168/PCK303. UI38 HUD/성장/장비만 변경, Core37/World37c/Actor36/FX36/Input21 유지. 실제 releasePCK Forward+ 통합22checks 모두true/exit0, profileoff15초 정책smoke 통과. 최종성능/수동완주/음향승인은 별도. ui38/package38에 원시/보존/적용 manifest, native01 캡처. 기존37stage165/freeze/EXE/현재4profile 및 fork38현재4profile 바이트 불변 확인. 초기38은37 revision3/23items/completed1/body1을 별도 namespace에 복사했고 이후 둘의 진행은 독립. 바탕화면 제1장 바로가기는38을 가리킨다.
+
+제작실 tools/game_manager 구현. 127.0.0.1:8781 서버는 exec session61318에서 운영 중(서버 PID는 재확인 후 조작). open-manager.ps1과 바탕화면 잿빛 회랑 제작실 바로가기. 소스기반 등록227개(게임정의+구현+에셋)/runtime166/40작업, 검증된38자동선택 및37보존근거. 실제 GLB 모델/cast재생·정지, 메모 저장·reload유지, 작업40/음향후순위7/UI38진행4 확인. 5backendtests+JSsyntax 통과. local-state.json은 관리메모만, Gitignored. 외부CDN/에셋업로드/게임저장편집 없음. 실제화면 proof는 roadmap/proof. manager CUA 검사는 완료요약까지 처리했다.
+
+다음: F1/V01/V03 냉기 시각효과39. manager_frontend agent가 신규 chapter_elements_quality39.gd/shader에만 독립작성 중(38assembly/기존효과/core/stage미수정, GPU미사용). source설명 후 실제 같은코어/카메라 비교를 실행하고 검수한다. 38실행본은 지금 사용자에게 제공 가능. 과거 run_performance37.py 수정은 별도WIP이므로 이번 milestone에 섞지 않는다. 기존 GitHuborigin/main 이전은 승인됐고 a5dd05d까지게시됨; 다음선택적commit/push 진행필요.
+
+---
 # 최신 GitHub 이전 지시·후보37 빌드/저장 연속성 · 2026-11-07
 사용자가 https://github.com/choisungryong/gamefirst 로 저장소 이전을 명시. 이전 GitHub 보류는 철회됐으며 로컬 기존 이력 보존+main푸시 진행. 원격확인시empty/기존origin없음. 코드·필수에셋·라이선스·스크립트/문서만,builds/.godot/캡처/사용자저장/보존사본제외. ghCLI없지만GitCredentialManager설치됨. 인증질문을강제로우회하거나토큰출력하지않음.
 후보37 실제빌드성공 EXE8a54790cb5d4859e0855b327b9412f4a6468c82039f61ff1cb485bc081e3cca8/runtime163-stage165-PCK297. import/export/smoke1801tickLv4/releaseprobe21모두exit0stderr0. Root는Core37/World37c,기존36source158/stage158/EXEs보존. full37 ADOPTION/독립사후19checksPASS. 현재freeze165불변.
