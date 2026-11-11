@@ -1,3 +1,15 @@
+# 최신 진행 요약 — 2026-11-11
+
+후보38·제작실·계획은 검토 통과 후 GitHub main에 게시했다: c30e8a80b2011a3543d7b7216c263589103783b6. 이번 후속 milestone은 검증된 냉기39 소스·검증 helper/문서와 관리툴 진행 표시를 게시한다. 실행본·사용자 저장·캡처·캐시는 포함하지 않는다.
+
+관리 툴 서버는 exec session44371에서 127.0.0.1:8781로 재가동했다. root가 API에서 플레이 기준선 후보38, 현재 작업 냉기39·UI40 검증 중/미채택 표시를 확인했다. 관리 메모 revision4는 U01 검토(후보38 반영/통합22개/GitHub 게시), 서리창 진행 중(39 비교 및 빙결 추가 확인, 제품 미채택)을 기록한다. 이 메모는 품질 승인 자체가 아니다. 과거 session35626/61318은 현재 서버 핸들로 사용하지 않으며 PID 조작은 다시 신원을 확인한다.
+
+냉기39 독립 검증은 완료했다. 별도171파일 stage에서 실제 Forward+ FX36/39 각각3600틱 코어 해시가 같고, 정지 중 효과 수명도 불변이다. 정규 성장 rank2 fixture에서 실제 피해·빙결 결정4개·만료를 확인했다. root는 실제 원경·사건 확대·빙결 화면에서 광량과 덩어리가 정돈된 개선으로 승인했고 소스 품질 검토도 통과했다. STATUS.ko.md와 REVIEW.ko.md는 plans/chapter1-quality04-20261101-01/frost39에 있다. 최종 미술·전체 승리·성능 승인으로 확대하지 않는다.
+
+UI40는 보관함·실제3구역 경로·결과 화면의 독립 소스 작성 후 검증·통합을 기다린다. 다음 제품 후보에서 냉기39와 함께 적용할 예정이며 현재 후보38의 FX preload는36 그대로다. 기존38 조립본·실행본·저장과 코어를 보존한다. UI40·초상41·run_performance37.py WIP는 이번 게시에 포함하지 않는다.
+
+---
+
 # 최신 목표·후보38·전체 요소 제작실 — 2026-11-07
 
 사용자 최신 지시는 효과음 후순위, 보이는 품질 우선, 전체 요소 관리 툴이며 계획 후 계속 구현한다. PROJECT-GOAL.ko.md와 plans/chapter1-presentation-roadmap-20261107-01/CURRENT-ORDER.ko.md가 과거 음향/검증 우선순위를 대체한다. 관리 툴 범위는 현황·미리보기·작업 관리로 사용자 확정. 게임 수치 직접 편집은 후속이다.
@@ -6,7 +18,7 @@
 
 제작실 tools/game_manager 구현. 127.0.0.1:8781 서버는 exec session61318에서 운영 중(서버 PID는 재확인 후 조작). open-manager.ps1과 바탕화면 잿빛 회랑 제작실 바로가기. 소스기반 등록227개(게임정의+구현+에셋)/runtime166/40작업, 검증된38자동선택 및37보존근거. 실제 GLB 모델/cast재생·정지, 메모 저장·reload유지, 작업40/음향후순위7/UI38진행4 확인. 5backendtests+JSsyntax 통과. local-state.json은 관리메모만, Gitignored. 외부CDN/에셋업로드/게임저장편집 없음. 실제화면 proof는 roadmap/proof. manager CUA 검사는 완료요약까지 처리했다.
 
-다음: F1/V01/V03 냉기 시각효과39. manager_frontend agent가 신규 chapter_elements_quality39.gd/shader에만 독립작성 중(38assembly/기존효과/core/stage미수정, GPU미사용). source설명 후 실제 같은코어/카메라 비교를 실행하고 검수한다. 38실행본은 지금 사용자에게 제공 가능. 과거 run_performance37.py 수정은 별도WIP이므로 이번 milestone에 섞지 않는다. 기존 GitHuborigin/main 이전은 승인됐고 a5dd05d까지게시됨; 다음선택적commit/push 진행필요.
+다음: F1/V01/V03 냉기 시각효과39. manager_frontend agent가 신규 chapter_elements_quality39.gd/shader에만 독립작성 중(38assembly/기존효과/core/stage미수정, GPU미사용). source설명 후 실제 같은코어/카메라 비교를 실행하고 검수한다. 38실행본은 지금 사용자에게 제공 가능. 과거 run_performance37.py 수정은 별도WIP이므로 이번 milestone에 섞지 않는다. 후보38·제작실·목표/계획47파일은 c30e8a80b2011a3543d7b7216c263589103783b6으로 검증 후 게시 완료했으며 로컬HEAD와 origin/main 일치를 확인했다. 39·UI40·성능WIP는 해당 커밋에 포함하지 않았다.
 
 ---
 # 최신 GitHub 이전 지시·후보37 빌드/저장 연속성 · 2026-11-07
