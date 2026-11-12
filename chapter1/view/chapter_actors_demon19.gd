@@ -86,7 +86,7 @@ func _update_pose(actor: Node3D,direction: Vector2,moving: bool,casting: bool,de
 	var bucket: int=tick/3
 	if moving and not near_ and state.clip==clip and int(state.bucket)==bucket:return
 	state.clip=clip;state.bucket=bucket
-	player.play(clip,0);player.seek(minf(time_,player.get_animation(clip).length),true);player.advance(0)
+	_sample_actor42(player,clip,minf(time_,player.get_animation(clip).length))
 	actor.set_meta("minion19_pose",{"clip":clip,"time":time_,"dead":dead,"tick":tick});motion19_samples+=1
 func sync(run: RefCounted,delta: float) -> void:
 	super.sync(run,delta)
@@ -108,7 +108,7 @@ func sync(run: RefCounted,delta: float) -> void:
 			var color: Color=mat.get_meta("demon19_tint")
 			if _cold_corpses.has(key) or (e.hp_raw>0 and run.tick<int(e.frozen_until)):color*=Color(.48,.86,1.16)
 			elif run.tick<int(_enemy_hit_until.get(e.id,-1))-9:color*=Color(1.3,1.2,1.05)
-			color.a=alpha*float(state.fade);mat.albedo_color=color
+			color.a=alpha*float(state.fade);_set_color42(mat,color)
 func _overlaps_hero(actor: Node3D,camera: Camera3D) -> bool:
 	if not actor.has_meta("minion19"):return super._overlaps_hero(actor,camera)
 	if camera==null or (actor.global_position-hero.global_position).dot(camera.global_basis.z)<=.04:return false
@@ -126,3 +126,10 @@ func _sync_hero_rim(camera: Camera3D,overlapping: bool) -> void:
 		state.fade=lerpf(float(state.fade),.4 if overlapping and _overlaps_hero(actor,camera) else 1.0,1-exp(-_render_delta*18))
 func reset() -> void:
 	super.reset();_demon19_event=-1;_demon19_attacks.clear();motion19_samples=0
+
+## Default hook preserves legacy sampling exactly; only Actor42 overrides it.
+func _sample_actor42(player: AnimationPlayer,clip: String,time_: float) -> void:
+	player.play(clip,0);player.seek(time_,true);player.advance(0)
+
+func _set_color42(material: StandardMaterial3D,color: Color) -> void:
+	material.albedo_color=color

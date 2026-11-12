@@ -1,0 +1,9 @@
+{
+  "exe": "C:\\Project\\d2r-combat-baseline\\builds\\chapter1\\chapter1-full-candidate-20261113-42\\AshenCloister-Chapter1.exe",
+  "sha256": "c7c21618c524e98df95e624f7ba5f6e1f72a18bf4827f6f03c80d069ce980a67",
+  "bytes": 135820968,
+  "runtime_count": 176,
+  "stage_count": 178,
+  "pck_count": 318,
+  "scope": "Actor42 + HUD41/FX39 package; no full performance/manual completion claim"
+}

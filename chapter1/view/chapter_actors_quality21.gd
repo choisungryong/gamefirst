@@ -67,12 +67,12 @@ func _update_pose(actor: Node3D,direction: Vector2,moving: bool,casting: bool,de
 		if e.state=="dash":
 			var player: AnimationPlayer=state.player
 			var phase := fposmod(float(tick-int(e.state_until)+32)/60.0*2.4,1)
-			player.play("walk",0);player.seek(phase*player.get_animation("walk").length,true);player.advance(0)
+			_sample_actor42(player,"walk",phase*player.get_animation("walk").length)
 			actor.set_meta("minion19_pose",{"clip":"walk","time":phase*player.get_animation("walk").length,"dead":false,"tick":tick})
 			actor.set_meta("role21_dash",{"tick":tick,"phase":phase,"paid_direction":e.attack_direction})
 		elif e.state=="recover":
 			var player: AnimationPlayer=state.player
 			var definition: Dictionary=view.run._enemy_definition(e)
 			var time_ := maxf(0,float(tick-int(e.state_until)+int(definition.recover)))/60.0
-			player.play("idle",0);player.seek(minf(time_,player.get_animation("idle").length),true);player.advance(0)
+			_sample_actor42(player,"idle",minf(time_,player.get_animation("idle").length))
 			actor.set_meta("minion19_pose",{"clip":"idle","time":time_,"dead":false,"tick":tick})

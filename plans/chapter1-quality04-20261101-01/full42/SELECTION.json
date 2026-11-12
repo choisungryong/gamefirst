@@ -1,0 +1,18 @@
+{
+  "parity_passed": true,
+  "native_improvement_confirmed": true,
+  "root_files": {
+    "chapter1/view/chapter_actors_quality42.gd": "e4ff3dcb217be9342b73dae09fd61417c8fadbd3a70903413773fd1cf96fbc6e"
+  },
+  "candidate_parents": {
+    "chapter_actors_demon19.gd": "04870c69688de221c1d5113ed8b61a39c6e58c9d3bb537d5fa7a4664eaa9f60f",
+    "chapter_actors_quality21.gd": "38def5ac169a3ab9c34479fbc61d2131a966a2826bbbac227852dd25e548f31f"
+  },
+  "isolated_stage": "C:\\Project\\game-research\\build-staging\\actor42-material-exact01",
+  "proof": "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\performance42-refactor-verify\\material01",
+  "native_summary": "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\performance42-refactor-verify\\material-native01\\raw\\probe\\summary.json",
+  "native_p95_ms": 16.984,
+  "final_product_performance_passed": false,
+  "rejected_overlap_trial_p95_ms": 17.417,
+  "prior_proposals_preserved": "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\performance42-actors\\refactor-candidate\\before-material-selection"
+}
