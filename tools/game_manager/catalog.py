@@ -12,7 +12,11 @@ UI38_FILES = {'chapter1/view/ui38/chapter_hud_quality38.gd','chapter1/view/ui38/
 FX39_FILES = {'chapter1/view/chapter_elements_quality39.gd'}|{'chapter1/view/frost_'+part+'_quality39.gdshader' for part in ['core','contact','fracture','release']}
 UI40_FILE = 'chapter1/view/ui40/chapter_hud_quality40.gd'
 CANDIDATE40 = 'plans/chapter1-quality04-20261101-01/full40'
+CANDIDATE41 = 'plans/chapter1-quality04-20261101-01/full41'
+UI41_FILE = 'chapter1/view/ui41/chapter_hud_quality41.gd'
+PORTRAIT_ATTRIBUTION = PORTRAIT_DIR+'/ATTRIBUTION.ko.md'
 CANDIDATES = (
+    {'explicit_launch_error':True,'number':41,'directory':CANDIDATE41,'build_id':'chapter1-full-candidate-20261112-41','count':175,'required':UI38_FILES|FX39_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION},'preservation_fields':['success','preserved_previous_builds','source41_and_stage41_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':40,'directory':CANDIDATE40,'build_id':'chapter1-full-candidate-20261111-40','count':172,'required':UI38_FILES|FX39_FILES|{UI40_FILE}},
     {'explicit_launch_error':False,'number':38,'directory':CANDIDATE38,'build_id':'chapter1-full-candidate-20261107-38','count':166,'required':UI38_FILES},
 )
@@ -31,6 +35,9 @@ def verified_candidate(directory, root=ROOT, specification=None):
         execution=json.loads((folder/'packaged-integration-execution.json').read_text(encoding='utf-8-sig'))
         integration=json.loads((folder/'PACKAGED-INTEGRATION.json').read_text(encoding='utf-8-sig'))
         audit=json.loads((folder/'pck-audit.json').read_text(encoding='utf-8-sig'))
+        if spec.get('preservation_fields'):
+            preservation=json.loads((folder/'FINAL-PRESERVATION.json').read_text(encoding='utf-8-sig'))
+            if any(preservation.get(key) is not True for key in spec['preservation_fields']): return None
         paths=closure['runtime_source_files']; exe=Path(build['exe'])
         if execution.get('actual_exit')!=0 or execution.get('timed_out') is not False or (spec['explicit_launch_error'] and 'launch_error' not in execution) or execution.get('launch_error') is not None or integration.get('success') is not True or audit.get('success') is not True: return None
         if len(paths)!=count or len(set(paths))!=count or not required.issubset(paths) or build.get('runtime_count',build.get('source_count'))!=count: return None
@@ -83,7 +90,7 @@ def glb_metadata(path):
 def generate():
     warnings=[]; entities=[]; files=[]
     closure_path,closure,build_info=selected_build(); packaged=set(closure['runtime_source_files'])
-    candidate_sources=UI38_FILES|FX39_FILES|{UI40_FILE}
+    candidate_sources=UI38_FILES|FX39_FILES|{UI40_FILE,UI41_FILE}
     source_paths=packaged|{p for p in candidate_sources if (ROOT/p).is_file()}
     refs={}; texts={}
     for p in sorted(source_paths):
@@ -109,9 +116,9 @@ def generate():
         if p in active or p not in packaged: continue
         active.add(p);queue.extend(refs.get(p,[]))
     def usage(p):
-        if p.startswith(PORTRAIT_DIR+'/'): return 'plan'
         if p in active:
             return 'active-direct' if p in direct else 'active-inherited'
+        if p.startswith(PORTRAIT_DIR+'/'): return 'packaged-unproven' if p in packaged else 'plan'
         return 'packaged-unproven' if p in packaged else ('plan' if p.startswith(PLAN) or p in candidate_sources else 'legacy-preserved')
     def entity(id,name,category,typ,path,line,attributes,assets=None,task_ids=None):
         row={'id':id,'name':name,'category':category,'type':typ,'usage':usage(path),'source':{'path':path,'line':line},'attributes':attributes,'dependencies':refs.get(path,[]),'assets':assets or [],'provenance':{'kind':'source-derived','note':'원본 정의 또는 구현 근거이며 품질 검수 완료를 뜻하지 않습니다.'},'evidence':[{'path':path,'line':line,'note':'원본 정의'}],'task_ids':task_ids or []}
@@ -168,13 +175,18 @@ def generate():
         category='ui' if 'hud' in p or 'input' in p else ('effects' if any(x in p for x in ['effect','element','shader']) else None)
         if category: entity('implementation:'+p,('UI 구현 · ' if category=='ui' else '효과 구현 · ')+Path(p).stem,'implementation','implementation',p,1,{'extends':re.findall(r'^extends\s+(.+)',t,re.M),'functions':re.findall(r'^func\s+(\w+)',t,re.M)},[r for r in refs.get(p,[]) if Path(r).suffix in ('.png','.svg','.glb','.wav')],['U01'] if category=='ui' else ['V01'])
     # Semantic UI surfaces are one record per actual source function/state, not per versioned class.
-    for id,name,path,func,tasks_ in [
+    ui_surfaces = [
         ('hud','전투 HUD','chapter1/view/cloister_hud.gd','setup',['U01','U02']),
         ('growth','성장 선택 카드','chapter1/view/cloister_hud.gd','_build_modal',['U03']),
         ('inventory','장비 비교와 장착','chapter1/view/cloister_hud.gd','_inventory',['U04']),
         ('stash','장비 보관함','chapter1/view/chapter_hud.gd','_build_stash',['U05']),
         ('objective','현재 목표와 의식 안내','chapter1/view/chapter_hud.gd','sync',['U06']),
-        ('discovery','희귀 장비 발견 표시','chapter1/view/chapter_hud_quality20.gd','_present_discovery20',['L02'])]:
+        ('discovery','희귀 장비 발견 표시','chapter1/view/chapter_hud_quality20.gd','_present_discovery20',['L02'])]
+    if UI40_FILE in packaged:
+        ui_surfaces.append(('result','승리·패배 결과',UI40_FILE,'_build_result40',['U08']))
+    if UI41_FILE in packaged:
+        ui_surfaces.append(('title','초상 타이틀 메뉴',UI41_FILE,'_build_menu41',['C03','C05']))
+    for id,name,path,func,tasks_ in ui_surfaces:
         if closure_path!=CLOSURE and id in ['hud','growth','inventory']:
             path='chapter1/view/ui38/chapter_hud_quality38.gd'
             func={'hud':'setup','growth':'_growth_cards38','inventory':'_inventory'}[id]
@@ -195,10 +207,17 @@ def generate():
     if (ROOT/portrait_asset).is_file() and (ROOT/PORTRAIT_PNG).is_file():
         try:
             portrait_doc=json.loads(read(portrait_asset));attribution_text=read(portrait_attribution)
-            row=entity('asset:'+PORTRAIT_PNG,'서약의 마녀 · 초상 원화(계획)','assets','png',portrait_asset,1,{**portrait_doc,'asset_kind':'2D 초상 원화','generation_type':'AI-generated','integration_status':'계획 · 미UI 반영','not_3d':True,'not_runtime_hero':True,'attribution_text':attribution_text,'preview_note':'생성·시각 확인된 2D 초상 원화입니다. 현재 주인공 GLB·리그·애니메이션을 교체하지 않았고 제품 UI에도 연결하지 않았습니다.'},[PORTRAIT_PNG],['C03','C05'])
-            row['usage']='plan';row['dependencies']=[portrait_asset,portrait_attribution,PORTRAIT_DIR+'/PROMPT.txt']
+            portrait_in_use=UI41_FILE in packaged and PORTRAIT_PNG in active
+            integration_status='후보41 타이틀 메뉴에서 사용 · 2D' if portrait_in_use else '계획 · 미UI 반영'
+            preview_note=('후보41 타이틀 메뉴에 연결된 2D 원화입니다. 현재 주인공 GLB·리그·애니메이션은 교체하지 않았습니다. creation_snapshot은 생성 당시의 기록이며 현재 사용 상태와 구분합니다.' if portrait_in_use else '생성·시각 확인된 2D 초상 원화입니다. 현재 주인공 GLB·리그·애니메이션을 교체하지 않았고 제품 UI에도 연결하지 않았습니다.')
+            attributes={'asset_kind':'타이틀 원화 · 2D' if portrait_in_use else '2D 초상 원화','generation_type':'AI-generated','integration_status':integration_status,'not_3d':True,'not_runtime_hero':True,'preview_note':preview_note,'creation_snapshot':{'generation_metadata':portrait_doc,'attribution_text':attribution_text}}
+            row=entity('asset:'+PORTRAIT_PNG,'서약의 마녀 · 타이틀 원화(2D)' if portrait_in_use else '서약의 마녀 · 초상 원화(계획)','assets','png',portrait_asset,1,attributes,[PORTRAIT_PNG],['C03','C05'])
+            row['usage']=usage(PORTRAIT_PNG);row['dependencies']=[portrait_asset,portrait_attribution,PORTRAIT_DIR+'/PROMPT.txt']
             row['provenance']={'kind':'AI-generated','note':portrait_doc.get('generation','OpenAI image_gen 생성 원화')}
-            row['evidence'].append({'path':portrait_attribution,'line':1,'note':'생성 출처·시각 확인 기록 · 3D 및 UI 미반영'})
+            row['evidence'].append({'path':portrait_attribution,'line':1,'note':'생성 당시 출처·시각 확인 기록(현재 사용 상태는 integration_status 참조)'})
+            if portrait_in_use:
+                menu=texts[UI41_FILE];match=re.search(r'^func _build_menu41\(',menu,re.M)
+                row['evidence'].append({'path':UI41_FILE,'line':menu[:match.start()].count('\n')+1 if match else 1,'note':'후보41 타이틀 메뉴 연결 · 2D 원화 · 3D 모델 미교체'})
         except (OSError,ValueError) as e: warnings.append('초상 원화 출처를 읽지 못했습니다: '+str(e))
     inventory=set(source_paths)
     for folder in ['assets','chapter1/art']:
@@ -220,12 +239,16 @@ def generate():
         if m:
             id,name,note=m.groups();tasks.append({'id':id,'name':name.strip(),'description':note.strip(),'status':'deferred' if id.startswith('S') else ('review' if id in ['U01','U02','U03','U04'] else ('in_progress' if id in ['V01','V03','U05','U06','U08'] else 'todo')),'priority':'low' if id.startswith('S') else ('high' if id.startswith('U') else 'normal'),'source':{'path':taskpath,'line':n},'entity_ids':[e['id'] for e in entities if id in e['task_ids']]})
     preserved_builds=[{'id':json.loads(read(CLOSURE))['build_id'],'source':CLOSURE,'runtime_file_count':163}]
-    if closure_path!=CANDIDATE38+'/closure.json' and (ROOT/(CANDIDATE38+'/closure.json')).is_file():
-        previous=json.loads(read(CANDIDATE38+'/closure.json'))
-        preserved_builds.insert(0,{'id':previous['build_id'],'source':CANDIDATE38+'/closure.json','runtime_file_count':len(previous['runtime_source_files'])})
-    current_work='후보40 통합 제공 · 후속 미술 개선' if UI40_FILE in packaged else '냉기39·UI40 검증 완료 · 제품 미채택'
+    selected_number=next((spec['number'] for spec in CANDIDATES if closure_path==spec['directory']+'/closure.json'),37)
+    for spec in reversed(CANDIDATES):
+        previous_path=spec['directory']+'/closure.json'
+        if spec['number']<selected_number and (ROOT/previous_path).is_file():
+            previous=json.loads(read(previous_path))
+            preserved_builds.insert(0,{'id':previous['build_id'],'source':previous_path,'runtime_file_count':len(previous['runtime_source_files'])})
+    current_work=('후보41 타이틀 원화 제공 · 최종 관문 확인' if UI41_FILE in packaged else ('후보40 통합 제공 · UI41 초상 메뉴 검증 중 · 제품 미채택' if UI40_FILE in packaged else '냉기39·UI40 검증 완료 · 제품 미채택'))
+    verification_names=['pck-audit.json','PACKAGED-INTEGRATION.json','packaged-integration-execution.json']+(['FINAL-PRESERVATION.json'] if UI41_FILE in packaged else [])
     warnings.extend(['패키지 포함만으로 모든 에셋의 실제 화면 사용이 입증되지는 않습니다.','캐릭터·적의 아틀라스는 보존된 역할 정의입니다. 현재 3D 외형은 연결된 배우 구현의 상속·조건 근거를 함께 확인하세요.','관리 상태의 완료는 게임 플레이 품질 검수 완료를 뜻하지 않습니다.'])
-    return {'schema_version':1,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'build':{'id':closure['build_id'],'source':closure_path,'entry_scene':entry,'verification_sources':([str(Path(closure_path).parent).replace('\\','/')+'/'+name for name in ['pck-audit.json','PACKAGED-INTEGRATION.json','packaged-integration-execution.json']] if closure_path!=CLOSURE else []),'preserved_builds':preserved_builds,'runtime_file_count':len(packaged),'executable':build_info['exe'],'launch_instructions':'선택된 후보 실행 파일을 Windows 탐색기에서 실행하세요. 제작실은 게임을 자동 실행하지 않습니다.','scope':closure.get('scope',''),'legacy_book':BOOK+'/index.html','current_work':current_work,'audio_status':'deferred'},'goal':{'title':'보이는 품질과 전체 요소 관리','source':{'path':'PROJECT-GOAL.ko.md','line':1},'text':read('PROJECT-GOAL.ko.md'),'current_work':current_work,'audio_status':'deferred'},'entities':entities,'files':files,'tasks':tasks,'coverage':{'runtime_files':len(packaged),'runtime_extensions':dict(collections.Counter(Path(p).suffix for p in packaged)),'inventory_files':len(files),'entities':len(entities),'categories':dict(collections.Counter(e['category'] for e in entities)),'tasks':len(tasks),'active_source_paths':len(active),'semantic_counts':{'bases':sum(e['type']=='bases' for e in entities),'affixes':sum(e['type']=='affixes' for e in entities),'uniques':sum(e['type']=='uniques' for e in entities),'limits':sum(e['type']=='limits' for e in entities),'skills':len(doc['skills']),'passives':len(doc['passives']),'zones':len(names),'rituals':len(rituals),'audio_variants':sum(counts.values())}},'warnings':warnings}
+    return {'schema_version':1,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'build':{'id':closure['build_id'],'source':closure_path,'entry_scene':entry,'verification_sources':([str(Path(closure_path).parent).replace('\\','/')+'/'+name for name in verification_names] if closure_path!=CLOSURE else []),'preserved_builds':preserved_builds,'runtime_file_count':len(packaged),'executable':build_info['exe'],'launch_instructions':'선택된 후보 실행 파일을 Windows 탐색기에서 실행하세요. 제작실은 게임을 자동 실행하지 않습니다.','scope':closure.get('scope',''),'legacy_book':BOOK+'/index.html','current_work':current_work,'audio_status':'deferred'},'goal':{'title':'보이는 품질과 전체 요소 관리','source':{'path':'PROJECT-GOAL.ko.md','line':1},'text':read('PROJECT-GOAL.ko.md'),'current_work':current_work,'audio_status':'deferred'},'entities':entities,'files':files,'tasks':tasks,'coverage':{'runtime_files':len(packaged),'runtime_extensions':dict(collections.Counter(Path(p).suffix for p in packaged)),'inventory_files':len(files),'entities':len(entities),'categories':dict(collections.Counter(e['category'] for e in entities)),'tasks':len(tasks),'active_source_paths':len(active),'semantic_counts':{'bases':sum(e['type']=='bases' for e in entities),'affixes':sum(e['type']=='affixes' for e in entities),'uniques':sum(e['type']=='uniques' for e in entities),'limits':sum(e['type']=='limits' for e in entities),'skills':len(doc['skills']),'passives':len(doc['passives']),'zones':len(names),'rituals':len(rituals),'audio_variants':sum(counts.values())}},'warnings':warnings}
 
 if __name__=='__main__':
     import sys
