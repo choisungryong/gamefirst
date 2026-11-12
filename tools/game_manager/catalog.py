@@ -16,9 +16,12 @@ CANDIDATE41 = 'plans/chapter1-quality04-20261101-01/full41'
 CANDIDATE42 = 'plans/chapter1-quality04-20261101-01/full42'
 CANDIDATE43 = 'plans/chapter1-quality04-20261101-01/full43'
 FIRE43_FILES = {'chapter1/view/chapter_elements_quality43.gd'}|{'chapter1/view/ember_'+part+'_quality43.gdshader' for part in ['core','afterglow','contact']}
+CANDIDATE44 = 'plans/chapter1-quality04-20261101-01/full44'
+ARC44_FILES = {'chapter1/view/chapter_elements_quality44.gd'}|{'chapter1/view/arc_'+part+'_quality44.gdshader' for part in ['core','contact']}
 UI41_FILE = 'chapter1/view/ui41/chapter_hud_quality41.gd'
 PORTRAIT_ATTRIBUTION = PORTRAIT_DIR+'/ATTRIBUTION.ko.md'
 CANDIDATES = (
+    {'explicit_launch_error':True,'number':44,'directory':CANDIDATE44,'build_id':'chapter1-full-candidate-20261113-44','count':183,'required':UI38_FILES|FX39_FILES|FIRE43_FILES|ARC44_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION,'chapter1/view/chapter_actors_quality42.gd'},'preservation_fields':['success','preserved_previous_builds','source44_and_stage44_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':43,'directory':CANDIDATE43,'build_id':'chapter1-full-candidate-20261113-43','count':180,'required':UI38_FILES|FX39_FILES|FIRE43_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION,'chapter1/view/chapter_actors_quality42.gd'},'preservation_fields':['success','preserved_previous_builds','source43_and_stage43_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':42,'directory':CANDIDATE42,'build_id':'chapter1-full-candidate-20261113-42','count':176,'required':UI38_FILES|FX39_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION,'chapter1/view/chapter_actors_quality42.gd'},'preservation_fields':['success','preserved_previous_builds','source42_and_stage42_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':41,'directory':CANDIDATE41,'build_id':'chapter1-full-candidate-20261112-41','count':175,'required':UI38_FILES|FX39_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION},'preservation_fields':['success','preserved_previous_builds','source41_and_stage41_unchanged','profiles_byte_identical']},
@@ -207,7 +210,12 @@ def generate():
         ('stun','스턴 궤도 불꽃','chapter1/view/chapter_elements_quality36.gd','sync')]:
         if 'chapter1/view/chapter_elements_quality39.gd' in packaged and id in ['ice','shatter']: path='chapter1/view/chapter_elements_quality39.gd'
         t=read(path);match=re.search(r'^func '+re.escape(func)+r'\(',t,re.M)
-        if match: entity('effects:'+id,name,'effects','visual_effect',path,t[:match.start()].count('\n')+1,{'function':func},task_ids=['V01','V03' if id in ['ice','shatter'] else 'V04'])
+        if match:
+            effect_row=entity('effects:'+id,name,'effects','visual_effect',path,t[:match.start()].count('\n')+1,{'function':func},task_ids=['V01','V03' if id in ['ice','shatter'] else 'V04'])
+            if id=='arc' and ARC44_FILES.issubset(packaged):
+                effect_row['assets']=sorted(ARC44_FILES-{'chapter1/view/chapter_elements_quality44.gd'})
+                effect_row['attributes']['presentation']='번개44 중심선·잔광·짧은 명중, 실제segments/스턴 유지'
+                effect_row['evidence'].append({'path':'chapter1/view/chapter_elements_quality44.gd','line':3,'note':'현재 번개 재질 연결, 실제 경로 계산은14/36 상속'})
     if FIRE43_FILES.issubset(packaged):
         entity('effects:ember','화염 발사·명중·잔화','effects','visual_effect','chapter1/view/chapter_elements_quality43.gd',4,{'function':'setup','scope':'기존 실제 이벤트·배치·수명 유지, 재질3개 교체','damage_owner':False},sorted(FIRE43_FILES-{'chapter1/view/chapter_elements_quality43.gd'}),['V01','V02'])
     portrait_asset=PORTRAIT_DIR+'/ASSET.json';portrait_attribution=PORTRAIT_DIR+'/ATTRIBUTION.ko.md'
@@ -240,6 +248,26 @@ def generate():
                 try: attrs.update(glb_metadata(full))
                 except (OSError,ValueError,KeyError,IndexError,struct.error) as e: warnings.append('GLB 메타데이터 확인 실패 '+p+': '+str(e))
             entity('asset:'+p,full.name,'assets',full.suffix[1:].lower(),p,1,attrs,[p])
+    # Captured evidence is separate from shipped game assets and their counts.
+    previews={}
+    if FIRE43_FILES.issubset(packaged):
+        fire=[{'path':'plans/chapter1-quality04-20261101-01/ember43/proof02/compare720/43-explosion-tick657.png','name':'화염 명중·폭발','scope':'화염43 실제 고정 입력 검증 장면 · 정지 이미지'}, {'path':'plans/chapter1-quality04-20261101-01/ember43/proof02/compare720/43-afterglow-tick668.png','name':'짧은 잔화와 투사체','scope':'화염43 실제 고정 입력 검증 장면 · 현재 표현에 상속'}]
+        for key in ['effects:ember','skills:chapter1.skill.ember']:previews[key]=fire
+    if ARC44_FILES.issubset(packaged):
+        arc=[{'path':'plans/chapter1-quality04-20261101-01/arc44/proof/compare1080/44-three_branch-tick1927.png','name':'실제 세 갈래 전류','scope':'번개44 자연 발생 분기 · 실제segments · 정지 이미지'}, {'path':'plans/chapter1-quality04-20261101-01/arc44/proof/compare720/44-stun-tick714.png','name':'연결과 스턴 표시','scope':'번개44 실제 고정 입력 검증 장면 · 금색 스턴 표시 유지'}]
+        for key in ['effects:arc','skills:chapter1.skill.arc']:previews[key]=arc
+        previews['effects:stun']=[arc[1]]
+    if FX39_FILES.issubset(packaged):
+        cold=[{'path':'plans/chapter1-quality04-20261101-01/frost39/verify01/captures/39-hit-tick18.png','name':'서리창 실제 명중','scope':'냉기39 실제 고정 입력 검증 장면 · 현재 표현에 상속'}, {'path':'plans/chapter1-quality04-20261101-01/frost39/verify01/captures/39-shatter-tick3577.png','name':'실제 파쇄','scope':'냉기39 실제 파쇄 이벤트 · 정지 이미지'}]
+        previews['skills:chapter1.skill.frost']=cold
+        previews['effects:ice']=[{'path':'plans/chapter1-quality04-20261101-01/frost39/verify01/frozen-fixture02/39-frozen-fixture.png','name':'빙결 결정','scope':'냉기39 분리 조건 검증 장면 · 일반 플레이 영상과 구분'}]
+        previews['effects:shatter']=[cold[1]]
+    for row in entities:
+        row_previews=[]
+        for item in previews.get(row['id'],[]):
+            p=(ROOT/item['path']).resolve()
+            if p.is_relative_to(ROOT.resolve()) and p.is_file():row_previews.append(item)
+        if row_previews:row['previews']=row_previews
     tasks=[];taskpath=PLAN+'/IMPROVEMENT-BACKLOG.ko.md'
     for n,line in enumerate(read(taskpath).splitlines(),1):
         m=re.match(r'\| ([SUVLCGX]\d{2}) \| ([^|]+) \| ([^|]+) \|',line)
@@ -253,7 +281,7 @@ def generate():
             previous=json.loads(read(previous_path))
             preserved_builds.insert(0,{'id':previous['build_id'],'source':previous_path,'runtime_file_count':len(previous['runtime_source_files'])})
     performance_passed=False
-    if selected_number in [42,43]:
+    if selected_number in [42,43,44]:
         session=f'plans/chapter1-quality04-20261101-01/final-performance{selected_number}/sessions/final-20261113-a/'
         try:
             summary=json.loads(read(session+'three-run-summary.json'))
@@ -261,8 +289,8 @@ def generate():
             audits=summary['audits']
             performance_passed=(summary['same_exe'] and summary['fresh_reaudit_matches_saved'] and summary['three_distinct_runtime_identities'] and summary['same_observers'] and summary['same_frozen_payload_and_user_pins'] and summary['eligible_three_runs'] and summary['target_met_all_three'] and len(audits)==3 and all(a['valid'] and a['target_met_for_this_run'] and a['p95_ms']<=16.67 for a in audits) and binding['preservation']['exe_sha256']==build_info['sha256'])
         except (OSError,ValueError,KeyError,TypeError):pass
-    if selected_number in [42,43]:
-        improvement='화염 시각 개선 제공' if selected_number==43 else '배우 처리 개선 제공'
+    if selected_number in [42,43,44]:
+        improvement='번개·화염 시각 개선 제공' if selected_number==44 else ('화염 시각 개선 제공' if selected_number==43 else '배우 처리 개선 제공')
         performance_status='대표 부하 성능3회 통과' if performance_passed else '최종 성능 확인 중'
         current_work=f'후보{selected_number} {improvement} · {performance_status} · 전체 수동 완주 미완료'
     else:current_work=('후보41 타이틀 원화 제공 · 최종 관문 확인' if UI41_FILE in packaged else ('후보40 통합 제공 · UI41 초상 메뉴 검증 중 · 제품 미채택' if UI40_FILE in packaged else '냉기39·UI40 검증 완료 · 제품 미채택'))

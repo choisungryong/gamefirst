@@ -86,10 +86,21 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json(status,value)
         except (ValueError,UnicodeError) as e: self.send_json(400,{'error':str(e)})
 
+def registered_preview_paths(catalog, root=ROOT):
+    allowed=set();root=root.resolve()
+    for row in catalog.get('entities',[]):
+        for preview in row.get('previews',[]):
+            path=preview.get('path','')
+            if not isinstance(path,str) or not path.startswith('plans/chapter1-quality04-20261101-01/') or '\\' in path or ':' in path or '..' in Path(path).parts or Path(path).suffix.lower()!='.png':continue
+            resolved=(root/path).resolve()
+            if resolved.is_relative_to(root) and resolved.is_file():allowed.add(path)
+    return allowed
+
 def make_server(port=8781):
     catalog=generate();server=ThreadingHTTPServer(('127.0.0.1',port),Handler)
     server.catalog=catalog;server.valid_ids={r['id'] for r in catalog['entities']+catalog['tasks']}
     server.allowed={r['path'] for r in catalog['files']}|{r['source']['path'] for r in catalog['entities']+catalog['tasks']}|{'PROJECT-GOAL.ko.md',PLAN+'/MANAGER-PLAN.ko.md',catalog['build']['source']}|set(catalog['build'].get('verification_sources',[]))|{r['source'] for r in catalog['build'].get('preserved_builds',[])}
+    server.allowed.update(registered_preview_paths(catalog))
     return server
 
 if __name__=='__main__':

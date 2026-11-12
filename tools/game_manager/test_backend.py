@@ -6,15 +6,15 @@ import catalog, server
 class BackendTests(unittest.TestCase):
     def test_catalog(self):
         c=catalog.generate()
-        self.assertIn(c['coverage']['runtime_files'],[163,166,172,175,176,180])
+        self.assertIn(c['coverage']['runtime_files'],[163,166,172,175,176,180,183])
         self.assertTrue(catalog.UI38_FILES.issubset({f['path'] for f in c['files']}))
         self.assertEqual(c['build']['preserved_builds'][-1]['runtime_file_count'],163)
         self.assertEqual(len(c['tasks']),40)
         self.assertEqual(c['coverage']['semantic_counts']['audio_variants'],19)
         self.assertEqual(len([e for e in c['entities'] if e['type']=='bases']),12)
         self.assertEqual(len({e['id'] for e in c['entities']}),len(c['entities']))
-        self.assertEqual(c['coverage']['runtime_extensions']['.gd'],{163:77,166:80,172:82,175:83,176:84,180:85}[c['coverage']['runtime_files']])
-        self.assertEqual({k:c['coverage']['categories'][k] for k in ['equipment','skills','enemies','characters','balance','ui']},{'equipment':12,'skills':3,'enemies':4,'characters':1,'balance':17,'ui':{163:6,166:6,172:7,175:8,176:8,180:8}[c['coverage']['runtime_files']]})
+        self.assertEqual(c['coverage']['runtime_extensions']['.gd'],{163:77,166:80,172:82,175:83,176:84,180:85,183:86}[c['coverage']['runtime_files']])
+        self.assertEqual({k:c['coverage']['categories'][k] for k in ['equipment','skills','enemies','characters','balance','ui']},{'equipment':12,'skills':3,'enemies':4,'characters':1,'balance':17,'ui':{163:6,166:6,172:7,175:8,176:8,180:8,183:8}[c['coverage']['runtime_files']]})
         if c['coverage']['runtime_files']>=172:
             result=next(e for e in c['entities'] if e['id']=='ui:result')
             self.assertEqual(result['source']['path'],catalog.UI40_FILE)
@@ -42,7 +42,7 @@ class BackendTests(unittest.TestCase):
             self.assertIsNone(catalog.verified_candidate('package38',root))
     def test_latest_verified_selection(self):
         selected=({'build_id':'verified'},{'exe':'example'})
-        for outcomes,target,attempts in [([None,None,None,None,selected],catalog.CANDIDATE38,5),([None,None,None,selected],catalog.CANDIDATE40,4),([None,None,selected],catalog.CANDIDATE41,3),([None,selected],catalog.CANDIDATE42,2),([selected],catalog.CANDIDATE43,1)]:
+        for outcomes,target,attempts in [([None,None,None,None,None,selected],catalog.CANDIDATE38,6),([None,None,None,None,selected],catalog.CANDIDATE40,5),([None,None,None,selected],catalog.CANDIDATE41,4),([None,None,selected],catalog.CANDIDATE42,3),([None,selected],catalog.CANDIDATE43,2),([selected],catalog.CANDIDATE44,1)]:
             with patch.object(catalog,'verified_candidate',side_effect=outcomes) as verify:
                 self.assertEqual(catalog.selected_build()[0],target+'/closure.json')
                 self.assertEqual([c.args[0] for c in verify.call_args_list],[s['directory'] for s in catalog.CANDIDATES[:attempts]])
@@ -122,6 +122,18 @@ class BackendTests(unittest.TestCase):
         self.assertIsNotNone(server.permitted_file('chapter1/core/chapter_items.gd',allowed))
         for p in ['../.env','%2e%2e/project.godot','C:/Users/a','chapter1/../../project.godot','.git/config','tools/game_manager/local-state.json','project.godot']:
             self.assertIsNone(server.permitted_file(p,allowed),p)
+    def test_registered_preview_allowlist(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            image='plans/chapter1-quality04-20261101-01/arc44/proof/scene.png'
+            target=root/image;target.parent.mkdir(parents=True);target.write_bytes(b'PNG fixture')
+            other=root/'private.png';other.write_bytes(b'private')
+            catalog_fixture={'entities':[{'previews':[{'path':image},{'path':'private.png'},{'path':'plans/chapter1-quality04-20261101-01/../../private.png'},{'path':'plans/chapter1-quality04-20261101-01/arc44/proof/state.json'}]}]}
+            allowed=server.registered_preview_paths(catalog_fixture,root)
+            self.assertEqual(allowed,{image})
+            with patch.object(server,'ROOT',root):
+                self.assertEqual(server.permitted_file(image,allowed),target.resolve())
+                self.assertIsNone(server.permitted_file('private.png',allowed))
     def test_origin(self):
         self.assertTrue(server.trusted_request('127.0.0.1:8781','http://127.0.0.1:8781',8781))
         self.assertFalse(server.trusted_request('evil:8781',None,8781))

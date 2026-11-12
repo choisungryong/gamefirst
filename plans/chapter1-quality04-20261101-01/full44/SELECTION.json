@@ -1,0 +1,14 @@
+{
+  "visual_review_passed": true,
+  "parity_passed": true,
+  "files": {
+    "chapter1/view/chapter_elements_quality44.gd": "e0ae928c22049f895c89b7af1b46c1b833e3373c7ec995e33fbb30d684a1dfd6",
+    "chapter1/view/arc_core_quality44.gdshader": "8d6dbcea7529d20f31f2069e0efc8df9b774ae18d4edea0a546e39eddafed822",
+    "chapter1/view/arc_contact_quality44.gdshader": "cb10f87f3cf76ecfc6d1992ba19da1f6acd7da4511b114c288ea187299c4b927"
+  },
+  "scope": "Root inspected720 hit/stun and1080 natural three-way branch; no new damage/events/pools; final performance/manual separate",
+  "proofs": [
+    "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\arc44\\proof\\compare720\\RESULT.json",
+    "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\arc44\\proof\\compare1080\\RESULT.json"
+  ]
+}

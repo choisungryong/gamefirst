@@ -1,3 +1,13 @@
+## 후보44 번개 개선·제작실 실제 장면 — 2026-11-13
+
+후보44 SHA49c6a96a5f917abb4df01af9bcc103ecc222c84f4243b95618a5dc831f211761, runtime183/stage185/PCK327. 실제PCK 통합31개, 같은44EXE3회 p95 14.223/14.212/14.426ms 각16.67ms 이하 통과. 원시/동일패키지/진행 보존 재감사 완료. 720/1080 고정3600tick 비교 코어·표현풀 동일, 정지수명 유지. 실제 삼갈래4회 관찰/화면검수. root동결은 full44/FINAL-SOURCE-FREEZE.json185개, 이전43이하는 원본stage/EXE/freeze로 보존한다. 바탕화면44연결, 현재43 main+revision4개 최초44 fork와 이전43바로가기 백업 완료.
+
+관리툴44등록 및 실제 이미지 미리보기 추가: 세 스킬마다2장, 효과에도 연결. previews는 제품에셋과 구분하고 등록된품질폴더PNG만허용. backend10개/JS문법통과, 실제 번개삼갈래/스턴 gallery로드 확인. 서버PID23224/8781, 제작실 IAB 탭을 남겼다. 로컬revision8에서V02/V04검토, 사용자메모 유지. 자세한근거 arc44/RESULT.ko.md, full44/STATUS.ko.md, manager44/RESULT.ko.md.
+
+다음은 manual44 실제 입력 전체플레이다. prepare_manual44.py로observer생성완료, run_manual44.py작성·실행전이다. 이 observer는 입력/상태/캡처/종료만 관찰하며 자동파일럿·선택·코어step·장착·보상지급을 하지 않는다. 실행은실제44EXE1600x900 Forward+ profile-off, 현재Quality진행전후해시보존. 사망하면 실패그대로기록. 기존37 WIP run_performance37.py는 별도보존하고커밋에섞지않는다. 전체목표활성/미완료, 음향후순위.
+
+---
+
 ## 후보43 화염 개선 배포 — 2026-11-13
 
 후보43 SHA 1133e41b6502627f7c16e6b1d2c641fcd20d042437c209f4056172ef782ba585, runtime180/stage182/PCK323. 실제 배포 통합30개, 같은43EXE3회 p95 14.217/14.091/14.078ms 각16.67ms 이하 통과. 720/1080 고정3600tick 비교에서 코어·표현풀 해시 동일/정지수명 유지, 실제 화염 시전61/명중302/폭발184/처치290 동일. FX43은39 상속 후 setup에서 shader3개만 교체하며 긴 흰 교차선을 줄였다. 근거 ember43/RESULT.ko.md, full43/STATUS.ko.md.
