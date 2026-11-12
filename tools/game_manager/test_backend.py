@@ -6,15 +6,15 @@ import catalog, server
 class BackendTests(unittest.TestCase):
     def test_catalog(self):
         c=catalog.generate()
-        self.assertIn(c['coverage']['runtime_files'],[163,166,172,175,176])
+        self.assertIn(c['coverage']['runtime_files'],[163,166,172,175,176,180])
         self.assertTrue(catalog.UI38_FILES.issubset({f['path'] for f in c['files']}))
         self.assertEqual(c['build']['preserved_builds'][-1]['runtime_file_count'],163)
         self.assertEqual(len(c['tasks']),40)
         self.assertEqual(c['coverage']['semantic_counts']['audio_variants'],19)
         self.assertEqual(len([e for e in c['entities'] if e['type']=='bases']),12)
         self.assertEqual(len({e['id'] for e in c['entities']}),len(c['entities']))
-        self.assertEqual(c['coverage']['runtime_extensions']['.gd'],{163:77,166:80,172:82,175:83,176:84}[c['coverage']['runtime_files']])
-        self.assertEqual({k:c['coverage']['categories'][k] for k in ['equipment','skills','enemies','characters','balance','ui']},{'equipment':12,'skills':3,'enemies':4,'characters':1,'balance':17,'ui':{163:6,166:6,172:7,175:8,176:8}[c['coverage']['runtime_files']]})
+        self.assertEqual(c['coverage']['runtime_extensions']['.gd'],{163:77,166:80,172:82,175:83,176:84,180:85}[c['coverage']['runtime_files']])
+        self.assertEqual({k:c['coverage']['categories'][k] for k in ['equipment','skills','enemies','characters','balance','ui']},{'equipment':12,'skills':3,'enemies':4,'characters':1,'balance':17,'ui':{163:6,166:6,172:7,175:8,176:8,180:8}[c['coverage']['runtime_files']]})
         if c['coverage']['runtime_files']>=172:
             result=next(e for e in c['entities'] if e['id']=='ui:result')
             self.assertEqual(result['source']['path'],catalog.UI40_FILE)
@@ -42,7 +42,7 @@ class BackendTests(unittest.TestCase):
             self.assertIsNone(catalog.verified_candidate('package38',root))
     def test_latest_verified_selection(self):
         selected=({'build_id':'verified'},{'exe':'example'})
-        for outcomes,target,attempts in [([None,None,None,selected],catalog.CANDIDATE38,4),([None,None,selected],catalog.CANDIDATE40,3),([None,selected],catalog.CANDIDATE41,2),([selected],catalog.CANDIDATE42,1)]:
+        for outcomes,target,attempts in [([None,None,None,None,selected],catalog.CANDIDATE38,5),([None,None,None,selected],catalog.CANDIDATE40,4),([None,None,selected],catalog.CANDIDATE41,3),([None,selected],catalog.CANDIDATE42,2),([selected],catalog.CANDIDATE43,1)]:
             with patch.object(catalog,'verified_candidate',side_effect=outcomes) as verify:
                 self.assertEqual(catalog.selected_build()[0],target+'/closure.json')
                 self.assertEqual([c.args[0] for c in verify.call_args_list],[s['directory'] for s in catalog.CANDIDATES[:attempts]])

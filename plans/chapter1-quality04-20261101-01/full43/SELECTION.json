@@ -1,0 +1,15 @@
+{
+  "visual_review_passed": true,
+  "parity_passed": true,
+  "files": {
+    "chapter1/view/chapter_elements_quality43.gd": "f9d148e98f3ef0a5a58721eb2cd6ae6a44595bd686f2230b0a347eceaa529f4d",
+    "chapter1/view/ember_core_quality43.gdshader": "180cb0a03e1f0d3cb5ff4812e54a83c7c5b9daaab42fad52b57af1c78e076315",
+    "chapter1/view/ember_afterglow_quality43.gdshader": "a555e8e3ebf28be1485469588b9bb28a85b323dded67ba97ac2e47031975242e",
+    "chapter1/view/ember_contact_quality43.gdshader": "3114ff4eaa804fd905092f15a3f5a0cc711daf5d8433e462e55a4a0c8840ad8f"
+  },
+  "scope": "Root inspected720/1080 actual paid hit/explosion/afterglow; no new damage/events/pools; no final performance/full manual claim",
+  "proofs": [
+    "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\ember43\\proof02\\compare720\\RESULT.json",
+    "C:\\Project\\d2r-combat-baseline\\plans\\chapter1-quality04-20261101-01\\ember43\\proof02\\compare1080\\RESULT.json"
+  ]
+}

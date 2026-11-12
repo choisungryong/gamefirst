@@ -14,9 +14,12 @@ UI40_FILE = 'chapter1/view/ui40/chapter_hud_quality40.gd'
 CANDIDATE40 = 'plans/chapter1-quality04-20261101-01/full40'
 CANDIDATE41 = 'plans/chapter1-quality04-20261101-01/full41'
 CANDIDATE42 = 'plans/chapter1-quality04-20261101-01/full42'
+CANDIDATE43 = 'plans/chapter1-quality04-20261101-01/full43'
+FIRE43_FILES = {'chapter1/view/chapter_elements_quality43.gd'}|{'chapter1/view/ember_'+part+'_quality43.gdshader' for part in ['core','afterglow','contact']}
 UI41_FILE = 'chapter1/view/ui41/chapter_hud_quality41.gd'
 PORTRAIT_ATTRIBUTION = PORTRAIT_DIR+'/ATTRIBUTION.ko.md'
 CANDIDATES = (
+    {'explicit_launch_error':True,'number':43,'directory':CANDIDATE43,'build_id':'chapter1-full-candidate-20261113-43','count':180,'required':UI38_FILES|FX39_FILES|FIRE43_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION,'chapter1/view/chapter_actors_quality42.gd'},'preservation_fields':['success','preserved_previous_builds','source43_and_stage43_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':42,'directory':CANDIDATE42,'build_id':'chapter1-full-candidate-20261113-42','count':176,'required':UI38_FILES|FX39_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION,'chapter1/view/chapter_actors_quality42.gd'},'preservation_fields':['success','preserved_previous_builds','source42_and_stage42_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':41,'directory':CANDIDATE41,'build_id':'chapter1-full-candidate-20261112-41','count':175,'required':UI38_FILES|FX39_FILES|{UI40_FILE,UI41_FILE,PORTRAIT_PNG,PORTRAIT_ATTRIBUTION},'preservation_fields':['success','preserved_previous_builds','source41_and_stage41_unchanged','profiles_byte_identical']},
     {'explicit_launch_error':True,'number':40,'directory':CANDIDATE40,'build_id':'chapter1-full-candidate-20261111-40','count':172,'required':UI38_FILES|FX39_FILES|{UI40_FILE}},
@@ -205,6 +208,8 @@ def generate():
         if 'chapter1/view/chapter_elements_quality39.gd' in packaged and id in ['ice','shatter']: path='chapter1/view/chapter_elements_quality39.gd'
         t=read(path);match=re.search(r'^func '+re.escape(func)+r'\(',t,re.M)
         if match: entity('effects:'+id,name,'effects','visual_effect',path,t[:match.start()].count('\n')+1,{'function':func},task_ids=['V01','V03' if id in ['ice','shatter'] else 'V04'])
+    if FIRE43_FILES.issubset(packaged):
+        entity('effects:ember','화염 발사·명중·잔화','effects','visual_effect','chapter1/view/chapter_elements_quality43.gd',4,{'function':'setup','scope':'기존 실제 이벤트·배치·수명 유지, 재질3개 교체','damage_owner':False},sorted(FIRE43_FILES-{'chapter1/view/chapter_elements_quality43.gd'}),['V01','V02'])
     portrait_asset=PORTRAIT_DIR+'/ASSET.json';portrait_attribution=PORTRAIT_DIR+'/ATTRIBUTION.ko.md'
     if (ROOT/portrait_asset).is_file() and (ROOT/PORTRAIT_PNG).is_file():
         try:
@@ -248,15 +253,19 @@ def generate():
             previous=json.loads(read(previous_path))
             preserved_builds.insert(0,{'id':previous['build_id'],'source':previous_path,'runtime_file_count':len(previous['runtime_source_files'])})
     performance_passed=False
-    if selected_number==42:
-        session='plans/chapter1-quality04-20261101-01/final-performance42/sessions/final-20261113-a/'
+    if selected_number in [42,43]:
+        session=f'plans/chapter1-quality04-20261101-01/final-performance{selected_number}/sessions/final-20261113-a/'
         try:
             summary=json.loads(read(session+'three-run-summary.json'))
             binding=json.loads(read(session+'session-bind.json'))
             audits=summary['audits']
             performance_passed=(summary['same_exe'] and summary['fresh_reaudit_matches_saved'] and summary['three_distinct_runtime_identities'] and summary['same_observers'] and summary['same_frozen_payload_and_user_pins'] and summary['eligible_three_runs'] and summary['target_met_all_three'] and len(audits)==3 and all(a['valid'] and a['target_met_for_this_run'] and a['p95_ms']<=16.67 for a in audits) and binding['preservation']['exe_sha256']==build_info['sha256'])
         except (OSError,ValueError,KeyError,TypeError):pass
-    current_work=(('후보42 대표 부하 성능3회 통과 · 화염/번개 개선 · 전체 수동 완주 미완료' if performance_passed else '후보42 배우 처리 개선 · 패키지 통합 확인 · 최종 성능/전체 완주 별도 확인') if selected_number==42 else ('후보41 타이틀 원화 제공 · 최종 관문 확인' if UI41_FILE in packaged else ('후보40 통합 제공 · UI41 초상 메뉴 검증 중 · 제품 미채택' if UI40_FILE in packaged else '냉기39·UI40 검증 완료 · 제품 미채택')))
+    if selected_number in [42,43]:
+        improvement='화염 시각 개선 제공' if selected_number==43 else '배우 처리 개선 제공'
+        performance_status='대표 부하 성능3회 통과' if performance_passed else '최종 성능 확인 중'
+        current_work=f'후보{selected_number} {improvement} · {performance_status} · 전체 수동 완주 미완료'
+    else:current_work=('후보41 타이틀 원화 제공 · 최종 관문 확인' if UI41_FILE in packaged else ('후보40 통합 제공 · UI41 초상 메뉴 검증 중 · 제품 미채택' if UI40_FILE in packaged else '냉기39·UI40 검증 완료 · 제품 미채택'))
     verification_names=['pck-audit.json','PACKAGED-INTEGRATION.json','packaged-integration-execution.json']+(['FINAL-PRESERVATION.json'] if UI41_FILE in packaged else [])
     warnings.extend(['패키지 포함만으로 모든 에셋의 실제 화면 사용이 입증되지는 않습니다.','캐릭터·적의 아틀라스는 보존된 역할 정의입니다. 현재 3D 외형은 연결된 배우 구현의 상속·조건 근거를 함께 확인하세요.','관리 상태의 완료는 게임 플레이 품질 검수 완료를 뜻하지 않습니다.'])
     return {'schema_version':1,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'build':{'id':closure['build_id'],'source':closure_path,'entry_scene':entry,'verification_sources':([str(Path(closure_path).parent).replace('\\','/')+'/'+name for name in verification_names] if closure_path!=CLOSURE else []),'preserved_builds':preserved_builds,'runtime_file_count':len(packaged),'executable':build_info['exe'],'launch_instructions':'선택된 후보 실행 파일을 Windows 탐색기에서 실행하세요. 제작실은 게임을 자동 실행하지 않습니다.','scope':closure.get('scope',''),'legacy_book':BOOK+'/index.html','current_work':current_work,'audio_status':'deferred'},'goal':{'title':'보이는 품질과 전체 요소 관리','source':{'path':'PROJECT-GOAL.ko.md','line':1},'text':read('PROJECT-GOAL.ko.md'),'current_work':current_work,'audio_status':'deferred'},'entities':entities,'files':files,'tasks':tasks,'coverage':{'runtime_files':len(packaged),'runtime_extensions':dict(collections.Counter(Path(p).suffix for p in packaged)),'inventory_files':len(files),'entities':len(entities),'categories':dict(collections.Counter(e['category'] for e in entities)),'tasks':len(tasks),'active_source_paths':len(active),'semantic_counts':{'bases':sum(e['type']=='bases' for e in entities),'affixes':sum(e['type']=='affixes' for e in entities),'uniques':sum(e['type']=='uniques' for e in entities),'limits':sum(e['type']=='limits' for e in entities),'skills':len(doc['skills']),'passives':len(doc['passives']),'zones':len(names),'rituals':len(rituals),'audio_variants':sum(counts.values())}},'warnings':warnings}

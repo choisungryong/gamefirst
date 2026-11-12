@@ -1,3 +1,13 @@
+## 후보43 화염 개선 배포 — 2026-11-13
+
+후보43 SHA 1133e41b6502627f7c16e6b1d2c641fcd20d042437c209f4056172ef782ba585, runtime180/stage182/PCK323. 실제 배포 통합30개, 같은43EXE3회 p95 14.217/14.091/14.078ms 각16.67ms 이하 통과. 720/1080 고정3600tick 비교에서 코어·표현풀 해시 동일/정지수명 유지, 실제 화염 시전61/명중302/폭발184/처치290 동일. FX43은39 상속 후 setup에서 shader3개만 교체하며 긴 흰 교차선을 줄였다. 근거 ember43/RESULT.ko.md, full43/STATUS.ko.md.
+
+바탕 화면43 연결 완료, 이전42 링크 백업. 기존42 이하 stage/EXE/freeze/진행을 보존하고 현재42 main+revision4개를 최초43 namespace로 복사했다. 현재 root 기준은 full43/FINAL-SOURCE-FREEZE.json182개다. 과거42 root 동결검사는 현재조립43 때문에 재실행할 수 없으며 과거stage/EXE로 보존한다. 제작실43 등록·새 화염 semantic 항목·기존backend9개 통과. 로컬 메모revision7에서 V02검토/V04진행중, 사용자 메모는 유지했다.
+
+다음은 아직 미연결인 chapter_elements_quality44.gd와 arc_core/contact_quality44 재질의 번개 화면 검증이다. arc44/PLAN.ko.md 및 prepare_contact44.py 작성, 엔진 실행은 아직 없다. 제품43과 사용자 진행은 유지한다. 전체 수동 완주·최종 전반 품질은 미완료이며 음향 후순위, 목표활성 유지. 기존37 WIP를 섞지 않는다.
+
+---
+
 ## 후보42 채택 및 성능3회 통과 — 2026-11-13
 
 후보42 SHA c7c21618c524e98df95e624f7ba5f6e1f72a18bf4827f6f03c80d069ce980a67, runtime176/stage178/PCK318, 배포 통합27개 통과. final-performance42/session final-20261113-a 동일EXE3회 p95 14.177/14.345/14.172ms, 각16.67ms 목표 통과. 원시/보존/동일실행본/동일조건 독립 재감사까지 성공. 바탕 화면 제1장 바로가기는42로 갱신했고41 바로가기는 채택 백업에 보존했다. 후보42 최초저장4개는 현재41 바이트 그대로 별도 namespace로 복사했으며 기존 진행은 불변이다.
